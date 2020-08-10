@@ -119,7 +119,7 @@ export default function Home() {
           <div className="container">
             <div className="pt-6 pb-6">
               <div className="row gy-5">
-                <div className="col-md-4 col-sm-5">
+                <div className="col-md-4">
                   <h3 className="mb-4">
                     We have a range of programs for women of all levels of
                     technical skills
@@ -133,7 +133,7 @@ export default function Home() {
                     <a className="btn btn-primary">See Our Programs</a>
                   </NavLink>
                 </div>
-                <div className="col-md-6 offset-md-2 col-sm-6 offset-sm-1">
+                <div className="col-md-6 offset-md-2">
                   <div className={styles.programsCardScroller}>
                     <div className={styles.programsCardContainer}>
                       <div className={clsx('card', styles.programsCard)}>

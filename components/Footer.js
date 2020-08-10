@@ -6,7 +6,7 @@ export default function Footer() {
   return (
     <footer className={clsx('pt-5 pb-5 mt-4', styles.footer)}>
       <div className="container">
-        <div className="row gy-4">
+        <div className="row gy-5">
           <div className="col-lg-3">
             <h5>Join our Community</h5>
             <input

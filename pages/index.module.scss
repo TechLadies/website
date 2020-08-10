@@ -24,10 +24,15 @@
 
 .programsCardScroller {
   display: flex;
-  width: calc(50vw - var(--bs-gutter-x));
   overflow-x: scroll;
-  padding-left: 1rem;
   padding-bottom: 1rem;
+}
+
+@media (min-width: 768px) {
+  .programsCardScroller {
+    padding-left: 1rem;
+    width: calc(50vw - var(--bs-gutter-x));
+  }
 }
 
 .programsCardContainer:not(:first-child) {
