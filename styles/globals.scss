@@ -2,6 +2,12 @@
 @import '~bootstrap/scss/bootstrap.scss';
 @import 'bootstrap-overrides.scss';
 
+html {
+  text-rendering: optimizelegibility;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-font-smoothing: antialiased;
+}
+
 html,
 body {
   padding: 0;
