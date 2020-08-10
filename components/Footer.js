@@ -1,48 +1,64 @@
+import clsx from 'clsx';
+
+import styles from './Footer.module.scss';
+
 export default function Footer() {
   return (
-    <footer className="bd-footer p-3 p-md-5 mt-5 bg-light text-center text-sm-left">
+    <footer className={clsx('p-3 p-md-5 mt-5', styles.footer)}>
       <div className="container">
-        <ul className="bd-footer-links pl-0 mb-3">
-          <li className="d-inline-block">
-            <a href="https://github.com/twbs">GitHub</a>
-          </li>
-          <li className="d-inline-block ml-3">
-            <a href="https://twitter.com/getbootstrap">Twitter</a>
-          </li>
-          <li className="d-inline-block ml-3">
-            <a href="/docs/5.0/examples/">Examples</a>
-          </li>
-          <li className="d-inline-block ml-3">
-            <a href="/docs/5.0/about/overview/">About</a>
-          </li>
-        </ul>
-        <p className="mb-0">
-          Designed and built with all the love in the world by the{' '}
-          <a href="/docs/5.0/about/team/">Bootstrap team</a> with the help of{' '}
-          <a href="https://github.com/twbs/bootstrap/graphs/contributors">
-            our contributors
-          </a>
-          .
-        </p>
-        <p className="mb-0">
-          Currently v5.0.0-alpha1. Code licensed{' '}
-          <a
-            href="https://github.com/twbs/bootstrap/blob/main/LICENSE"
-            target="_blank"
-            rel="license noopener"
-          >
-            MIT
-          </a>
-          , docs{' '}
-          <a
-            href="https://creativecommons.org/licenses/by/3.0/"
-            target="_blank"
-            rel="license noopener"
-          >
-            CC BY 3.0
-          </a>
-          .
-        </p>
+        <div className="row">
+          <div className="col-sm">
+            <h5>Join our community</h5>
+            <input
+              className="form-control"
+              placeholder="E-mail address"
+              type="email"
+            />
+          </div>
+          <div className="col-sm">
+            <div className="mb-5">
+              <h5>Programs</h5>
+              <ul className="list-unstyled">
+                <li>
+                  <a href="#">Bootcamp</a>
+                </li>
+                <li>
+                  <a href="#">Mentorship</a>
+                </li>
+              </ul>
+            </div>
+            <div className="mb-5">
+              <h5>Contribute</h5>
+              <ul className="list-unstyled">
+                <li>
+                  <a href="#">Volunteer</a>
+                </li>
+                <li>
+                  <a href="#">Donate</a>
+                </li>
+              </ul>
+            </div>
+            <div>
+              <h5>About</h5>
+              <ul className="list-unstyled">
+                <li>
+                  <a href="#">Community Code of Conduct</a>
+                </li>
+                <li>
+                  <a href="#">Terms & Conditions</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div className="col-sm">
+            <h5>Contact Us</h5>
+            <p>
+              For general enquiries, please email:
+              <br />
+              <a href="mailto:hello@techladies.co">hello@techladies.co</a>
+            </p>
+          </div>
+        </div>
       </div>
     </footer>
   );
