@@ -4,9 +4,9 @@ import styles from './Footer.module.scss';
 
 export default function Footer() {
   return (
-    <footer className={clsx('pt-5 pb-5 mt-5', styles.footer)}>
+    <footer className={clsx('pt-5 pb-5 mt-4', styles.footer)}>
       <div className="container">
-        <div className="row gy-5">
+        <div className="row gy-4">
           <div className="col-lg-3">
             <h5>Join our Community</h5>
             <input
@@ -17,9 +17,9 @@ export default function Footer() {
           </div>
           <div className="col-lg-4 offset-lg-1">
             <div className="row">
-              <div className="col-lg-12 col-6 mb-5">
+              <div className="col-lg-12 col-6 mb-4">
                 <h5>Programs</h5>
-                <ul className="list-unstyled">
+                <ul className={clsx('list-unstyled', styles.footerLinksList)}>
                   <li>
                     <a href="#">Bootcamp</a>
                   </li>
@@ -28,9 +28,9 @@ export default function Footer() {
                   </li>
                 </ul>
               </div>
-              <div className="col-lg-12 col-6 mb-5">
+              <div className="col-lg-12 col-6 mb-4">
                 <h5>Contribute</h5>
-                <ul className="list-unstyled">
+                <ul className={clsx('list-unstyled', styles.footerLinksList)}>
                   <li>
                     <a href="#">Volunteer</a>
                   </li>
@@ -41,7 +41,7 @@ export default function Footer() {
               </div>
               <div className="col-lg-12 col-6">
                 <h5>About</h5>
-                <ul className="list-unstyled">
+                <ul className={clsx('list-unstyled', styles.footerLinksList)}>
                   <li>
                     <a href="#">Community Code of Conduct</a>
                   </li>

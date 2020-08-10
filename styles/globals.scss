@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700&display=swap');
 @import 'custom.scss';
 @import '~bootstrap/scss/bootstrap.scss';
 @import 'bootstrap-overrides.scss';
@@ -15,10 +16,22 @@ body {
 }
 
 a {
-  color: inherit;
+  color: $primary;
   text-decoration: none;
 }
 
 * {
   box-sizing: border-box;
+}
+
+.text-red {
+  color: $red;
+}
+
+.text-purple {
+  color: $purple;
+}
+
+.text-orange {
+  color: $orange;
 }

@@ -1,7 +1,7 @@
 @import '../styles/custom.scss';
 
 .footer {
-  background-color: $primary-color;
+  background-color: $primary;
   color: #fff;
 }
 
@@ -14,4 +14,8 @@
 
 .footer a:hover {
   color: #fff;
+}
+
+.footerLinksList {
+  margin-bottom: 0;
 }

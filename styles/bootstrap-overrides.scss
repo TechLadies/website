@@ -1,3 +1,11 @@
 .navbar {
-  background-color: $primary-color !important;
+  background-color: $primary !important;
+}
+
+.card {
+  box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+.card-body {
+  padding: 2.5rem;
 }
