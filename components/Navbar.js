@@ -1,12 +1,17 @@
-import Link from 'next/link';
+import NavLink from '../components/NavLink';
 
 export default function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+    <nav
+      aria-label="Main navigation"
+      className="navbar navbar-expand-lg navbar-dark"
+    >
       <div className="container">
-        <Link href="/">
-          <a className="navbar-brand">TechLadies</a>
-        </Link>
+        <NavLink href="/">
+          <a aria-label="TechLadies Logo" className="navbar-brand">
+            <img alt="TechLadies Logo" src="/img/logo.png" />
+          </a>
+        </NavLink>
         <button
           className="navbar-toggler"
           type="button"
@@ -21,31 +26,30 @@ export default function Navbar() {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav mr-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <Link href="/about/">
-                <a className="nav-link active" aria-current="page">
-                  About
-                </a>
-              </Link>
+              <NavLink href="/about/">
+                <a className="nav-link">About</a>
+              </NavLink>
             </li>
             <li className="nav-item">
-              <Link href="/our-programs/">
-                <a className="nav-link active" aria-current="page">
-                  Our Programs
-                </a>
-              </Link>
+              <NavLink href="/our-programs/">
+                <a className="nav-link">Our Programs</a>
+              </NavLink>
             </li>
             <li className="nav-item">
-              <Link href="/contribute/">
-                <a className="nav-link active" aria-current="page">
-                  Contribute
-                </a>
-              </Link>
+              <NavLink href="/contribute/">
+                <a className="nav-link">Contribute</a>
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink href="#">
+                <a className="nav-link">Blog</a>
+              </NavLink>
             </li>
           </ul>
           <div className="d-flex">
-            <Link href="#">
-              <a className="btn btn-outline-success">Dynamic CTA</a>
-            </Link>
+            <NavLink href="#">
+              <a className="btn btn-light">Dynamic CTA</a>
+            </NavLink>
           </div>
         </div>
       </div>

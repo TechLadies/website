@@ -9,10 +9,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className="container">
-        <h1>
-          Welcome to <a href="https://nextjs.org">Next.js Bootstrap!</a>
-        </h1>
-        <Link href="/foo">Foozz</Link>
+        <h1>Welcome to TechLadies!</h1>
+        <Link href="/about/">About</Link>
       </main>
     </div>
   );
