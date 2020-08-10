@@ -24,6 +24,26 @@ a {
   box-sizing: border-box;
 }
 
+.thumbnail {
+  border-radius: 50%;
+  height: 3rem;
+  width: 3rem;
+
+  &.thumbnail-small {
+    height: 2rem;
+    width: 2rem;
+  }
+
+  &.thumbnail-large {
+    height: 5rem;
+    width: 5rem;
+  }
+
+  &:not(:first-child) {
+    margin-left: 1rem;
+  }
+}
+
 .text-red {
   color: $red;
 }

@@ -9,12 +9,11 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
+        <title>TechLadies</title>
       </Head>
       <main>
         <div className="container">
-          <div className="mt-6 mb-6">
+          <div className="pt-6 pb-6">
             <div className="row gy-6">
               <div className="col-lg-5 offset-lg-2 col-md-5 offset-md-1 order-md-last">
                 <img alt="Lady on swing" src="/img/swing.svg" />
@@ -53,22 +52,22 @@ export default function Home() {
               <div className="pt-6 pb-6 pl-lg-6 pr-lg-6">
                 <div className="mb-4">
                   <img
-                    className={styles.thumbnail}
+                    className="thumbnail thumbnail-large"
                     alt="X thumbnail"
                     src="https://i.pravatar.cc/128?img=1"
                   />
                   <img
-                    className={styles.thumbnail}
+                    className="thumbnail thumbnail-large"
                     alt="X thumbnail"
                     src="https://i.pravatar.cc/128?img=2"
                   />
                   <img
-                    className={styles.thumbnail}
+                    className="thumbnail thumbnail-large"
                     alt="X thumbnail"
                     src="https://i.pravatar.cc/128?img=3"
                   />
                   <img
-                    className={styles.thumbnail}
+                    className="thumbnail thumbnail-large"
                     alt="X thumbnail"
                     src="https://i.pravatar.cc/128?img=4"
                   />
