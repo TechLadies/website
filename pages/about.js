@@ -4,10 +4,10 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Create Next App</title>
+        <title>About | TechLadies</title>
       </Head>
       <main className="container">
-        <h1>Foo</h1>
+        <h1>About</h1>
       </main>
     </div>
   );
