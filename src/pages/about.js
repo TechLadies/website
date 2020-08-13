@@ -1,5 +1,5 @@
-import Head from 'next/head';
-import NavLink from '../components/NavLink';
+import Head from "next/head";
+import NavLink from "../components/NavLink";
 
 export default function Home() {
   return (

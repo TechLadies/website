@@ -1,9 +1,9 @@
-import Head from 'next/head';
-import NavLink from '../components/NavLink';
+import Head from "next/head";
+import NavLink from "../components/NavLink";
 
-import clsx from 'clsx';
+import clsx from "clsx";
 
-import styles from './index.module.scss';
+import styles from "./index.module.scss";
 
 export default function Home() {
   return (
@@ -19,14 +19,19 @@ export default function Home() {
                 <img alt="Lady on swing" src="/img/swing.svg" />
               </div>
               <div className="col-lg-5 col-md-6 order-md-first">
-                <h1>Kickstart or advance your career in tech</h1>
-                <p>
+                <h1 className="mb-4">
+                  Kickstart or advance your career in tech
+                </h1>
+                <p className="mb-4">
                   TechLadies is a community that provides women with
                   connections, education and mentorships in the tech industry.
                 </p>
                 <div className="mb-3">
-                  <label htmlFor="hero-email" className="form-label">
-                    <strong>Stay updated with our latest news</strong>
+                  <label
+                    htmlFor="hero-email"
+                    className="form-label font-weight-bold"
+                  >
+                    Stay updated with our latest news
                   </label>
                   <input
                     type="email"
@@ -135,13 +140,13 @@ export default function Home() {
                 <div className="col-md-6 offset-md-2">
                   <div className={styles.programsCardScroller}>
                     <div className={styles.programsCardContainer}>
-                      <div className={clsx('card', styles.programsCard)}>
+                      <div className={clsx("card", styles.programsCard)}>
                         <img
                           alt="Program Image"
                           src="https://picsum.photos/400/300"
                           className={clsx(
-                            'card-img-top',
-                            styles.programsCardImage,
+                            "card-img-top",
+                            styles.programsCardImage
                           )}
                         />
                         <div class="card-body">
@@ -158,13 +163,13 @@ export default function Home() {
                       </div>
                     </div>
                     <div className={styles.programsCardContainer}>
-                      <div className={clsx('card', styles.programsCard)}>
+                      <div className={clsx("card", styles.programsCard)}>
                         <img
                           alt="Program Image"
                           src="https://picsum.photos/400/300"
                           className={clsx(
-                            'card-img-top',
-                            styles.programsCardImage,
+                            "card-img-top",
+                            styles.programsCardImage
                           )}
                         />
                         <div class="card-body">
