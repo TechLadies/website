@@ -1,0 +1,27 @@
+.card {
+  position: relative;
+  overflow: hidden;
+}
+
+.cardBody {
+  padding: 1.5rem;
+}
+
+.cardHover {
+  align-items: center;
+  background-color: #fff;
+  bottom: 0;
+  cursor: pointer;
+  display: none;
+  left: 0;
+  padding: 1.5rem;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+@media (min-width: 1024px) {
+  .card:hover .cardHover {
+    display: flex;
+  }
+}

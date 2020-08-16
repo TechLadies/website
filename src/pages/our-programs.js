@@ -1,14 +1,17 @@
-import Head from "next/head";
-import Accordion from "../components/Accordion";
-import Testimonials from "../components/Testimonials";
+import Head from 'next/head';
 
-import clsx from "clsx";
+import Accordion from '../components/Accordion';
+import Gallery from '../components/Gallery';
+import Testimonials from '../components/Testimonials';
+import TestimonialCard from '../components/TestimonialCard';
 
-import styles from "./our-programs.module.scss";
+import clsx from 'clsx';
 
-import bootcampTestimonials from "../data/bootcamp-testimonials.js";
-import mentorshipTestimonials from "../data/mentorship-testimonials.js";
-import programsFAQ from "../data/programs-faq.js";
+import styles from './our-programs.module.scss';
+
+import bootcampTestimonials from '../data/bootcamp-testimonials.js';
+import mentorshipTestimonials from '../data/mentorship-testimonials.js';
+import programsFAQ from '../data/programs-faq.js';
 
 export default function Home() {
   return (
@@ -86,10 +89,16 @@ export default function Home() {
         </div>
       </div>
       <div className="pt-6 pb-6">
-        <div className="container text-center">
-          <div className="row">
-            <div className="col-md-6 offset-md-3">
-              <h2>TechLadies Bootcamp</h2>
+        <div className="container">
+          <div className="row gy-5">
+            <div className="col-md-6 offset-md-1 order-md-last">
+              <img
+                alt="REPLACE ME"
+                className="thumbnail thumbnail-large mb-3"
+                src="https://i.pravatar.cc/128?img=11"
+              />
+              <h2 className="mb-3">TechLadies Bootcamp</h2>
+              <p className="mb-3">Duration: 14 weeks</p>
               <p>
                 A part-time accelerated learning program designed for women who
                 wish to be professional programmers. You'll be guided by
@@ -97,15 +106,35 @@ export default function Home() {
                 Bootcamp graduates found software-related jobs and internships.
               </p>
             </div>
+            <div className="col-md-5 order-md-first">
+              <Gallery>
+                {bootcampTestimonials.map(
+                  ({ image, thumbnail, name, message }) => (
+                    <TestimonialCard
+                      image={image}
+                      key={name}
+                      thumbnail={thumbnail}
+                      name={name}
+                      message={message}
+                    />
+                  ),
+                )}
+              </Gallery>
+            </div>
           </div>
         </div>
-        <Testimonials data={bootcampTestimonials} />
       </div>
       <div className="pt-6 pb-6">
-        <div className="container text-center">
-          <div className="row">
-            <div className="col-md-6 offset-md-3">
-              <h2>TechLadies Mentorship</h2>
+        <div className="container">
+          <div className="row gy-5">
+            <div className="col-md-6">
+              <img
+                alt="REPLACE ME"
+                className="thumbnail thumbnail-large mb-3"
+                src="https://i.pravatar.cc/128?img=10"
+              />
+              <h2 className="mb-3">TechLadies Mentorship</h2>
+              <p className="mb-3">Duration: 14 weeks</p>
               <p>
                 A part-time accelerated learning program designed for women who
                 wish to be professional programmers. You'll be guided by
@@ -113,13 +142,23 @@ export default function Home() {
                 Bootcamp graduates found software-related jobs and internships.
               </p>
             </div>
+            <div className="col-md-5 offset-md-1">
+              <Gallery>
+                {mentorshipTestimonials.map(
+                  ({ image, thumbnail, name, message }) => (
+                    <TestimonialCard
+                      image={image}
+                      key={name}
+                      thumbnail={thumbnail}
+                      name={name}
+                      message={message}
+                    />
+                  ),
+                )}
+              </Gallery>
+            </div>
           </div>
         </div>
-        <Testimonials
-          data={mentorshipTestimonials}
-          delay={500}
-          duration={30000}
-        />
       </div>
       <div className="pt-6 pb-6">
         <div className="container text-center">
@@ -127,7 +166,7 @@ export default function Home() {
             <div className="col-md-6">
               <img
                 alt="REPLACE ME"
-                className="mb-3"
+                className="thumbnail thumbnail-large mb-3"
                 src="https://i.pravatar.cc/128?img=8"
               />
               <h3 className="mb-4">TechLadies Meet</h3>
@@ -142,7 +181,7 @@ export default function Home() {
             <div className="col-md-6">
               <img
                 alt="REPLACE ME"
-                className="mb-3"
+                className="thumbnail thumbnail-large mb-3"
                 src="https://i.pravatar.cc/128?img=9"
               />
               <h3 className="mb-4">TechLadies Community</h3>
@@ -163,7 +202,7 @@ export default function Home() {
               <img alt="Lady on swing" src="/img/swing.svg" />
             </div>
             <div className="col-md-6 order-md-first">
-              <h2 className="mb-4">Want to be a coach?</h2>
+              <h2 className="mb-4">Want to be a Coach?</h2>
               <p className="mb-4">
                 We are also on the lookout for awesome people to be a coach for
                 our programs. Connect with many others and contribute to the

@@ -3,12 +3,16 @@
 
 // Color System
 
-$orange: #ffaa00;
 $red: #f53d5c;
+$orange: #ffaa00;
 $purple: #4a148c;
+$green: #52e0b1;
+$blue: #0080ff;
 
 $primary: $purple;
 $primary-dark: #2b0845;
+$warning: $orange;
+$info: $blue;
 
 // Spacing
 
@@ -20,7 +24,7 @@ $spacers: (
   3: $spacer,
   4: $spacer * 1.5,
   5: $spacer * 3,
-  6: $spacer * 5
+  6: $spacer * 5,
 );
 
 // Grid Breakpoints
@@ -29,7 +33,7 @@ $container-max-widths: (
   sm: 540px,
   md: 720px,
   lg: 960px,
-  xl: 1048px
+  xl: 1048px,
 );
 
 // Typography
