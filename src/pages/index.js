@@ -1,9 +1,11 @@
-import Head from "next/head";
-import NavLink from "../components/NavLink";
+import Head from 'next/head';
+import Gallery from '../components/Gallery';
+import NavLink from '../components/NavLink';
 
-import clsx from "clsx";
+import clsx from 'clsx';
 
-import styles from "./index.module.scss";
+import styles from './index.module.scss';
+import programs from '../data/programs';
 
 export default function Home() {
   return (
@@ -44,7 +46,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="container-fluid">
+        <div className="container">
           <div className="row">
             <div className="col-lg-6">
               <div className={styles.quoteBackground}>
@@ -57,31 +59,33 @@ export default function Home() {
               <div className="pt-6 pb-6 pl-lg-6 pr-lg-6">
                 <div className="mb-4">
                   <img
-                    className="thumbnail thumbnail-large"
+                    className="thumbnail"
                     alt="X thumbnail"
                     src="https://i.pravatar.cc/128?img=1"
                   />
                   <img
-                    className="thumbnail thumbnail-large"
+                    className="thumbnail"
                     alt="X thumbnail"
                     src="https://i.pravatar.cc/128?img=2"
                   />
                   <img
-                    className="thumbnail thumbnail-large"
+                    className="thumbnail"
                     alt="X thumbnail"
                     src="https://i.pravatar.cc/128?img=3"
                   />
                   <img
-                    className="thumbnail thumbnail-large"
+                    className="thumbnail"
                     alt="X thumbnail"
                     src="https://i.pravatar.cc/128?img=4"
                   />
                 </div>
-                <h3 className="mb-4">
+                <p className="mb-4">
                   TechLadies is run by volunteers in the tech industry who are
                   passionate about bringing more women into tech.
-                </h3>
-                <a href="#">Learn more about us</a>
+                </p>
+                <a className="font-weight-bold" href="#">
+                  Learn more about us
+                </a>
               </div>
             </div>
           </div>
@@ -123,7 +127,7 @@ export default function Home() {
           <div className="container">
             <div className="pt-6 pb-6">
               <div className="row gy-5">
-                <div className="col-md-4">
+                <div className="col-md-6">
                   <h3 className="mb-4">
                     We have a range of programs for women of all levels of
                     technical skills
@@ -137,55 +141,28 @@ export default function Home() {
                     <a className="btn btn-primary">See Our Programs</a>
                   </NavLink>
                 </div>
-                <div className="col-md-6 offset-md-2">
-                  <div className={styles.programsCardScroller}>
-                    <div className={styles.programsCardContainer}>
-                      <div className={clsx("card", styles.programsCard)}>
+                <div className="col-md-5 offset-md-1">
+                  <Gallery>
+                    {programs.map(({ image, title, description }) => (
+                      <div className="card">
                         <img
-                          alt="Program Image"
-                          src="https://picsum.photos/400/300"
+                          alt={title + ' image'}
+                          src={image}
                           className={clsx(
-                            "card-img-top",
-                            styles.programsCardImage
+                            'card-img-top',
+                            styles.programsCardImage,
                           )}
                         />
                         <div class="card-body">
-                          <h5 class="card-title">TechLadies Bootcamp</h5>
-                          <p class="card-text">
-                            Looking to be professional programmer? This is a
-                            part-time accelerated learning program guided by
-                            industry experts to create a product. 30% of the
-                            TechLadies Bootcamp graduates found software-related
-                            jobs and internships.
-                          </p>
-                          <a href="#">Learn More</a>
+                          <h5 class="card-title mb-4">{title}</h5>
+                          <p class="card-text">{description}</p>
+                          <a className="font-weight-bold" href="#">
+                            Learn More
+                          </a>
                         </div>
                       </div>
-                    </div>
-                    <div className={styles.programsCardContainer}>
-                      <div className={clsx("card", styles.programsCard)}>
-                        <img
-                          alt="Program Image"
-                          src="https://picsum.photos/400/300"
-                          className={clsx(
-                            "card-img-top",
-                            styles.programsCardImage
-                          )}
-                        />
-                        <div class="card-body">
-                          <h5 class="card-title">TechLadies Bootcamp</h5>
-                          <p class="card-text">
-                            Looking to be professional programmer? This is a
-                            part-time accelerated learning program guided by
-                            industry experts to create a product. 30% of the
-                            TechLadies Bootcamp graduates found software-related
-                            jobs and internships.
-                          </p>
-                          <a href="#">Learn More</a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+                    ))}
+                  </Gallery>
                 </div>
               </div>
             </div>

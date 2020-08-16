@@ -1,11 +1,11 @@
-import { useState } from "react";
+import { useState } from 'react';
 
-import clsx from "clsx";
+import clsx from 'clsx';
 
-import styles from "./index.module.scss";
+import styles from './index.module.scss';
 
 // This component is not a11y-friendly due to time constraints :(
-export default function Accordion({ data }) {
+function Accordion({ data }) {
   const [selected, setSelected] = useState(null);
 
   return (
@@ -13,7 +13,7 @@ export default function Accordion({ data }) {
       {data.map(({ item, details }, index) => (
         <>
           <li
-            className={clsx("list-group-item", styles.listItem)}
+            className={clsx('list-group-item', styles.listItem)}
             key={index}
             onClick={() => {
               setSelected(index);
@@ -22,7 +22,7 @@ export default function Accordion({ data }) {
             {item}
           </li>
           {selected === index && (
-            <li className="list-group-item" key={index + "-detail"}>
+            <li className="list-group-item" key={index + '-detail'}>
               {details}
             </li>
           )}
@@ -31,3 +31,5 @@ export default function Accordion({ data }) {
     </ul>
   );
 }
+
+export default Accordion;

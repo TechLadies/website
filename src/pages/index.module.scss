@@ -12,27 +12,6 @@
   background-color: #f9fafa;
 }
 
-.programsCardScroller {
-  display: flex;
-  overflow-x: scroll;
-  padding-bottom: 1rem;
-}
-
-@media (min-width: 768px) {
-  .programsCardScroller {
-    padding-left: 1rem;
-    width: calc(50vw - var(--bs-gutter-x));
-  }
-}
-
-.programsCardContainer:not(:first-child) {
-  margin-left: 3rem;
-}
-
-.programsCard {
-  width: 400px;
-}
-
 .programsCardImage {
   height: 160px;
   object-fit: cover;

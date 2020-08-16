@@ -1,6 +1,6 @@
-import clsx from "clsx";
+import clsx from 'clsx';
 
-import styles from "./index.module.scss";
+import styles from './index.module.scss';
 
 export default function Testimonials({ data, delay = 0, duration = 50000 }) {
   return (
@@ -9,26 +9,26 @@ export default function Testimonials({ data, delay = 0, duration = 50000 }) {
         className={styles.track}
         style={{
           animationDelay: `${delay}ms`,
-          animationDuration: `${duration}ms`
+          animationDuration: `${duration}ms`,
         }}
       >
         {[...data, ...data].map(
           ({ image, thumbnail, name, message }, index) => (
-            <div class="text-center" key={name + index}>
-              <div className={clsx("card", styles.card)}>
+            <div className="text-center" key={name + index}>
+              <div className={clsx('card', styles.card)}>
                 <img
-                  alt={name + " message"}
+                  alt={name + ' message'}
                   src={image}
-                  className={clsx("card-img-top", styles.bannerImage)}
+                  className={clsx('card-img-top', styles.bannerImage)}
                 />
                 <div class="card-body">
                   {thumbnail && (
                     <img
                       className={clsx(
-                        "thumbnail thumbnail-large mb-3",
-                        styles.thumbnail
+                        'thumbnail thumbnail-large mb-3',
+                        styles.thumbnail,
                       )}
-                      alt={name + " thumbnail"}
+                      alt={name + ' thumbnail'}
                       src={thumbnail}
                     />
                   )}
@@ -37,7 +37,7 @@ export default function Testimonials({ data, delay = 0, duration = 50000 }) {
                 </div>
               </div>
             </div>
-          )
+          ),
         )}
       </div>
     </div>
