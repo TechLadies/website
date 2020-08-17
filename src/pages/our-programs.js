@@ -1,17 +1,29 @@
 import Head from 'next/head';
 
+import { useEffect } from 'react';
+import { ArrowRight } from 'react-feather';
+
+import clsx from 'clsx';
+
 import Accordion from '../components/Accordion';
 import Gallery from '../components/Gallery';
 import Testimonials from '../components/Testimonials';
 import TestimonialCard from '../components/TestimonialCard';
 
-import clsx from 'clsx';
+import preloadImages from '../utils/preloadImages';
 
 import bootcampTestimonials from '../data/bootcamp-testimonials.js';
 import mentorshipTestimonials from '../data/mentorship-testimonials.js';
 import programsFAQ from '../data/programs-faq.js';
 
 export default function Home() {
+  useEffect(() => {
+    preloadImages(bootcampTestimonials.map((testimonial) => testimonial.image));
+    preloadImages(
+      mentorshipTestimonials.map((testimonial) => testimonial.image),
+    );
+  }, [bootcampTestimonials, mentorshipTestimonials]);
+
   return (
     <div>
       <Head>
@@ -21,7 +33,11 @@ export default function Home() {
         <div className="pt-6 pb-6">
           <div className="row gy-6">
             <div className="col-lg-6 col-md-5">
-              <img alt="REPLACE ME" className="mb-4" src="/img/swing.svg" />
+              <img
+                alt="TODO: REPLACE ME"
+                className="mb-4"
+                src="/img/swing.svg"
+              />
               <h1 className="mb-4 h2">Which programs suits me?</h1>
               <p className="mb-4">
                 Take a short quiz to discover which program would be the best
@@ -31,7 +47,12 @@ export default function Home() {
             <div className="col-lg-5 offset-lg-1 col-md-7">
               <div className="card">
                 <div className="card-body">
-                  <form>
+                  <form
+                    onSubmit={(event) => {
+                      event.preventDefault();
+                      alert('TODO: Show modal!');
+                    }}
+                  >
                     <div className="mb-4">
                       <label
                         htmlFor="role"
@@ -41,9 +62,9 @@ export default function Home() {
                       </label>
                       <select id="role" className="form-select">
                         <option>Tech Professional</option>
-                        <option>Tech Professional</option>
-                        <option>Tech Professional</option>
-                        <option>Tech Professional</option>
+                        <option>Designer</option>
+                        <option>Software Engineer</option>
+                        <option>Product Manager</option>
                       </select>
                     </div>
                     <div className="mb-4">
@@ -55,9 +76,9 @@ export default function Home() {
                       </label>
                       <select id="purpose" className="form-select">
                         <option>Know more people</option>
-                        <option>Know more people</option>
-                        <option>Know more people</option>
-                        <option>Know more people</option>
+                        <option>Improve my skills</option>
+                        <option>Give back to the community</option>
+                        <option>Change of career</option>
                       </select>
                     </div>
                     <div className="mb-4">
@@ -69,13 +90,17 @@ export default function Home() {
                       </label>
                       <select id="duration" className="form-select">
                         <option>3 hours a week</option>
-                        <option>3 hours a week</option>
-                        <option>3 hours a week</option>
-                        <option>3 hours a week</option>
+                        <option>4 hours a week</option>
+                        <option>5 hours a week</option>
+                        <option>6 hours a week</option>
                       </select>
                     </div>
-                    <button type="submit" className="btn btn-primary">
-                      Submit
+                    <button
+                      aria-label="Submit"
+                      className="btn btn-primary btn-sm rounded-circle"
+                      type="submit"
+                    >
+                      <ArrowRight size={32} />
                     </button>
                   </form>
                 </div>
@@ -87,9 +112,9 @@ export default function Home() {
       <div className="pt-6 pb-6">
         <div className="container">
           <div className="row gy-5">
-            <div className="col-md-6 offset-md-1 order-md-last">
+            <div className="col-md-5 offset-md-1 col-lg-6 offset-lg-1 order-md-last">
               <img
-                alt="REPLACE ME"
+                alt="TODO: REPLACE ME"
                 className="thumbnail thumbnail-lg mb-4"
                 src="https://i.pravatar.cc/128?img=11"
               />
@@ -103,7 +128,7 @@ export default function Home() {
               </p>
               <button className="btn btn-primary">I'm Interested!</button>
             </div>
-            <div className="col-md-5 order-md-first">
+            <div className="col-md-6 col-lg-5 order-md-first">
               <Gallery>
                 {bootcampTestimonials.map(
                   ({ image, thumbnail, name, message }) => (
@@ -124,9 +149,9 @@ export default function Home() {
       <div className="pt-6 pb-6">
         <div className="container">
           <div className="row gy-5">
-            <div className="col-md-6">
+            <div className="col-lg-6 col-md-5">
               <img
-                alt="REPLACE ME"
+                alt="TODO: REPLACE ME"
                 className="thumbnail thumbnail-lg mb-4"
                 src="https://i.pravatar.cc/128?img=10"
               />
@@ -140,7 +165,7 @@ export default function Home() {
               </p>
               <button className="btn btn-primary">I'm Interested!</button>
             </div>
-            <div className="col-md-5 offset-md-1">
+            <div className="col-lg-5 col-md-6 offset-md-1">
               <Gallery>
                 {mentorshipTestimonials.map(
                   ({ image, thumbnail, name, message }) => (
@@ -163,12 +188,12 @@ export default function Home() {
           <div className="row gy-6">
             <div className="col-md-5 offset-md-1">
               <img
-                alt="REPLACE ME"
-                className="thumbnail thumbnail-lg mb-3"
+                alt="TODO: REPLACE ME"
+                className="thumbnail thumbnail-lg mb-4"
                 src="https://i.pravatar.cc/128?img=8"
               />
               <h3 className="mb-4">TechLadies Meet</h3>
-              <p className="mb-3">
+              <p className="mb-4">
                 Meet fellow TechLadies through in-person or online technical
                 talks, panel/roundtable discussions, study groups and more!
                 TechLadies Meet is open to women of all levels of technical
@@ -178,12 +203,12 @@ export default function Home() {
             </div>
             <div className="col-md-5">
               <img
-                alt="REPLACE ME"
-                className="thumbnail thumbnail-lg mb-3"
+                alt="TODO: REPLACE ME"
+                className="thumbnail thumbnail-lg mb-4"
                 src="https://i.pravatar.cc/128?img=9"
               />
               <h3 className="mb-4">TechLadies Community</h3>
-              <p className="mb-3">
+              <p className="mb-4">
                 Beyond programs and events, TechLadies is a community. Join us
                 online for the latest industry news, highlights on awesome women
                 in tech, and get support on your journey in tech.
@@ -197,7 +222,7 @@ export default function Home() {
         <div className="pt-6 pb-6">
           <div className="row gy-6">
             <div className="col-md-5 offset-md-1 order-md-last">
-              <img alt="REPLACE ME" src="/img/swing.svg" />
+              <img alt="TODO: REPLACE ME" src="/img/swing.svg" />
             </div>
             <div className="col-md-6 order-md-first">
               <h2 className="mb-4">Want to be a Coach?</h2>

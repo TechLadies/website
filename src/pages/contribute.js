@@ -19,7 +19,11 @@ export default function Home() {
           <div className="pt-6 pb-6">
             <div className="row gy-6">
               <div className="col-md-6">
-                <img alt="REPLACE ME" className="mb-3" src="/img/swing.svg" />
+                <img
+                  alt="TODO: REPLACE ME"
+                  className="mb-3"
+                  src="/img/swing.svg"
+                />
                 <h1 className="h2">
                   Join us in our mission to increase participation and
                   advancement opportunities for women in the tech industry.
@@ -52,7 +56,7 @@ export default function Home() {
               <div className="col-lg-3 col-sm-6">
                 <img
                   className="thumbnail thumbnail-lg mb-3"
-                  alt="REPLACE ME"
+                  alt="TODO: REPLACE ME"
                   src="https://i.pravatar.cc/128?img=50"
                 />
                 <h6 className="mb-3">TechLadies Bootcamp</h6>
@@ -66,7 +70,7 @@ export default function Home() {
               <div className="col-lg-3 col-sm-6">
                 <img
                   className="thumbnail thumbnail-lg mb-3"
-                  alt="REPLACE ME"
+                  alt="TODO: REPLACE ME"
                   src="https://i.pravatar.cc/128?img=51"
                 />
                 <h6 className="mb-3">TechLadies Mentorship</h6>
@@ -79,7 +83,7 @@ export default function Home() {
               <div className="col-lg-3 col-sm-6">
                 <img
                   className="thumbnail thumbnail-lg mb-3"
-                  alt="REPLACE ME"
+                  alt="TODO: REPLACE ME"
                   src="https://i.pravatar.cc/128?img=52"
                 />
                 <h6 className="mb-3">TechLadies Meet</h6>
@@ -92,7 +96,7 @@ export default function Home() {
               <div className="col-lg-3 col-sm-6">
                 <img
                   className="thumbnail thumbnail-lg mb-3"
-                  alt="REPLACE ME"
+                  alt="TODO: REPLACE ME"
                   src="https://i.pravatar.cc/128?img=53"
                 />
                 <h6 className="mb-3">TechLadies Community</h6>
@@ -109,7 +113,7 @@ export default function Home() {
           <div className="pt-6 pb-6">
             <div className="row gy-6">
               <div className="col-md-5 offset-md-1 order-md-last">
-                <img alt="REPLACE ME" src="/img/swing.svg" />
+                <img alt="TODO: REPLACE ME" src="/img/swing.svg" />
               </div>
               <div className="col-md-6 order-md-first">
                 <h2 className="mb-4">Be our Corporate Partner</h2>

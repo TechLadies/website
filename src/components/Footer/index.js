@@ -64,7 +64,7 @@ export default function Footer() {
               <a
                 aria-label="Link to Facebook page"
                 className="mr-2"
-                href="https://www.facebook.com/techladies"
+                href="https://www.facebook.com/TechLadies"
               >
                 <Facebook />
               </a>

@@ -6,8 +6,14 @@ import clsx from 'clsx';
 
 import styles from './index.module.scss';
 import programs from '../data/programs';
+import preloadImages from '../utils/preloadImages';
+import { useEffect } from 'react';
 
 export default function Home() {
+  useEffect(() => {
+    preloadImages(programs.map((program) => program.image));
+  }, [programs]);
+
   return (
     <div>
       <Head>
@@ -18,7 +24,7 @@ export default function Home() {
           <div className="pt-6 pb-6">
             <div className="row gy-6">
               <div className="col-lg-5 offset-lg-2 col-md-5 offset-md-1 order-md-last">
-                <img alt="REPLACE ME" src="/img/swing.svg" />
+                <img alt="TODO: REPLACE ME" src="/img/swing.svg" />
               </div>
               <div className="col-lg-5 col-md-6 order-md-first">
                 <h1 className="mb-4">
@@ -60,22 +66,22 @@ export default function Home() {
                 <div className="mb-4">
                   <img
                     className="thumbnail"
-                    alt="X thumbnail"
+                    alt="TODO: REPLACE ME"
                     src="https://i.pravatar.cc/128?img=1"
                   />
                   <img
                     className="thumbnail"
-                    alt="X thumbnail"
+                    alt="TODO: REPLACE ME"
                     src="https://i.pravatar.cc/128?img=2"
                   />
                   <img
                     className="thumbnail"
-                    alt="X thumbnail"
+                    alt="TODO: REPLACE ME"
                     src="https://i.pravatar.cc/128?img=3"
                   />
                   <img
                     className="thumbnail"
-                    alt="X thumbnail"
+                    alt="TODO: REPLACE ME"
                     src="https://i.pravatar.cc/128?img=4"
                   />
                 </div>

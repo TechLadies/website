@@ -12,7 +12,7 @@ export default function Home() {
           <div className="pt-6 pb-6">
             <div className="row gy-6">
               <div className="col-md-5">
-                <img alt="REPLACE ME" src="/img/swing.svg" />
+                <img alt="TODO: REPLACE ME" src="/img/swing.svg" />
               </div>
               <div className="col-md-6 offset-md-1">
                 <h1 className="mb-4 h2">
@@ -28,7 +28,12 @@ export default function Home() {
                   Our community consists of women learning technology to enhance
                   their careers and women already in tech.
                 </p>
-                <a className="btn btn-primary">Join our Community</a>
+                <a
+                  className="btn btn-primary"
+                  href="https://www.facebook.com/groups/techladiescode/"
+                >
+                  Join our Community
+                </a>
               </div>
             </div>
           </div>
@@ -37,7 +42,7 @@ export default function Home() {
           <div className="pt-6 pb-6">
             <div className="row gy-6">
               <div className="col-md-5 offset-md-1 order-md-last">
-                <img alt="REPLACE ME" src="/img/swing.svg" />
+                <img alt="TODO: REPLACE ME" src="/img/swing.svg" />
               </div>
               <div className="col-md-6 order-md-first">
                 <h2 className="mb-4">How we started</h2>
@@ -68,7 +73,7 @@ export default function Home() {
                   <div className="card-body">
                     <img
                       className="thumbnail mb-3"
-                      alt="X thumbnail"
+                      alt="TODO: REPLACE ME"
                       src="https://i.pravatar.cc/128?img=7"
                     />
                     <h6 className="card-title">Community Team Leader</h6>
@@ -76,22 +81,22 @@ export default function Home() {
                     <div className="mb-3">
                       <img
                         className="thumbnail thumbnail-sm"
-                        alt="X thumbnail"
+                        alt="TODO: REPLACE ME"
                         src="https://i.pravatar.cc/128?img=1"
                       />
                       <img
                         className="thumbnail thumbnail-sm"
-                        alt="X thumbnail"
+                        alt="TODO: REPLACE ME"
                         src="https://i.pravatar.cc/128?img=2"
                       />
                       <img
                         className="thumbnail thumbnail-sm"
-                        alt="X thumbnail"
+                        alt="TODO: REPLACE ME"
                         src="https://i.pravatar.cc/128?img=3"
                       />
                       <img
                         className="thumbnail thumbnail-sm"
-                        alt="X thumbnail"
+                        alt="TODO: REPLACE ME"
                         src="https://i.pravatar.cc/128?img=4"
                       />
                     </div>
@@ -104,7 +109,7 @@ export default function Home() {
                   <div className="card-body">
                     <img
                       className="thumbnail mb-3"
-                      alt="X thumbnail"
+                      alt="TODO: REPLACE ME"
                       src="https://i.pravatar.cc/128?img=7"
                     />
                     <h6 className="card-title">Community Team Leader</h6>
@@ -112,22 +117,22 @@ export default function Home() {
                     <div className="mb-3">
                       <img
                         className="thumbnail thumbnail-sm"
-                        alt="X thumbnail"
+                        alt="TODO: REPLACE ME"
                         src="https://i.pravatar.cc/128?img=1"
                       />
                       <img
                         className="thumbnail thumbnail-sm"
-                        alt="X thumbnail"
+                        alt="TODO: REPLACE ME"
                         src="https://i.pravatar.cc/128?img=2"
                       />
                       <img
                         className="thumbnail thumbnail-sm"
-                        alt="X thumbnail"
+                        alt="TODO: REPLACE ME"
                         src="https://i.pravatar.cc/128?img=3"
                       />
                       <img
                         className="thumbnail thumbnail-sm"
-                        alt="X thumbnail"
+                        alt="TODO: REPLACE ME"
                         src="https://i.pravatar.cc/128?img=4"
                       />
                     </div>
@@ -140,7 +145,7 @@ export default function Home() {
                   <div className="card-body">
                     <img
                       className="thumbnail mb-3"
-                      alt="X thumbnail"
+                      alt="TODO: REPLACE ME"
                       src="https://i.pravatar.cc/128?img=7"
                     />
                     <h6 className="card-title">Community Team Leader</h6>
@@ -148,22 +153,22 @@ export default function Home() {
                     <div className="mb-3">
                       <img
                         className="thumbnail thumbnail-sm"
-                        alt="X thumbnail"
+                        alt="TODO: REPLACE ME"
                         src="https://i.pravatar.cc/128?img=1"
                       />
                       <img
                         className="thumbnail thumbnail-sm"
-                        alt="X thumbnail"
+                        alt="TODO: REPLACE ME"
                         src="https://i.pravatar.cc/128?img=2"
                       />
                       <img
                         className="thumbnail thumbnail-sm"
-                        alt="X thumbnail"
+                        alt="TODO: REPLACE ME"
                         src="https://i.pravatar.cc/128?img=3"
                       />
                       <img
                         className="thumbnail thumbnail-sm"
-                        alt="X thumbnail"
+                        alt="TODO: REPLACE ME"
                         src="https://i.pravatar.cc/128?img=4"
                       />
                     </div>
@@ -176,7 +181,7 @@ export default function Home() {
                   <div className="card-body">
                     <img
                       className="thumbnail mb-3"
-                      alt="X thumbnail"
+                      alt="TODO: REPLACE ME"
                       src="https://i.pravatar.cc/128?img=7"
                     />
                     <h6 className="card-title">Community Team Leader</h6>
@@ -184,22 +189,22 @@ export default function Home() {
                     <div className="mb-3">
                       <img
                         className="thumbnail thumbnail-sm"
-                        alt="X thumbnail"
+                        alt="TODO: REPLACE ME"
                         src="https://i.pravatar.cc/128?img=1"
                       />
                       <img
                         className="thumbnail thumbnail-sm"
-                        alt="X thumbnail"
+                        alt="TODO: REPLACE ME"
                         src="https://i.pravatar.cc/128?img=2"
                       />
                       <img
                         className="thumbnail thumbnail-sm"
-                        alt="X thumbnail"
+                        alt="TODO: REPLACE ME"
                         src="https://i.pravatar.cc/128?img=3"
                       />
                       <img
                         className="thumbnail thumbnail-sm"
-                        alt="X thumbnail"
+                        alt="TODO: REPLACE ME"
                         src="https://i.pravatar.cc/128?img=4"
                       />
                     </div>
@@ -212,7 +217,7 @@ export default function Home() {
                   <div className="card-body">
                     <img
                       className="thumbnail mb-3"
-                      alt="X thumbnail"
+                      alt="TODO: REPLACE ME"
                       src="https://i.pravatar.cc/128?img=7"
                     />
                     <h6 className="card-title">Community Team Leader</h6>
@@ -220,22 +225,22 @@ export default function Home() {
                     <div className="mb-3">
                       <img
                         className="thumbnail thumbnail-sm"
-                        alt="X thumbnail"
+                        alt="TODO: REPLACE ME"
                         src="https://i.pravatar.cc/128?img=1"
                       />
                       <img
                         className="thumbnail thumbnail-sm"
-                        alt="X thumbnail"
+                        alt="TODO: REPLACE ME"
                         src="https://i.pravatar.cc/128?img=2"
                       />
                       <img
                         className="thumbnail thumbnail-sm"
-                        alt="X thumbnail"
+                        alt="TODO: REPLACE ME"
                         src="https://i.pravatar.cc/128?img=3"
                       />
                       <img
                         className="thumbnail thumbnail-sm"
-                        alt="X thumbnail"
+                        alt="TODO: REPLACE ME"
                         src="https://i.pravatar.cc/128?img=4"
                       />
                     </div>
@@ -248,7 +253,7 @@ export default function Home() {
                   <div className="card-body">
                     <img
                       className="thumbnail mb-3"
-                      alt="X thumbnail"
+                      alt="TODO: REPLACE ME"
                       src="https://i.pravatar.cc/128?img=7"
                     />
                     <h6 className="card-title">Community Team Leader</h6>
@@ -256,22 +261,22 @@ export default function Home() {
                     <div className="mb-3">
                       <img
                         className="thumbnail thumbnail-sm"
-                        alt="X thumbnail"
+                        alt="TODO: REPLACE ME"
                         src="https://i.pravatar.cc/128?img=1"
                       />
                       <img
                         className="thumbnail thumbnail-sm"
-                        alt="X thumbnail"
+                        alt="TODO: REPLACE ME"
                         src="https://i.pravatar.cc/128?img=2"
                       />
                       <img
                         className="thumbnail thumbnail-sm"
-                        alt="X thumbnail"
+                        alt="TODO: REPLACE ME"
                         src="https://i.pravatar.cc/128?img=3"
                       />
                       <img
                         className="thumbnail thumbnail-sm"
-                        alt="X thumbnail"
+                        alt="TODO: REPLACE ME"
                         src="https://i.pravatar.cc/128?img=4"
                       />
                     </div>
@@ -286,7 +291,7 @@ export default function Home() {
           <div className="pt-6 pb-6">
             <div className="row gy-6">
               <div className="col-md-5">
-                <img alt="REPLACE ME" src="/img/swing.svg" />
+                <img alt="TODO: REPLACE ME" src="/img/swing.svg" />
               </div>
               <div className="col-md-6 offset-md-1">
                 <h2 className="mb-4">
