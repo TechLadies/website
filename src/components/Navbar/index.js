@@ -23,11 +23,11 @@ export default function Navbar() {
   }, [router]);
 
   return (
-    <nav
+    <header
       aria-label="Main navigation"
       className="navbar navbar-expand-lg navbar-dark"
     >
-      <div className="container">
+      <nav className="container">
         <NavLink href="/">
           <a aria-label="TechLadies Logo" className="navbar-brand">
             <img alt="TechLadies Logo" src="/img/logo.png" />
@@ -77,7 +77,7 @@ export default function Navbar() {
             </NavLink>
           </div>
         </div>
-      </div>
-    </nav>
+      </nav>
+    </header>
   );
 }
