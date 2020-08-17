@@ -7,7 +7,7 @@ export default [
       <>This will find our costs for printing materials, ya da ya da.</>
     ),
     buttonClass: 'btn-primary',
-    url: 'https://example.com',
+    url: null,
     hoverBackgroundClass: 'bg-primary',
   },
   {
@@ -18,7 +18,7 @@ export default [
       <>This will find our costs for printing materials, ya da ya da.</>
     ),
     buttonClass: 'btn-warning',
-    url: 'https://example.com',
+    url: null,
     hoverBackgroundClass: 'bg-warning',
   },
   {
@@ -29,7 +29,7 @@ export default [
       <>This will find our costs for printing materials, ya da ya da.</>
     ),
     buttonClass: 'btn-success',
-    url: 'https://example.com',
+    url: null,
     hoverBackgroundClass: 'bg-success',
   },
   {
@@ -40,7 +40,7 @@ export default [
       <>This will find our costs for printing materials, ya da ya da.</>
     ),
     buttonClass: 'btn-danger',
-    url: 'https://example.com',
+    url: null,
     hoverBackgroundClass: 'bg-danger',
   },
 ];
