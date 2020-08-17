@@ -7,6 +7,7 @@ import DonationCard from '../components/DonationCard';
 
 import programsFAQ from '../data/programs-faq.js';
 import donations from '../data/donations.js';
+import volunteerInitiatives from '../data/volunteer-initiatives';
 
 export default function Home() {
   return (
@@ -51,61 +52,19 @@ export default function Home() {
         </div>
         <div className="container">
           <div className="pt-6 pb-6">
-            <h2 className="text-center mb-5">Ways you can volunteer</h2>
+            <h2 className="text-center mb-5">Ways you can Volunteer</h2>
             <div className="row gy-4 pt-5">
-              <div className="col-lg-3 col-sm-6">
-                <img
-                  className="thumbnail thumbnail-lg mb-4"
-                  alt="TODO: REPLACE ME"
-                  src="https://i.pravatar.cc/128?img=50"
-                />
-                <h6 className="mb-3">TechLadies Bootcamp</h6>
-                <p>
-                  Looking to be professional programmer? This is a part-time
-                  accelerated learning program guided by industry experts to
-                  create a product. 30% of the TechLadies Bootcamp graduates
-                  found software-related jobs and internships.
-                </p>
-              </div>
-              <div className="col-lg-3 col-sm-6">
-                <img
-                  className="thumbnail thumbnail-lg mb-4"
-                  alt="TODO: REPLACE ME"
-                  src="https://i.pravatar.cc/128?img=51"
-                />
-                <h6 className="mb-3">TechLadies Mentorship</h6>
-                <p>
-                  A 3-month mentorship program that pairs women who are
-                  transitioning into or establishing themselves in the tech
-                  industry with industry practitioners.
-                </p>
-              </div>
-              <div className="col-lg-3 col-sm-6">
-                <img
-                  className="thumbnail thumbnail-lg mb-4"
-                  alt="TODO: REPLACE ME"
-                  src="https://i.pravatar.cc/128?img=52"
-                />
-                <h6 className="mb-3">TechLadies Meet</h6>
-                <p>
-                  Meet fellow TechLadies in-person or online technical talks,
-                  panel/round table discussions, study groups and more! It is
-                  open to women of all levels of technical skills.
-                </p>
-              </div>
-              <div className="col-lg-3 col-sm-6">
-                <img
-                  className="thumbnail thumbnail-lg mb-4"
-                  alt="TODO: REPLACE ME"
-                  src="https://i.pravatar.cc/128?img=53"
-                />
-                <h6 className="mb-3">TechLadies Community</h6>
-                <p>
-                  Beyond programs and events, TechLadies is a community. Join us
-                  online for the latest industry news, highlights on awesome
-                  women in tech, and get support on your journey in tech.
-                </p>
-              </div>
+              {volunteerInitiatives.map(({ image, title, description }) => (
+                <div className="col-lg-3 col-sm-6" key={title}>
+                  <img
+                    className="thumbnail thumbnail-lg mb-4"
+                    alt={title + ' image'}
+                    src={image}
+                  />
+                  <h6 className="mb-3">{title}</h6>
+                  <p>{description}</p>
+                </div>
+              ))}
             </div>
           </div>
         </div>
