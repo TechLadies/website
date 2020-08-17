@@ -24,7 +24,7 @@ export default function Home() {
                 <h1 className="mb-4">
                   Kickstart or advance your career in tech
                 </h1>
-                <p className="mb-4">
+                <p className="mb-4 text-body">
                   TechLadies is a community that provides women with
                   connections, education and mentorships in the tech industry.
                 </p>
@@ -79,7 +79,7 @@ export default function Home() {
                     src="https://i.pravatar.cc/128?img=4"
                   />
                 </div>
-                <p className="mb-4">
+                <p className="mb-4 text-emphasis">
                   TechLadies is run by volunteers in the tech industry who are
                   passionate about bringing more women into tech.
                 </p>
@@ -94,19 +94,23 @@ export default function Home() {
           <div className="pt-6 pb-6">
             <div className="row gy-5">
               <div className="col-md-4">
-                <h2 className="text-purple">12</h2>
-                <p>
+                <h2 className="text-purple mb-3">12</h2>
+                <p className="text-body">
                   Ladies getting technical internships or hired in technical
                   roles.
                 </p>
               </div>
               <div className="col-md-4">
-                <h2 className="text-red">500+</h2>
-                <p>Ladies taught technical skills in Singapore and Malaysia.</p>
+                <h2 className="text-red mb-3">500+</h2>
+                <p className="text-body">
+                  Ladies taught technical skills in Singapore and Malaysia.
+                </p>
               </div>
               <div className="col-md-4">
-                <h2 className="text-orange">4000+</h2>
-                <p>Members across Asia in our community.</p>
+                <h2 className="text-orange mb-3">4000+</h2>
+                <p className="text-body">
+                  Members across Asia in our community.
+                </p>
               </div>
             </div>
           </div>
@@ -132,7 +136,7 @@ export default function Home() {
                     We have a range of programs for women of all levels of
                     technical skills
                   </h3>
-                  <p className="mb-4">
+                  <p className="text-body mb-4">
                     Whether you are curious about the industry, looking to learn
                     technical skills, or levelling up your career, we have
                     something for you!
@@ -154,8 +158,8 @@ export default function Home() {
                           )}
                         />
                         <div className="card-body">
-                          <h5 className="card-title mb-4">{title}</h5>
-                          <p className="card-text">{description}</p>
+                          <h5 className="card-title mb-3">{title}</h5>
+                          <p className="card-text mb-3">{description}</p>
                           <a className="font-weight-bold" href="#">
                             Learn More
                           </a>

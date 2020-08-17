@@ -29,7 +29,7 @@ export default function Home() {
                 <p className="mb-4 text-primary font-weight-bold">
                   Since our launch in 2016
                 </p>
-                <p className="mb-4">
+                <p className="mb-4 text-body">
                   We have built an amazing international community in Asia and
                   empowered women to switch careers into tech. We need your help
                   to increase the impact of our work.

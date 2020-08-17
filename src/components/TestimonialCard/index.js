@@ -19,7 +19,7 @@ export default function TestimonialCard({ image, thumbnail, name, message }) {
               src={thumbnail}
             />
           )}
-          <p className={styles.message}>{message}</p>
+          <p className={clsx('text-emphasis')}>{message}</p>
           <h5>{name}</h5>
         </div>
       </div>

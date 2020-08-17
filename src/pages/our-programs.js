@@ -21,7 +21,7 @@ export default function Home() {
         <div className="pt-6 pb-6">
           <div className="row gy-6">
             <div className="col-md-6">
-              <img alt="REPLACE ME" className="mb-3" src="/img/swing.svg" />
+              <img alt="REPLACE ME" className="mb-4" src="/img/swing.svg" />
               <h2 className="mb-4">Which programs suits me?</h2>
               <p className="mb-4">
                 Take a short quiz to discover which program would be the best
@@ -90,17 +90,18 @@ export default function Home() {
             <div className="col-md-6 offset-md-1 order-md-last">
               <img
                 alt="REPLACE ME"
-                className="thumbnail thumbnail-lg mb-3"
+                className="thumbnail thumbnail-lg mb-4"
                 src="https://i.pravatar.cc/128?img=11"
               />
-              <h2 className="mb-3">TechLadies Bootcamp</h2>
-              <p className="mb-3">Duration: 14 weeks</p>
-              <p>
+              <h2 className="mb-4">TechLadies Bootcamp</h2>
+              <p className="text-body mb-4">Duration: 14 weeks</p>
+              <p className="text-body mb-4">
                 A part-time accelerated learning program designed for women who
                 wish to be professional programmers. You'll be guided by
                 industry experts to create a product. 30% of the TechLadies
                 Bootcamp graduates found software-related jobs and internships.
               </p>
+              <button className="btn btn-primary">I'm Interested!</button>
             </div>
             <div className="col-md-5 order-md-first">
               <Gallery>
@@ -126,17 +127,18 @@ export default function Home() {
             <div className="col-md-6">
               <img
                 alt="REPLACE ME"
-                className="thumbnail thumbnail-lg mb-3"
+                className="thumbnail thumbnail-lg mb-4"
                 src="https://i.pravatar.cc/128?img=10"
               />
-              <h2 className="mb-3">TechLadies Mentorship</h2>
-              <p className="mb-3">Duration: 14 weeks</p>
-              <p>
+              <h2 className="mb-4">TechLadies Mentorship</h2>
+              <p className="text-body mb-4">Duration: 14 weeks</p>
+              <p className="text-body mb-4">
                 A part-time accelerated learning program designed for women who
                 wish to be professional programmers. You'll be guided by
                 industry experts to create a product. 30% of the TechLadies
                 Bootcamp graduates found software-related jobs and internships.
               </p>
+              <button className="btn btn-primary">I'm Interested!</button>
             </div>
             <div className="col-md-5 offset-md-1">
               <Gallery>
@@ -159,7 +161,7 @@ export default function Home() {
       <div className="pt-6 pb-6">
         <div className="container text-center">
           <div className="row gy-6">
-            <div className="col-md-6">
+            <div className="col-md-5 offset-md-1">
               <img
                 alt="REPLACE ME"
                 className="thumbnail thumbnail-lg mb-3"
@@ -174,7 +176,7 @@ export default function Home() {
               </p>
               <a className="btn btn-primary">See our Events</a>
             </div>
-            <div className="col-md-6">
+            <div className="col-md-5">
               <img
                 alt="REPLACE ME"
                 className="thumbnail thumbnail-lg mb-3"
