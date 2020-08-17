@@ -1,6 +1,9 @@
 .quoteBackground {
   align-items: center;
-  background: linear-gradient(82.82deg, #9019e6 0%, #a3d1ff 100%);
+  background-size: cover;
+  background-image: url('/img/bg.png');
+  background-position: center;
+  background-repeat: no-repeat;
   display: flex;
   height: 100%;
   padding: 4rem;
