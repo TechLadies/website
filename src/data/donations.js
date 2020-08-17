@@ -8,6 +8,7 @@ export default [
     ),
     buttonClass: 'btn-primary',
     url: 'https://example.com',
+    hoverBackgroundClass: 'bg-primary',
   },
   {
     amount: 30,
@@ -18,6 +19,7 @@ export default [
     ),
     buttonClass: 'btn-warning',
     url: 'https://example.com',
+    hoverBackgroundClass: 'bg-warning',
   },
   {
     amount: 100,
@@ -28,6 +30,7 @@ export default [
     ),
     buttonClass: 'btn-success',
     url: 'https://example.com',
+    hoverBackgroundClass: 'bg-success',
   },
   {
     amount: 500,
@@ -38,5 +41,6 @@ export default [
     ),
     buttonClass: 'btn-danger',
     url: 'https://example.com',
+    hoverBackgroundClass: 'bg-danger',
   },
 ];

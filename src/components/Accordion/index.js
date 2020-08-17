@@ -18,7 +18,7 @@ function Accordion({ data }) {
         return (
           <Fragment key={key}>
             <li
-              className={clsx('list-group-item', styles.listItem)}
+              className={clsx('list-group-item', 'd-flex', styles.listItem)}
               onClick={() => {
                 setSelected(isSelected ? null : index);
               }}

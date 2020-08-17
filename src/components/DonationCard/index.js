@@ -10,6 +10,7 @@ function DonationCard({
   description,
   buttonClass,
   url,
+  hoverBackgroundClass,
 }) {
   return (
     <div className={clsx('card', styles.card)}>
@@ -25,8 +26,8 @@ function DonationCard({
           <ArrowRight color="#fff" size={24} />
         </a>
       </div>
-      <a className={styles.cardHover} href={url}>
-        <h3 className={amountClass}>
+      <a className={clsx(styles.cardHover, hoverBackgroundClass)} href={url}>
+        <h3 className="text-white">
           Contribute
           <br />${amount}
         </h3>
