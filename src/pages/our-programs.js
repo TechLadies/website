@@ -240,7 +240,7 @@ export default function Home() {
         <div className="pt-6 pb-6">
           <div className="row">
             <div className="col-md-8 offset-md-2">
-              <h2 className="text-center mb-4">Frequently Asked Questions</h2>
+              <h2 className="text-center mb-5">Frequently Asked Questions</h2>
               <Accordion data={programsFAQ} />
             </div>
           </div>

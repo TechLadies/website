@@ -52,10 +52,10 @@ export default function Home() {
         <div className="container">
           <div className="pt-6 pb-6">
             <h2 className="text-center mb-5">Ways you can volunteer</h2>
-            <div className="row gy-4">
+            <div className="row gy-4 pt-5">
               <div className="col-lg-3 col-sm-6">
                 <img
-                  className="thumbnail thumbnail-lg mb-3"
+                  className="thumbnail thumbnail-lg mb-4"
                   alt="TODO: REPLACE ME"
                   src="https://i.pravatar.cc/128?img=50"
                 />
@@ -69,7 +69,7 @@ export default function Home() {
               </div>
               <div className="col-lg-3 col-sm-6">
                 <img
-                  className="thumbnail thumbnail-lg mb-3"
+                  className="thumbnail thumbnail-lg mb-4"
                   alt="TODO: REPLACE ME"
                   src="https://i.pravatar.cc/128?img=51"
                 />
@@ -82,7 +82,7 @@ export default function Home() {
               </div>
               <div className="col-lg-3 col-sm-6">
                 <img
-                  className="thumbnail thumbnail-lg mb-3"
+                  className="thumbnail thumbnail-lg mb-4"
                   alt="TODO: REPLACE ME"
                   src="https://i.pravatar.cc/128?img=52"
                 />
@@ -95,7 +95,7 @@ export default function Home() {
               </div>
               <div className="col-lg-3 col-sm-6">
                 <img
-                  className="thumbnail thumbnail-lg mb-3"
+                  className="thumbnail thumbnail-lg mb-4"
                   alt="TODO: REPLACE ME"
                   src="https://i.pravatar.cc/128?img=53"
                 />
@@ -150,7 +150,7 @@ export default function Home() {
           <div className="pt-6 pb-6">
             <div className="row mb-4">
               <div className="col-md-6">
-                <h3>
+                <h3 className="font-weight-normal">
                   Your donations help fund our events and subscription services
                   (such as EventBrite, SendGrid)
                 </h3>
@@ -180,7 +180,7 @@ export default function Home() {
           <div className="pt-6 pb-6">
             <div className="row">
               <div className="col-md-8 offset-md-2">
-                <h2 className="text-center mb-4">Frequently Asked Questions</h2>
+                <h2 className="text-center mb-5">Frequently Asked Questions</h2>
                 <Accordion data={programsFAQ} />
               </div>
             </div>
