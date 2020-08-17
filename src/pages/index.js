@@ -41,12 +41,19 @@ export default function Home() {
                   >
                     Stay updated with our latest news
                   </label>
-                  <input
-                    type="email"
-                    className="form-control"
-                    id="hero-email"
-                    placeholder="E-mail address"
-                  />
+                  <form
+                    onSubmit={(event) => {
+                      event.preventDefault();
+                      alert('TODO: POST email to API');
+                    }}
+                  >
+                    <input
+                      className="form-control"
+                      placeholder="E-mail address"
+                      required={true}
+                      type="email"
+                    />
+                  </form>
                 </div>
               </div>
             </div>
