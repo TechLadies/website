@@ -163,7 +163,7 @@ export default function Home() {
       </div>
       <div className="pt-6 pb-6">
         <div className="container text-center">
-          <div className="row">
+          <div className="row gy-6">
             <div className="col-md-6">
               <img
                 alt="REPLACE ME"

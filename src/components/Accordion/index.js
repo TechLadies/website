@@ -38,7 +38,7 @@ function Accordion({ data }) {
                   <ChevronRight size={ICON_SIZE} />
                 )}
               </button>
-              {item}
+              <div>{item}</div>
             </li>
             {isSelected && <li className="list-group-item">{details}</li>}
           </Fragment>
