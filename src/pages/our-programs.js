@@ -32,8 +32,8 @@ export default function Home() {
         <div className="row gy-6">
           <div className="col-lg-6 col-md-5">
             <img alt="TODO: REPLACE ME" className="mb-4" src="/img/swing.svg" />
-            <h1 className="mb-4 h3">Which programs suits me?</h1>
-            <p className="mb-4">
+            <h1 className="h3 mb-4">Which programs suits me?</h1>
+            <p className="text-body mb-4">
               Take a short quiz to discover which program would be the best fit
               for you!
             </p>
@@ -112,8 +112,8 @@ export default function Home() {
                 src="https://i.pravatar.cc/128?img=11"
               />
               <h3 className="mb-4 h4">TechLadies Bootcamp</h3>
-              <p className="text-body mb-4">Duration: 14 weeks</p>
-              <p className="text-body mb-4">
+              <p className="mb-4">Duration: 14 weeks</p>
+              <p className="mb-4">
                 A part-time accelerated learning program designed for women who
                 wish to be professional programmers. You'll be guided by
                 industry experts to create a product. 30% of the TechLadies
@@ -148,8 +148,8 @@ export default function Home() {
               src="https://i.pravatar.cc/128?img=10"
             />
             <h3 className="mb-4 h4">TechLadies Mentorship</h3>
-            <p className="text-body mb-4">Duration: 14 weeks</p>
-            <p className="text-body mb-4">
+            <p className="mb-4">Duration: 14 weeks</p>
+            <p className="mb-4">
               A part-time accelerated learning program designed for women who
               wish to be professional programmers. You'll be guided by industry
               experts to create a product. 30% of the TechLadies Bootcamp

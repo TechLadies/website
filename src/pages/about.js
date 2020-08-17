@@ -43,7 +43,7 @@ export default function Home() {
                 <img alt="TODO: REPLACE ME" src="/img/swing.svg" />
               </div>
               <div className="col-md-6 order-md-first">
-                <h2 className="mb-4 h3">How we started</h2>
+                <h2 className="mb-4 h4">How we started</h2>
                 <p>
                   TechLadies was started by Elisha in 2016. As someone who
                   learned programming from friends in the developer community as
@@ -289,7 +289,7 @@ export default function Home() {
               <img alt="TODO: REPLACE ME" src="/img/swing.svg" />
             </div>
             <div className="col-md-6 offset-md-1">
-              <h2 className="mb-4 h3">
+              <h2 className="mb-4 h4">
                 Passionate about increasing gender diversity in tech?
               </h2>
               <p className="mb-4">

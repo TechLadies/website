@@ -71,7 +71,7 @@ export default function Home() {
                 <img alt="TODO: REPLACE ME" src="/img/swing.svg" />
               </div>
               <div className="col-md-6 order-md-first">
-                <h2 className="mb-4">Be our Corporate Partner</h2>
+                <h2 className="mb-4 h4">Be our Corporate Partner</h2>
                 <p className="mb-4">
                   TechLadies is looking for corporations to partner with us,
                   providing speakers, mentors, and coaches, as well as venue or
@@ -98,7 +98,7 @@ export default function Home() {
         <div className="container py-6">
           <div className="row mb-4">
             <div className="col-md-6">
-              <h3 className="font-weight-normal">
+              <h3 className="h4 font-weight-normal">
                 Your donations help fund our events and subscription services
                 (such as EventBrite, SendGrid)
               </h3>
