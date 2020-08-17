@@ -7,7 +7,6 @@ import clsx from 'clsx';
 
 import Accordion from '../components/Accordion';
 import Gallery from '../components/Gallery';
-import Testimonials from '../components/Testimonials';
 import TestimonialCard from '../components/TestimonialCard';
 
 import preloadImages from '../utils/preloadImages';
