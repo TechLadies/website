@@ -11,7 +11,11 @@ export default function Home() {
         <div className="container py-6">
           <div className="row gy-6">
             <div className="col-md-5">
-              <img alt="TODO: REPLACE ME" src="/img/swing.svg" />
+              <img
+                alt="TODO: REPLACE ME"
+                className="img-fluid"
+                src="/img/img1_PLACEHOLDER_REMOVE_ME.png"
+              />
             </div>
             <div className="col-md-6 offset-md-1">
               <h1 className="mb-4 h3">
@@ -40,9 +44,13 @@ export default function Home() {
           <div className="container py-6">
             <div className="row gy-6">
               <div className="col-md-5 offset-md-1 order-md-last">
-                <img alt="TODO: REPLACE ME" src="/img/swing.svg" />
+                <img
+                  alt="TODO: REPLACE ME"
+                  className="img-fluid"
+                  src="/img/bg_PLACEHOLDER_REMOVE_ME.png"
+                />
               </div>
-              <div className="col-md-6 order-md-first">
+              <div className="col-md-6 order-md-first d-flex flex-column align-items-start justify-content-center">
                 <h2 className="mb-4 h4">How we started</h2>
                 <p>
                   TechLadies was started by Elisha in 2016. As someone who
@@ -286,9 +294,13 @@ export default function Home() {
         <div className="container py-6">
           <div className="row gy-6">
             <div className="col-md-5">
-              <img alt="TODO: REPLACE ME" src="/img/swing.svg" />
+              <img
+                alt="TODO: REPLACE ME"
+                className="img-fluid"
+                src="/img/bg_PLACEHOLDER_REMOVE_ME.png"
+              />
             </div>
-            <div className="col-md-6 offset-md-1">
+            <div className="col-md-6 offset-md-1 d-flex flex-column align-items-start justify-content-center">
               <h2 className="mb-4 h4">
                 Passionate about increasing gender diversity in tech?
               </h2>

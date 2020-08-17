@@ -21,8 +21,8 @@ export default function Home() {
             <div className="col-md-6">
               <img
                 alt="TODO: REPLACE ME"
-                className="mb-3"
-                src="/img/swing.svg"
+                className="img-fluid mb-4"
+                src="/img/img2_PLACEHOLDER_REMOVE_ME.png"
               />
               <h1 className="h3">
                 Join us in our mission to increase participation and advancement
@@ -68,9 +68,13 @@ export default function Home() {
           <div className="container py-6">
             <div className="row gy-6">
               <div className="col-md-5 offset-md-1 order-md-last">
-                <img alt="TODO: REPLACE ME" src="/img/swing.svg" />
+                <img
+                  alt="TODO: REPLACE ME"
+                  className="img-fluid"
+                  src="/img/bg_PLACEHOLDER_REMOVE_ME.png"
+                />
               </div>
-              <div className="col-md-6 order-md-first">
+              <div className="col-md-6 order-md-first d-flex flex-column justify-content-center">
                 <h2 className="mb-4 h4">Be our Corporate Partner</h2>
                 <p className="mb-4">
                   TechLadies is looking for corporations to partner with us,

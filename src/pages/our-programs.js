@@ -31,7 +31,11 @@ export default function Home() {
       <div className="container py-6">
         <div className="row gy-6">
           <div className="col-lg-6 col-md-5">
-            <img alt="TODO: REPLACE ME" className="mb-4" src="/img/swing.svg" />
+            <img
+              alt="TODO: REPLACE ME"
+              className="mb-4"
+              src="/img/img2_PLACEHOLDER_REMOVE_ME.png"
+            />
             <h1 className="h3 mb-4">Which programs suits me?</h1>
             <p className="text-body mb-4">
               Take a short quiz to discover which program would be the best fit
@@ -211,9 +215,13 @@ export default function Home() {
         <div className="container py-6">
           <div className="row gy-6">
             <div className="col-md-5 offset-md-1 order-md-last">
-              <img alt="TODO: REPLACE ME" src="/img/swing.svg" />
+              <img
+                alt="TODO: REPLACE ME"
+                className="img-fluid"
+                src="/img/bg_PLACEHOLDER_REMOVE_ME.png"
+              />
             </div>
-            <div className="col-md-6 order-md-first">
+            <div className="col-md-6 order-md-first d-flex flex-column align-items-start justify-content-center">
               <h2 className="mb-4 h4">Want to be a Coach?</h2>
               <p className="mb-4">
                 We are also on the lookout for awesome people to be a coach for

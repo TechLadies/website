@@ -23,7 +23,11 @@ export default function Home() {
         <div className="container py-6">
           <div className="row gy-6">
             <div className="col-lg-5 offset-lg-2 col-md-5 offset-md-1 order-md-last">
-              <img alt="TODO: REPLACE ME" src="/img/swing.svg" />
+              <img
+                alt="TODO: REPLACE ME"
+                className="img-fluid"
+                src="/img/img3_PLACEHOLDER_REMOVE_ME.png"
+              />
             </div>
             <div className="col-lg-5 col-md-6 order-md-first">
               <h1 className="mb-4 h2">
@@ -135,7 +139,12 @@ export default function Home() {
         <div className="bg-gray">
           <div className="container py-6">
             <div className="row gy-5">
-              <div className="col-md-6">
+              <div className="col-md-6 d-flex flex-column align-items-start justify-content-center">
+                <img
+                  className="mb-4"
+                  height="120"
+                  src="/img/img2_PLACEHOLDER_REMOVE_ME.png"
+                />
                 <h3 className="mb-4 h4">
                   We have a range of programs for women of all levels of
                   technical skills
