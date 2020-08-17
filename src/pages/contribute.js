@@ -20,10 +20,10 @@ export default function Home() {
             <div className="row gy-6">
               <div className="col-md-6">
                 <img alt="REPLACE ME" className="mb-3" src="/img/swing.svg" />
-                <h2>
+                <h1 className="h2">
                   Join us in our mission to increase participation and
                   advancement opportunities for women in the tech industry.
-                </h2>
+                </h1>
               </div>
               <div className="col-md-5 offset-md-1">
                 <p className="mb-4 text-primary font-weight-bold">
@@ -49,13 +49,13 @@ export default function Home() {
           <div className="pt-6 pb-6">
             <h2 className="text-center mb-5">Ways you can volunteer</h2>
             <div className="row gy-4">
-              <div className="col-md-3 col-sm-6">
+              <div className="col-lg-3 col-sm-6">
                 <img
                   className="thumbnail thumbnail-lg mb-3"
                   alt="REPLACE ME"
                   src="https://i.pravatar.cc/128?img=50"
                 />
-                <h5 className="mb-3">TechLadies Bootcamp</h5>
+                <h6 className="mb-3">TechLadies Bootcamp</h6>
                 <p>
                   Looking to be professional programmer? This is a part-time
                   accelerated learning program guided by industry experts to
@@ -63,39 +63,39 @@ export default function Home() {
                   found software-related jobs and internships.
                 </p>
               </div>
-              <div className="col-md-3 col-sm-6">
+              <div className="col-lg-3 col-sm-6">
                 <img
                   className="thumbnail thumbnail-lg mb-3"
                   alt="REPLACE ME"
                   src="https://i.pravatar.cc/128?img=51"
                 />
-                <h5 className="mb-3">TechLadies Mentorship</h5>
+                <h6 className="mb-3">TechLadies Mentorship</h6>
                 <p>
                   A 3-month mentorship program that pairs women who are
                   transitioning into or establishing themselves in the tech
                   industry with industry practitioners.
                 </p>
               </div>
-              <div className="col-md-3 col-sm-6">
+              <div className="col-lg-3 col-sm-6">
                 <img
                   className="thumbnail thumbnail-lg mb-3"
                   alt="REPLACE ME"
                   src="https://i.pravatar.cc/128?img=52"
                 />
-                <h5 className="mb-3">TechLadies Meet</h5>
+                <h6 className="mb-3">TechLadies Meet</h6>
                 <p>
                   Meet fellow TechLadies in-person or online technical talks,
                   panel/round table discussions, study groups and more! It is
                   open to women of all levels of technical skills.
                 </p>
               </div>
-              <div className="col-md-3 col-sm-6">
+              <div className="col-lg-3 col-sm-6">
                 <img
                   className="thumbnail thumbnail-lg mb-3"
                   alt="REPLACE ME"
                   src="https://i.pravatar.cc/128?img=53"
                 />
-                <h5 className="mb-3">TechLadies Community</h5>
+                <h6 className="mb-3">TechLadies Community</h6>
                 <p>
                   Beyond programs and events, TechLadies is a community. Join us
                   online for the latest industry news, highlights on awesome
@@ -154,7 +154,7 @@ export default function Home() {
             </div>
             <div className="row gy-3 mb-4">
               {donations.map((donation) => (
-                <div className="col-md-3" key={donation.amount}>
+                <div className="col-sm-6 col-lg-3" key={donation.amount}>
                   <DonationCard {...donation} />
                 </div>
               ))}

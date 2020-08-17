@@ -15,7 +15,7 @@ export default function Home() {
                 <img alt="REPLACE ME" src="/img/swing.svg" />
               </div>
               <div className="col-md-6 offset-md-1">
-                <h1 className="mb-4">
+                <h1 className="mb-4 h2">
                   We create opportunities that increase women’s participation in
                   the tech industry.
                 </h1>

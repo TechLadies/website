@@ -20,15 +20,15 @@ export default function Home() {
       <div className="container">
         <div className="pt-6 pb-6">
           <div className="row gy-6">
-            <div className="col-md-6">
+            <div className="col-lg-6 col-md-5">
               <img alt="REPLACE ME" className="mb-4" src="/img/swing.svg" />
-              <h2 className="mb-4">Which programs suits me?</h2>
+              <h1 className="mb-4 h2">Which programs suits me?</h1>
               <p className="mb-4">
                 Take a short quiz to discover which program would be the best
                 fit for you!
               </p>
             </div>
-            <div className="col-md-5 offset-md-1">
+            <div className="col-lg-5 offset-lg-1 col-md-7">
               <div className="card">
                 <div className="card-body">
                   <form>
