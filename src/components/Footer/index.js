@@ -9,7 +9,7 @@ export default function Footer() {
       <div className="container">
         <div className="row gy-5">
           <div className="col-lg-3">
-            <h5>Join our Community</h5>
+            <h5 className="mb-3">Join our Community</h5>
             <form
               onSubmit={(event) => {
                 event.preventDefault();
@@ -62,7 +62,7 @@ export default function Footer() {
             </div>
           </div>
           <div className="col-lg-4">
-            <h5>Contact Us</h5>
+            <h5 className="mb-3">Contact Us</h5>
             <p>
               For general enquiries, please email:
               <br />
