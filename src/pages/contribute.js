@@ -19,12 +19,7 @@ export default function Home() {
           <div className="pt-6 pb-6">
             <div className="row gy-6">
               <div className="col-md-6">
-                <img
-                  alt="REPLACE ME"
-                  className="mb-3"
-                  height="200"
-                  src="/img/swing.svg"
-                />
+                <img alt="REPLACE ME" className="mb-3" src="/img/swing.svg" />
                 <h2>
                   Join us in our mission to increase participation and
                   advancement opportunities for women in the tech industry.
@@ -56,7 +51,7 @@ export default function Home() {
             <div className="row gy-4">
               <div className="col-md-3 col-sm-6">
                 <img
-                  className="thumbnail thumbnail-large mb-3"
+                  className="thumbnail thumbnail-lg mb-3"
                   alt="REPLACE ME"
                   src="https://i.pravatar.cc/128?img=50"
                 />
@@ -70,7 +65,7 @@ export default function Home() {
               </div>
               <div className="col-md-3 col-sm-6">
                 <img
-                  className="thumbnail thumbnail-large mb-3"
+                  className="thumbnail thumbnail-lg mb-3"
                   alt="REPLACE ME"
                   src="https://i.pravatar.cc/128?img=51"
                 />
@@ -83,7 +78,7 @@ export default function Home() {
               </div>
               <div className="col-md-3 col-sm-6">
                 <img
-                  className="thumbnail thumbnail-large mb-3"
+                  className="thumbnail thumbnail-lg mb-3"
                   alt="REPLACE ME"
                   src="https://i.pravatar.cc/128?img=52"
                 />
@@ -96,7 +91,7 @@ export default function Home() {
               </div>
               <div className="col-md-3 col-sm-6">
                 <img
-                  className="thumbnail thumbnail-large mb-3"
+                  className="thumbnail thumbnail-lg mb-3"
                   alt="REPLACE ME"
                   src="https://i.pravatar.cc/128?img=53"
                 />

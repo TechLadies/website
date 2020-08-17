@@ -21,12 +21,7 @@ export default function Home() {
         <div className="pt-6 pb-6">
           <div className="row gy-6">
             <div className="col-md-6">
-              <img
-                alt="REPLACE ME"
-                className="mb-3"
-                height="200"
-                src="/img/swing.svg"
-              />
+              <img alt="REPLACE ME" className="mb-3" src="/img/swing.svg" />
               <h2 className="mb-4">Which programs suits me?</h2>
               <p className="mb-4">
                 Take a short quiz to discover which program would be the best
@@ -95,7 +90,7 @@ export default function Home() {
             <div className="col-md-6 offset-md-1 order-md-last">
               <img
                 alt="REPLACE ME"
-                className="thumbnail thumbnail-large mb-3"
+                className="thumbnail thumbnail-lg mb-3"
                 src="https://i.pravatar.cc/128?img=11"
               />
               <h2 className="mb-3">TechLadies Bootcamp</h2>
@@ -131,7 +126,7 @@ export default function Home() {
             <div className="col-md-6">
               <img
                 alt="REPLACE ME"
-                className="thumbnail thumbnail-large mb-3"
+                className="thumbnail thumbnail-lg mb-3"
                 src="https://i.pravatar.cc/128?img=10"
               />
               <h2 className="mb-3">TechLadies Mentorship</h2>
@@ -167,7 +162,7 @@ export default function Home() {
             <div className="col-md-6">
               <img
                 alt="REPLACE ME"
-                className="thumbnail thumbnail-large mb-3"
+                className="thumbnail thumbnail-lg mb-3"
                 src="https://i.pravatar.cc/128?img=8"
               />
               <h3 className="mb-4">TechLadies Meet</h3>
@@ -182,7 +177,7 @@ export default function Home() {
             <div className="col-md-6">
               <img
                 alt="REPLACE ME"
-                className="thumbnail thumbnail-large mb-3"
+                className="thumbnail thumbnail-lg mb-3"
                 src="https://i.pravatar.cc/128?img=9"
               />
               <h3 className="mb-4">TechLadies Community</h3>

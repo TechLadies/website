@@ -25,7 +25,7 @@ export default function Testimonials({ data, delay = 0, duration = 50000 }) {
                   {thumbnail && (
                     <img
                       className={clsx(
-                        'thumbnail thumbnail-large mb-3',
+                        'thumbnail thumbnail-lg mb-3',
                         styles.thumbnail,
                       )}
                       alt={name + ' thumbnail'}

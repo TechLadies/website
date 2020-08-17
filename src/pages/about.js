@@ -75,22 +75,22 @@ export default function Home() {
                     <p className="card-text">One liner description here.</p>
                     <div className="mb-3">
                       <img
-                        className="thumbnail thumbnail-small"
+                        className="thumbnail thumbnail-sm"
                         alt="X thumbnail"
                         src="https://i.pravatar.cc/128?img=1"
                       />
                       <img
-                        className="thumbnail thumbnail-small"
+                        className="thumbnail thumbnail-sm"
                         alt="X thumbnail"
                         src="https://i.pravatar.cc/128?img=2"
                       />
                       <img
-                        className="thumbnail thumbnail-small"
+                        className="thumbnail thumbnail-sm"
                         alt="X thumbnail"
                         src="https://i.pravatar.cc/128?img=3"
                       />
                       <img
-                        className="thumbnail thumbnail-small"
+                        className="thumbnail thumbnail-sm"
                         alt="X thumbnail"
                         src="https://i.pravatar.cc/128?img=4"
                       />
@@ -111,22 +111,22 @@ export default function Home() {
                     <p className="card-text">One liner description here.</p>
                     <div className="mb-3">
                       <img
-                        className="thumbnail thumbnail-small"
+                        className="thumbnail thumbnail-sm"
                         alt="X thumbnail"
                         src="https://i.pravatar.cc/128?img=1"
                       />
                       <img
-                        className="thumbnail thumbnail-small"
+                        className="thumbnail thumbnail-sm"
                         alt="X thumbnail"
                         src="https://i.pravatar.cc/128?img=2"
                       />
                       <img
-                        className="thumbnail thumbnail-small"
+                        className="thumbnail thumbnail-sm"
                         alt="X thumbnail"
                         src="https://i.pravatar.cc/128?img=3"
                       />
                       <img
-                        className="thumbnail thumbnail-small"
+                        className="thumbnail thumbnail-sm"
                         alt="X thumbnail"
                         src="https://i.pravatar.cc/128?img=4"
                       />
@@ -147,22 +147,22 @@ export default function Home() {
                     <p className="card-text">One liner description here.</p>
                     <div className="mb-3">
                       <img
-                        className="thumbnail thumbnail-small"
+                        className="thumbnail thumbnail-sm"
                         alt="X thumbnail"
                         src="https://i.pravatar.cc/128?img=1"
                       />
                       <img
-                        className="thumbnail thumbnail-small"
+                        className="thumbnail thumbnail-sm"
                         alt="X thumbnail"
                         src="https://i.pravatar.cc/128?img=2"
                       />
                       <img
-                        className="thumbnail thumbnail-small"
+                        className="thumbnail thumbnail-sm"
                         alt="X thumbnail"
                         src="https://i.pravatar.cc/128?img=3"
                       />
                       <img
-                        className="thumbnail thumbnail-small"
+                        className="thumbnail thumbnail-sm"
                         alt="X thumbnail"
                         src="https://i.pravatar.cc/128?img=4"
                       />
@@ -183,22 +183,22 @@ export default function Home() {
                     <p className="card-text">One liner description here.</p>
                     <div className="mb-3">
                       <img
-                        className="thumbnail thumbnail-small"
+                        className="thumbnail thumbnail-sm"
                         alt="X thumbnail"
                         src="https://i.pravatar.cc/128?img=1"
                       />
                       <img
-                        className="thumbnail thumbnail-small"
+                        className="thumbnail thumbnail-sm"
                         alt="X thumbnail"
                         src="https://i.pravatar.cc/128?img=2"
                       />
                       <img
-                        className="thumbnail thumbnail-small"
+                        className="thumbnail thumbnail-sm"
                         alt="X thumbnail"
                         src="https://i.pravatar.cc/128?img=3"
                       />
                       <img
-                        className="thumbnail thumbnail-small"
+                        className="thumbnail thumbnail-sm"
                         alt="X thumbnail"
                         src="https://i.pravatar.cc/128?img=4"
                       />
@@ -219,22 +219,22 @@ export default function Home() {
                     <p className="card-text">One liner description here.</p>
                     <div className="mb-3">
                       <img
-                        className="thumbnail thumbnail-small"
+                        className="thumbnail thumbnail-sm"
                         alt="X thumbnail"
                         src="https://i.pravatar.cc/128?img=1"
                       />
                       <img
-                        className="thumbnail thumbnail-small"
+                        className="thumbnail thumbnail-sm"
                         alt="X thumbnail"
                         src="https://i.pravatar.cc/128?img=2"
                       />
                       <img
-                        className="thumbnail thumbnail-small"
+                        className="thumbnail thumbnail-sm"
                         alt="X thumbnail"
                         src="https://i.pravatar.cc/128?img=3"
                       />
                       <img
-                        className="thumbnail thumbnail-small"
+                        className="thumbnail thumbnail-sm"
                         alt="X thumbnail"
                         src="https://i.pravatar.cc/128?img=4"
                       />
@@ -255,22 +255,22 @@ export default function Home() {
                     <p className="card-text">One liner description here.</p>
                     <div className="mb-3">
                       <img
-                        className="thumbnail thumbnail-small"
+                        className="thumbnail thumbnail-sm"
                         alt="X thumbnail"
                         src="https://i.pravatar.cc/128?img=1"
                       />
                       <img
-                        className="thumbnail thumbnail-small"
+                        className="thumbnail thumbnail-sm"
                         alt="X thumbnail"
                         src="https://i.pravatar.cc/128?img=2"
                       />
                       <img
-                        className="thumbnail thumbnail-small"
+                        className="thumbnail thumbnail-sm"
                         alt="X thumbnail"
                         src="https://i.pravatar.cc/128?img=3"
                       />
                       <img
-                        className="thumbnail thumbnail-small"
+                        className="thumbnail thumbnail-sm"
                         alt="X thumbnail"
                         src="https://i.pravatar.cc/128?img=4"
                       />

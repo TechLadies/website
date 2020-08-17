@@ -14,10 +14,7 @@ export default function TestimonialCard({ image, thumbnail, name, message }) {
         <div className="card-body">
           {thumbnail && (
             <img
-              className={clsx(
-                'thumbnail thumbnail-large mb-3',
-                styles.thumbnail,
-              )}
+              className={clsx('thumbnail thumbnail-lg mb-3', styles.thumbnail)}
               alt={name + ' thumbnail'}
               src={thumbnail}
             />
