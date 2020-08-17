@@ -1,4 +1,5 @@
 import clsx from 'clsx';
+import { ArrowRight } from 'react-feather';
 
 import styles from './index.module.scss';
 
@@ -16,8 +17,12 @@ function DonationCard({
         <h3 className={clsx('mt-3 mb-4', amountClass)}>${amount}</h3>
         <h6 className="mb-3">{title}</h6>
         <p className="mb-4">{description}</p>
-        <a className={clsx('btn', buttonClass)} href={url}>
-          Click here
+        <a
+          aria-label="Go to donation page"
+          className={clsx('btn', 'btn-sm', 'rounded-circle', buttonClass)}
+          href={url}
+        >
+          <ArrowRight color="#fff" size={24} />
         </a>
       </div>
       <a className={styles.cardHover} href={url}>
