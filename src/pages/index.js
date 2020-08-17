@@ -144,7 +144,7 @@ export default function Home() {
                 <div className="col-md-5 offset-md-1">
                   <Gallery>
                     {programs.map(({ image, title, description }) => (
-                      <div className="card">
+                      <div className="card" key="title">
                         <img
                           alt={title + ' image'}
                           src={image}

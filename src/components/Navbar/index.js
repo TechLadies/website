@@ -1,6 +1,27 @@
+import { useState, useEffect, useCallback } from 'react';
+import { useRouter } from 'next/router';
+import clsx from 'clsx';
+
 import NavLink from '../NavLink';
 
 export default function Navbar() {
+  const [isExpanded, setExpanded] = useState(false);
+
+  const router = useRouter();
+
+  useEffect(() => {
+    function hideExpandedNav() {
+      setExpanded(false);
+    }
+
+    // Close the navbar when a navigation occurs.
+    router.events.on('routeChangeStart', hideExpandedNav);
+
+    return () => {
+      router.events.off('routeChangeStart', hideExpandedNav);
+    };
+  }, [router]);
+
   return (
     <nav
       aria-label="Main navigation"
@@ -15,15 +36,19 @@ export default function Navbar() {
         <button
           className="navbar-toggler"
           type="button"
-          data-toggle="collapse"
-          data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
+          aria-expanded={isExpanded}
           aria-label="Toggle navigation"
+          onClick={() => {
+            setExpanded(!isExpanded);
+          }}
         >
           <span className="navbar-toggler-icon" />
         </button>
-        <div className="collapse navbar-collapse" id="navbarSupportedContent">
+        <div
+          className={clsx('navbar-collapse', {
+            collapse: !isExpanded,
+          })}
+        >
           <ul className="navbar-nav mr-auto mb-2 mb-lg-0">
             <li className="nav-item">
               <NavLink href="/about/">
