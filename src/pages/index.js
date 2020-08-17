@@ -20,41 +20,39 @@ export default function Home() {
         <title>TechLadies</title>
       </Head>
       <main>
-        <div className="container">
-          <div className="pt-6 pb-6">
-            <div className="row gy-6">
-              <div className="col-lg-5 offset-lg-2 col-md-5 offset-md-1 order-md-last">
-                <img alt="TODO: REPLACE ME" src="/img/swing.svg" />
-              </div>
-              <div className="col-lg-5 col-md-6 order-md-first">
-                <h1 className="mb-4">
-                  Kickstart or advance your career in tech
-                </h1>
-                <p className="mb-4 text-body">
-                  TechLadies is a community that provides women with
-                  connections, education and mentorships in the tech industry.
-                </p>
-                <div className="mb-3">
-                  <label
-                    htmlFor="hero-email"
-                    className="form-label font-weight-bold"
-                  >
-                    Stay updated with our latest news
-                  </label>
-                  <form
-                    onSubmit={(event) => {
-                      event.preventDefault();
-                      alert('TODO: POST email to API');
-                    }}
-                  >
-                    <input
-                      className="form-control"
-                      placeholder="E-mail address"
-                      required={true}
-                      type="email"
-                    />
-                  </form>
-                </div>
+        <div className="container py-6">
+          <div className="row gy-6">
+            <div className="col-lg-5 offset-lg-2 col-md-5 offset-md-1 order-md-last">
+              <img alt="TODO: REPLACE ME" src="/img/swing.svg" />
+            </div>
+            <div className="col-lg-5 col-md-6 order-md-first">
+              <h1 className="mb-4 h2">
+                Kickstart or advance your career in tech
+              </h1>
+              <p className="mb-4 text-body">
+                TechLadies is a community that provides women with connections,
+                education and mentorships in the tech industry.
+              </p>
+              <div className="mb-3">
+                <label
+                  htmlFor="hero-email"
+                  className="form-label font-weight-bold"
+                >
+                  Stay updated with our latest news
+                </label>
+                <form
+                  onSubmit={(event) => {
+                    event.preventDefault();
+                    alert('TODO: POST email to API');
+                  }}
+                >
+                  <input
+                    className="form-control"
+                    placeholder="E-mail address"
+                    required={true}
+                    type="email"
+                  />
+                </form>
               </div>
             </div>
           </div>
@@ -63,7 +61,7 @@ export default function Home() {
           <div className="row">
             <div className="col-lg-6">
               <div className={styles.quoteBackground}>
-                <h2 className="mb-0">
+                <h2 className="mb-0 text-center">
                   Technology is meant to be accessible by all
                 </h2>
               </div>
@@ -103,84 +101,76 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="container">
-          <div className="pt-6 pb-6">
+        <div className="container py-6">
+          <div className="row gy-5">
+            <div className="col-md-4">
+              <h2 className="text-purple mb-3">12</h2>
+              <p className="text-body">
+                Ladies getting technical internships or hired in technical
+                roles.
+              </p>
+            </div>
+            <div className="col-md-4">
+              <h2 className="text-red mb-3">500+</h2>
+              <p className="text-body">
+                Ladies taught technical skills in Singapore and Malaysia.
+              </p>
+            </div>
+            <div className="col-md-4">
+              <h2 className="text-orange mb-3">4000+</h2>
+              <p className="text-body">Members across Asia in our community.</p>
+            </div>
+          </div>
+        </div>
+        <div className="container py-6">
+          <div className="row gy-5 text-center">
+            <div className="col-md-12">
+              <h2>What others are saying</h2>
+            </div>
+            <div className="col-md-4">Her World Logo Placeholder</div>
+            <div className="col-md-4">The Straits Time Logo Placeholder</div>
+            <div className="col-md-4">e27 Logo Placeholder</div>
+          </div>
+        </div>
+        <div className="bg-gray">
+          <div className="container py-6">
             <div className="row gy-5">
-              <div className="col-md-4">
-                <h2 className="text-purple mb-3">12</h2>
-                <p className="text-body">
-                  Ladies getting technical internships or hired in technical
-                  roles.
+              <div className="col-md-6">
+                <h3 className="mb-4 h4">
+                  We have a range of programs for women of all levels of
+                  technical skills
+                </h3>
+                <p className="text-body mb-4">
+                  Whether you are curious about the industry, looking to learn
+                  technical skills, or levelling up your career, we have
+                  something for you!
                 </p>
+                <NavLink href="/our-programs/">
+                  <a className="btn btn-primary">See Our Programs</a>
+                </NavLink>
               </div>
-              <div className="col-md-4">
-                <h2 className="text-red mb-3">500+</h2>
-                <p className="text-body">
-                  Ladies taught technical skills in Singapore and Malaysia.
-                </p>
-              </div>
-              <div className="col-md-4">
-                <h2 className="text-orange mb-3">4000+</h2>
-                <p className="text-body">
-                  Members across Asia in our community.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="container">
-          <div className="pt-6 pb-6">
-            <div className="row gy-5 text-center">
-              <div className="col-md-12">
-                <h2>What others are saying</h2>
-              </div>
-              <div className="col-md-4">Her World Logo Placeholder</div>
-              <div className="col-md-4">The Straits Time Logo Placeholder</div>
-              <div className="col-md-4">e27 Logo Placeholder</div>
-            </div>
-          </div>
-        </div>
-        <div className={styles.programsSection}>
-          <div className="container">
-            <div className="pt-6 pb-6">
-              <div className="row gy-5">
-                <div className="col-md-6">
-                  <h3 className="mb-4">
-                    We have a range of programs for women of all levels of
-                    technical skills
-                  </h3>
-                  <p className="text-body mb-4">
-                    Whether you are curious about the industry, looking to learn
-                    technical skills, or levelling up your career, we have
-                    something for you!
-                  </p>
-                  <NavLink href="/our-programs/">
-                    <a className="btn btn-primary">See Our Programs</a>
-                  </NavLink>
-                </div>
-                <div className="col-md-5 offset-md-1">
-                  <Gallery>
-                    {programs.map(({ image, title, description }) => (
-                      <div className="card" key="title">
-                        <img
-                          alt={title + ' image'}
-                          src={image}
-                          className={clsx(
-                            'card-img-top',
-                            styles.programsCardImage,
-                          )}
-                        />
-                        <div className="card-body">
-                          <h5 className="card-title mb-3">{title}</h5>
-                          <p className="card-text mb-3">{description}</p>
-                          <a className="font-weight-bold" href="#">
-                            Learn More
-                          </a>
-                        </div>
+              <div className="col-md-5 offset-md-1">
+                <Gallery>
+                  {programs.map(({ image, title, description }) => (
+                    <div className="card" key="title">
+                      <img
+                        alt={title + ' image'}
+                        src={image}
+                        className={clsx(
+                          'card-img-top',
+                          styles.programsCardImage,
+                        )}
+                      />
+                      <div className="card-body">
+                        <h5 className="card-title mb-3">{title}</h5>
+                        <p className="card-text mb-3">{description}</p>
+                        <a className="font-weight-bold" href="#">
+                          Learn More
+                        </a>
                       </div>
-                    ))}
-                  </Gallery>
-                </div>
+                    </div>
+                  ))}
+                </Gallery>
               </div>
             </div>
           </div>

@@ -5,7 +5,7 @@ import styles from './index.module.scss';
 
 export default function Footer() {
   return (
-    <footer className={clsx('pt-5 pb-5 mt-4', styles.footer)}>
+    <footer className={clsx('py-5', styles.footer)}>
       <div className="container">
         <div className="row gy-5">
           <div className="col-lg-3">
