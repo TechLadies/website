@@ -24,7 +24,7 @@ export default function Home() {
                 className="mb-3"
                 src="/img/swing.svg"
               />
-              <h1 className="h2">
+              <h1 className="h3">
                 Join us in our mission to increase participation and advancement
                 opportunities for women in the tech industry.
               </h1>
@@ -98,7 +98,7 @@ export default function Home() {
         <div className="container py-6">
           <div className="row mb-4">
             <div className="col-md-6">
-              <h3 className="h4 font-weight-normal">
+              <h3 className="h4">
                 Your donations help fund our events and subscription services
                 (such as EventBrite, SendGrid)
               </h3>
