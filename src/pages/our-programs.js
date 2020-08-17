@@ -37,46 +37,49 @@ export default function Home() {
               <div className="card">
                 <div className="card-body">
                   <form>
-                    <div class="mb-4">
-                      <label htmlFor="role" class="form-label font-weight-bold">
+                    <div className="mb-4">
+                      <label
+                        htmlFor="role"
+                        className="form-label font-weight-bold"
+                      >
                         I am a
                       </label>
-                      <select id="role" class="form-select">
+                      <select id="role" className="form-select">
                         <option>Tech Professional</option>
                         <option>Tech Professional</option>
                         <option>Tech Professional</option>
                         <option>Tech Professional</option>
                       </select>
                     </div>
-                    <div class="mb-4">
+                    <div className="mb-4">
                       <label
                         htmlFor="purpose"
-                        class="form-label font-weight-bold"
+                        className="form-label font-weight-bold"
                       >
                         who wants to
                       </label>
-                      <select id="purpose" class="form-select">
+                      <select id="purpose" className="form-select">
                         <option>Know more people</option>
                         <option>Know more people</option>
                         <option>Know more people</option>
                         <option>Know more people</option>
                       </select>
                     </div>
-                    <div class="mb-4">
+                    <div className="mb-4">
                       <label
                         htmlFor="duration"
-                        class="form-label font-weight-bold"
+                        className="form-label font-weight-bold"
                       >
                         and I am available for
                       </label>
-                      <select id="duration" class="form-select">
+                      <select id="duration" className="form-select">
                         <option>3 hours a week</option>
                         <option>3 hours a week</option>
                         <option>3 hours a week</option>
                         <option>3 hours a week</option>
                       </select>
                     </div>
-                    <button type="submit" class="btn btn-primary">
+                    <button type="submit" className="btn btn-primary">
                       Submit
                     </button>
                   </form>

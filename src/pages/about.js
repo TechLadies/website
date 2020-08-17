@@ -65,14 +65,14 @@ export default function Home() {
             <div className="row gy-4">
               <div className="col-lg-4 col-md-6">
                 <div className="card">
-                  <div class="card-body">
+                  <div className="card-body">
                     <img
                       className="thumbnail mb-3"
                       alt="X thumbnail"
                       src="https://i.pravatar.cc/128?img=7"
                     />
-                    <h6 class="card-title">Community Team Leader</h6>
-                    <p class="card-text">One liner description here.</p>
+                    <h6 className="card-title">Community Team Leader</h6>
+                    <p className="card-text">One liner description here.</p>
                     <div className="mb-3">
                       <img
                         className="thumbnail thumbnail-small"
@@ -101,14 +101,14 @@ export default function Home() {
               </div>
               <div className="col-lg-4 col-md-6">
                 <div className="card">
-                  <div class="card-body">
+                  <div className="card-body">
                     <img
                       className="thumbnail mb-3"
                       alt="X thumbnail"
                       src="https://i.pravatar.cc/128?img=7"
                     />
-                    <h6 class="card-title">Community Team Leader</h6>
-                    <p class="card-text">One liner description here.</p>
+                    <h6 className="card-title">Community Team Leader</h6>
+                    <p className="card-text">One liner description here.</p>
                     <div className="mb-3">
                       <img
                         className="thumbnail thumbnail-small"
@@ -137,14 +137,14 @@ export default function Home() {
               </div>
               <div className="col-lg-4 col-md-6">
                 <div className="card">
-                  <div class="card-body">
+                  <div className="card-body">
                     <img
                       className="thumbnail mb-3"
                       alt="X thumbnail"
                       src="https://i.pravatar.cc/128?img=7"
                     />
-                    <h6 class="card-title">Community Team Leader</h6>
-                    <p class="card-text">One liner description here.</p>
+                    <h6 className="card-title">Community Team Leader</h6>
+                    <p className="card-text">One liner description here.</p>
                     <div className="mb-3">
                       <img
                         className="thumbnail thumbnail-small"
@@ -173,14 +173,14 @@ export default function Home() {
               </div>
               <div className="col-lg-4 col-md-6">
                 <div className="card">
-                  <div class="card-body">
+                  <div className="card-body">
                     <img
                       className="thumbnail mb-3"
                       alt="X thumbnail"
                       src="https://i.pravatar.cc/128?img=7"
                     />
-                    <h6 class="card-title">Community Team Leader</h6>
-                    <p class="card-text">One liner description here.</p>
+                    <h6 className="card-title">Community Team Leader</h6>
+                    <p className="card-text">One liner description here.</p>
                     <div className="mb-3">
                       <img
                         className="thumbnail thumbnail-small"
@@ -209,14 +209,14 @@ export default function Home() {
               </div>
               <div className="col-lg-4 col-md-6">
                 <div className="card">
-                  <div class="card-body">
+                  <div className="card-body">
                     <img
                       className="thumbnail mb-3"
                       alt="X thumbnail"
                       src="https://i.pravatar.cc/128?img=7"
                     />
-                    <h6 class="card-title">Community Team Leader</h6>
-                    <p class="card-text">One liner description here.</p>
+                    <h6 className="card-title">Community Team Leader</h6>
+                    <p className="card-text">One liner description here.</p>
                     <div className="mb-3">
                       <img
                         className="thumbnail thumbnail-small"
@@ -245,14 +245,14 @@ export default function Home() {
               </div>
               <div className="col-lg-4 col-md-6">
                 <div className="card">
-                  <div class="card-body">
+                  <div className="card-body">
                     <img
                       className="thumbnail mb-3"
                       alt="X thumbnail"
                       src="https://i.pravatar.cc/128?img=7"
                     />
-                    <h6 class="card-title">Community Team Leader</h6>
-                    <p class="card-text">One liner description here.</p>
+                    <h6 className="card-title">Community Team Leader</h6>
+                    <p className="card-text">One liner description here.</p>
                     <div className="mb-3">
                       <img
                         className="thumbnail thumbnail-small"

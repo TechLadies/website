@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, Fragment } from 'react';
 import { ChevronDown, ChevronRight } from 'react-feather';
 
 import clsx from 'clsx';
@@ -12,14 +12,13 @@ function Accordion({ data }) {
 
   return (
     <ul className="list-group">
-      {data.map(({ item, details }, index) => {
+      {data.map(({ key, item, details }, index) => {
         const isSelected = selected === index;
 
         return (
-          <>
+          <Fragment key={key}>
             <li
               className={clsx('list-group-item', styles.listItem)}
-              key={index}
               onClick={() => {
                 setSelected(isSelected ? null : index);
               }}
@@ -41,12 +40,8 @@ function Accordion({ data }) {
               </button>
               {item}
             </li>
-            {isSelected && (
-              <li className="list-group-item" key={index + '-detail'}>
-                {details}
-              </li>
-            )}
-          </>
+            {isSelected && <li className="list-group-item">{details}</li>}
+          </Fragment>
         );
       })}
     </ul>

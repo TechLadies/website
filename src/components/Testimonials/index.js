@@ -21,7 +21,7 @@ export default function Testimonials({ data, delay = 0, duration = 50000 }) {
                   src={image}
                   className={clsx('card-img-top', styles.bannerImage)}
                 />
-                <div class="card-body">
+                <div className="card-body">
                   {thumbnail && (
                     <img
                       className={clsx(

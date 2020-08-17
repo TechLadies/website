@@ -153,9 +153,9 @@ export default function Home() {
                             styles.programsCardImage,
                           )}
                         />
-                        <div class="card-body">
-                          <h5 class="card-title mb-4">{title}</h5>
-                          <p class="card-text">{description}</p>
+                        <div className="card-body">
+                          <h5 className="card-title mb-4">{title}</h5>
+                          <p className="card-text">{description}</p>
                           <a className="font-weight-bold" href="#">
                             Learn More
                           </a>

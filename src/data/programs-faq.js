@@ -1,5 +1,6 @@
 export default [
   {
+    key: 'a',
     item: <>I'm a man identifying myself as a female. Can I join?</>,
     details: (
       <>
@@ -11,6 +12,7 @@ export default [
     ),
   },
   {
+    key: 'b',
     item: <>I'm a man identifying myself as a female. Can I join?</>,
     details: (
       <>
@@ -22,6 +24,7 @@ export default [
     ),
   },
   {
+    key: 'c',
     item: <>I'm a man identifying myself as a female. Can I join?</>,
     details: (
       <>
@@ -33,6 +36,7 @@ export default [
     ),
   },
   {
+    key: 'd',
     item: <>I'm a man identifying myself as a female. Can I join?</>,
     details: (
       <>
@@ -44,6 +48,7 @@ export default [
     ),
   },
   {
+    key: 'e',
     item: <>I'm a man identifying myself as a female. Can I join?</>,
     details: (
       <>
