@@ -40,7 +40,9 @@ function Accordion({ data }) {
               </button>
               <div>{item}</div>
             </li>
-            {isSelected && <li className="list-group-item">{details}</li>}
+            {isSelected && (
+              <li className="list-group-item bg-gray">{details}</li>
+            )}
           </Fragment>
         );
       })}
