@@ -18,7 +18,7 @@ export default function Home() {
           <div className="pt-6 pb-6">
             <div className="row gy-6">
               <div className="col-lg-5 offset-lg-2 col-md-5 offset-md-1 order-md-last">
-                <img alt="Lady on swing" src="/img/swing.svg" />
+                <img alt="REPLACE ME" src="/img/swing.svg" />
               </div>
               <div className="col-lg-5 col-md-6 order-md-first">
                 <h1 className="mb-4">

@@ -7,8 +7,6 @@ import TestimonialCard from '../components/TestimonialCard';
 
 import clsx from 'clsx';
 
-import styles from './our-programs.module.scss';
-
 import bootcampTestimonials from '../data/bootcamp-testimonials.js';
 import mentorshipTestimonials from '../data/mentorship-testimonials.js';
 import programsFAQ from '../data/programs-faq.js';
@@ -24,7 +22,7 @@ export default function Home() {
           <div className="row gy-6">
             <div className="col-md-6">
               <img
-                alt="Lady on swing"
+                alt="REPLACE ME"
                 className="mb-3"
                 height="200"
                 src="/img/swing.svg"
@@ -199,7 +197,7 @@ export default function Home() {
         <div className="pt-6 pb-6">
           <div className="row gy-6">
             <div className="col-md-5 offset-md-1 order-md-last">
-              <img alt="Lady on swing" src="/img/swing.svg" />
+              <img alt="REPLACE ME" src="/img/swing.svg" />
             </div>
             <div className="col-md-6 order-md-first">
               <h2 className="mb-4">Want to be a Coach?</h2>

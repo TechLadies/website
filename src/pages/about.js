@@ -1,5 +1,5 @@
-import Head from "next/head";
-import NavLink from "../components/NavLink";
+import Head from 'next/head';
+import NavLink from '../components/NavLink';
 
 export default function Home() {
   return (
@@ -12,7 +12,7 @@ export default function Home() {
           <div className="pt-6 pb-6">
             <div className="row gy-6">
               <div className="col-md-5">
-                <img alt="Lady on swing" src="/img/swing.svg" />
+                <img alt="REPLACE ME" src="/img/swing.svg" />
               </div>
               <div className="col-md-6 offset-md-1">
                 <h1 className="mb-4">
@@ -37,7 +37,7 @@ export default function Home() {
           <div className="pt-6 pb-6">
             <div className="row gy-6">
               <div className="col-md-5 offset-md-1 order-md-last">
-                <img alt="Lady on swing" src="/img/swing.svg" />
+                <img alt="REPLACE ME" src="/img/swing.svg" />
               </div>
               <div className="col-md-6 order-md-first">
                 <h2 className="mb-4">How we started</h2>
@@ -286,7 +286,7 @@ export default function Home() {
           <div className="pt-6 pb-6">
             <div className="row gy-6">
               <div className="col-md-5">
-                <img alt="Lady on swing" src="/img/swing.svg" />
+                <img alt="REPLACE ME" src="/img/swing.svg" />
               </div>
               <div className="col-md-6 offset-md-1">
                 <h2 className="mb-4">

@@ -20,7 +20,7 @@ export default function Home() {
             <div className="row gy-6">
               <div className="col-md-6">
                 <img
-                  alt="Lady on swing"
+                  alt="REPLACE ME"
                   className="mb-3"
                   height="200"
                   src="/img/swing.svg"
@@ -114,14 +114,17 @@ export default function Home() {
           <div className="pt-6 pb-6">
             <div className="row gy-6">
               <div className="col-md-5 offset-md-1 order-md-last">
-                <img alt="Lady on swing" src="/img/swing.svg" />
+                <img alt="REPLACE ME" src="/img/swing.svg" />
               </div>
               <div className="col-md-6 order-md-first">
                 <h2 className="mb-4">Be our Corporate Partner</h2>
                 <p className="mb-4">
                   TechLadies is looking for corporations to partner with us,
                   providing speakers, mentors, and coaches, as well as venue or
-                  financial sponsorships. Do reach out to elisha@techladies.co
+                  financial sponsorships. Do reach out to{' '}
+                  <a href=" mailto:elisha@techladies.co">
+                    elisha@techladies.co
+                  </a>{' '}
                   to start a conversation.
                 </p>
               </div>
