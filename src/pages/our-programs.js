@@ -1,19 +1,20 @@
 import Head from 'next/head';
 
 import { useEffect } from 'react';
-import { ArrowRight } from 'react-feather';
 
 import clsx from 'clsx';
 
 import Accordion from '../components/Accordion';
 import Gallery from '../components/Gallery';
 import TestimonialCard from '../components/TestimonialCard';
+import Quiz from '../components/Quiz';
 
 import preloadImages from '../utils/preloadImages';
 
 import bootcampTestimonials from '../data/bootcamp-testimonials.js';
 import mentorshipTestimonials from '../data/mentorship-testimonials.js';
 import programsFAQ from '../data/programs-faq.js';
+import quiz from '../data/quiz.js';
 
 export default function Home() {
   useEffect(() => {
@@ -43,66 +44,7 @@ export default function Home() {
             </p>
           </div>
           <div className="col-lg-5 offset-lg-1 col-md-7">
-            <div className="card">
-              <div className="card-body">
-                <form
-                  onSubmit={(event) => {
-                    event.preventDefault();
-                    alert('TODO: Show modal!');
-                  }}
-                >
-                  <div className="mb-4">
-                    <label
-                      htmlFor="role"
-                      className="form-label font-weight-bold"
-                    >
-                      I am a
-                    </label>
-                    <select id="role" className="form-select">
-                      <option>Tech Professional</option>
-                      <option>Designer</option>
-                      <option>Software Engineer</option>
-                      <option>Product Manager</option>
-                    </select>
-                  </div>
-                  <div className="mb-4">
-                    <label
-                      htmlFor="purpose"
-                      className="form-label font-weight-bold"
-                    >
-                      who wants to
-                    </label>
-                    <select id="purpose" className="form-select">
-                      <option>Know more people</option>
-                      <option>Improve my skills</option>
-                      <option>Give back to the community</option>
-                      <option>Change of career</option>
-                    </select>
-                  </div>
-                  <div className="mb-4">
-                    <label
-                      htmlFor="duration"
-                      className="form-label font-weight-bold"
-                    >
-                      and I am available for
-                    </label>
-                    <select id="duration" className="form-select">
-                      <option>3 hours a week</option>
-                      <option>4 hours a week</option>
-                      <option>5 hours a week</option>
-                      <option>6 hours a week</option>
-                    </select>
-                  </div>
-                  <button
-                    aria-label="Submit"
-                    className="btn btn-primary btn-sm rounded-circle"
-                    type="submit"
-                  >
-                    <ArrowRight size={32} />
-                  </button>
-                </form>
-              </div>
-            </div>
+            <Quiz data={quiz} />
           </div>
         </div>
       </div>
