@@ -15,9 +15,13 @@ function Modal({ children, isShown, onClose }) {
       document.body.appendChild($modalBackDrop);
     } else {
       document.body.classList.remove('modal-open');
-      $modalBackDrop && $modalBackDrop.parentNode.removeChild($modalBackDrop);
+      if (!$modalBackDrop) {
+        return;
+      }
+      $modalBackDrop.parentNode.removeChild($modalBackDrop);
+      $modalBackDrop = null;
     }
-  }, [isShown]);
+  }, [isShown, $modalBackDrop]);
 
   return (
     <div
@@ -28,8 +32,16 @@ function Modal({ children, isShown, onClose }) {
       style={{
         display: isShown ? 'block' : 'none',
       }}
+      // So that clicking the modal background will dismiss it.
+      onClick={onClose}
     >
-      <div className="modal-dialog modal-dialog-centered">
+      <div
+        className="modal-dialog modal-dialog-centered"
+        onClick={(event) => {
+          // Stop click events within the modal from dismissing it.
+          event.stopPropagation();
+        }}
+      >
         <div className="modal-content">
           <div className="modal-header">
             <button
