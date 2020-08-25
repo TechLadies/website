@@ -2,7 +2,7 @@ import React from 'react';
 
 function Timeline({ children }) {
   return (
-    <div>
+    <ul>
       {React.Children.map(children, (timelineItem, index) =>
         React.cloneElement(timelineItem, {
           number: index + 1,
@@ -10,7 +10,7 @@ function Timeline({ children }) {
           position: index % 2 === 0 ? 'left' : 'right',
         }),
       )}
-    </div>
+    </ul>
   );
 }
 

@@ -4,7 +4,7 @@ import clsx from 'clsx';
 
 function TimelineItem({ children, isLast, number, position = 'left' }) {
   return (
-    <div className="row">
+    <li className="row">
       <div
         className={clsx('col-10', 'col-md-5', {
           'order-last': position === 'left',
@@ -44,7 +44,7 @@ function TimelineItem({ children, isLast, number, position = 'left' }) {
           )}
         </div>
       </div>
-    </div>
+    </li>
   );
 }
 
