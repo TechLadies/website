@@ -4,7 +4,6 @@ import { ArrowRight } from 'react-feather';
 import Modal from '../Modal';
 
 function Question({ type, nodes }) {
-  console.log('Question', type, nodes);
   const { id, type: questionType, title, options } = type;
   const [value, setSelectedValue] = useState('');
   const nextNode = (() => {

@@ -3,18 +3,19 @@ import clsx from 'clsx';
 
 const ID = 'modal-react-component';
 
+let $modalBackDrop = null;
+
+// Only one modal should be shown on the page at any one time.
 function Modal({ children, isShown, onClose }) {
   useEffect(() => {
     if (isShown) {
       document.body.classList.add('modal-open');
-      const $divEl = document.createElement('div');
-      $divEl.className = 'modal-backdrop fade show';
-      $divEl.id = ID;
-      document.body.appendChild($divEl);
+      $modalBackDrop = document.createElement('div');
+      $modalBackDrop.className = 'modal-backdrop fade show';
+      document.body.appendChild($modalBackDrop);
     } else {
       document.body.classList.remove('modal-open');
-      const $el = document.getElementById(ID);
-      $el && $el.parentNode.removeChild($el);
+      $modalBackDrop && $modalBackDrop.parentNode.removeChild($modalBackDrop);
     }
   }, [isShown]);
 

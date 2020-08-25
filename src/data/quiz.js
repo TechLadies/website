@@ -1,6 +1,6 @@
 const REASON = {
-  id: 'type',
-  value: 'question',
+  id: 'reason',
+  type: 'question',
   title: 'Why are you here?',
   options: {
     justBrowsing: 'Just browsing',
@@ -43,8 +43,8 @@ const ACTION = {
     communityMember: 'Become a COMMUNITY MEMBER ON FACEBOOK',
     mentorshipProgram: 'Have you heard of our MENTORSHIP PROGRAM?',
     joinBootcamp: 'Would you like to join our next BOOTCAMP?',
-    studyGroup: 'Are you looking for a STUDY GROUP',
-    volunteer: 'Would you be interested in VOLUNTEERING with us',
+    studyGroup: 'Are you looking for a STUDY GROUP?',
+    volunteer: 'Would you be interested in VOLUNTEERING with us?',
     bootcampCoach: 'Why not join us as a BOOTCAMP COACH?',
     guestArticleBlog:
       'Would you be interested in contributing a GUEST ARTICLE to our BLOG?',
