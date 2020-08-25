@@ -1,0 +1,25 @@
+@import '../../styles/custom.scss';
+
+.container {
+  height: 100%;
+}
+
+.number {
+  align-items: center;
+  background-color: $primary;
+  border-radius: 50%;
+  color: #fff;
+  display: inline-flex;
+  font-size: 1.5rem;
+  font-weight: 500;
+  height: 2rem;
+  justify-content: center;
+  width: 2rem;
+}
+
+.line {
+  border-left: 3px solid $primary;
+  height: 100%;
+  margin: 0 auto;
+  width: 0;
+}
