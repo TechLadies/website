@@ -89,6 +89,7 @@ export default function Home() {
             </div>
           </div>
         </div>
+
         <div className="container py-6">
           <div className="row gy-5 text-center">
             <div className="col-md-4 col-sm-6">Carousell Logo Placeholder</div>
@@ -99,34 +100,38 @@ export default function Home() {
             <div className="col-md-4 col-sm-6">Kiat.sg Logo Placeholder</div>
           </div>
         </div>
-        <div className="container py-6">
-          <div className="row mb-4">
-            <div className="col-md-6">
-              <h3 className="h4">
-                Your donations help fund our events and subscription services
-                (such as EventBrite, SendGrid)
-              </h3>
-            </div>
-          </div>
-          <div className="row gy-3 mb-4">
-            {donations.map((donation) => (
-              <div className="col-sm-6 col-lg-3" key={donation.amount}>
-                <DonationCard {...donation} />
+
+        <div className="bg-gray">
+          <div className="container py-6">
+            <div className="row mb-4">
+              <div className="col-md-6">
+                <h3 className="h4">
+                  Your donations help fund our events and subscription services
+                  (such as EventBrite, SendGrid)
+                </h3>
               </div>
-            ))}
-          </div>
-          <div className="row">
-            <div className="col-md-6">
-              <small>
-                Clicking "Contribute" will bring you to make a donation securely
-                via PayPal, where you can donate with all major credit cards.
-                TechLadies' finances are managed by Learnemy Pte Ltd. As we are
-                not a registered non-profit, we cannot send an invoice for tax
-                purposes.
-              </small>
+            </div>
+            <div className="row gy-3 mb-4">
+              {donations.map((donation) => (
+                <div className="col-sm-6 col-lg-3" key={donation.amount}>
+                  <DonationCard {...donation} />
+                </div>
+              ))}
+            </div>
+            <div className="row">
+              <div className="text-center">
+                <small>
+                  Clicking "Contribute" will bring you to make a donation
+                  securely via PayPal, where you can donate with all major
+                  credit cards. TechLadies' finances are managed by Learnemy Pte
+                  Ltd. As we are not a registered non-profit, we cannot send an
+                  invoice for tax purposes.
+                </small>
+              </div>
             </div>
           </div>
         </div>
+
         <div className="container py-6">
           <div className="row">
             <div className="col-md-8 offset-md-2">

@@ -74,6 +74,11 @@ a {
   background-color: #f9fafa !important;
 }
 
+.bg-purple {
+  background-color: $purple !important;
+  color: white;
+}
+
 .card-body.card-body-sm {
   padding: 1.5rem;
 }
