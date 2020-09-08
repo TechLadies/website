@@ -56,6 +56,11 @@ export default function Navbar() {
               </NavLink>
             </li>
             <li className="nav-item">
+              <NavLink href="/mentorship-2/">
+                <a className="nav-link">Mentorship #2</a>
+              </NavLink>
+            </li>
+            <li className="nav-item">
               <NavLink href="/bootcamp-6/">
                 <a className="nav-link">Bootcamp #6</a>
               </NavLink>
