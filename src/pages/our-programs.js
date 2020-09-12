@@ -8,6 +8,7 @@ import Accordion from '../components/Accordion';
 import Gallery from '../components/Gallery';
 import TestimonialCard from '../components/TestimonialCard';
 import Quiz from '../components/Quiz';
+import NavLink from '../components/NavLink';
 
 import preloadImages from '../utils/preloadImages';
 
@@ -20,7 +21,7 @@ export default function Home() {
   useEffect(() => {
     preloadImages(bootcampTestimonials.map((testimonial) => testimonial.image));
     preloadImages(
-      mentorshipTestimonials.map((testimonial) => testimonial.image),
+      mentorshipTestimonials.map((testimonial) => testimonial.image)
     );
   }, [bootcampTestimonials, mentorshipTestimonials]);
 
@@ -65,7 +66,11 @@ export default function Home() {
                 industry experts to create a product. 30% of the TechLadies
                 Bootcamp graduates found software-related jobs and internships.
               </p>
-              <button className="btn btn-primary">I'm Interested!</button>
+              <button className="btn btn-primary">
+                <NavLink href="/bootcamp-6/">
+                  <a className="white-text">I'm Interested!</a>
+                </NavLink>
+              </button>
             </div>
             <div className="col-md-6 col-lg-5 order-md-first">
               <Gallery>
@@ -78,7 +83,7 @@ export default function Home() {
                       name={name}
                       message={message}
                     />
-                  ),
+                  )
                 )}
               </Gallery>
             </div>
@@ -101,7 +106,12 @@ export default function Home() {
               experts to create a product. 30% of the TechLadies Bootcamp
               graduates found software-related jobs and internships.
             </p>
-            <button className="btn btn-primary">I'm Interested!</button>
+
+            <button className="btn btn-primary">
+              <NavLink href="/mentorship-2/">
+                <a className="white-text">I'm Interested!</a>
+              </NavLink>
+            </button>
           </div>
           <div className="col-lg-5 col-md-6 offset-md-1">
             <Gallery>
@@ -114,7 +124,7 @@ export default function Home() {
                     name={name}
                     message={message}
                   />
-                ),
+                )
               )}
             </Gallery>
           </div>
@@ -149,7 +159,13 @@ export default function Home() {
               online for the latest industry news, highlights on awesome women
               in tech, and get support on your journey in tech.
             </p>
-            <a className="btn btn-primary">Join us on Facebook</a>
+            <a
+              className="btn btn-primary"
+              href="https://www.facebook.com/groups/techladiescode"
+              target="_blank"
+            >
+              Join us on Facebook
+            </a>
           </div>
         </div>
       </div>
