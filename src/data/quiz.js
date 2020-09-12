@@ -38,9 +38,29 @@ const ACTION = {
   type: 'result',
   title: null,
   options: {
-    learnMore:
-      'Want to learn more about what we do? Become a COMMUNITY MEMBER ON FACEBOOK',
-    communityMember: 'Become a COMMUNITY MEMBER ON FACEBOOK',
+    learnMore: (
+      <>
+        Want to learn more about what we do?
+        <br />
+        <a
+          href="https://www.facebook.com/groups/techladiescode"
+          target="_blank"
+        >
+          Become a COMMUNITY MEMBER ON FACEBOOK
+        </a>
+      </>
+    ),
+    communityMember: (
+      <>
+        <br />
+        <a
+          href="https://www.facebook.com/groups/techladiescode"
+          target="_blank"
+        >
+          Become a COMMUNITY MEMBER ON FACEBOOK
+        </a>
+      </>
+    ),
     mentorshipProgram: 'Have you heard of our MENTORSHIP PROGRAM?',
     joinBootcamp: 'Would you like to join our next BOOTCAMP?',
     studyGroup: 'Are you looking for a STUDY GROUP?',

@@ -26,7 +26,7 @@ function Question({ type, nodes }) {
         </button>
         <Modal isShown={showModal} onClose={() => setShowModal(false)}>
           <div className="text-center">
-            <h2>{options[nodes[0].value]}</h2>
+            <h3>{options[nodes[0].value]}</h3>
           </div>
         </Modal>
       </>
