@@ -86,15 +86,31 @@ export default function Home() {
         </div>
 
         <div className="container py-6">
-          <Timeline>
-            {bootcampTimeline.map(({ date, title, description }) => (
-              <TimelineItem key={title}>
-                <h3 className="h5 text-red mb-3">{date}</h3>
-                <h4 className="h6 mb-3">{title}</h4>
-                <p className="pb-3">{description}</p>
-              </TimelineItem>
-            ))}
-          </Timeline>
+          <div className="row">
+            <h2 className="mb-4 text-center">Bootcamp Builders</h2>
+            <div className="row">
+              {bootcamp6Builders.map(({ image, name, title, description }) => (
+                <div className="row col-md-4 gy-3 mb-4" key={title}>
+                  <div className="row">
+                    <div className="col-md-4">
+                      <img
+                        className="thumbnail thumbnail-lg"
+                        alt={title + ' image'}
+                        src={image}
+                      />
+                    </div>
+                    <div className="col-md-8">
+                      <h4>{name}</h4>
+                      <h6>{title}</h6>
+                    </div>
+                  </div>
+                  <div className="row gy-3 mb-4">
+                    <p className="align-top text-small">{description}</p>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
         </div>
 
         <div className="bg-gray">
@@ -109,25 +125,25 @@ export default function Home() {
         </div>
 
         <div className="container py-6">
-          <div className="row">
-            <h2 className="mb-4 text-center">Bootcamp Builders</h2>
-            <div className="row">
-              {bootcamp6Builders.map(({ image, title, description }) => (
-                <div className="row gy-3 mb-4" key={title}>
-                  <div className="col-md-2">
-                    <img
-                      className="thumbnail thumbnail-lg"
-                      alt={title + ' image'}
-                      src={image}
-                    />
-                  </div>
-
-                  <div className="col-md-10">
-                    <h6 className="mb-3">{title}</h6>
-                    <p>{description}</p>
-                  </div>
-                </div>
-              ))}
+          <div className="row gy-6">
+            <div className="col-md-5">
+              <img
+                alt="TODO: REPLACE ME"
+                className="img-fluid"
+                src="/img/bg_PLACEHOLDER_REMOVE_ME.png"
+              />
+            </div>
+            <div className="col-md-6 offset-md-1 d-flex flex-column align-items-start justify-content-center">
+              <h2 className="mb-4 h4">
+                Have a burning question? Please contact us at the link down
+                below
+              </h2>
+              <a
+                className="btn btn-primary"
+                href="mailto:mentorship@techladies.co"
+              >
+                Contact Us
+              </a>
             </div>
           </div>
         </div>

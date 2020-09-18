@@ -2,7 +2,8 @@ export default [
   {
     image:
       'http://www.techladies.co/assets/team/anna-6bc577c1344ea6734cc35436ffddcee46ac275334bd9be587b41879226e62549.jpg',
-    title: 'Bootcamp Lead - Anna Lisicka',
+    name: 'Anna Lisicka',
+    title: 'Bootcamp Lead',
     description: (
       <>
         Anna has 6 years of experience in IT and has worked at HP Inc as a
@@ -19,7 +20,8 @@ export default [
   {
     image:
       'http://www.techladies.co/assets/team/angel-bfd505583ca0ffac8d36b337294027af3e8a1577dac344efe812e9d45b53d369.png',
-    title: 'Bootcamp Lead - Angel Felismino',
+    name: 'Angel Felismino',
+    title: 'Bootcamp Lead',
     description: (
       <>
         Angel is a technical recruiter mainly for banking and financial
@@ -32,7 +34,8 @@ export default [
   },
   {
     image: 'https://i.pravatar.cc/128?img=52',
-    title: 'Bootcamp Lead - Tejasvita Rao',
+    name: 'Tejasvita Rao',
+    title: 'Bootcamp Lead',
     description: (
       <>
         Tejasvita has over 10 years of work experience in media and marketing.
@@ -49,7 +52,8 @@ export default [
   },
   {
     image: 'https://i.pravatar.cc/128?img=53',
-    title: 'Product Lead - Chor Yi Poon',
+    name: 'Chor Yi Poon',
+    title: 'Product Lead',
     description: (
       <>
         Chor Yi is a Product Manager who is interested in how technology can
@@ -65,7 +69,8 @@ export default [
   },
   {
     image: 'https://i.pravatar.cc/128?img=53',
-    title: 'Tech Lead - Purnima Kamath',
+    name: 'Purnima Kamath',
+    title: 'Tech Lead',
     description: (
       <>
         Purnima is a Lead Engineer with Oliver Wyman, co-founder, and Director
@@ -79,7 +84,8 @@ export default [
   },
   {
     image: 'https://i.pravatar.cc/128?img=53',
-    title: 'UX/UI Lead - Kate Lim',
+    name: 'Kate Lim',
+    title: 'UX/UI Lead',
     description: (
       <>
         Kate is a UX designer and researcher. Through TechLadies, she has had
@@ -91,7 +97,8 @@ export default [
   },
   {
     image: 'https://i.pravatar.cc/128?img=53',
-    title: 'UX/UI Assistant - Jay Li Quek',
+    name: 'Jay Li Quek',
+    title: 'UX/UI Assistant',
     description: (
       <>
         Jay Li is a student at New York University studying Computer Science and
@@ -104,7 +111,8 @@ export default [
   },
   {
     image: 'https://i.pravatar.cc/128?img=53',
-    title: 'Coach - Suk Yee Gong',
+    name: 'Suk Yee Gong',
+    title: 'Coach',
     description: (
       <>
         Suk Yee is a self-taught coder and currently an AI intern with AISG.
@@ -118,7 +126,8 @@ export default [
   },
   {
     image: 'https://i.pravatar.cc/128?img=53',
-    title: 'Coach - Fara Blanco',
+    name: 'Fara Blanco',
+    title: 'Coach',
     description: (
       <>
         Fara has over 15 years experience in the Tech industry and has has
@@ -132,7 +141,8 @@ export default [
   },
   {
     image: 'https://i.pravatar.cc/128?img=53',
-    title: 'Coach - Neha Modi',
+    name: 'Neha Modi',
+    title: 'Coach',
     description: (
       <>
         Neha is a Senior Software Engineer at Visa . She has worked as full
@@ -149,7 +159,8 @@ export default [
   },
   {
     image: 'https://i.pravatar.cc/128?img=53',
-    title: 'Coach - Ying Tong Lai',
+    name: 'Ying Tong Lai',
+    title: 'Coach',
     description: (
       <>
         Ying Tong is a cryptographic engineer at the Electric Coin Company. She
@@ -162,7 +173,8 @@ export default [
   },
   {
     image: 'https://i.pravatar.cc/128?img=53',
-    title: 'Coach - Aaron Gong',
+    name: 'Aaron Gong',
+    title: 'Coach',
     description: (
       <>
         Full stack developer focusing heavily on ExpressJS and VueJS. Still
@@ -173,7 +185,8 @@ export default [
   },
   {
     image: 'https://i.pravatar.cc/128?img=53',
-    title: 'Coach - Thomas Chia',
+    name: 'Thomas Chia',
+    title: 'Coach',
     description: (
       <>
         Thomas is a self taught developer, with a professional focus on web
@@ -185,7 +198,8 @@ export default [
   },
   {
     image: 'https://i.pravatar.cc/128?img=53',
-    title: 'Coach - Arjay Elbore',
+    name: 'Arjay Elbore',
+    title: 'Coach',
     description: (
       <>
         Jay is a Frontend Developer in a Bank, who has experience on building
@@ -196,7 +210,8 @@ export default [
   },
   {
     image: 'https://i.pravatar.cc/128?img=53',
-    title: 'Coach - Akshata Mohanty',
+    name: 'Akshata Mohanty',
+    title: 'Coach',
     description: (
       <>
         Akshata is a Fullstack Engineer on the Web team at Rakuten Viki. She is
