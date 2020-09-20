@@ -2,6 +2,7 @@ import { Facebook, Instagram } from 'react-feather';
 import clsx from 'clsx';
 
 import styles from './index.module.scss';
+import NavLink from '../NavLink/index';
 
 export default function Footer() {
   return (
@@ -52,7 +53,9 @@ export default function Footer() {
                 <h5>About</h5>
                 <ul className={clsx('list-unstyled', styles.footerLinksList)}>
                   <li>
-                    <a href="#">Community Code of Conduct</a>
+                    <NavLink href="/conduct/">
+                      <a className="nav-link">Community Code of Conduct</a>
+                    </NavLink>
                   </li>
                   <li>
                     <a href="#">Terms & Conditions</a>
