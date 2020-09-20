@@ -38,10 +38,9 @@ export default function Home() {
               className="mb-4"
               src="/img/img2_PLACEHOLDER_REMOVE_ME.png"
             />
-            <h1 className="h3 mb-4">Which programs suits me?</h1>
+            <h1 className="h3 mb-4">Find a TechLadies program for you</h1>
             <p className="text-body mb-4">
-              Take a short quiz to discover which program would be the best fit
-              for you!
+              Take a short quiz to discover which program best suit your needs!
             </p>
           </div>
           <div className="col-lg-5 offset-lg-1 col-md-7">
@@ -101,10 +100,7 @@ export default function Home() {
             <h3 className="mb-4 h4">TechLadies Mentorship</h3>
             <p className="mb-4">Duration: 14 weeks</p>
             <p className="mb-4">
-              A part-time accelerated learning program designed for women who
-              wish to be professional programmers. You'll be guided by industry
-              experts to create a product. 30% of the TechLadies Bootcamp
-              graduates found software-related jobs and internships.
+              A 3-month mentorship program that pairs women who are transitioning into or establishing themselves in the tech industry with industry practitioners.
             </p>
 
             <button className="btn btn-primary">

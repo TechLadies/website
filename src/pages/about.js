@@ -19,17 +19,13 @@ export default function Home() {
             </div>
             <div className="col-md-6 offset-md-1">
               <h1 className="mb-4 h3">
-                We create opportunities that increase women’s participation in
-                the tech industry.
+                We create opportunities that increase women’s participation in the tech industry
               </h1>
               <p className="mb-4">
-                TechLadies is a community-led initiative for women to connect,
-                learn, and grow in the tech industry as software engineers,
-                product managers and designers.
+                TechLadies is a community-led initiative for women to connect, learn, and grow in the tech industry as software engineers, product managers and designers. 
               </p>
               <p className="mb-4">
-                Our community consists of women learning technology to enhance
-                their careers and women already in tech.
+                Our community consists of women learning technology to enhance their careers and women already in tech.
               </p>
               <a
                 className="btn btn-primary"
@@ -51,13 +47,12 @@ export default function Home() {
                 />
               </div>
               <div className="col-md-6 order-md-first d-flex flex-column align-items-start justify-content-center">
-                <h2 className="mb-4 h4">How we started</h2>
+                <h2 className="mb-4 h4">How we got started</h2>
                 <p>
-                  TechLadies was started by Elisha in 2016. As someone who
-                  learned programming from friends in the developer community as
-                  an adult, Elisha wanted to create a space where women like her
-                  can learn technical skills and maybe even switch careers in
-                  the tech industry.
+                  As someone without any formal technical background, Elisha Tan learned to code from the developer community. Being a minority in tech, she wondered if women had adequate opportunities to explore the industry.
+                </p>
+                <p>
+                  That’s why she started TechLadies in 2016, to provide a space where women can learn technical skills and switch careers into the tech industry. 
                 </p>
               </div>
             </div>
@@ -67,8 +62,7 @@ export default function Home() {
           <div className="row mb-5">
             <div className="col-md-10 offset-md-1">
               <h2 className="text-center">
-                TechLadies is led by a group of volunteers in its leadership
-                team.
+                Today, TechLadies is led by a small group of volunteers
               </h2>
             </div>
           </div>
@@ -81,7 +75,7 @@ export default function Home() {
                     alt="TODO: REPLACE ME"
                     src="https://i.pravatar.cc/128?img=7"
                   />
-                  <h6 className="card-title">Community Team Leader</h6>
+                  <h6 className="card-title">Bootcamp Team</h6>
                   <p className="card-text">One liner description here.</p>
                   <div className="mb-3">
                     <img
@@ -117,7 +111,7 @@ export default function Home() {
                     alt="TODO: REPLACE ME"
                     src="https://i.pravatar.cc/128?img=7"
                   />
-                  <h6 className="card-title">Community Team Leader</h6>
+                  <h6 className="card-title">Community Team</h6>
                   <p className="card-text">One liner description here.</p>
                   <div className="mb-3">
                     <img
@@ -153,7 +147,7 @@ export default function Home() {
                     alt="TODO: REPLACE ME"
                     src="https://i.pravatar.cc/128?img=7"
                   />
-                  <h6 className="card-title">Community Team Leader</h6>
+                  <h6 className="card-title">Events Team</h6>
                   <p className="card-text">One liner description here.</p>
                   <div className="mb-3">
                     <img
@@ -189,7 +183,7 @@ export default function Home() {
                     alt="TODO: REPLACE ME"
                     src="https://i.pravatar.cc/128?img=7"
                   />
-                  <h6 className="card-title">Community Team Leader</h6>
+                  <h6 className="card-title">Mentorship Team</h6>
                   <p className="card-text">One liner description here.</p>
                   <div className="mb-3">
                     <img
@@ -225,7 +219,7 @@ export default function Home() {
                     alt="TODO: REPLACE ME"
                     src="https://i.pravatar.cc/128?img=7"
                   />
-                  <h6 className="card-title">Community Team Leader</h6>
+                  <h6 className="card-title">Partnerships Team</h6>
                   <p className="card-text">One liner description here.</p>
                   <div className="mb-3">
                     <img
@@ -261,7 +255,7 @@ export default function Home() {
                     alt="TODO: REPLACE ME"
                     src="https://i.pravatar.cc/128?img=7"
                   />
-                  <h6 className="card-title">Community Team Leader</h6>
+                  <h6 className="card-title">Chapter Leaders</h6>
                   <p className="card-text">One liner description here.</p>
                   <div className="mb-3">
                     <img
@@ -305,8 +299,7 @@ export default function Home() {
                 Passionate about increasing gender diversity in tech?
               </h2>
               <p className="mb-4">
-                We are always looking for support. Please visit this page to
-                learn how you can contribute.
+                We are always looking for volunteers and support from companies.
               </p>
               <NavLink href="/contribute/">
                 <a className="btn btn-primary">Learn More</a>

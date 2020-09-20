@@ -1,7 +1,7 @@
 export default [
   {
     key: 'a',
-    item: <>I'm a man identifying myself as a female. Can I join?</>,
+    item: <>Is TechLadies only for women?</>,
     details: (
       <>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod

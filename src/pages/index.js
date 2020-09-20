@@ -31,18 +31,17 @@ export default function Home() {
             </div>
             <div className="col-lg-5 col-md-6 order-md-first">
               <h1 className="mb-4 h2">
-                Kickstart or advance your career in tech
+                Start and grow your career in tech
               </h1>
               <p className="mb-4 text-body">
-                TechLadies is a community that provides women with connections,
-                education and mentorships in the tech industry.
+                TechLadies is a community in Asia that supports women with the network, education and mentorship for their careers in technical roles.
               </p>
               <div className="mb-3">
                 <label
                   htmlFor="hero-email"
                   className="form-label font-weight-bold"
                 >
-                  Stay updated with our latest news
+                  Get updates on our activities
                 </label>
                 <form
                   onSubmit={(event) => {
@@ -66,7 +65,7 @@ export default function Home() {
             <div className="col-lg-6">
               <div className={styles.quoteBackground}>
                 <h2 className="mb-0 text-center">
-                  Technology is meant to be accessible by all
+                  Technology should be inclusive and accessible by all
                 </h2>
               </div>
             </div>
@@ -95,8 +94,7 @@ export default function Home() {
                   />
                 </div>
                 <p className="mb-4 text-emphasis">
-                  TechLadies is run by volunteers in the tech industry who are
-                  passionate about bringing more women into tech.
+                  TechLadies is run by volunteers who are passionate about increasing gender diversity in the tech industry, particularly in software engineering, product management, product design and data roles! 
                 </p>
                 <a className="font-weight-bold" href="#">
                   Learn more about us
@@ -108,21 +106,20 @@ export default function Home() {
         <div className="container py-6">
           <div className="row gy-5">
             <div className="col-md-4">
-              <h2 className="text-purple mb-3">12</h2>
+              <h2 className="text-purple mb-3">10+</h2>
               <p className="text-body">
-                Ladies getting technical internships or hired in technical
-                roles.
+                Ladies switching careers into technical roles
               </p>
             </div>
             <div className="col-md-4">
               <h2 className="text-red mb-3">500+</h2>
               <p className="text-body">
-                Ladies taught technical skills in Singapore and Malaysia.
+                Ladies trained in technical skills
               </p>
             </div>
             <div className="col-md-4">
               <h2 className="text-orange mb-3">4000+</h2>
-              <p className="text-body">Members across Asia in our community.</p>
+              <p className="text-body">Community members in Asia</p>
             </div>
           </div>
         </div>
@@ -146,13 +143,10 @@ export default function Home() {
                   src="/img/img2_PLACEHOLDER_REMOVE_ME.png"
                 />
                 <h3 className="mb-4 h4">
-                  We have a range of programs for women of all levels of
-                  technical skills
+                  Find a range of programs for women of all levels of technical skills
                 </h3>
                 <p className="text-body mb-4">
-                  Whether you are curious about the industry, looking to learn
-                  technical skills, or levelling up your career, we have
-                  something for you!
+                  Whether you are curious about the industry, looking to learn technical skills, or levelling up your career, you can join TechLadies! 
                 </p>
                 <NavLink href="/our-programs/">
                   <a className="btn btn-primary">See Our Programs</a>
