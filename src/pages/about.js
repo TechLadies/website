@@ -211,42 +211,7 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className="col-lg-4 col-md-6">
-              <div className="card">
-                <div className="card-body card-body-sm">
-                  <img
-                    className="thumbnail mb-3"
-                    alt="TODO: REPLACE ME"
-                    src="https://i.pravatar.cc/128?img=7"
-                  />
-                  <h6 className="card-title">Partnerships Team</h6>
-                  <p className="card-text">One liner description here.</p>
-                  <div className="mb-3">
-                    <img
-                      className="thumbnail thumbnail-sm"
-                      alt="TODO: REPLACE ME"
-                      src="https://i.pravatar.cc/128?img=1"
-                    />
-                    <img
-                      className="thumbnail thumbnail-sm"
-                      alt="TODO: REPLACE ME"
-                      src="https://i.pravatar.cc/128?img=2"
-                    />
-                    <img
-                      className="thumbnail thumbnail-sm"
-                      alt="TODO: REPLACE ME"
-                      src="https://i.pravatar.cc/128?img=3"
-                    />
-                    <img
-                      className="thumbnail thumbnail-sm"
-                      alt="TODO: REPLACE ME"
-                      src="https://i.pravatar.cc/128?img=4"
-                    />
-                  </div>
-                  <a href="#">Contact our team!</a>
-                </div>
-              </div>
-            </div>
+            
             <div className="col-lg-4 col-md-6">
               <div className="card">
                 <div className="card-body card-body-sm">

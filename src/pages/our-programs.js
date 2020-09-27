@@ -98,7 +98,7 @@ export default function Home() {
               src="https://i.pravatar.cc/128?img=10"
             />
             <h3 className="mb-4 h4">TechLadies Mentorship</h3>
-            <p className="mb-4">Duration: 14 weeks</p>
+            <p className="mb-4">Duration: 12 weeks</p>
             <p className="mb-4">
               A 3-month mentorship program that pairs women who are transitioning into or establishing themselves in the tech industry with industry practitioners.
             </p>
@@ -137,7 +137,7 @@ export default function Home() {
             <h3 className="mb-4 h4">TechLadies Meet</h3>
             <p className="mb-4">
               Meet fellow TechLadies through in-person or online technical
-              talks, panel/roundtable discussions, study groups and more!
+              talks, roundtable discussions, study groups and more!
               TechLadies Meet is open to women of all levels of technical
               skills.
             </p>
