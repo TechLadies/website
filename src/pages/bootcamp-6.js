@@ -4,7 +4,7 @@ import clsx from 'clsx';
 
 import Accordion from '../components/Accordion';
 
-import programsFAQ from '../data/programs-faq.js';
+import bootcampFAQ from '../data/bootcamp-faq.js';
 import donations from '../data/donations.js';
 import volunteerInitiatives from '../data/volunteer-initiatives';
 
@@ -21,11 +21,49 @@ export default function Home() {
         <title>Bootcamp #6 | TechLadies</title>
       </Head>
       <main>
-        <div className="container-fluid p-6  bg-purple">
+        <div className="container p-6">
           <div className="row gy-6">
-            <h1 className="mb-4 h3 text-center">
-              BOOTCAMP #6 - APPLICATIONS CLOSED
-            </h1>
+            <div className="col-md-6">
+              <p className="mb-4">
+                <h3>TechLadies Bootcamp 2020</h3>
+                <br />
+                <br />
+                The TechLadies Bootcamp #6 is a 14-week part-time accelerated
+                learning program designed to help women with basic programming
+                background become professional programmers. You will be guided
+                by industry experts, creating products for non-profit
+                organizations.
+                <br />
+                <br />
+                Applications to the TechLadies Bootcamp 2020 has concluded. To stay updated on when our 2021 season opens for applications, please sign up for our newsletter below. 
+              </p>
+              <label
+                htmlFor="hero-email"
+                className="form-label font-weight-bold"
+              >
+                Get updates on our activities
+              </label>
+              <form
+                onSubmit={(event) => {
+                  event.preventDefault();
+                  alert('TODO: POST email to API');
+                }}
+              >
+                <input
+                  className="form-control"
+                  placeholder="E-mail address"
+                  required={true}
+                  type="email"
+                />
+              </form>
+            </div>
+            <div className="col-md-5  offset-md-1">
+              <img
+                alt="TODO: REPLACE ME"
+                className="img-fluid"
+                src="/illustrations/illus_bootcamp.png"
+              />
+            </div>
           </div>
         </div>
 
@@ -33,11 +71,7 @@ export default function Home() {
           <div className="container py-6">
             <div className="row">
               <p className="mb-4">
-                The TechLadies Bootcamp #6 is a 14-week part-time accelerated
-                learning program designed to help women with basic programming
-                background become professional programmers. You will be guided
-                by industry experts, creating products for non-profit
-                organizations.
+                
                 <br />
                 <br />
                 Due to COVID-19, most of the meetings and coaching sessions
@@ -118,7 +152,7 @@ export default function Home() {
             <div className="row">
               <div className="col-md-8 offset-md-2">
                 <h2 className="text-center mb-5">Frequently Asked Questions</h2>
-                <Accordion data={programsFAQ} />
+                <Accordion data={bootcampFAQ} />
               </div>
             </div>
           </div>
