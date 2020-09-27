@@ -1,6 +1,6 @@
 export default [
   {
-    image: 'https://i.pravatar.cc/128?img=50',
+    image: "/icons/icon_TLbootcamp.png",
     title: 'TechLadies Bootcamp',
     description: (
       <>
@@ -12,7 +12,7 @@ export default [
     ),
   },
   {
-    image: 'https://i.pravatar.cc/128?img=51',
+    image: "/icons/icon_TLmentorship.png",
     title: 'TechLadies Mentorship',
     description: (
       <>
@@ -23,7 +23,7 @@ export default [
     ),
   },
   {
-    image: 'https://i.pravatar.cc/128?img=52',
+    image: "/icons/icon_TLmeet.png",
     title: 'TechLadies Meet',
     description: (
       <>
@@ -34,7 +34,7 @@ export default [
     ),
   },
   {
-    image: 'https://i.pravatar.cc/128?img=53',
+    image: "/icons/icon_TLcommunity.png",
     title: 'TechLadies Community',
     description: (
       <>

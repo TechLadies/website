@@ -14,7 +14,7 @@ export default function Home() {
               <img
                 alt="TODO: REPLACE ME"
                 className="img-fluid"
-                src="/img/img1_PLACEHOLDER_REMOVE_ME.png"
+                src="/illustrations/illus_aboutus.png"
               />
             </div>
             <div className="col-md-6 offset-md-1">

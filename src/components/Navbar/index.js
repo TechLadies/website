@@ -62,7 +62,7 @@ export default function Navbar() {
             </li> */}
             <li className="nav-item">
               <NavLink href="/our-programs/">
-                <a className="nav-link">Our Programs</a>
+                <a className="nav-link">Programs</a>
               </NavLink>
             </li>
             <li className="nav-item">

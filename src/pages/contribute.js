@@ -22,7 +22,7 @@ export default function Home() {
               <img
                 alt="TODO: REPLACE ME"
                 className="img-fluid mb-4"
-                src="/img/img2_PLACEHOLDER_REMOVE_ME.png"
+                src="/illustrations/illus_contactus.png"
               />
               <h1 className="h3">
                 Join us in our mission to increase participation and advancement

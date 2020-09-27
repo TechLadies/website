@@ -36,7 +36,7 @@ export default function Home() {
             <img
               alt="TODO: REPLACE ME"
               className="mb-4"
-              src="/img/img2_PLACEHOLDER_REMOVE_ME.png"
+              src="/illustrations/illus_programmes.png"
             />
             <h1 className="h3 mb-4">Find a TechLadies program for you</h1>
             <p className="text-body mb-4">
@@ -55,7 +55,7 @@ export default function Home() {
               <img
                 alt="TODO: REPLACE ME"
                 className="thumbnail thumbnail-lg mb-4"
-                src="https://i.pravatar.cc/128?img=11"
+                src="/icons/icon_TLbootcamp.png"
               />
               <h3 className="mb-4 h4">TechLadies Bootcamp</h3>
               <p className="mb-4">Duration: 14 weeks</p>
@@ -95,7 +95,7 @@ export default function Home() {
             <img
               alt="TODO: REPLACE ME"
               className="thumbnail thumbnail-lg mb-4"
-              src="https://i.pravatar.cc/128?img=10"
+              src="/icons/icon_TLmentorship.png"
             />
             <h3 className="mb-4 h4">TechLadies Mentorship</h3>
             <p className="mb-4">Duration: 12 weeks</p>
@@ -132,7 +132,7 @@ export default function Home() {
             <img
               alt="TODO: REPLACE ME"
               className="thumbnail thumbnail-lg mb-4"
-              src="https://i.pravatar.cc/128?img=8"
+              src="/icons/icon_TLmeet.png"
             />
             <h3 className="mb-4 h4">TechLadies Meet</h3>
             <p className="mb-4">
@@ -147,7 +147,7 @@ export default function Home() {
             <img
               alt="TODO: REPLACE ME"
               className="thumbnail thumbnail-lg mb-4"
-              src="https://i.pravatar.cc/128?img=9"
+              src="/icons/icon_TLcommunity.png"
             />
             <h3 className="mb-4 h4">TechLadies Community</h3>
             <p className="mb-4">
@@ -172,7 +172,7 @@ export default function Home() {
               <img
                 alt="TODO: REPLACE ME"
                 className="img-fluid"
-                src="/img/bg_PLACEHOLDER_REMOVE_ME.png"
+                src="/illustrations/illus_contactus.png"
               />
             </div>
             <div className="col-md-6 order-md-first d-flex flex-column align-items-start justify-content-center">

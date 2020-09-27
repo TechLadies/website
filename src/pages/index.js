@@ -26,7 +26,7 @@ export default function Home() {
               <img
                 alt="TODO: REPLACE ME"
                 className="img-fluid"
-                src="/img/img3_PLACEHOLDER_REMOVE_ME.png"
+                src="/illustrations/illus_home.png"
               />
             </div>
             <div className="col-lg-5 col-md-6 order-md-first">
@@ -140,7 +140,7 @@ export default function Home() {
                 <img
                   className="mb-4"
                   height="120"
-                  src="/img/img2_PLACEHOLDER_REMOVE_ME.png"
+                  src="/illustrations/illus_programmes.png"
                 />
                 <h3 className="mb-4 h4">
                   Find a range of programs for women of all levels of technical skills
