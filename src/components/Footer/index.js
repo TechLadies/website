@@ -1,4 +1,4 @@
-import { Facebook, Instagram } from 'react-feather';
+import { Facebook, Instagram, Linkedin, Twitter } from 'react-feather';
 import clsx from 'clsx';
 
 import styles from './index.module.scss';
@@ -73,13 +73,19 @@ export default function Footer() {
             </p>
             <div className="d-flex">
               <a
-                aria-label="Link to Facebook page"
+                aria-label="Link to Facebook"
                 className="mr-2"
                 href="https://www.facebook.com/TechLadies"
               >
                 <Facebook />
               </a>
-              <a aria-label="Link to Instagram Profile" href="https://www.instagram.com/techladiescode/">
+              <a aria-label="Link to Linkedin" href="https://www.linkedin.com/company/techladies">
+                <Linkedin />
+              </a>
+              <a aria-label="Link to Twitter" href="https://www.twitter.com/techladiescode">
+                <Twitter />
+              </a>
+              <a aria-label="Link to Instagram" href="https://www.instagram.com/techladiescode/">
                 <Instagram />
               </a>
             </div>
