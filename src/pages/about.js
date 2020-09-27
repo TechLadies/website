@@ -43,7 +43,7 @@ export default function Home() {
                 <img
                   alt="TODO: REPLACE ME"
                   className="img-fluid"
-                  src="/img/bg_PLACEHOLDER_REMOVE_ME.png"
+                  src="/photos/history.jpg"
                 />
               </div>
               <div className="col-md-6 order-md-first d-flex flex-column align-items-start justify-content-center">
@@ -70,33 +70,23 @@ export default function Home() {
             <div className="col-lg-4 col-md-6">
               <div className="card">
                 <div className="card-body card-body-sm">
-                  <img
-                    className="thumbnail mb-3"
-                    alt="TODO: REPLACE ME"
-                    src="https://i.pravatar.cc/128?img=7"
-                  />
                   <h6 className="card-title">Bootcamp Team</h6>
                   <p className="card-text">One liner description here.</p>
-                  <div className="mb-3">
+                  <div className="mb-4">
                     <img
-                      className="thumbnail thumbnail-sm"
+                      className="thumbnail thumbnail-lg"
                       alt="TODO: REPLACE ME"
-                      src="https://i.pravatar.cc/128?img=1"
+                      src="/team/angel.png"
                     />
                     <img
-                      className="thumbnail thumbnail-sm"
+                      className="thumbnail thumbnail-lg"
                       alt="TODO: REPLACE ME"
-                      src="https://i.pravatar.cc/128?img=2"
+                      src="/team/anna.jpeg"
                     />
                     <img
-                      className="thumbnail thumbnail-sm"
+                      className="thumbnail thumbnail-lg"
                       alt="TODO: REPLACE ME"
-                      src="https://i.pravatar.cc/128?img=3"
-                    />
-                    <img
-                      className="thumbnail thumbnail-sm"
-                      alt="TODO: REPLACE ME"
-                      src="https://i.pravatar.cc/128?img=4"
+                      src="/team/tejasvita.jpeg"
                     />
                   </div>
                   <a href="#">Contact our team!</a>
@@ -106,33 +96,23 @@ export default function Home() {
             <div className="col-lg-4 col-md-6">
               <div className="card">
                 <div className="card-body card-body-sm">
-                  <img
-                    className="thumbnail mb-3"
-                    alt="TODO: REPLACE ME"
-                    src="https://i.pravatar.cc/128?img=7"
-                  />
                   <h6 className="card-title">Community Team</h6>
                   <p className="card-text">One liner description here.</p>
-                  <div className="mb-3">
+                  <div className="mb-4">
                     <img
-                      className="thumbnail thumbnail-sm"
+                      className="thumbnail thumbnail-lg"
                       alt="TODO: REPLACE ME"
-                      src="https://i.pravatar.cc/128?img=1"
+                      src="/team/marta.jpg"
                     />
                     <img
-                      className="thumbnail thumbnail-sm"
+                      className="thumbnail thumbnail-lg"
                       alt="TODO: REPLACE ME"
-                      src="https://i.pravatar.cc/128?img=2"
+                      src="/team/rae.jpg"
                     />
                     <img
-                      className="thumbnail thumbnail-sm"
+                      className="thumbnail thumbnail-lg"
                       alt="TODO: REPLACE ME"
-                      src="https://i.pravatar.cc/128?img=3"
-                    />
-                    <img
-                      className="thumbnail thumbnail-sm"
-                      alt="TODO: REPLACE ME"
-                      src="https://i.pravatar.cc/128?img=4"
+                      src="/team/qian.jpg"
                     />
                   </div>
                   <a href="#">Contact our team!</a>
@@ -142,33 +122,18 @@ export default function Home() {
             <div className="col-lg-4 col-md-6">
               <div className="card">
                 <div className="card-body card-body-sm">
-                  <img
-                    className="thumbnail mb-3"
-                    alt="TODO: REPLACE ME"
-                    src="https://i.pravatar.cc/128?img=7"
-                  />
                   <h6 className="card-title">Events Team</h6>
                   <p className="card-text">One liner description here.</p>
-                  <div className="mb-3">
+                  <div className="mb-4">
                     <img
-                      className="thumbnail thumbnail-sm"
+                      className="thumbnail thumbnail-lg"
                       alt="TODO: REPLACE ME"
-                      src="https://i.pravatar.cc/128?img=1"
+                      src="/team/giselle.png"
                     />
                     <img
-                      className="thumbnail thumbnail-sm"
+                      className="thumbnail thumbnail-lg"
                       alt="TODO: REPLACE ME"
-                      src="https://i.pravatar.cc/128?img=2"
-                    />
-                    <img
-                      className="thumbnail thumbnail-sm"
-                      alt="TODO: REPLACE ME"
-                      src="https://i.pravatar.cc/128?img=3"
-                    />
-                    <img
-                      className="thumbnail thumbnail-sm"
-                      alt="TODO: REPLACE ME"
-                      src="https://i.pravatar.cc/128?img=4"
+                      src="/team/vanessa.jpg"
                     />
                   </div>
                   <a href="#">Contact our team!</a>
@@ -178,33 +143,30 @@ export default function Home() {
             <div className="col-lg-4 col-md-6">
               <div className="card">
                 <div className="card-body card-body-sm">
-                  <img
-                    className="thumbnail mb-3"
-                    alt="TODO: REPLACE ME"
-                    src="https://i.pravatar.cc/128?img=7"
-                  />
                   <h6 className="card-title">Mentorship Team</h6>
                   <p className="card-text">One liner description here.</p>
-                  <div className="mb-3">
+                  <div className="mb-4">
                     <img
-                      className="thumbnail thumbnail-sm"
+                      className="thumbnail thumbnail-lg"
                       alt="TODO: REPLACE ME"
-                      src="https://i.pravatar.cc/128?img=1"
+                      src="/team/choryi.jpeg"
                     />
                     <img
-                      className="thumbnail thumbnail-sm"
+                      className="thumbnail thumbnail-lg"
                       alt="TODO: REPLACE ME"
-                      src="https://i.pravatar.cc/128?img=2"
+                      src="/team/lillian.jpg"
                     />
                     <img
-                      className="thumbnail thumbnail-sm"
+                      className="thumbnail thumbnail-lg"
                       alt="TODO: REPLACE ME"
-                      src="https://i.pravatar.cc/128?img=3"
+                      src="/team/shiqi.jpg"
                     />
+                  </div>
+                  <div className="mb-4">
                     <img
-                      className="thumbnail thumbnail-sm"
+                      className="thumbnail thumbnail-lg"
                       alt="TODO: REPLACE ME"
-                      src="https://i.pravatar.cc/128?img=4"
+                      src="/team/shelvia.jpg"
                     />
                   </div>
                   <a href="#">Contact our team!</a>
@@ -215,33 +177,30 @@ export default function Home() {
             <div className="col-lg-4 col-md-6">
               <div className="card">
                 <div className="card-body card-body-sm">
-                  <img
-                    className="thumbnail mb-3"
-                    alt="TODO: REPLACE ME"
-                    src="https://i.pravatar.cc/128?img=7"
-                  />
                   <h6 className="card-title">Chapter Leaders</h6>
                   <p className="card-text">One liner description here.</p>
-                  <div className="mb-3">
+                  <div className="mb-4">
                     <img
-                      className="thumbnail thumbnail-sm"
+                      className="thumbnail thumbnail-lg"
                       alt="TODO: REPLACE ME"
-                      src="https://i.pravatar.cc/128?img=1"
+                      src="/team/elisha.jpg"
                     />
                     <img
-                      className="thumbnail thumbnail-sm"
+                      className="thumbnail thumbnail-lg"
                       alt="TODO: REPLACE ME"
-                      src="https://i.pravatar.cc/128?img=2"
+                      src="/team/suying.png"
                     />
                     <img
-                      className="thumbnail thumbnail-sm"
+                      className="thumbnail thumbnail-lg"
                       alt="TODO: REPLACE ME"
-                      src="https://i.pravatar.cc/128?img=3"
+                      src="/team/tejasvita.jpeg"
                     />
+                  </div>
+                  <div className="mb-4">
                     <img
-                      className="thumbnail thumbnail-sm"
+                      className="thumbnail thumbnail-lg"
                       alt="TODO: REPLACE ME"
-                      src="https://i.pravatar.cc/128?img=4"
+                      src="/team/tejasvita.jpeg"
                     />
                   </div>
                   <a href="#">Contact our team!</a>
@@ -256,7 +215,7 @@ export default function Home() {
               <img
                 alt="TODO: REPLACE ME"
                 className="img-fluid"
-                src="/img/bg_PLACEHOLDER_REMOVE_ME.png"
+                src="/photos/team.jpg"
               />
             </div>
             <div className="col-md-6 offset-md-1 d-flex flex-column align-items-start justify-content-center">
