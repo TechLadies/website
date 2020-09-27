@@ -461,7 +461,7 @@ export default function Home() {
               <img
                 alt="TODO: REPLACE ME"
                 className="img-fluid"
-                src="/img/bg_PLACEHOLDER_REMOVE_ME.png"
+                src="/photos/mentorship2.jpg"
               />
             </div>
             <div className="col-md-6 offset-md-1 d-flex flex-column align-items-start justify-content-center">
