@@ -33,7 +33,7 @@ export default [
     ),
   },
   {
-    image: 'https://i.pravatar.cc/128?img=52',
+    image: '/team/tejasvita.jpeg',
     name: 'Tejasvita Rao',
     title: 'Bootcamp Lead',
     description: (
@@ -51,7 +51,7 @@ export default [
     ),
   },
   {
-    image: 'https://i.pravatar.cc/128?img=53',
+    image: '/team/choryi.jpeg',
     name: 'Chor Yi Poon',
     title: 'Product Lead',
     description: (
@@ -68,7 +68,7 @@ export default [
     ),
   },
   {
-    image: 'https://i.pravatar.cc/128?img=53',
+    image: '../../team/bootcamp6/purnima.jpeg',
     name: 'Purnima Kamath',
     title: 'Tech Lead',
     description: (
@@ -83,7 +83,7 @@ export default [
     ),
   },
   {
-    image: 'https://i.pravatar.cc/128?img=53',
+    image: '../team/bootcamp6/kate.png',
     name: 'Kate Lim',
     title: 'UX/UI Lead',
     description: (
@@ -96,7 +96,7 @@ export default [
     ),
   },
   {
-    image: 'https://i.pravatar.cc/128?img=53',
+    image: '../team/bootcamp6/jayli.png',
     name: 'Jay Li Quek',
     title: 'UX/UI Assistant',
     description: (
@@ -110,7 +110,7 @@ export default [
     ),
   },
   {
-    image: 'https://i.pravatar.cc/128?img=53',
+    image: '../team/bootcamp6/sukyee.png',
     name: 'Suk Yee Gong',
     title: 'Coach',
     description: (
@@ -125,7 +125,7 @@ export default [
     ),
   },
   {
-    image: 'https://i.pravatar.cc/128?img=53',
+    image: '../team/bootcamp6/fara.jpeg',
     name: 'Fara Blanco',
     title: 'Coach',
     description: (
@@ -140,7 +140,7 @@ export default [
     ),
   },
   {
-    image: 'https://i.pravatar.cc/128?img=53',
+    image: '../team/bootcamp6/neha.png',
     name: 'Neha Modi',
     title: 'Coach',
     description: (
@@ -158,7 +158,7 @@ export default [
     ),
   },
   {
-    image: 'https://i.pravatar.cc/128?img=53',
+    image: '../team/bootcamp6/yingtong.png',
     name: 'Ying Tong Lai',
     title: 'Coach',
     description: (
@@ -172,7 +172,7 @@ export default [
     ),
   },
   {
-    image: 'https://i.pravatar.cc/128?img=53',
+    image: '../team/bootcamp6/aaron.jpg',
     name: 'Aaron Gong',
     title: 'Coach',
     description: (
@@ -184,7 +184,7 @@ export default [
     ),
   },
   {
-    image: 'https://i.pravatar.cc/128?img=53',
+    image: '../team/bootcamp6/thomas.png',
     name: 'Thomas Chia',
     title: 'Coach',
     description: (
@@ -197,7 +197,7 @@ export default [
     ),
   },
   {
-    image: 'https://i.pravatar.cc/128?img=53',
+    image: '../team/bootcamp6/arjay.jpg',
     name: 'Arjay Elbore',
     title: 'Coach',
     description: (
@@ -209,7 +209,7 @@ export default [
     ),
   },
   {
-    image: 'https://i.pravatar.cc/128?img=53',
+    image: '../team/mentorship2/akshata.png',
     name: 'Akshata Mohanty',
     title: 'Coach',
     description: (

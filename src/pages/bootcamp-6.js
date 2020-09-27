@@ -23,6 +23,13 @@ export default function Home() {
       <main>
         <div className="container p-6">
           <div className="row gy-6">
+            <div className="col-md-5  offset-md-1">
+              <img
+                alt="TODO: REPLACE ME"
+                className="img-fluid"
+                src="/illustrations/illus_bootcamp.png"
+              />
+            </div>
             <div className="col-md-6">
               <p className="mb-4">
                 <h3>TechLadies Bootcamp 2020</h3>
@@ -57,13 +64,7 @@ export default function Home() {
                 />
               </form>
             </div>
-            <div className="col-md-5  offset-md-1">
-              <img
-                alt="TODO: REPLACE ME"
-                className="img-fluid"
-                src="/illustrations/illus_bootcamp.png"
-              />
-            </div>
+            
           </div>
         </div>
 
@@ -164,7 +165,7 @@ export default function Home() {
               <img
                 alt="TODO: REPLACE ME"
                 className="img-fluid"
-                src="/img/bg_PLACEHOLDER_REMOVE_ME.png"
+                src="../photos/bootcamp_stage.jpg"
               />
             </div>
             <div className="col-md-6 offset-md-1 d-flex flex-column align-items-start justify-content-center">
