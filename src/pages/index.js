@@ -75,26 +75,26 @@ export default function Home() {
                   <img
                     className="thumbnail"
                     alt="TODO: REPLACE ME"
-                    src="https://i.pravatar.cc/128?img=1"
+                    src="/team/angel.png"
                   />
                   <img
                     className="thumbnail"
                     alt="TODO: REPLACE ME"
-                    src="https://i.pravatar.cc/128?img=2"
+                    src="/team/choryi.jpeg"
                   />
                   <img
                     className="thumbnail"
                     alt="TODO: REPLACE ME"
-                    src="https://i.pravatar.cc/128?img=3"
+                    src="/team/tejasvita.jpeg"
                   />
                   <img
                     className="thumbnail"
                     alt="TODO: REPLACE ME"
-                    src="https://i.pravatar.cc/128?img=4"
+                    src="/team/anna.jpeg"
                   />
                 </div>
                 <p className="mb-4 text-emphasis">
-                  TechLadies is run by volunteers who are passionate about increasing gender diversity in the tech industry, particularly in software engineering, product management, product design and data roles! 
+                  TechLadies is managed by volunteers who are passionate about increasing gender diversity in the tech industry, particularly in software engineering, product management, product design and data roles! 
                 </p>
                 <a className="font-weight-bold" href="#">
                   Learn more about us
@@ -125,12 +125,15 @@ export default function Home() {
         </div>
         <div className="container py-6">
           <div className="row gy-5 text-center">
-            <div className="col-md-12">
+            <div className="col-md-10 offset-md-1">
               <h2>What others are saying</h2>
+              <img
+                alt="Press Coverage"
+                className="img-fluid"
+                src="/media/press.png"
+              />
             </div>
-            <div className="col-md-4">Her World Logo Placeholder</div>
-            <div className="col-md-4">The Straits Time Logo Placeholder</div>
-            <div className="col-md-4">e27 Logo Placeholder</div>
+            
           </div>
         </div>
         <div className="bg-gray">
@@ -139,14 +142,14 @@ export default function Home() {
               <div className="col-md-6 d-flex flex-column align-items-start justify-content-center">
                 <img
                   className="mb-4"
-                  height="120"
+                  height="260"
                   src="/illustrations/illus_programmes.png"
                 />
                 <h3 className="mb-4 h4">
                   Find a range of programs for women of all levels of technical skills
                 </h3>
                 <p className="text-body mb-4">
-                  Whether you are curious about the industry, looking to learn technical skills, or levelling up your career, you can join TechLadies! 
+                  Whether you are curious about the industry, looking to learn technical skills, or levelling up your career, TechLadies is for you! 
                 </p>
                 <NavLink href="/our-programs/">
                   <a className="btn btn-primary">See Our Programs</a>
@@ -167,7 +170,7 @@ export default function Home() {
                       <div className="card-body">
                         <h5 className="card-title mb-3">{title}</h5>
                         <p className="card-text mb-3">{description}</p>
-                        <a className="font-weight-bold" href="#">
+                        <a className="font-weight-bold" href="/our-programs">
                           Learn More
                         </a>
                       </div>

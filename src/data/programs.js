@@ -1,49 +1,37 @@
 export default [
   {
-    image: 'https://picsum.photos/id/99/400/300',
-    title: 'TechLadies Bootcamp',
+    image: "/photos/bootcamp.jpg",
+    title: 'Bootcamp',
     description: (
       <>
-        Looking to be professional programmer? This is a part-time accelerated
-        learning program guided by industry experts to create a product. 30% of
-        the TechLadies Bootcamp graduates found software-related jobs and
-        internships.
+        Looking to become a professional programmer? TechLadies Bootcamp is a part-time accelerated learning program where you learn valuable technical skills from industry experts by building a product from scratch. 
       </>
     ),
   },
   {
-    image: 'https://picsum.photos/id/100/400/300',
-    title: 'TechLadies Bootcamp 2',
+    image: "/photos/mentorship.jpg",
+    title: 'Mentorship',
     description: (
       <>
-        Looking to be professional programmer? This is a part-time accelerated
-        learning program guided by industry experts to create a product. 30% of
-        the TechLadies Bootcamp graduates found software-related jobs and
-        internships.
+        Ready to start or grow your career in tech? TechLadies Mentorship is a 3-month mentorship program that pairs women who are transitioning into or establishing themselves in the tech industry with industry practitioners.
       </>
     ),
   },
   {
-    image: 'https://picsum.photos/id/101/400/300',
-    title: 'TechLadies Bootcamp 3',
+    image: "/photos/meet.jpg",
+    title: 'Meet',
     description: (
       <>
-        Looking to be professional programmer? This is a part-time accelerated
-        learning program guided by industry experts to create a product. 30% of
-        the TechLadies Bootcamp graduates found software-related jobs and
-        internships.
+        Want to meet like-minded peers? Meet fellow tech ladies through in-person or online technical talks, roundtable discussions, study groups and more! TechLadies Meet is open to women of all levels of technical skills.
       </>
     ),
   },
   {
-    image: 'https://picsum.photos/id/102/400/300',
-    title: 'TechLadies Bootcamp 4',
+    image: "/photos/community.jpg",
+    title: 'Community',
     description: (
       <>
-        Looking to be professional programmer? This is a part-time accelerated
-        learning program guided by industry experts to create a product. 30% of
-        the TechLadies Bootcamp graduates found software-related jobs and
-        internships.
+        Beyond programs and events, TechLadies is a community. Join us online for the latest industry news, highlights on awesome women in tech, and get support on your journey in tech on our Facebook group and Facebook page.
       </>
     ),
   },

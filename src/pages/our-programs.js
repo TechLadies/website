@@ -100,7 +100,7 @@ export default function Home() {
             <h3 className="mb-4 h4">TechLadies Mentorship</h3>
             <p className="mb-4">Duration: 12 weeks</p>
             <p className="mb-4">
-              A 3-month mentorship program that pairs women who are transitioning into or establishing themselves in the tech industry with industry practitioners.
+              A 3-month mentorship program that pairs women who are transitioning into or establishing themselves in the tech industry with industry practitioners. 
             </p>
 
             <button className="btn btn-primary">
