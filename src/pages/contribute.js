@@ -71,7 +71,7 @@ export default function Home() {
                 <img
                   alt="TODO: REPLACE ME"
                   className="img-fluid"
-                  src="/img/bg_PLACEHOLDER_REMOVE_ME.png"
+                  src="/partners/partner_stage.png"
                 />
               </div>
               <div className="col-md-6 order-md-first d-flex flex-column justify-content-center">
@@ -92,12 +92,48 @@ export default function Home() {
 
         <div className="container py-6">
           <div className="row gy-5 text-center">
-            <div className="col-md-4 col-sm-6">Carousell Logo Placeholder</div>
-            <div className="col-md-4 col-sm-6">Le Tian Logo Placeholder</div>
-            <div className="col-md-4 col-sm-6">Zendesk Logo Placeholder</div>
-            <div className="col-md-4 col-sm-6">Microsoft Logo Placeholder</div>
-            <div className="col-md-4 col-sm-6">ThoughtWorks Placeholder</div>
-            <div className="col-md-4 col-sm-6">Kiat.sg Logo Placeholder</div>
+            <div className="col-md-4 col-sm-6">
+              <img
+                alt="TODO: REPLACE ME"
+                className="img-fluid"
+                src="/partners/logos/microsoft.png"
+              />
+            </div>
+            <div className="col-md-4 col-sm-6">
+              <img
+                alt="TODO: REPLACE ME"
+                className="img-fluid"
+                src="/partners/logos/rakuten-logo.gif"
+              />
+            </div>
+            <div className="col-md-4 col-sm-6">
+              <img
+                alt="TODO: REPLACE ME"
+                className="img-fluid"
+                src="/partners/logos/thoughtworks.png"
+              />
+            </div>
+            <div className="col-md-4 col-sm-6">
+              <img
+                alt="TODO: REPLACE ME"
+                className="img-fluid"
+                src="/partners/logos/zendesk.png"
+              />
+            </div>
+            <div className="col-md-4 col-sm-6">
+              <img
+                alt="TODO: REPLACE ME"
+                className="img-fluid"
+                src="/partners/logos/carousell.png"
+              />
+            </div>
+            <div className="col-md-4 col-sm-6">
+              <img
+                alt="TODO: REPLACE ME"
+                className="img-fluid"
+                src="/partners/logos/kiatsg_logo.png"
+              />
+            </div>
           </div>
         </div>
 
