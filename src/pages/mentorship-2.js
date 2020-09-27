@@ -9,10 +9,12 @@ import {
   dataScience,
 } from '../data/mentorship-2-mentors';
 
+import Accordion from '../components/Accordion';
 import Timeline from '../components/Timeline';
 import TimelineItem from '../components/TimelineItem';
 
 import mentorshipTimeline from '../data/mentorship-timeline';
+import programsFAQ from '../data/mentorship-faq.js';
 
 export default function Home() {
   return (
@@ -25,98 +27,88 @@ export default function Home() {
           <div className="row gy-6">
             <div className="col-md-6">
               <p className="mb-4">
-                <h3>TechLadies Mentorship (June to Sept 2020)</h3>
+                <h3>TechLadies Mentorship 2020</h3>
                 <br />
                 <br />
-                TechLadies Mentorship is a 12-week program, running from late
-                Jun - Sep 2020, to provide women with personal career guidance
+                TechLadies Mentorship is a 12-week program that provides women with personal career guidance
                 from experienced industry practitioners as they grow their
-                career in technology.
-                <br />
-                <br />
-                Our mentorship program will kick off on Monday, 22nd June 2020,
-                with one mentor matched to each mentee. There are the 4 fields
-                we focus on: Software Engineering, UI/UX Design, Data
+                career in Software Engineering, UI/UX Design, Data
                 Science/Engineering/Analysis, Product Management.
                 <br />
                 <br />
-                Ideal mentees are women with existing careers in the above roles
-                and want to level up in their careers, or women (including fresh
-                grads) with existing domain knowledge in the above roles and are
-                looking for employment opportunities.
+                The TechLadies Mentorship 2020 has concluded. To stay updated on when our 2021 season opens for applications, please sign up for our newsletter below. 
               </p>
+              <label
+                htmlFor="hero-email"
+                className="form-label font-weight-bold"
+              >
+                Get updates on our activities
+              </label>
+              <form
+                onSubmit={(event) => {
+                  event.preventDefault();
+                  alert('TODO: POST email to API');
+                }}
+              >
+                <input
+                  className="form-control"
+                  placeholder="E-mail address"
+                  required={true}
+                  type="email"
+                />
+              </form>
+
             </div>
             <div className="col-md-5  offset-md-1">
               <img
                 alt="TODO: REPLACE ME"
                 className="img-fluid"
-                src="/img/img1_PLACEHOLDER_REMOVE_ME.png"
+                src="/illustrations/illus_mentorship.png"
               />
             </div>
           </div>
         </div>
-
+        
         <div className="bg-gray">
           <div className="container py-6">
             <div className="row">
-              <div className=" col-md-10">
-                <h3>Application Fees</h3>
+              <h2 className="text-center mb-5">Mentees Program Requirements</h2>
+              <div className="col-md-4">
+                <img
+                  className="thumbnail thumbnail-sm"
+                  alt="TODO: REPLACE ME"
+                  src="https://i.pravatar.cc/128?img=1"
+                />
+                <h6>Goal Setting</h6>
                 <p>
-                  Full scholarships are provided for people with financial
-                  difficulties. We welcome women of all backgrounds and
-                  nationalities to apply, and only 8 ladies will be selected for
-                  this program. These ladies will work in teams of 4.
+                  Have a clear goal for what you'll like to achieve from this
+                  program
                 </p>
-
-                <a
-                  className="btn btn-primary"
-                  href="mailto:bootcamp@techladies.co"
-                >
-                  Learn More
-                </a>
               </div>
-            </div>
-          </div>
-        </div>
-
-        <div className="container py-6">
-          <div className="row">
-            <h2 className="text-center mb-5">Mentees Program Requirements</h2>
-            <div className="col-md-4">
-              <img
-                className="thumbnail thumbnail-sm"
-                alt="TODO: REPLACE ME"
-                src="https://i.pravatar.cc/128?img=1"
-              />
-              <h6>Goal Setting</h6>
-              <p>
-                Have a clear goal for what you'll like to achieve from this
-                program
-              </p>
-            </div>
-            <div className="col-md-4">
-              <img
-                className="thumbnail thumbnail-sm"
-                alt="TODO: REPLACE ME"
-                src="https://i.pravatar.cc/128?img=1"
-              />
-              <h6>Bi-weekly commitments</h6>
-              <p>
-                Commit to bi-weekly meetings (offline/virtual) with their
-                mentors from Jun 2020 - Aug 2020
-                <br />
-                Reports to feedback your progress with your mentor and a short
-                progress report
-              </p>
-            </div>
-            <div className="col-md-4">
-              <img
-                className="thumbnail thumbnail-sm"
-                alt="TODO: REPLACE ME"
-                src="https://i.pravatar.cc/128?img=1"
-              />
-              <h6>Final Presentation</h6>
-              <p>Present a final project at the end of the program</p>
+              <div className="col-md-4">
+                <img
+                  className="thumbnail thumbnail-sm"
+                  alt="TODO: REPLACE ME"
+                  src="https://i.pravatar.cc/128?img=1"
+                />
+                <h6>Bi-weekly commitments</h6>
+                <p>
+                  Commit to bi-weekly meetings (offline/virtual) with their
+                  mentors from Jun 2020 - Aug 2020
+                  <br />
+                  Reports to feedback your progress with your mentor and a short
+                  progress report
+                </p>
+              </div>
+              <div className="col-md-4">
+                <img
+                  className="thumbnail thumbnail-sm"
+                  alt="TODO: REPLACE ME"
+                  src="https://i.pravatar.cc/128?img=1"
+                />
+                <h6>Final Presentation</h6>
+                <p>Present a final project at the end of the program</p>
+              </div>
             </div>
           </div>
         </div>
@@ -451,6 +443,15 @@ export default function Home() {
                 </TimelineItem>
               ))}
             </Timeline>
+          </div>
+        </div>
+
+        <div className="container py-6">
+          <div className="row">
+            <div className="col-md-8 offset-md-2">
+              <h2 className="text-center mb-5">Frequently Asked Questions</h2>
+              <Accordion data={programsFAQ} />
+            </div>
           </div>
         </div>
 
