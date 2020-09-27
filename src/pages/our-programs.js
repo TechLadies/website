@@ -141,7 +141,13 @@ export default function Home() {
               TechLadies Meet is open to women of all levels of technical
               skills.
             </p>
-            <a className="btn btn-primary">See our Events</a>
+            <a 
+              className="btn btn-primary"
+              href="https://www.eventbrite.sg/o/techladies-11040976589"
+              target="_blank"
+            >
+              See our Events
+            </a>
           </div>
           <div className="col-md-5">
             <img
@@ -172,7 +178,7 @@ export default function Home() {
               <img
                 alt="TODO: REPLACE ME"
                 className="img-fluid"
-                src="/illustrations/illus_contactus.png"
+                src="/photos/coach.jpg"
               />
             </div>
             <div className="col-md-6 order-md-first d-flex flex-column align-items-start justify-content-center">
