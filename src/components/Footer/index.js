@@ -31,10 +31,10 @@ export default function Footer() {
                 <h5>Programs</h5>
                 <ul className={clsx('list-unstyled', styles.footerLinksList)}>
                   <li>
-                    <a href="#">Bootcamp</a>
+                    <a href="/bootcamp-6">Bootcamp</a>
                   </li>
                   <li>
-                    <a href="#">Mentorship</a>
+                    <a href="/mentorship-2">Mentorship</a>
                   </li>
                 </ul>
               </div>
@@ -42,7 +42,7 @@ export default function Footer() {
                 <h5>Contribute</h5>
                 <ul className={clsx('list-unstyled', styles.footerLinksList)}>
                   <li>
-                    <a href="#">Volunteer</a>
+                    <a href="/contribute">Volunteer</a>
                   </li>
                   <li>
                     <a href="#">Donate</a>
@@ -79,7 +79,7 @@ export default function Footer() {
               >
                 <Facebook />
               </a>
-              <a aria-label="Link to Instagram Profile" href="#">
+              <a aria-label="Link to Instagram Profile" href="https://www.instagram.com/techladiescode/">
                 <Instagram />
               </a>
             </div>
