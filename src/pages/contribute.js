@@ -22,28 +22,25 @@ export default function Home() {
               <img
                 alt="TODO: REPLACE ME"
                 className="img-fluid mb-4"
-                src="/illustrations/illus_contactus.png"
+                src="/illustrations/illus_contribute.png"
               />
               <h1 className="h3">
-                Join us in our mission to increase participation and advancement
-                opportunities for women in the tech industry.
+                We need your help to increase the impact of our work
               </h1>
             </div>
             <div className="col-md-5 offset-md-1">
               <p className="mb-3 text-primary font-weight-bold">
-                Since our launch in 2016
+                Join us in our mission to increase women's participation in the tech industry.
               </p>
               <p className="mb-4 text-body">
                 We have built an amazing international community in Asia and
-                empowered women to switch careers into tech. We need your help
-                to increase the impact of our work.
+                empowered women to switch careers into tech, but we need help. 
                 <br />
                 <br />
-                Expect to gain more like-minded friends, connections and make a
-                difference to help more women!
+                Support us to make a difference in tech and gain new skills & connections while at it! 
               </p>
               <a className="btn btn-primary" href="#">
-                Join TechLadies
+                Volunteer with TechLadies
               </a>
             </div>
           </div>
@@ -54,7 +51,7 @@ export default function Home() {
             {volunteerInitiatives.map(({ image, title, description }) => (
               <div className="col-lg-3 col-sm-6" key={title}>
                 <img
-                  className="thumbnail thumbnail-lg mb-4"
+                  className="thumbnail thumbnail-xl mb-4 center-image"
                   alt={title + ' image'}
                   src={image}
                 />

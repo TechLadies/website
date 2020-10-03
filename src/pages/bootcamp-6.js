@@ -23,14 +23,14 @@ export default function Home() {
       <main>
         <div className="container p-6">
           <div className="row gy-6">
-            <div className="col-md-5  offset-md-1">
+            <div className="col-md-5">
               <img
                 alt="TODO: REPLACE ME"
                 className="img-fluid"
-                src="/illustrations/illus_bootcamp.png"
+                src="/illustrations/Illus_astronaut.png"
               />
             </div>
-            <div className="col-md-6">
+            <div className="col-md-7">
               <p className="mb-4">
                 <h3>TechLadies Bootcamp 2020</h3>
                 <br />

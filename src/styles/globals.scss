@@ -39,6 +39,11 @@ a {
     width: 5rem;
   }
 
+  &.thumbnail-xl {
+    height: 10rem;
+    width: 10rem;
+  }
+
   &:not(:first-child) {
     margin-left: 1rem;
   }
