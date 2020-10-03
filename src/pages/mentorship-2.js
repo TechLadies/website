@@ -205,24 +205,43 @@ export default function Home() {
                     <h6 className="card-title">Software Engineering</h6>
                     <div className="mb-3">
                       <img
-                        className="thumbnail thumbnail-sm"
-                        alt="TODO: REPLACE ME"
-                        src="https://i.pravatar.cc/128?img=1"
+                        className="thumbnail thumbnail-md"
+                        alt="Denise"
+                        src="../team/mentorship2/denise.png"
                       />
                       <img
-                        className="thumbnail thumbnail-sm"
-                        alt="TODO: REPLACE ME"
-                        src="https://i.pravatar.cc/128?img=2"
+                        className="thumbnail thumbnail-md"
+                        alt="Archanaa"
+                        src="../team/mentorship2/archanaa.png"
                       />
                       <img
-                        className="thumbnail thumbnail-sm"
-                        alt="TODO: REPLACE ME"
-                        src="https://i.pravatar.cc/128?img=3"
+                        className="thumbnail thumbnail-md"
+                        alt="waihon"
+                        src="../team/mentorship2/waihon.png"
+                      />
+                    </div>
+                    <div className="mb-3">
+                      <img
+                        className="thumbnail thumbnail-md"
+                        alt="martin"
+                        src="../team/mentorship2/martin.png"
                       />
                       <img
-                        className="thumbnail thumbnail-sm"
-                        alt="TODO: REPLACE ME"
-                        src="https://i.pravatar.cc/128?img=4"
+                        className="thumbnail thumbnail-md"
+                        alt="akshata"
+                        src="../team/mentorship2/akshata.png"
+                      />
+                      <img
+                        className="thumbnail thumbnail-md"
+                        alt="kavitha"
+                        src="../team/mentorship2/kavitha.png"
+                      />
+                    </div>
+                    <div className="mb-3">
+                      <img
+                        className="thumbnail thumbnail-md"
+                        alt="sowmya"
+                        src="../team/mentorship2/sowmya.png"
                       />
                     </div>
                   </div>
@@ -240,24 +259,31 @@ export default function Home() {
                     <h6 className="card-title">UI/UX Design</h6>
                     <div className="mb-3">
                       <img
-                        className="thumbnail thumbnail-sm"
-                        alt="TODO: REPLACE ME"
-                        src="https://i.pravatar.cc/128?img=1"
+                        className="thumbnail thumbnail-md"
+                        alt="irina"
+                        src="../team/mentorship2/irina.png"
                       />
                       <img
-                        className="thumbnail thumbnail-sm"
-                        alt="TODO: REPLACE ME"
-                        src="https://i.pravatar.cc/128?img=2"
+                        className="thumbnail thumbnail-md"
+                        alt="gloria"
+                        src="../team/mentorship2/gloria.png"
                       />
                       <img
-                        className="thumbnail thumbnail-sm"
-                        alt="TODO: REPLACE ME"
-                        src="https://i.pravatar.cc/128?img=3"
+                        className="thumbnail thumbnail-md"
+                        alt="Keen"
+                        src="../team/mentorship2/keen.png"
+                      />
+                    </div>
+                    <div className="mb-3">
+                      <img
+                        className="thumbnail thumbnail-md"
+                        alt="michelle"
+                        src="../team/mentorship2/michelle.png"
                       />
                       <img
-                        className="thumbnail thumbnail-sm"
-                        alt="TODO: REPLACE ME"
-                        src="https://i.pravatar.cc/128?img=4"
+                        className="thumbnail thumbnail-md"
+                        alt="jasmine"
+                        src="../team/mentorship2/jasmine.png"
                       />
                     </div>
                   </div>
@@ -275,24 +301,31 @@ export default function Home() {
                     <h6 className="card-title">Data Science</h6>
                     <div className="mb-3">
                       <img
-                        className="thumbnail thumbnail-sm"
-                        alt="TODO: REPLACE ME"
-                        src="https://i.pravatar.cc/128?img=1"
+                        className="thumbnail thumbnail-md"
+                        alt="jan"
+                        src="../team/mentorship2/jan.png"
                       />
                       <img
-                        className="thumbnail thumbnail-sm"
-                        alt="TODO: REPLACE ME"
-                        src="https://i.pravatar.cc/128?img=2"
+                        className="thumbnail thumbnail-md"
+                        alt="fiona"
+                        src="../team/mentorship2/fiona.png"
                       />
                       <img
-                        className="thumbnail thumbnail-sm"
-                        alt="TODO: REPLACE ME"
-                        src="https://i.pravatar.cc/128?img=3"
+                        className="thumbnail thumbnail-md"
+                        alt="pooja"
+                        src="../team/mentorship2/pooja.jpg"
+                      />
+                    </div>
+                    <div className="mb-3">
+                      <img
+                        className="thumbnail thumbnail-md"
+                        alt="mongsuan"
+                        src="../team/mentorship2/mongsuan.png"
                       />
                       <img
-                        className="thumbnail thumbnail-sm"
-                        alt="TODO: REPLACE ME"
-                        src="https://i.pravatar.cc/128?img=4"
+                        className="thumbnail thumbnail-md"
+                        alt="catherine"
+                        src="../team/mentorship2/catherine.png"
                       />
                     </div>
                   </div>
@@ -310,24 +343,36 @@ export default function Home() {
                     <h6 className="card-title">Product Management</h6>
                     <div className="mb-3">
                       <img
-                        className="thumbnail thumbnail-sm"
-                        alt="TODO: REPLACE ME"
-                        src="https://i.pravatar.cc/128?img=1"
+                        className="thumbnail thumbnail-md"
+                        alt="rajni"
+                        src="../team/mentorship2/rajni.png"
                       />
                       <img
-                        className="thumbnail thumbnail-sm"
-                        alt="TODO: REPLACE ME"
-                        src="https://i.pravatar.cc/128?img=2"
+                        className="thumbnail thumbnail-md"
+                        alt="anna"
+                        src="../team/mentorship2/anna.png"
                       />
                       <img
-                        className="thumbnail thumbnail-sm"
-                        alt="TODO: REPLACE ME"
-                        src="https://i.pravatar.cc/128?img=3"
+                        className="thumbnail thumbnail-md"
+                        alt="jennifer"
+                        src="../team/mentorship2/jennifer.jpg"
+                      />
+                    </div>
+                    <div className="mb-3">
+                      <img
+                        className="thumbnail thumbnail-md"
+                        alt="michelleloke"
+                        src="../team/mentorship2/michelleloke.png"
                       />
                       <img
-                        className="thumbnail thumbnail-sm"
-                        alt="TODO: REPLACE ME"
-                        src="https://i.pravatar.cc/128?img=4"
+                        className="thumbnail thumbnail-md"
+                        alt="estee"
+                        src="../team/mentorship2/estee.png"
+                      />
+                      <img
+                        className="thumbnail thumbnail-md"
+                        alt="janani"
+                        src="../team/mentorship2/janani.png"
                       />
                     </div>
                   </div>
@@ -355,7 +400,7 @@ export default function Home() {
 
                     <div className="col-md-10">
                       <h6 className="mb-3">
-                        {title} (<a src={link}>LinkedIn</a>)
+                        {title} (<a href={link} target="_blank">LinkedIn</a>)
                       </h6>
                       <p>{description}</p>
                     </div>
@@ -378,7 +423,7 @@ export default function Home() {
 
                   <div className="col-md-10">
                     <h6 className="mb-3">
-                      {title} (<a src={link}>LinkedIn</a>)
+                      {title} (<a href={link} target="_blank">LinkedIn</a>)
                     </h6>
                     <p>{description}</p>
                   </div>
@@ -400,7 +445,7 @@ export default function Home() {
 
                   <div className="col-md-10">
                     <h6 className="mb-3">
-                      {title} (<a src={link}>LinkedIn</a>)
+                      {title} (<a href={link} target="_blank">LinkedIn</a>)
                     </h6>
                     <p>{description}</p>
                   </div>
@@ -422,7 +467,7 @@ export default function Home() {
 
                   <div className="col-md-10">
                     <h6 className="mb-3">
-                      {title} (<a src={link}>LinkedIn</a>)
+                      {title} (<a href={link} target="_blank">LinkedIn</a>)
                     </h6>
                     <p>{description}</p>
                   </div>
