@@ -141,7 +141,7 @@ export default function Home() {
             <div className="row gy-5">
               <div className="col-md-6 d-flex flex-column align-items-start justify-content-center">
                 <img
-                  className="mb-4"
+                  className="mb-4 center-image"
                   height="260"
                   src="/illustrations/illus_programmes.png"
                 />
