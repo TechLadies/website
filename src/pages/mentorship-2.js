@@ -171,21 +171,25 @@ export default function Home() {
         <div className="bg-gray">
           <div className="container py-6">
             <div className="row text-center">
-              <img
-                className="thumbnail thumbnail-sm"
-                alt="TODO: REPLACE ME"
-                src="https://i.pravatar.cc/128?img=1"
-              />
-              <p>
-                “I thought the overall organisation by TechLadies was great.
-                Clear communication and enough guidance to keep us on track,
-                without being overly prescriptive. The kickoff session was good
-                too -- it set clear expectations on both mentor and mentee, and
-                that was very useful.”
-              </p>
-              <p>
-                <b>Jill Quek, TechLadies Mentor (2019)</b>
-              </p>
+              <div className="col-lg-2 col-md-3">
+                <img
+                  className="thumbnail thumbnail-lg"
+                  alt="Jill Quel, Mentor 2019"
+                  src="../team/jill.png"
+                />
+              </div>
+              <div className="col-lg-10 col-md-9">
+                <p>
+                  “I thought the overall organisation by TechLadies was great.
+                  Clear communication and enough guidance to keep us on track,
+                  without being overly prescriptive. The kickoff session was good
+                  too -- it set clear expectations on both mentor and mentee, and
+                  that was very useful.”
+                </p>
+                <p>
+                  <b>Jill Quek, TechLadies Mentor (2019)</b>
+                </p>
+              </div>
             </div>
           </div>
         </div>
