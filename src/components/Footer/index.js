@@ -28,7 +28,7 @@ export default function Footer() {
           <div className="col-lg-4 offset-lg-1">
             <div className="row">
               <div className="col-lg-12 col-6 mb-4">
-                <h5>Programs</h5>
+                <h5><a href="/our-programs">Programs</a></h5>
                 <ul className={clsx('list-unstyled', styles.footerLinksList)}>
                   <li>
                     <a href="/bootcamp-6">Bootcamp</a>
@@ -39,7 +39,7 @@ export default function Footer() {
                 </ul>
               </div>
               <div className="col-lg-12 col-6 mb-4">
-                <h5>Contribute</h5>
+                <h5><a href="/contribute">Contribute</a></h5>
                 <ul className={clsx('list-unstyled', styles.footerLinksList)}>
                   <li>
                     <a href="/contribute">Volunteer</a>
@@ -50,15 +50,12 @@ export default function Footer() {
                 </ul>
               </div>
               <div className="col-lg-12 col-6">
-                <h5>About</h5>
+                <h5><a href="/about">About</a></h5>
                 <ul className={clsx('list-unstyled', styles.footerLinksList)}>
                   <li>
                     <NavLink href="/conduct/">
                       <a className="nav-link">Community Code of Conduct</a>
                     </NavLink>
-                  </li>
-                  <li>
-                    <a href="#">Terms & Conditions</a>
                   </li>
                 </ul>
               </div>
