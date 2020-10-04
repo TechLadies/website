@@ -28,7 +28,9 @@ export default function Footer() {
           <div className="col-lg-4 offset-lg-1">
             <div className="row">
               <div className="col-lg-12 col-6 mb-4">
-                <h5><a href="/our-programs">Programs</a></h5>
+                <h5>
+                  <a href="/our-programs">Programs</a>
+                </h5>
                 <ul className={clsx('list-unstyled', styles.footerLinksList)}>
                   <li>
                     <a href="/bootcamp-6">Bootcamp</a>
@@ -39,7 +41,9 @@ export default function Footer() {
                 </ul>
               </div>
               <div className="col-lg-12 col-6 mb-4">
-                <h5><a href="/contribute">Contribute</a></h5>
+                <h5>
+                  <a href="/contribute">Contribute</a>
+                </h5>
                 <ul className={clsx('list-unstyled', styles.footerLinksList)}>
                   <li>
                     <a href="/contribute">Volunteer</a>
@@ -50,7 +54,9 @@ export default function Footer() {
                 </ul>
               </div>
               <div className="col-lg-12 col-6">
-                <h5><a href="/about">About</a></h5>
+                <h5>
+                  <a href="/about">About</a>
+                </h5>
                 <ul className={clsx('list-unstyled', styles.footerLinksList)}>
                   <li>
                     <NavLink href="/conduct/">
@@ -71,18 +77,26 @@ export default function Footer() {
             <div className="d-flex">
               <a
                 aria-label="Link to Facebook"
-                className="mr-2"
                 href="https://www.facebook.com/TechLadies"
               >
                 <Facebook />
               </a>
-              <a aria-label="Link to Linkedin" href="https://www.linkedin.com/company/techladies">
+              <a
+                aria-label="Link to Linkedin"
+                href="https://www.linkedin.com/company/techladies"
+              >
                 <Linkedin />
               </a>
-              <a aria-label="Link to Twitter" href="https://www.twitter.com/techladiescode">
+              <a
+                aria-label="Link to Twitter"
+                href="https://www.twitter.com/techladiescode"
+              >
                 <Twitter />
               </a>
-              <a aria-label="Link to Instagram" href="https://www.instagram.com/techladiescode/">
+              <a
+                aria-label="Link to Instagram"
+                href="https://www.instagram.com/techladiescode/"
+              >
                 <Instagram />
               </a>
             </div>
