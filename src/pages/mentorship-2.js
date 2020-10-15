@@ -1,22 +1,27 @@
+import { useState } from 'react';
 import Head from 'next/head';
 
-import clsx from 'clsx';
-
-import {
-  softwareEngineering,
-  uiuxDesign,
-  productManagement,
-  dataScience,
-} from '../data/mentorship-2-mentors';
+import { mentorsData } from '../data/mentorship-2-mentors';
 
 import Accordion from '../components/Accordion';
 import Timeline from '../components/Timeline';
 import TimelineItem from '../components/TimelineItem';
+import MentorsCard from '../components/MentorsCard'
 
 import mentorshipTimeline from '../data/mentorship-timeline';
 import programsFAQ from '../data/mentorship-faq.js';
 
+import Modal from '../components/Modal';
+
 export default function Home() {
+  const [showMentorsModal, setShowMentorsModal] = useState(false)
+  const [selectedTopic, setSelectedTopic] = useState(null)
+
+  const handleViewMentors = (e) => {
+    setSelectedTopic(e.target.dataset.message)
+    setShowMentorsModal(true)
+  }
+
   return (
     <div>
       <Head>
@@ -26,8 +31,8 @@ export default function Home() {
         <div className="container py-6">
           <div className="row gy-6">
             <div className="col-md-6">
+              <h3>TechLadies Mentorship 2020</h3>
               <p className="mb-4">
-                <h3>TechLadies Mentorship 2020</h3>
                 <br />
                 <br />
                 TechLadies Mentorship is a 12-week program that provides women with personal career guidance
@@ -36,7 +41,7 @@ export default function Home() {
                 Science/Engineering/Analysis, Product Management.
                 <br />
                 <br />
-                The TechLadies Mentorship 2020 has concluded. To stay updated on when our 2021 season opens for applications, please sign up for our newsletter below. 
+                The TechLadies Mentorship 2020 has concluded. To stay updated on when our 2021 season opens for applications, please sign up for our newsletter below.
               </p>
               <label
                 htmlFor="hero-email"
@@ -68,7 +73,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        
+
         <div className="bg-gray">
           <div className="container py-6">
             <div className="row">
@@ -174,7 +179,7 @@ export default function Home() {
               <div className="col-lg-2 col-md-3">
                 <img
                   className="thumbnail thumbnail-lg"
-                  alt="Jill Quel, Mentor 2019"
+                  alt="Jill Quek, Mentor 2019"
                   src="../team/jill.png"
                 />
               </div>
@@ -198,285 +203,10 @@ export default function Home() {
           <div className="row">
             <h2 className="mb-4 text-center">Mentors for 2020</h2>
             <div className="row gy-4">
-              <div className="col-lg-3 col-md-6">
-                <div className="card">
-                  <div className="card-body card-body-sm">
-                    <img
-                      className="img-fluid"
-                      alt="Software Engineering icon"
-                      src="/icons/icon_softwaredevelopment.png"
-                    />
-                    <h6 className="card-title">Software Engineering</h6>
-                    <div className="mb-3">
-                      <img
-                        className="thumbnail thumbnail-md"
-                        alt="Denise"
-                        src="../team/mentorship2/denise.png"
-                      />
-                      <img
-                        className="thumbnail thumbnail-md"
-                        alt="Archanaa"
-                        src="../team/mentorship2/archanaa.png"
-                      />
-                      <img
-                        className="thumbnail thumbnail-md"
-                        alt="waihon"
-                        src="../team/mentorship2/waihon.png"
-                      />
-                    </div>
-                    <div className="mb-3">
-                      <img
-                        className="thumbnail thumbnail-md"
-                        alt="martin"
-                        src="../team/mentorship2/martin.png"
-                      />
-                      <img
-                        className="thumbnail thumbnail-md"
-                        alt="akshata"
-                        src="../team/mentorship2/akshata.png"
-                      />
-                      <img
-                        className="thumbnail thumbnail-md"
-                        alt="kavitha"
-                        src="../team/mentorship2/kavitha.png"
-                      />
-                    </div>
-                    <div className="mb-3">
-                      <img
-                        className="thumbnail thumbnail-md"
-                        alt="sowmya"
-                        src="../team/mentorship2/sowmya.png"
-                      />
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div className="col-lg-3 col-md-6">
-                <div className="card">
-                  <div className="card-body card-body-sm">
-                    <img
-                      className="img-fluid"
-                      alt="UI/UX Design icon"
-                      src="/icons/icon_UIUX.png"
-                    />
-                    <h6 className="card-title">UI/UX Design</h6>
-                    <div className="mb-3">
-                      <img
-                        className="thumbnail thumbnail-md"
-                        alt="irina"
-                        src="../team/mentorship2/irina.png"
-                      />
-                      <img
-                        className="thumbnail thumbnail-md"
-                        alt="gloria"
-                        src="../team/mentorship2/gloria.png"
-                      />
-                      <img
-                        className="thumbnail thumbnail-md"
-                        alt="Keen"
-                        src="../team/mentorship2/keen.png"
-                      />
-                    </div>
-                    <div className="mb-3">
-                      <img
-                        className="thumbnail thumbnail-md"
-                        alt="michelle"
-                        src="../team/mentorship2/michelle.png"
-                      />
-                      <img
-                        className="thumbnail thumbnail-md"
-                        alt="jasmine"
-                        src="../team/mentorship2/jasmine.png"
-                      />
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div className="col-lg-3 col-md-6">
-                <div className="card">
-                  <div className="card-body card-body-sm">
-                    <img
-                      className="img-fluid"
-                      alt="Data Science icon"
-                      src="/icons/icon_datascience.png"
-                    />
-                    <h6 className="card-title">Data Science</h6>
-                    <div className="mb-3">
-                      <img
-                        className="thumbnail thumbnail-md"
-                        alt="jan"
-                        src="../team/mentorship2/jan.png"
-                      />
-                      <img
-                        className="thumbnail thumbnail-md"
-                        alt="fiona"
-                        src="../team/mentorship2/fiona.png"
-                      />
-                      <img
-                        className="thumbnail thumbnail-md"
-                        alt="pooja"
-                        src="../team/mentorship2/pooja.jpg"
-                      />
-                    </div>
-                    <div className="mb-3">
-                      <img
-                        className="thumbnail thumbnail-md"
-                        alt="mongsuan"
-                        src="../team/mentorship2/mongsuan.png"
-                      />
-                      <img
-                        className="thumbnail thumbnail-md"
-                        alt="catherine"
-                        src="../team/mentorship2/catherine.png"
-                      />
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div className="col-lg-3 col-md-6">
-                <div className="card">
-                  <div className="card-body card-body-sm">
-                    <img
-                      className="img-fluid"
-                      alt="Product Management icon"
-                      src="/icons/icon_productmanagement.png"
-                    />
-                    <h6 className="card-title">Product Management</h6>
-                    <div className="mb-3">
-                      <img
-                        className="thumbnail thumbnail-md"
-                        alt="rajni"
-                        src="../team/mentorship2/rajni.png"
-                      />
-                      <img
-                        className="thumbnail thumbnail-md"
-                        alt="anna"
-                        src="../team/mentorship2/anna.png"
-                      />
-                      <img
-                        className="thumbnail thumbnail-md"
-                        alt="jennifer"
-                        src="../team/mentorship2/jennifer.jpg"
-                      />
-                    </div>
-                    <div className="mb-3">
-                      <img
-                        className="thumbnail thumbnail-md"
-                        alt="michelleloke"
-                        src="../team/mentorship2/michelleloke.png"
-                      />
-                      <img
-                        className="thumbnail thumbnail-md"
-                        alt="estee"
-                        src="../team/mentorship2/estee.png"
-                      />
-                      <img
-                        className="thumbnail thumbnail-md"
-                        alt="janani"
-                        src="../team/mentorship2/janani.png"
-                      />
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div className="container py-6">
-          <div className="row">
-            <h2 className="mb-4 text-center">Mentors for 2020</h2>
-            <div className="row">
-              <h4>Software Engineering</h4>
-              {softwareEngineering.map(
-                ({ image, title, link, description }) => (
-                  <div className="row gy-3 mb-4" key={title}>
-                    <div className="col-md-2">
-                      <img
-                        className="thumbnail thumbnail-lg"
-                        alt={title + ' image'}
-                        src={image}
-                      />
-                    </div>
-
-                    <div className="col-md-10">
-                      <h6 className="mb-3">
-                        {title} (<a href={link} target="_blank">LinkedIn</a>)
-                      </h6>
-                      <p>{description}</p>
-                    </div>
-                  </div>
-                )
-              )}
-            </div>
-
-            <div className="row">
-              <h4>UI/UX Design</h4>
-              {uiuxDesign.map(({ image, title, link, description }) => (
-                <div className="row gy-3 mb-4" key={title}>
-                  <div className="col-md-2">
-                    <img
-                      className="thumbnail thumbnail-lg"
-                      alt={title + ' image'}
-                      src={image}
-                    />
-                  </div>
-
-                  <div className="col-md-10">
-                    <h6 className="mb-3">
-                      {title} (<a href={link} target="_blank">LinkedIn</a>)
-                    </h6>
-                    <p>{description}</p>
-                  </div>
-                </div>
-              ))}
-            </div>
-
-            <div className="row">
-              <h4>Product Management</h4>
-              {productManagement.map(({ image, title, link, description }) => (
-                <div className="row gy-3 mb-4" key={title}>
-                  <div className="col-md-2">
-                    <img
-                      className="thumbnail thumbnail-lg"
-                      alt={title + ' image'}
-                      src={image}
-                    />
-                  </div>
-
-                  <div className="col-md-10">
-                    <h6 className="mb-3">
-                      {title} (<a href={link} target="_blank">LinkedIn</a>)
-                    </h6>
-                    <p>{description}</p>
-                  </div>
-                </div>
-              ))}
-            </div>
-
-            <div className="row">
-              <h4>Data Science</h4>
-              {dataScience.map(({ image, title, link, description }) => (
-                <div className="row gy-3 mb-4" key={title}>
-                  <div className="col-md-2">
-                    <img
-                      className="thumbnail thumbnail-lg"
-                      alt={title + ' image'}
-                      src={image}
-                    />
-                  </div>
-
-                  <div className="col-md-10">
-                    <h6 className="mb-3">
-                      {title} (<a href={link} target="_blank">LinkedIn</a>)
-                    </h6>
-                    <p>{description}</p>
-                  </div>
-                </div>
-              ))}
+              <MentorsCard dataMessage='software' handleViewMentors={handleViewMentors} mentors={mentorsData['software']} />
+              <MentorsCard dataMessage='ux' handleViewMentors={handleViewMentors} mentors={mentorsData['ux']} />
+              <MentorsCard dataMessage='data' handleViewMentors={handleViewMentors} mentors={mentorsData['data']} />
+              <MentorsCard dataMessage='product' handleViewMentors={handleViewMentors} mentors={mentorsData['product']} />
             </div>
           </div>
         </div>
@@ -527,6 +257,38 @@ export default function Home() {
             </div>
           </div>
         </div>
+
+        // Modal
+        {
+          selectedTopic && (
+            <Modal isShown={showMentorsModal} onClose={() => setShowMentorsModal(false)} title={mentorsData[selectedTopic].title}>
+              <div className="container">
+                <div className="row">
+                  {mentorsData[selectedTopic].mentors.map(
+                    ({ image, title, link, description }) => (
+                      <div className="row gy-3 mb-4" key={title}>
+                        <div className="col-md-2">
+                          <img
+                            className="thumbnail thumbnail-lg"
+                            alt={title + ' image'}
+                            src={image}
+                          />
+                        </div>
+
+                        <div className="col-md-10">
+                          <h6 className="mb-3">
+                            {title} (<a href={link} target="_blank">LinkedIn</a>)
+                      </h6>
+                          <p>{description}</p>
+                        </div>
+                      </div>
+                    )
+                  )}
+                </div>
+              </div>
+            </Modal>
+          )
+        }
       </main>
     </div>
   );
