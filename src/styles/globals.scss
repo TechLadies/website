@@ -33,6 +33,10 @@ a {
     height: 2rem;
     width: 2rem;
   }
+  &.thumbnail-md {
+    height: 2.6rem;
+    width: 2.6rem;
+  }
 
   &.thumbnail-lg {
     height: 5rem;
@@ -90,4 +94,8 @@ a {
 
 .card-body.card-body-sm {
   padding: 1.5rem;
+}
+
+.btn-link {
+  text-decoration: none;
 }

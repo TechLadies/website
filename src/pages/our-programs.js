@@ -35,15 +35,19 @@ export default function Home() {
           <div className="col-lg-6 col-md-5">
             <img
               alt="TODO: REPLACE ME"
-              className="mb-4"
+              className="img-fluid mb-4"
               src="/illustrations/illus_programmes.png"
             />
+            {/* <h1 className="h3 mb-4">Find a TechLadies program for you</h1>
+            <p className="text-body mb-4">
+              Take a short quiz to discover which program best suit your needs!
+            </p> */}
+          </div>
+          <div className="col-lg-5 offset-lg-1 col-md-7">
             <h1 className="h3 mb-4">Find a TechLadies program for you</h1>
             <p className="text-body mb-4">
               Take a short quiz to discover which program best suit your needs!
             </p>
-          </div>
-          <div className="col-lg-5 offset-lg-1 col-md-7">
             <Quiz data={quiz} />
           </div>
         </div>
@@ -100,7 +104,9 @@ export default function Home() {
             <h3 className="mb-4 h4">TechLadies Mentorship</h3>
             <p className="mb-4">Duration: 12 weeks</p>
             <p className="mb-4">
-              A 3-month mentorship program that pairs women who are transitioning into or establishing themselves in the tech industry with industry practitioners. 
+              A 3-month mentorship program that pairs women who are
+              transitioning into or establishing themselves in the tech industry
+              with industry practitioners.
             </p>
 
             <button className="btn btn-primary">
@@ -137,11 +143,10 @@ export default function Home() {
             <h3 className="mb-4 h4">TechLadies Meet</h3>
             <p className="mb-4">
               Meet fellow TechLadies through in-person or online technical
-              talks, roundtable discussions, study groups and more!
-              TechLadies Meet is open to women of all levels of technical
-              skills.
+              talks, roundtable discussions, study groups and more! TechLadies
+              Meet is open to women of all levels of technical skills.
             </p>
-            <a 
+            <a
               className="btn btn-primary"
               href="https://www.eventbrite.sg/o/techladies-11040976589"
               target="_blank"

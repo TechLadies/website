@@ -92,42 +92,42 @@ export default function Home() {
             <div className="col-md-4 col-sm-6">
               <img
                 alt="TODO: REPLACE ME"
-                className="img-fluid"
+                className="mb-4 partner-logo"
                 src="/partners/logos/microsoft.png"
               />
             </div>
             <div className="col-md-4 col-sm-6">
               <img
                 alt="TODO: REPLACE ME"
-                className="img-fluid"
+                className="mb-4 partner-logo"
                 src="/partners/logos/rakuten-logo.gif"
               />
             </div>
             <div className="col-md-4 col-sm-6">
               <img
                 alt="TODO: REPLACE ME"
-                className="img-fluid"
+                className="mb-4 partner-logo"
                 src="/partners/logos/thoughtworks.png"
               />
             </div>
             <div className="col-md-4 col-sm-6">
               <img
                 alt="TODO: REPLACE ME"
-                className="img-fluid"
+                className="mb-4 partner-logo"
                 src="/partners/logos/zendesk.png"
               />
             </div>
             <div className="col-md-4 col-sm-6">
               <img
                 alt="TODO: REPLACE ME"
-                className="img-fluid"
+                className="mb-4 partner-logo"
                 src="/partners/logos/carousell.png"
               />
             </div>
             <div className="col-md-4 col-sm-6">
               <img
                 alt="TODO: REPLACE ME"
-                className="img-fluid"
+                className="mb-4 partner-logo"
                 src="/partners/logos/kiatsg_logo.png"
               />
             </div>

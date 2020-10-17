@@ -1,0 +1,19 @@
+.whiteTransparent {
+    position: absolute;
+    bottom: 12px;
+    left: 0;
+    height: 95px;
+    width: 100%;
+    filter: blur(15px);
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 50%, rgba(255,255,255,1) 100%);
+    z-index: 0;;
+}
+
+.viewMentors {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin: 1.3rem auto 0 auto;
+    z-index: 2;
+}
