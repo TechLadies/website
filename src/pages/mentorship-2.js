@@ -80,11 +80,11 @@ export default function Home() {
               <h2 className="text-center mb-5">Mentees Program Requirements</h2>
               <div className="col-md-4">
                 <img
-                  className="thumbnail thumbnail-sm"
+                  className="thumbnail thumbnail-lg mx-auto d-block space-bottom-10 "
                   alt="TODO: REPLACE ME"
-                  src="https://i.pravatar.cc/128?img=1"
+                  src="/icons/mentorship/goalsetting.jpg"
                 />
-                <h6>Goal Setting</h6>
+                <h6 class="center-text">Goal Setting</h6>
                 <p>
                   Have a clear goal for what you'll like to achieve from this
                   program
@@ -92,26 +92,23 @@ export default function Home() {
               </div>
               <div className="col-md-4">
                 <img
-                  className="thumbnail thumbnail-sm"
+                  className="thumbnail thumbnail-lg mx-auto d-block space-bottom-10 "
                   alt="TODO: REPLACE ME"
-                  src="https://i.pravatar.cc/128?img=1"
+                  src="/icons/mentorship/biweekly.jpg"
                 />
-                <h6>Bi-weekly commitments</h6>
+                <h6 class="center-text">Bi-weekly commitments</h6>
                 <p>
                   Commit to bi-weekly meetings (offline/virtual) with their
-                  mentors from Jun 2020 - Aug 2020
-                  <br />
-                  Reports to feedback your progress with your mentor and a short
-                  progress report
+                  mentors from Jun 2020 - Aug 2020. Provide feedback on your progress with your mentor via a short report
                 </p>
               </div>
               <div className="col-md-4">
                 <img
-                  className="thumbnail thumbnail-sm"
+                  className="thumbnail thumbnail-lg mx-auto d-block space-bottom-10 "
                   alt="TODO: REPLACE ME"
-                  src="https://i.pravatar.cc/128?img=1"
+                  src="/icons/mentorship/presentation.jpg"
                 />
-                <h6>Final Presentation</h6>
+                <h6 class="center-text">Final Presentation</h6>
                 <p>Present a final project at the end of the program</p>
               </div>
             </div>
@@ -123,11 +120,11 @@ export default function Home() {
             <h2 className="text-center mb-5">Why join us as a Mentee?</h2>
             <div className="col-md-4">
               <img
-                className="thumbnail thumbnail-sm"
+                className="thumbnail thumbnail-lg mx-auto d-block space-bottom-10 "
                 alt="TODO: REPLACE ME"
-                src="https://i.pravatar.cc/128?img=1"
+                src="/icons/mentorship/growth.jpg"
               />
-              <h6>Grow your career in tech</h6>
+              <h6 class="center-text">Grow your career in tech</h6>
               <p>
                 One of the best ways to advance in the work you do is to learn
                 from a mentor, someone who has a wealth of experience and is
@@ -139,11 +136,11 @@ export default function Home() {
             </div>
             <div className="col-md-4">
               <img
-                className="thumbnail thumbnail-sm"
+                className="thumbnail thumbnail-lg mx-auto d-block space-bottom-10 "
                 alt="TODO: REPLACE ME"
-                src="https://i.pravatar.cc/128?img=1"
+                src="/icons/mentorship/network.jpg"
               />
-              <h6>Expand your professional network</h6>
+              <h6 class="center-text">Expand your professional network</h6>
               <p>
                 Working with a mentor is also a great chance to be introduced to
                 networks, companies and individuals which you previously never
@@ -154,11 +151,11 @@ export default function Home() {
             </div>
             <div className="col-md-4">
               <img
-                className="thumbnail thumbnail-sm"
+                className="thumbnail thumbnail-lg mx-auto d-block space-bottom-10 "
                 alt="TODO: REPLACE ME"
-                src="https://i.pravatar.cc/128?img=1"
+                src="/icons/mentorship/programs.jpg"
               />
-              <h6>Structured program</h6>
+              <h6 class="center-text">Structured program</h6>
               <p>
                 {' '}
                 We know how difficult it can be to find a mentor that is right
@@ -258,7 +255,7 @@ export default function Home() {
           </div>
         </div>
 
-        // Modal
+
         {
           selectedTopic && (
             <Modal isShown={showMentorsModal} onClose={() => setShowMentorsModal(false)} title={mentorsData[selectedTopic].title}>
