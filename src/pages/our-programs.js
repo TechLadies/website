@@ -58,7 +58,7 @@ export default function Home() {
             <div className="col-md-5 offset-md-1 col-lg-6 offset-lg-1 order-md-last">
               <img
                 alt="TODO: REPLACE ME"
-                className="thumbnail thumbnail-lg mb-4"
+                className="thumbnail thumbnail-xl mb-4"
                 src="/icons/icon_TLbootcamp.png"
               />
               <h3 className="mb-4 h4">TechLadies Bootcamp</h3>
@@ -98,7 +98,7 @@ export default function Home() {
           <div className="col-lg-6 col-md-5">
             <img
               alt="TODO: REPLACE ME"
-              className="thumbnail thumbnail-lg mb-4"
+              className="thumbnail thumbnail-xl mb-4"
               src="/icons/icon_TLmentorship.png"
             />
             <h3 className="mb-4 h4">TechLadies Mentorship</h3>
@@ -137,7 +137,7 @@ export default function Home() {
           <div className="col-md-5 offset-md-1">
             <img
               alt="TODO: REPLACE ME"
-              className="thumbnail thumbnail-lg mb-4"
+              className="thumbnail thumbnail-xl mb-4"
               src="/icons/icon_TLmeet.png"
             />
             <h3 className="mb-4 h4">TechLadies Meet</h3>
@@ -157,7 +157,7 @@ export default function Home() {
           <div className="col-md-5">
             <img
               alt="TODO: REPLACE ME"
-              className="thumbnail thumbnail-lg mb-4"
+              className="thumbnail thumbnail-xl mb-4"
               src="/icons/icon_TLcommunity.png"
             />
             <h3 className="mb-4 h4">TechLadies Community</h3>
