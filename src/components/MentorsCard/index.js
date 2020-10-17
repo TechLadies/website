@@ -28,7 +28,7 @@ function MentorsCard(props) {
           </div>
           <div className={clsx(styles.viewMentors)}>
             <button type="button" className="btn btn-link" onClick={handleViewMentors} data-message={dataMessage}>
-              View Mentors ({mentors.mentors.length})
+              View all {mentors.mentors.length} mentors
               </button>
           </div>
           <div className={clsx(styles.whiteTransparent)}></div>
