@@ -1,19 +1,19 @@
 const REASON = {
   id: 'reason',
   type: 'question',
-  title: 'Why are you here?',
+  title: 'What is your main goal at TechLadies?',
   options: {
-    justBrowsing: 'Just browsing',
     learnNewSkills: 'I want to learn new skills',
     moreWomenInTech: 'I want to see more women in tech',
     makeNewFriends: 'I want to make new friends',
+    justBrowsing: 'No goals, just browsing',
   },
 };
 
 const DESCRIPTION = {
   id: 'description',
   type: 'question',
-  title: 'Which phrase best describes you?',
+  title: 'Which phrase best describes your level of tech experiences?',
   options: {
     newbie: 'Newbie in tech',
     intermediate: 'Intermediate techie',
@@ -25,7 +25,7 @@ const DESCRIPTION = {
 const TIME = {
   id: 'time',
   type: 'question',
-  title: 'How much time do you have?',
+  title: 'How much time can you spare?',
   options: {
     notMuch: 'Not much!',
     some: ' Some time',
@@ -40,16 +40,28 @@ const ACTION = {
   options: {
     learnMore: (
       <>
-        Want to learn more about what we do?
+        <h3> Want to learn more about what we do? </h3>
         <br />
+        <img
+          className="thumbnail thumbnail-lg mx-auto d-block space-bottom-10 "
+          alt="TODO: REPLACE ME"
+          src="/icons/mentorship/goalsetting.jpg"
+        />
         <a
           href="https://www.facebook.com/groups/techladiescode"
           target="_blank"
         >
           Become a COMMUNITY MEMBER ON FACEBOOK
         </a>
+        <p>
+           Beyond programs and events, TechLadies is a community. Join us online for the latest industry news, highlights on awesome women in tech, and get support on your journey in tech on our Facebook group and Facebook page.
+        </p>
+        <a className="btn btn-primary" href="#">
+          Volunteer with TechLadies
+        </a>
       </>
     ),
+
     communityMember: (
       <>
         <br />
@@ -61,8 +73,45 @@ const ACTION = {
         </a>
       </>
     ),
-    mentorshipProgram: 'Have you heard of our MENTORSHIP PROGRAM?',
-    joinBootcamp: 'Would you like to join our next BOOTCAMP?',
+
+    mentorshipProgram: (
+      <>
+        We think you're great for our mentorship program. 
+        <br />
+        <img
+          className="thumbnail thumbnail-lg mx-auto d-block space-bottom-10 "
+          alt="TODO: REPLACE ME"
+          src="/icons/icon_TLmentorship.png"
+        />
+        <h3>TechLadies Mentorship</h3>
+        <p>
+           Ready to start or grow your career in tech? TechLadies Mentorship is a 3-month mentorship program that pairs women who are transitioning into or establishing themselves in the tech industry with industry practitioners.
+        </p>
+        <a className="btn btn-primary" href="/mentorship-2">
+          Learn More
+        </a>
+      </>
+    ), 
+
+    joinBootcamp:  (
+      <>
+        We think you're great for our bootcamp program. 
+        <br />
+        <img
+          className="thumbnail thumbnail-lg mx-auto d-block space-bottom-10 "
+          alt="TODO: REPLACE ME"
+          src="/icons/icon_TLbootcamp.png"
+        />
+        <h3>TechLadies Bootcamp</h3>
+        <p>
+           Looking to become a professional programmer? TechLadies Bootcamp is a part-time accelerated learning program where you learn valuable technical skills from industry experts by building a product from scratch. 
+        </p>
+        <a className="btn btn-primary" href="/bootcamp-6">
+          Learn More
+        </a>
+      </>
+    ),
+
     studyGroup: 'Are you looking for a STUDY GROUP?',
     volunteer: 'Would you be interested in VOLUNTEERING with us?',
     bootcampCoach: 'Why not join us as a BOOTCAMP COACH?',
@@ -70,6 +119,7 @@ const ACTION = {
       'Would you be interested in contributing a GUEST ARTICLE to our BLOG?',
   },
 };
+
 
 const FOLLOW_UP_ACTION = {
   becomeMentee: 'Are you hoping to become a MENTEE?',

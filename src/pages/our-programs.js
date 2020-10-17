@@ -44,9 +44,9 @@ export default function Home() {
             </p> */}
           </div>
           <div className="col-lg-5 offset-lg-1 col-md-7">
-            <h1 className="h3 mb-4">Find a TechLadies program for you</h1>
+            <h1 className="h3 mb-4">Find a program for you</h1>
             <p className="text-body mb-4">
-              Take a short quiz to discover which program best suit your needs!
+              Take a short quiz to discover which TechLadies program best suit your needs!
             </p>
             <Quiz data={quiz} />
           </div>
