@@ -24,11 +24,12 @@ export default function Home() {
                 className="img-fluid mb-4"
                 src="/illustrations/illus_contribute.png"
               />
+              
+            </div>
+            <div className="col-md-6">
               <h1 className="h3">
                 We need your help to increase the impact of our work
               </h1>
-            </div>
-            <div className="col-md-5 offset-md-1">
               <p className="mb-3 text-primary font-weight-bold">
                 Join us in our mission to increase women's participation in the tech industry.
               </p>
@@ -92,42 +93,42 @@ export default function Home() {
             <div className="col-md-4 col-sm-6">
               <img
                 alt="TODO: REPLACE ME"
-                className="mb-4 partner-logo"
+                className="mb-4 partner-logo-horizontal"
                 src="/partners/logos/microsoft.png"
               />
             </div>
             <div className="col-md-4 col-sm-6">
               <img
                 alt="TODO: REPLACE ME"
-                className="mb-4 partner-logo"
+                className="mb-4 partner-logo-horizontal"
                 src="/partners/logos/rakuten-logo.gif"
               />
             </div>
             <div className="col-md-4 col-sm-6">
               <img
                 alt="TODO: REPLACE ME"
-                className="mb-4 partner-logo"
+                className="mb-4 partner-logo-horizontal"
                 src="/partners/logos/thoughtworks.png"
               />
             </div>
             <div className="col-md-4 col-sm-6">
               <img
                 alt="TODO: REPLACE ME"
-                className="mb-4 partner-logo"
+                className="mb-4 partner-logo-square"
                 src="/partners/logos/zendesk.png"
               />
             </div>
             <div className="col-md-4 col-sm-6">
               <img
                 alt="TODO: REPLACE ME"
-                className="mb-4 partner-logo"
+                className="mb-4 partner-logo-square"
                 src="/partners/logos/carousell.png"
               />
             </div>
             <div className="col-md-4 col-sm-6">
               <img
                 alt="TODO: REPLACE ME"
-                className="mb-4 partner-logo"
+                className="mb-4 partner-logo-horizontal"
                 src="/partners/logos/kiatsg_logo.png"
               />
             </div>
@@ -139,8 +140,7 @@ export default function Home() {
             <div className="row mb-4">
               <div className="col-md-6">
                 <h3 className="h4">
-                  Your donations help fund our events and subscription services
-                  (such as EventBrite, SendGrid)
+                  Your one-time donation enable us to continue our activities at TechLadies
                 </h3>
               </div>
             </div>

@@ -100,8 +100,14 @@ $list-group-item-padding-y: 1rem;
   margin-bottom: 10px
 }
 
-.partner-logo {
+.partner-logo-horizontal {
   height: 3rem;
+  width: auto;
+  margin: 0 auto;
+}
+
+.partner-logo-square {
+  height: 5rem;
   width: auto;
   margin: 0 auto;
 }
