@@ -2,23 +2,23 @@ export default [
   {
     amount: 10,
     amountClass: 'text-primary',
-    title: 'Supporter',
+    title: 'Fan',
     description: (
-      <>This will find our costs for printing materials, ya da ya da.</>
+      <>This covers some of the monthly subscription for one of the tools we use.</>
     ),
     buttonClass: 'btn-primary',
-    url: null,
+    url: 'https://www.paypal.com/paypalme/learnemy/10',
     hoverBackgroundClass: 'bg-primary',
   },
   {
     amount: 30,
     amountClass: 'text-warning',
-    title: 'Fan',
+    title: 'Supporter',
     description: (
-      <>This will find our costs for printing materials, ya da ya da.</>
+      <>This cover a monthly subscription for one of the tools we use.</>
     ),
     buttonClass: 'btn-warning',
-    url: null,
+    url: 'https://www.paypal.com/paypalme/learnemy/30',
     hoverBackgroundClass: 'bg-warning',
   },
   {
@@ -26,21 +26,21 @@ export default [
     amountClass: 'text-success',
     title: 'Patron',
     description: (
-      <>This will find our costs for printing materials, ya da ya da.</>
+      <>This covers a month's worth of tools & products we use.</>
     ),
     buttonClass: 'btn-success',
-    url: null,
+    url: 'https://www.paypal.com/paypalme/learnemy/100',
     hoverBackgroundClass: 'bg-success',
   },
   {
-    amount: 500,
+    amount: 250,
     amountClass: 'text-danger',
     title: 'Super Patron',
     description: (
-      <>This will find our costs for printing materials, ya da ya da.</>
+      <>This covers refreshments for one workshop.</>
     ),
     buttonClass: 'btn-danger',
-    url: null,
+    url: 'https://www.paypal.com/paypalme/learnemy/250',
     hoverBackgroundClass: 'bg-danger',
   },
 ];
