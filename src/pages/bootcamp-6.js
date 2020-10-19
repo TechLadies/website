@@ -109,6 +109,23 @@ export default function Home () {
           </div>
         </div>
 
+        <div className="bg-gray">
+          <div className="container py-6">
+            <h2 className="mb-4 text-center">Program Timeline</h2>
+            <div className="row">
+              <Timeline>
+                {bootcampTimeline.map(({ date, title, description }) => (
+                  <TimelineItem key={title}>
+                    <h3 className="h5 text-red mb-3">{date}</h3>
+                    <h4 className="h6 mb-3">{title}</h4>
+                    <p className="pb-3">{description}</p>
+                  </TimelineItem>
+                ))}
+              </Timeline>
+            </div>
+          </div>
+        </div>
+
         <div className="container py-6">
           <div className="row">
             <h2 className="mb-4 text-center">Bootcamp Builders</h2>
