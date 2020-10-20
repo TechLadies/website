@@ -13,3 +13,30 @@
   height: 10rem;
   object-fit: cover;
 }
+
+.paperPlaneButton {
+  background: none;
+  border: none;
+  padding-right: 1em;
+}
+
+.addRightView {
+  display: flex;
+  border: 1px solid #ced4da;
+  border-left: none;
+  border-top-right-radius: 8px !important;
+  border-bottom-right-radius: 8px !important;
+}
+
+.noRightBorder {
+  border-right: none;
+}
+
+.paperPlaneSvg {
+  display: inline-block;
+  background: url('/img/paper-plane.svg') no-repeat top left;
+  background-size: contain;
+  cursor: pointer;
+  height: 24px;
+  width: 24px;
+}
