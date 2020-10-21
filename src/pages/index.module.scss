@@ -15,9 +15,22 @@
 }
 
 .paperPlaneButton {
-  background: none;
+  background-color: transparent;
   border: none;
+  position: absolute;
+  right: 0;
   padding-right: 1em;
+  height: 100%; // tips from Sheldon, make the height same as input! :)
+  z-index: 4;
+}
+
+.emailTextfieldWithRightButton {
+  display: inline-block;
+  border-top-right-radius: 8px !important;
+  border-bottom-right-radius: 8px !important;
+  border-bottom-left-radius: 8px !important;
+  border-top-left-radius: 8px !important;
+  padding-right: 56px; // prevent input text from going under the button
 }
 
 .addRightView {
@@ -26,6 +39,7 @@
   border-left: none;
   border-top-right-radius: 8px !important;
   border-bottom-right-radius: 8px !important;
+  
 }
 
 .noRightBorder {
@@ -39,4 +53,5 @@
   cursor: pointer;
   height: 24px;
   width: 24px;
+  vertical-align: middle;
 }

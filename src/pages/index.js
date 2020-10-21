@@ -65,15 +65,13 @@ export default function Home () {
                   <div className="input-group">
                     <input
                       name="email"
-                      className={clsx('form-control', styles.noRightBorder)}
+                      className={clsx('form-control', styles.emailTextfieldWithRightButton)}
                       placeholder="E-mail address"
                       required={true}
                       type="email"
                       ref={register}
                     />
-                    <div className={clsx('input-group-append', styles.addRightView)}>
-                      <button className={styles.paperPlaneButton} type="submit"><div className={styles.paperPlaneSvg}></div></button>
-                    </div>
+                    <button className={clsx(styles.paperPlaneButton)} type="submit"><div className={styles.paperPlaneSvg}></div></button>
                   </div>
                 </form>
                 {
