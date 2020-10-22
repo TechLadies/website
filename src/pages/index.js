@@ -1,15 +1,33 @@
+import { useEffect, useState } from 'react';
 import Head from 'next/head';
 import Gallery from '../components/Gallery';
 import NavLink from '../components/NavLink';
-
 import clsx from 'clsx';
-
 import styles from './index.module.scss';
 import programs from '../data/programs';
 import preloadImages from '../utils/preloadImages';
-import { useEffect } from 'react';
+import { useForm } from 'react-hook-form'
+import Modal from '../components/Modal'
 
-export default function Home() {
+export default function Home () {
+  const { register, handleSubmit, reset } = useForm()
+  const [addContactFeedback, setAddContactFeedback] = useState(null)
+
+  const handleAddEmail = data => {
+    fetch('./api/addContact/', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ email: data.email })
+    }).then(function (res) {
+      if (res.ok) {
+        setAddContactFeedback('Thank you, your email is added to our list')
+        reset()
+      } else {
+        setAddContactFeedback('Something went wrong. Your email was not added')
+      }
+    })
+  }
+
   useEffect(() => {
     preloadImages(programs.map((program) => program.image));
   }, [programs]);
@@ -43,19 +61,22 @@ export default function Home() {
                 >
                   Get updates on our activities
                 </label>
-                <form
-                  onSubmit={(event) => {
-                    event.preventDefault();
-                    alert('TODO: POST email to API');
-                  }}
-                >
-                  <input
-                    className="form-control"
-                    placeholder="E-mail address"
-                    required={true}
-                    type="email"
-                  />
+                <form onSubmit={handleSubmit(handleAddEmail)}>
+                  <div className="input-group">
+                    <input
+                      name="email"
+                      className={clsx('form-control', styles.emailTextfieldWithRightButton)}
+                      placeholder="E-mail address"
+                      required={true}
+                      type="email"
+                      ref={register}
+                    />
+                    <button className={clsx(styles.paperPlaneButton)} type="submit"><div className={styles.paperPlaneSvg}></div></button>
+                  </div>
                 </form>
+                {
+                  addContactFeedback && (<div>{addContactFeedback}</div>)
+                }
               </div>
             </div>
           </div>
@@ -94,7 +115,7 @@ export default function Home() {
                   />
                 </div>
                 <p className="mb-4 text-emphasis">
-                  TechLadies is managed by volunteers who are passionate about increasing gender diversity in the tech industry, particularly in software engineering, product management, product design and data roles! 
+                  TechLadies is managed by volunteers who are passionate about increasing gender diversity in the tech industry, particularly in software engineering, product management, product design and data roles!
                 </p>
                 <a className="font-weight-bold" href="#">
                   Learn more about us
@@ -133,7 +154,7 @@ export default function Home() {
                 src="/media/press.png"
               />
             </div>
-            
+
           </div>
         </div>
         <div className="bg-gray">
@@ -149,7 +170,7 @@ export default function Home() {
                   Find a range of programs for women of all levels of technical skills
                 </h3>
                 <p className="text-body mb-4">
-                  Whether you are curious about the industry, looking to learn technical skills, or levelling up your career, TechLadies is for you! 
+                  Whether you are curious about the industry, looking to learn technical skills, or levelling up your career, TechLadies is for you!
                 </p>
                 <NavLink href="/our-programs/">
                   <a className="btn btn-primary">See Our Programs</a>
