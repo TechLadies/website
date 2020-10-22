@@ -2,12 +2,12 @@ import styles from './index.module.scss';
 import clsx from 'clsx';
 
 function MentorsCard(props) {
-  const { handleViewMentors, dataMessage, mentors } = props
+  const { handleViewMentors, dataMessage, mentors, icon } = props
   return (
     <div className="col-lg-3 col-md-6">
       <div className="card">
         <div className="card-body card-body-sm">
-          <img className="mx-auto d-block" alt="Mentors" src="/icons/icon_TLmentors.png" />
+          <img className="thumbnail thumbnail-lg mx-auto d-block space-bottom-10" alt="Mentors" src={icon} />
           <h6 className="text-center my-4">{mentors.title}</h6>
           <div className="d-flex flex-row flex-wrap justify-content-center">
             <img
