@@ -49,7 +49,7 @@ export default function Footer () {
                     <a href="/contribute">Volunteer</a>
                   </li>
                   <li>
-                    <a href="#">Donate</a>
+                    <a href="https://www.paypal.com/paypalme/learnemy/30">Donate</a>
                   </li>
                 </ul>
               </div>
