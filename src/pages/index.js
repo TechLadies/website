@@ -20,10 +20,10 @@ export default function Home () {
       body: JSON.stringify({ email: data.email })
     }).then(function (res) {
       if (res.ok) {
-        setAddContactFeedback('Thank you, your email is added to our list')
+        setAddContactFeedback('Yay, thanks! You are added to our list. :)')
         reset()
       } else {
-        setAddContactFeedback('Something went wrong. Your email was not added')
+        setAddContactFeedback('Oops, something went wrong and email is not added.')
       }
     })
   }
@@ -42,17 +42,17 @@ export default function Home () {
           <div className="row gy-6">
             <div className="col-lg-5 offset-lg-2 col-md-5 offset-md-1 order-md-last">
               <img
-                alt="TODO: REPLACE ME"
+                alt="Join the TechLadies Community"
                 className="img-fluid"
                 src="/illustrations/illus_home.png"
               />
             </div>
             <div className="col-lg-5 col-md-6 order-md-first">
-              <h1 className="mb-4 h2">
+              <h1 className="mb-4">
                 Start and grow your career in tech
               </h1>
-              <p className="mb-4 text-body">
-                TechLadies is a community in Asia that supports women with the network, education and mentorship for their careers in technical roles.
+              <p className="mb-4 text-body large-line-height">
+                TechLadies is a community in Asia that supports women with the network, education, and mentorship for their careers in technical roles.
               </p>
               <div className="mb-3">
                 <label
@@ -95,27 +95,27 @@ export default function Home () {
                 <div className="mb-4">
                   <img
                     className="thumbnail"
-                    alt="TODO: REPLACE ME"
+                    alt="Angel"
                     src="/team/angel.png"
                   />
                   <img
                     className="thumbnail"
-                    alt="TODO: REPLACE ME"
+                    alt="Chor Yi"
                     src="/team/choryi.jpeg"
                   />
                   <img
                     className="thumbnail"
-                    alt="TODO: REPLACE ME"
+                    alt="Tejasvita"
                     src="/team/tejasvita.jpeg"
                   />
                   <img
                     className="thumbnail"
-                    alt="TODO: REPLACE ME"
+                    alt="Anna"
                     src="/team/anna.jpeg"
                   />
                 </div>
                 <p className="mb-4 text-emphasis">
-                  TechLadies is managed by volunteers who are passionate about increasing gender diversity in the tech industry, particularly in software engineering, product management, product design and data roles!
+                  TechLadies is managed by volunteers who are passionate about increasing gender diversity in the tech industry.
                 </p>
                 <a className="font-weight-bold" href="#">
                   Learn more about us
@@ -127,27 +127,29 @@ export default function Home () {
         <div className="container py-6">
           <div className="row gy-5">
             <div className="col-md-4">
-              <h2 className="text-purple mb-3">10+</h2>
+              <h1 className="text-orange mb-3">4200+</h1>
               <p className="text-body">
-                Ladies switching careers into technical roles
+                Community members in Asia interested in growing or starting their careers in tech
               </p>
             </div>
             <div className="col-md-4">
-              <h2 className="text-red mb-3">500+</h2>
+              <h1 className="text-red mb-3">500+</h1>
               <p className="text-body">
-                Ladies trained in technical skills
+                Ladies trained in technical and soft skills vital in the tech industry
               </p>
             </div>
             <div className="col-md-4">
-              <h2 className="text-orange mb-3">4000+</h2>
-              <p className="text-body">Community members in Asia</p>
+              <h1 className="text-purple mb-3">10+</h1>
+              <p className="text-body">
+                Ladies successfully switched careers into technical roles through our programs
+              </p>
             </div>
           </div>
         </div>
         <div className="container py-6">
           <div className="row gy-5 text-center">
-            <div className="col-md-10 offset-md-1">
-              <h2>What others are saying</h2>
+            <div className="col-md-8 offset-md-2">
+              <h2>Featured at</h2>
               <img
                 alt="Press Coverage"
                 className="img-fluid"
@@ -162,7 +164,7 @@ export default function Home () {
             <div className="row gy-5">
               <div className="col-md-6 d-flex flex-column align-items-start justify-content-center">
                 <img
-                  className="mb-4 center-image"
+                  className="mb-4"
                   height="260"
                   src="/illustrations/illus_programmes.png"
                 />
