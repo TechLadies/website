@@ -10,7 +10,7 @@ export default function Footer () {
       <div className="container">
         <div className="row gy-5">
           <div className="col-lg-3">
-            <h5 className="mb-3">Join our Community</h5>
+            <h5 className="mb-3">Join TechLadies</h5>
             <form
               onSubmit={(event) => {
                 event.preventDefault();
@@ -60,7 +60,7 @@ export default function Footer () {
                 <ul className={clsx('list-unstyled', styles.footerLinksList)}>
                   <li>
                     <NavLink href="/conduct/">
-                      <a className="nav-link">Community Code of Conduct</a>
+                      <a className="nav-link">Code of Conduct</a>
                     </NavLink>
                   </li>
                 </ul>
@@ -107,7 +107,7 @@ export default function Footer () {
               <div className="d-flex">
                 <p>
                   <a aria-label="Link to Vercel" href="https://vercel.com/?utm_source=techladies&utm_campaign=oss" target="_blank">
-                    <img src="/img/vercel.svg" alt="Vercel Logo" width="120" />
+                    <img src="/img/vercel.svg" alt="Vercel Logo" width="80" />
                   </a>
                 </p>
               </div>
