@@ -1,9 +1,9 @@
+import { useState } from 'react';
 import Head from 'next/head';
 
 import clsx from 'clsx';
 
 import Accordion from '../components/Accordion';
-
 import bootcampFAQ from '../data/bootcamp-faq.js';
 import donations from '../data/donations.js';
 import volunteerInitiatives from '../data/volunteer-initiatives';
@@ -16,6 +16,11 @@ import bootcamp6Builders from '../data/bootcamp-6-builders';
 import EmailSubscription from '../components/EmailSubscription'
 
 export default function Home () {
+  const firstThreeBuilders = bootcamp6Builders.slice(0, 3)
+  const remainingBuilders = bootcamp6Builders.slice(4)
+
+  const [showMoreBuilders, setShowMoreBuilders] = useState(false)
+
   return (
     <div>
       <Head>
@@ -130,8 +135,8 @@ export default function Home () {
           <div className="row">
             <h2 className="mb-4 text-center">Bootcamp Builders</h2>
             <div className="row">
-              {bootcamp6Builders.map(({ image, name, title, description }) => (
-                <div className="row col-md-4 gy-3 mb-4" key={title}>
+              {firstThreeBuilders.map(({ image, name, title, description }) => (
+                <div className="col-12 col-md-4" key={title}>
                   <div className="row">
                     <div className="col-md-4">
                       <img
@@ -145,11 +150,40 @@ export default function Home () {
                       <h6>{title}</h6>
                     </div>
                   </div>
-                  <div className="row gy-3 mb-4">
+                  <div className="row my-2">
                     <p className="align-top text-small">{description}</p>
                   </div>
                 </div>
               ))}
+            </div>
+            <div className={clsx('row', { collapse: !showMoreBuilders })} id="moreBuilders">
+              {remainingBuilders.map(({ image, name, title, description }) => (
+                <div className="col-12 col-md-4" key={title}>
+                  <div className="row">
+                    <div className="col-md-4">
+                      <img
+                        className="thumbnail thumbnail-lg"
+                        alt={title + ' image'}
+                        src={image}
+                      />
+                    </div>
+                    <div className="col-md-8">
+                      <h4>{name}</h4>
+                      <h6>{title}</h6>
+                    </div>
+                  </div>
+                  <div className="row my-2">
+                    <p className="align-top text-small">{description}</p>
+                  </div>
+                </div>
+              ))}
+            </div>
+            <div className="row">
+              <div className="mx-auto col-md-5 d-flex justify-content-center">
+                <button type="button" className="btn btn-primary" data-toggle="collapse" data-target="#moreBuilders" role="button" aria-expanded={showMoreBuilders} aria-controls="moreBuilders" onClick={() => setShowMoreBuilders(!showMoreBuilders)}>
+                  {showMoreBuilders ? "Hide Builders" : "Show All Builders"}
+                </button>
+              </div>
             </div>
           </div>
         </div>
