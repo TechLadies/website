@@ -4,10 +4,24 @@ export default [
     title: 'TechLadies Bootcamp',
     description: (
       <>
-        Looking to be professional programmer? This is a part-time accelerated
-        learning program guided by industry experts to create a product. 30% of
-        the TechLadies Bootcamp graduates found software-related jobs and
-        internships.
+        Looking for: Bootcamp Leads, Coaches, Tech Lead, Product Lead
+
+        <br/>
+        <p className="text-primary font-weight-bold">See More</p>
+
+        <br/>
+
+        <h4>Bootcamp Leads</h4>Behind the magic of our most impactful program are Bootcamp Leads who plan and execute this program, including sourcing for NGOs, recruiting coaches, marketing, and running the bootcamp (including pre-bootcamp workshops). It’s time-consuming but very rewarding. Don’t worry, we have a playbook ready.
+
+        <br/><br/><p><b><i>Ideal profile:</i></b> You have good project management skills and can commit ~8 hours per month in 2021.</p>
+
+        <h4>Coaches</h4>Pair programming with participants
+
+        <br/><br/><p><b><i>Ideal profile:</i></b> Technical</p>
+
+        <a className="btn btn-primary" href="https://docs.google.com/forms/d/e/1FAIpQLSepj-kx0qMTe7stfAiRB9slYA-HvTTiT3GvbodLj23geH8ZIg/viewform">
+                Volunteer for TechLadies Bootcamp
+              </a>
       </>
     ),
   },

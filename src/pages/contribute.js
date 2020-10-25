@@ -31,14 +31,14 @@ export default function Home() {
                 We need your help to increase the impact of our work
               </h1>
               <p className="mb-3 text-primary font-weight-bold">
-                Join us in our mission to increase women's participation in the tech industry.
+                
               </p>
-              <p className="mb-4 text-body">
+              <p className="mb-4 text-body large-line-height">
                 We have built an amazing international community in Asia and
                 empowered women to switch careers into tech, but we need help. 
                 <br />
                 <br />
-                Support us to make a difference in tech and gain new skills & connections while at it! 
+                Join us in our mission to increase women's participation in the tech industry!
               </p>
               <a className="btn btn-primary" href="https://docs.google.com/forms/d/e/1FAIpQLSepj-kx0qMTe7stfAiRB9slYA-HvTTiT3GvbodLj23geH8ZIg/viewform">
                 Volunteer with TechLadies
@@ -47,7 +47,8 @@ export default function Home() {
           </div>
         </div>
         <div className="container py-6">
-          <h2 className="text-center mb-5">Ways you can Volunteer</h2>
+          <h2 className="text-center mb-5">Ways you can volunteer</h2>
+          <p className="text-primary font-weight-bold">TechLadies is led by a group of core team members and supported by a larger group of ad-hoc helpers. We are currently recruiting volunteers 2021. Join us if you're passion about gender diversity in tech and want to learn new skills and meet like-minded peers!</p>
           <div className="row gy-4 pt-5">
             {volunteerInitiatives.map(({ image, title, description }) => (
               <div className="col-lg-3 col-sm-6" key={title}>
@@ -168,7 +169,7 @@ export default function Home() {
         <div className="container py-6">
           <div className="row">
             <div className="col-md-8 offset-md-2">
-              <h2 className="text-center mb-5">Frequently Asked Questions</h2>
+              <h2 className="text-center mb-5">Volunteering FAQ</h2>
               <Accordion data={volunteeringFAQ} />
             </div>
           </div>
