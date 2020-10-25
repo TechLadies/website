@@ -27,8 +27,8 @@ export default function Home() {
               
             </div>
             <div className="col-md-6">
-              <h1 className="h3">
-                We need your help to increase the impact of our work
+              <h1>
+                We need your help to increase our impact
               </h1>
               <p className="mb-3 text-primary font-weight-bold">
                 
@@ -48,7 +48,7 @@ export default function Home() {
         </div>
         <div className="container py-6">
           <h2 className="text-center mb-5">Ways you can volunteer</h2>
-          <p className="text-primary font-weight-bold">TechLadies is led by a group of core team members and supported by a larger group of ad-hoc helpers. We are currently recruiting volunteers 2021. Join us if you're passion about gender diversity in tech and want to learn new skills and meet like-minded peers!</p>
+          <p className="text-primary font-weight-bold">TechLadies is led by a group of core team leaders and supported by a larger group of ad-hoc helpers. We are currently recruiting volunteers 2021. Join us if you're passion about gender diversity in tech and want to learn new skills and meet like-minded peers!</p>
           <div className="row gy-4 pt-5">
             {volunteerInitiatives.map(({ image, title, description }) => (
               <div className="col-lg-3 col-sm-6" key={title}>

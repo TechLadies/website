@@ -1,102 +1,64 @@
 export default [
   {
     key: 'a',
-    item: <>Who can volunteer?</>,
+    item: <>Who can volunteer with TechLadies?</>,
     details: (
       <>
-        Batch 6 of the TechLadies Bootcamp cover the Javascript programming language.
+        We welcome people of all genders to volunteer with us! Prior volunteering experices are appreciated but not compulsory. You also do not need to have a programming background to contribute for most roles.
       </>
     ),
   },
   {
     key: 'b',
-    item: <>Who is the TechLadies Bootcamp designed for?</>,
+    item: <>What is the expected level of commitment?</>,
     details: (
       <>
-        The TechLadies Bootcamp is designed to help women with some basic coding background to switch careers into the tech industry. You should be at least 21 years old, or at an age where it is impossible for you to be formally educated in Computer Science. We will also guide you through writing your resume, preparing for tech interviews and making introductions to recruiting companies.
-
+        Everyone has other priorities in life - our careers, family, and other interests. We understand! We can tailor your volunteering experience to what you're comfortable in contributing. For the core team leaders, you are expected to join the monthly all-hands where we plan activities and share ideas.
       </>
     ),
   },
   {
     key: 'c',
-    item: <>What is the success rate of TechLadies Bootcamps?</>,
+    item: <>What can volunteers expect out of the experience?</>,
     details: (
       <>
-        We have conducted 5 TechLadies Bootcamps since launch, training 42 women. 12 of our graduates have successfully gotten a software development internship or junior developer roles, with more in non-engineering roles in the tech industry.
+        You can expect to make a difference with like-minded people passionate about the same cause!  Beyond that, we would like to thank your time and skills by:
+
+        <ul>
+          <li>Recognizing and profiling you at TechLadies website, FB group, FB page, and newsletter</li>
+          <li>Putting you first in line for goodies as TechLadies receive them</li>
+          <li>Providing you a seat at all TechLadies events and workshops, for free </li>
+          <li>Exclusive TechLadies swags!</li>
+          <li>[For core team leaders] Have you represent TechLadies at events and media requests</li>
+        </ul>
       </>
     ),
   },
   {
     key: 'd',
-    item: <>I'm not a Singaporean, can I still join this program?</>,
+    item: <>I'm not a local, can I still volunteer?</>,
     details: (
       <>
-        Yea, sure! As long as you can be in Singapore legally throughout the program, you are welcome to apply! Our previous batch saw folks from Malaysia, China, U.K, Singapore, U.S.A, Indonesia, and Australia. We are unable to help with securing a visa or other paperwork, so please make sure that you are good to participate.
+        Yea, sure! We are however unable to help with securing a visa or other paperwork to enable your stay at the local city, so please make sure that you are good to participate.
       </>
     ),
   },
   {
     key: 'e',
-    item: <>What is the level of commitment required for participants?</>,
+    item: <>What's the volunteering culture like at TechLadies?</>,
     details: (
       <>
-        This coding program is a part-time program. Still, you are required to attend sessions on every Saturdays (1 - 6pm) and code on your own throughout the week, committing at least 15 hours per week between 19 Oct 2019 - 25 Jan 2020 (with a 2 week break in the second half of December).
+        We believe in openness, supportive, and kindness. Volunteers enjoy a great deal of autonomy to test new ideas and provide feedback!
       </>
     ),
   },
   {
     key: 'f',
-    item: <>What is the format of this program?</>,
+    item: <>Can I bring TechLadies to my city?</>,
     details: (
       <>
-        You will go through a hands-on experience and our coaches will be here to guide you. Throughout the week, you are expected to work on the project with our coaches checking in on your codes and answer any questions you have. This will happen online. On Saturdays, we will meet in-person to learn new concepts and revise old ones.
+        We are open to support women who wants to start new TechLadies chapters in Asia. Chapter leaders are passionate and committed to bringing change in their community with TechLadies. You are supported by the TechLadies Singapore chapter, however you are responsible for driving your local chapter. Ideal chapter leaders are resourceful, independent, and can commit >10 hours every month. A technical background is not required.
       </>
     ),
-  },
-  {
-    key: 'g',
-    item: <>How much does this program cost?</>,
-    details: (
-      <>
-        We did not create TechLadies to make money, but we need money to keep TechLadies going. As such, this program costs SGD550 to participate. Full scholarships are provided for women from low-income backgrounds and cannot afford the fees. You may request for a scholarship on the application form.
-      </>
-    ),
-  },
-  {
-    key: 'h',
-    item: <>Are there any prerequisites for application?</>,
-    details: (
-      <>
-        Yes! We learned that it is important for TechLadies Bootcamp participants to have some sort of programming foundation in order to build a web product that will be used by the NGOs. Hence, you will need to complete a technical task before applying to the TechLadies Bootcamp. Don’t worry; we are here to help you acquire the skills you need to complete the task with a series of pre-bootcamp workshops!
-      </>
-    ),
-  },
-  {
-    key: 'i',
-    item: <>How do I apply?</>,
-    details: (
-      <>
-        You will need to complete a technical task and fill up an application form online.
-      </>
-    ),
-  },
-  {
-    key: 'j',
-    item: <>How are participants selected?</>,
-    details: (
-      <>
-        Participants are selected based on their commitment level, passion for learning how to code and ability to successfully transit into the tech industry.
-      </>
-    ),
-  },
-  {
-    key: 'k',
-    item: <>Is the TechLadies Bootcamp only for women?</>,
-    details: (
-      <>
-        Yes! As we are trying to improve the gender ratio in the tech industry, the bootcamp is only for women and those who identify as one.
-      </>
-    ),
-  },
+  },  
 ];

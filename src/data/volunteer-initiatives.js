@@ -4,8 +4,9 @@ export default [
     title: 'TechLadies Bootcamp',
     description: (
       <>
-        Looking for: Bootcamp Leads, Coaches, Tech Lead, Product Lead
+        Help create our most impactful program! We are looking for <b>3 - 4 Bootcamp Leads, 8 - 10 Coaches, 1 Tech Lead, and 1 Product Lead.</b>
 
+        <br/>
         <br/>
         <p className="text-primary font-weight-bold">See More</p>
 
@@ -30,9 +31,11 @@ export default [
     title: 'TechLadies Mentorship',
     description: (
       <>
-        A 3-month mentorship program that pairs women who are transitioning into
-        or establishing themselves in the tech industry with industry
-        practitioners.
+        Grow women's career in tech with the 3-month TechLadies Mentorship! We are looking for <b>3 - 4 Mentorship Leads, and ~30 Mentors.</b> 
+
+        <br/>
+        <br/>
+        <p className="text-primary font-weight-bold">See More</p>
       </>
     ),
   },
@@ -41,9 +44,11 @@ export default [
     title: 'TechLadies Meet',
     description: (
       <>
-        Meet fellow TechLadies in-person or online technical talks, panel/round
-        table discussions, study groups and more! It is open to women of all
-        levels of technical skills.
+        Create amazing events to connect & share insights on the tech industry. We are looking for <b>3 - 4 Event Leads and ~10 Ad-hoc Helpers. </b>
+
+        <br/>
+        <br/>
+        <p className="text-primary font-weight-bold">See More</p>
       </>
     ),
   },
@@ -52,9 +57,11 @@ export default [
     title: 'TechLadies Community',
     description: (
       <>
-        Beyond programs and events, TechLadies is a community. Join us online
-        for the latest industry news, highlights on awesome women in tech, and
-        get support on your journey in tech.
+        Connect and grow the community of tech ladies in Asia! We are looking for <b>3 - 4 Community Leads and ~3 Ad-hoc content producers.</b>
+
+        <br/>
+        <br/>
+        <p className="text-primary font-weight-bold">See More</p>
       </>
     ),
   },
