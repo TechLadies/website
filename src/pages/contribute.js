@@ -5,7 +5,7 @@ import clsx from 'clsx';
 import Accordion from '../components/Accordion';
 import DonationCard from '../components/DonationCard';
 
-import programsFAQ from '../data/programs-faq.js';
+import volunteeringFAQ from '../data/volunteering-faq.js';
 import donations from '../data/donations.js';
 import volunteerInitiatives from '../data/volunteer-initiatives';
 
@@ -40,7 +40,7 @@ export default function Home() {
                 <br />
                 Support us to make a difference in tech and gain new skills & connections while at it! 
               </p>
-              <a className="btn btn-primary" href="#">
+              <a className="btn btn-primary" href="https://docs.google.com/forms/d/e/1FAIpQLSepj-kx0qMTe7stfAiRB9slYA-HvTTiT3GvbodLj23geH8ZIg/viewform">
                 Volunteer with TechLadies
               </a>
             </div>
@@ -169,7 +169,7 @@ export default function Home() {
           <div className="row">
             <div className="col-md-8 offset-md-2">
               <h2 className="text-center mb-5">Frequently Asked Questions</h2>
-              <Accordion data={programsFAQ} />
+              <Accordion data={volunteeringFAQ} />
             </div>
           </div>
         </div>
