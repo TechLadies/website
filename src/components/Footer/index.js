@@ -3,6 +3,7 @@ import clsx from 'clsx';
 
 import styles from './index.module.scss'
 import NavLink from '../NavLink/index'
+import EmailSubscription from '../EmailSubscription'
 
 export default function Footer () {
   return (
@@ -11,19 +12,7 @@ export default function Footer () {
         <div className="row gy-5">
           <div className="col-lg-3">
             <h5 className="mb-3">Join TechLadies</h5>
-            <form
-              onSubmit={(event) => {
-                event.preventDefault();
-                alert('TODO: POST email to API');
-              }}
-            >
-              <input
-                className="form-control"
-                placeholder="E-mail address"
-                required={true}
-                type="email"
-              />
-            </form>
+            <EmailSubscription />
           </div>
           <div className="col-lg-4 offset-lg-1">
             <div className="row">
