@@ -6,27 +6,9 @@ import clsx from 'clsx';
 import styles from './index.module.scss';
 import programs from '../data/programs';
 import preloadImages from '../utils/preloadImages';
-import { useForm } from 'react-hook-form'
-import Modal from '../components/Modal'
+import EmailSubscription from '../components/EmailSubscription'
 
 export default function Home () {
-  const { register, handleSubmit, reset } = useForm()
-  const [addContactFeedback, setAddContactFeedback] = useState(null)
-
-  const handleAddEmail = data => {
-    fetch('./api/addContact/', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ email: data.email })
-    }).then(function (res) {
-      if (res.ok) {
-        setAddContactFeedback('Yay, thanks! You are added to our list. :)')
-        reset()
-      } else {
-        setAddContactFeedback('Oops, something went wrong and email is not added.')
-      }
-    })
-  }
 
   useEffect(() => {
     preloadImages(programs.map((program) => program.image));
@@ -61,22 +43,7 @@ export default function Home () {
                 >
                   Get updates on our activities
                 </label>
-                <form onSubmit={handleSubmit(handleAddEmail)}>
-                  <div className="input-group">
-                    <input
-                      name="email"
-                      className={clsx('form-control', styles.emailTextfieldWithRightButton)}
-                      placeholder="E-mail address"
-                      required={true}
-                      type="email"
-                      ref={register}
-                    />
-                    <button className={clsx(styles.paperPlaneButton)} type="submit"><div className={styles.paperPlaneSvg}></div></button>
-                  </div>
-                </form>
-                {
-                  addContactFeedback && (<div>{addContactFeedback}</div>)
-                }
+                <EmailSubscription />
               </div>
             </div>
           </div>
@@ -156,7 +123,6 @@ export default function Home () {
                 src="/media/press.png"
               />
             </div>
-
           </div>
         </div>
         <div className="bg-gray">

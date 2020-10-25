@@ -13,8 +13,9 @@ import TimelineItem from '../components/TimelineItem';
 
 import bootcampTimeline from '../data/bootcamp-timeline';
 import bootcamp6Builders from '../data/bootcamp-6-builders';
+import EmailSubscription from '../components/EmailSubscription'
 
-export default function Home() {
+export default function Home () {
   return (
     <div>
       <Head>
@@ -42,7 +43,7 @@ export default function Home() {
                 organizations.
                 <br />
                 <br />
-                Applications to the TechLadies Bootcamp 2020 has concluded. To stay updated on when our 2021 season opens for applications, please sign up for our newsletter below. 
+                Applications to the TechLadies Bootcamp 2020 has concluded. To stay updated on when our 2021 season opens for applications, please sign up for our newsletter below.
               </p>
               <label
                 htmlFor="hero-email"
@@ -50,21 +51,9 @@ export default function Home() {
               >
                 Get updates on our activities
               </label>
-              <form
-                onSubmit={(event) => {
-                  event.preventDefault();
-                  alert('TODO: POST email to API');
-                }}
-              >
-                <input
-                  className="form-control"
-                  placeholder="E-mail address"
-                  required={true}
-                  type="email"
-                />
-              </form>
+              <EmailSubscription />
             </div>
-            
+
           </div>
         </div>
 
@@ -72,7 +61,7 @@ export default function Home() {
           <div className="container py-6">
             <div className="row">
               <p className="mb-4">
-                
+
                 <br />
                 <br />
                 Due to COVID-19, most of the meetings and coaching sessions
