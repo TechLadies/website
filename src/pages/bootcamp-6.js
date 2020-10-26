@@ -65,50 +65,129 @@ export default function Home () {
         <div className="bg-gray">
           <div className="container py-6">
             <div className="row">
-              <p className="mb-4">
+              <div className="col-md-6">
+                <img
+                  alt="TODO: REPLACE ME"
+                  src="/img/bg_PLACEHOLDER_REMOVE_ME.png"
+                  height="120"
+                  width="100%"
+                  className="mb-4"
+                />
+                <p>
+                  To apply to the TechLadies Bootcamp #6, you need to complete an application form AND a simple technical task that will help us evaluate your technical capabilities.
+                  <br /><br />
+                  The details on the technical task will be available in July through a repository on Github.
+                  <br /><br />
+                  Applications open on 4 July and close on 15 Aug.
+                </p>
+              </div>
+              <div className="col-md-6">
+                <div className="card">
+                  <div className="card-body">
+                    <p className="mb-4">
+                      Receive updates on Info Session and Pre-Bootcamp Workshops by leaving your email address below
+                    </p>
+                    <EmailSubscription />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
 
-                <br />
-                <br />
-                Due to COVID-19, most of the meetings and coaching sessions
-                during the Bootcamp #6 will be conducted online using Zoom. We
-                will revert to face-to-face learning once it is safe to do so.
-                <br />
-                <br />
-                This program will take place in Singapore from 12 Sep to 12 Dec
-                2020 and costs SGD550. Full scholarships are provided for people
-                with financial difficulties. We welcome women of all backgrounds
-                and nationalities to apply, and only 8 ladies will be selected
-                for this program. These ladies will work in teams of 4.
-                <br />
-                <br />
-                If you are selected to participate in the TechLadies Bootcamp
-                #6, you are required to:
-                <br />
-                <br />
-                <ul>
-                  <li>
-                    work on your assigned project at least 15 hours each week,
-                    inclusive of attending coding sessions;
-                  </li>
-                  <li>
-                    attend at least 80% of coding sessions happening on every
-                    Saturday (between 26 Sep 2020 to 12 Dec 2020), between 9am -
-                    4pm;
-                  </li>
-                  <li>
-                    attend at least 80% of all workshops (between 12 Sep 2020 to
-                    12 Dec 2020);
-                  </li>
-                  <li>
-                    after the bootcamp, participate in a written interview and
-                    write a technical article (on a topic of your choice) for
-                    the TechLadies blog;
-                  </li>
-                  <li>
-                    do a team presentation on your assigned project at the
-                    TechLadies Graduation Party in Jan/Feb 2020.
-                  </li>
-                </ul>
+        <div className="container py-6">
+          <div className="row">
+            <div className="col-md-6">
+              <img
+                alt="TODO: REPLACE ME"
+                src="/img/bg_PLACEHOLDER_REMOVE_ME.png"
+                height="196"
+                width="100%"
+                className="mr-2"
+              />
+              <h3 className="my-4">
+                This program will take place in Singapore from 12 Sep to 12 Dec 2020 and cost SGD550.
+              </h3>
+              <p>Full scholarships are provided for people with financial difficulties. We welcome women of all backgrounds and nationalities to apply, and only 8 ladies will be selected for this program. These ladies will work in teams of 4.
+              </p>
+            </div>
+            <div className="col-md-6">
+              <h4 className="mb-3 h6">Registration and Selection</h4>
+              <div className="d-inline-flex">
+                <img
+                  alt="TODO: REPLACE ME"
+                  src="/img/bg_PLACEHOLDER_REMOVE_ME.png"
+                  height="32"
+                  width="32"
+                  className="mr-2 mt-1"
+                />
+                <p>Submit an application form AND a simple technical task for us to evaluate your technical capabilities. Task details will be available in July in a repository on Github.</p>
+              </div>
+              <h4 className="mb-3 h6">During the Bootcamp, you are required to:</h4>
+              <div className="flex-column">
+                <div className="d-inline-flex">
+                  <img
+                    alt="TODO: REPLACE ME"
+                    src="/img/bg_PLACEHOLDER_REMOVE_ME.png"
+                    height="32"
+                    width="32"
+                    className="mr-2 mt-1"
+                  />
+                  <p>Put in at least 15 hours each week, inclusive of attending coding sessions.</p>
+                </div>
+                <div className="d-inline-flex">
+                  <img
+                    alt="TODO: REPLACE ME"
+                    src="/img/bg_PLACEHOLDER_REMOVE_ME.png"
+                    height="32"
+                    width="32"
+                    className="mr-2 mt-1"
+                  />
+                  <p>Attend all workshops conducted and at least 80% of coding sessions on every Saturday. (9am - 4pm)</p>
+                </div>
+              </div>
+              <h4 className="mb-3 h6">After the Bootcamp:</h4>
+              <div className="flex-column">
+                <div className="d-inline-flex">
+                  <img
+                    alt="TODO: REPLACE ME"
+                    src="/img/bg_PLACEHOLDER_REMOVE_ME.png"
+                    height="32"
+                    width="32"
+                    className="mr-2 mt-1"
+                  />
+                  <p>Do a written interview and a technical article (on a topic of your choice) for the TechLadies blog.</p>
+                </div>
+                <div className="d-inline-flex">
+                  <img
+                    alt="TODO: REPLACE ME"
+                    src="/img/bg_PLACEHOLDER_REMOVE_ME.png"
+                    height="32"
+                    width="32"
+                    className="mr-2 mt-1"
+                  />
+                  <p>With your team, present on your assigned project at the TechLadies Graduation Party in Jan/Feb 2020.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="container py-6">
+          <div className="row">
+            <h3 className="mb-3">Don't worry if it sounds scary, we’ve programs to help with the technical tasks! 💪💪💪</h3>
+            <div className="col-md-6">
+              <h5 className="text-blue font-weight-bold">July / August</h5>
+              <div className="font-weight-bold my-2">Javascript and CSS Workshops 1 - 3 (Optional)</div>
+              <p>
+                3 pre-bootcamp workshops will be conducted to equip women with basic programming skills to code complete the technical task for their application. These workshops are open to all women. It is not obligatory to sign up for the Bootcamp to attend these workshops
+              </p>
+            </div>
+            <div className="col-md-6">
+              <h5 className="text-blue font-weight-bold">8 August</h5>
+              <div className="font-weight-bold my-2">Code Clinic (Optional)</div>
+              <p>
+                Women interested in completing the technical task can attend this session to ask questions & get help for their submission apps.
               </p>
             </div>
           </div>
