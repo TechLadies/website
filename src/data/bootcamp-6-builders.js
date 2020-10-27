@@ -1,7 +1,7 @@
 export default [
   {
     image:
-      'http://www.techladies.co/assets/team/anna-6bc577c1344ea6734cc35436ffddcee46ac275334bd9be587b41879226e62549.jpg',
+      '/team/anna.jpeg',
     name: 'Anna Lisicka',
     title: 'Bootcamp Lead',
     description: (
@@ -19,7 +19,7 @@ export default [
   },
   {
     image:
-      'http://www.techladies.co/assets/team/angel-bfd505583ca0ffac8d36b337294027af3e8a1577dac344efe812e9d45b53d369.png',
+      '/team/angel.png',
     name: 'Angel Felismino',
     title: 'Bootcamp Lead',
     description: (
@@ -68,7 +68,7 @@ export default [
     ),
   },
   {
-    image: '../../team/bootcamp6/purnima.jpeg',
+    image: '/team/bootcamp6/purnima.jpeg',
     name: 'Purnima Kamath',
     title: 'Tech Lead',
     description: (
@@ -83,7 +83,7 @@ export default [
     ),
   },
   {
-    image: '../team/bootcamp6/kate.png',
+    image: '/team/bootcamp6/kate.png',
     name: 'Kate Lim',
     title: 'UX/UI Lead',
     description: (
@@ -96,7 +96,7 @@ export default [
     ),
   },
   {
-    image: '../team/bootcamp6/jayli.png',
+    image: '/team/bootcamp6/jayli.png',
     name: 'Jay Li Quek',
     title: 'UX/UI Assistant',
     description: (
@@ -110,7 +110,7 @@ export default [
     ),
   },
   {
-    image: '../team/bootcamp6/sukyee.png',
+    image: '/team/bootcamp6/sukyee.png',
     name: 'Suk Yee Gong',
     title: 'Coach',
     description: (
@@ -125,7 +125,7 @@ export default [
     ),
   },
   {
-    image: '../team/bootcamp6/fara.jpeg',
+    image: '/team/bootcamp6/fara.jpeg',
     name: 'Fara Blanco',
     title: 'Coach',
     description: (
@@ -140,7 +140,7 @@ export default [
     ),
   },
   {
-    image: '../team/bootcamp6/neha.png',
+    image: '/team/bootcamp6/neha.png',
     name: 'Neha Modi',
     title: 'Coach',
     description: (
@@ -172,7 +172,7 @@ export default [
     ),
   },
   {
-    image: '../team/bootcamp6/aaron.jpg',
+    image: '/team/bootcamp6/aaron.jpg',
     name: 'Aaron Gong',
     title: 'Coach',
     description: (
@@ -184,7 +184,7 @@ export default [
     ),
   },
   {
-    image: '../team/bootcamp6/thomas.png',
+    image: '/team/bootcamp6/thomas.png',
     name: 'Thomas Chia',
     title: 'Coach',
     description: (
@@ -197,7 +197,7 @@ export default [
     ),
   },
   {
-    image: '../team/bootcamp6/arjay.jpg',
+    image: '/team/bootcamp6/arjay.jpg',
     name: 'Arjay Elbore',
     title: 'Coach',
     description: (
@@ -209,7 +209,7 @@ export default [
     ),
   },
   {
-    image: '../team/mentorship2/akshata.png',
+    image: '/team/mentorship2/akshata.png',
     name: 'Akshata Mohanty',
     title: 'Coach',
     description: (
