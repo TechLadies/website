@@ -8,9 +8,6 @@ export default [
 
         <br/>
         <br/>
-        <p className="text-primary font-weight-bold">See More</p>
-
-        <br/>
 
         <h4>Bootcamp Leads</h4>Behind the magic of our most impactful program are Bootcamp Leads who plan and execute this program, including sourcing for NGOs, recruiting coaches, marketing, and running the bootcamp (including pre-bootcamp workshops). It’s time-consuming but very rewarding. Don’t worry, we have a playbook ready.
 
@@ -21,8 +18,11 @@ export default [
         <br/><br/><p><b><i>Ideal profile:</i></b> Technical</p>
 
         <a className="btn btn-primary" href="https://docs.google.com/forms/d/e/1FAIpQLSepj-kx0qMTe7stfAiRB9slYA-HvTTiT3GvbodLj23geH8ZIg/viewform">
-                Volunteer for TechLadies Bootcamp
+          Volunteer for TechLadies Bootcamp
               </a>
+        
+            
+        
       </>
     ),
   },
@@ -34,8 +34,7 @@ export default [
         Grow women's career in tech with the 3-month TechLadies Mentorship! We are looking for <b>3 - 4 Mentorship Leads, and ~30 Mentors.</b> 
 
         <br/>
-        <br/>
-        <p className="text-primary font-weight-bold">See More</p>
+        <br />
       </>
     ),
   },
@@ -48,7 +47,6 @@ export default [
 
         <br/>
         <br/>
-        <p className="text-primary font-weight-bold">See More</p>
       </>
     ),
   },
@@ -61,7 +59,6 @@ export default [
 
         <br/>
         <br/>
-        <p className="text-primary font-weight-bold">See More</p>
       </>
     ),
   },

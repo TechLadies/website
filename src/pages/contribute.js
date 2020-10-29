@@ -1,6 +1,9 @@
 import Head from 'next/head';
 
+import { useState } from 'react';
+
 import clsx from 'clsx';
+import styles from './contribute.module.scss';
 
 import Accordion from '../components/Accordion';
 import DonationCard from '../components/DonationCard';
@@ -9,7 +12,18 @@ import volunteeringFAQ from '../data/volunteering-faq.js';
 import donations from '../data/donations.js';
 import volunteerInitiatives from '../data/volunteer-initiatives';
 
+import Modal from '../components/Modal';
+
 export default function Home () {
+
+  const [showMoreModal, setShowMoreModal] = useState(null)
+  const [selectedTopic, setSelectedTopic] = useState(null)
+
+  const handleViewMore = (e) => {
+    setSelectedTopic(e.target.dataset.message)
+    setShowMoreModal(true)
+  }
+
   return (
     <div>
       <Head>
@@ -58,7 +72,12 @@ export default function Home () {
                   src={image}
                 />
                 <h6 className="mb-3">{title}</h6>
-                <p>{description}</p>
+                <div>{description}</div>
+                <div className={clsx(styles.viewMore)} key={title}>
+                  <button type="button" onClick={handleViewMore} data-message={title} className="btn btn-link text-primary font-weight-bold p-0">
+                    See More
+                   </button>
+                </div>
               </div>
             ))}
           </div>
@@ -174,6 +193,48 @@ export default function Home () {
             </div>
           </div>
         </div>
+        <Modal isShown={showMoreModal} onClose={() => { setShowMoreModal(false) }} title={selectedTopic}>
+          {(selectedTopic === 'TechLadies Bootcamp') && (
+            <>
+              Help create our most impactful program! We are looking for <b>3 - 4 Bootcamp Leads, 8 - 10 Coaches, 1 Tech Lead, and 1 Product Lead.</b>
+
+              <br />
+              <br />
+
+              <h4>Bootcamp Leads</h4>
+              Behind the magic of our most impactful program are Bootcamp Leads who plan and execute this program, including sourcing for NGOs, recruiting coaches, marketing, and running the bootcamp (including pre-bootcamp workshops). It’s time-consuming but very rewarding. Don’t worry, we have a playbook ready.
+
+              <br />
+              <br />
+              <p>
+                <b><i>Ideal profile:</i></b> You have good project management skills and can commit ~8 hours per month in 2021.
+              </p>
+
+              <h4>Coaches</h4>
+              Pair programming with participants
+
+              <br />
+              <br />
+              <p>
+                <b><i>Ideal profile:</i></b> Technical
+              </p>
+
+              <a className="btn btn-primary" href="https://docs.google.com/forms/d/e/1FAIpQLSepj-kx0qMTe7stfAiRB9slYA-HvTTiT3GvbodLj23geH8ZIg/viewform">
+                Volunteer for TechLadies Bootcamp
+              </a>
+            </>
+
+          )}
+          {(selectedTopic === 'TechLadies Mentorship') && (
+            <div>Mentorship</div>
+          )}
+          {(selectedTopic === 'TechLadies Meet') && (
+            <div>Meet</div>
+          )}
+          {(selectedTopic === 'TechLadies Community') && (
+            <div>Community</div>
+          )}
+        </Modal>
       </main>
     </div>
   );
