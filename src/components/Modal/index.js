@@ -6,7 +6,7 @@ const ID = 'modal-react-component';
 let $modalBackDrop = null;
 
 // Only one modal should be shown on the page at any one time.
-function Modal({ children, isShown, onClose, title }) {
+function Modal ({ children, isShown, onClose, title }) {
   useEffect(() => {
     if (isShown) {
       document.body.classList.add('modal-open');
@@ -42,21 +42,35 @@ function Modal({ children, isShown, onClose, title }) {
           event.stopPropagation();
         }}
       >
-        <div className="modal-content">
-          <div className="modal-header">
-            {title && (
+        <div className="modal-content pt-2">
+
+          {title && (
+            <div className="modal-header">
               <h5 className="modal-title">{title}</h5>
-            )}
-            <button
-              aria-label="Close"
-              className="close"
-              onClick={onClose}
-              type="button"
-            >
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-          <div className="modal-body">{children}</div>
+              <button
+                aria-label="Close"
+                className="close"
+                onClick={onClose}
+                type="button"
+              >
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+          )}
+          {!title && (
+            <div className="d-flex p-3">
+              <button
+                aria-label="Close"
+                className="close ml-auto"
+                onClick={onClose}
+                type="button"
+              >
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+          )}
+          <div className="modal-body">
+            {children}</div>
         </div>
       </div>
     </div>

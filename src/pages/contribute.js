@@ -9,7 +9,7 @@ import volunteeringFAQ from '../data/volunteering-faq.js';
 import donations from '../data/donations.js';
 import volunteerInitiatives from '../data/volunteer-initiatives';
 
-export default function Home() {
+export default function Home () {
   return (
     <div>
       <Head>
@@ -24,18 +24,18 @@ export default function Home() {
                 className="img-fluid mb-4"
                 src="/illustrations/illus_contribute.png"
               />
-              
+
             </div>
             <div className="col-md-6">
               <h1>
                 We need your help to increase our impact
               </h1>
               <p className="mb-3 text-primary font-weight-bold">
-                
+
               </p>
               <p className="mb-4 text-body large-line-height">
                 We have built an amazing international community in Asia and
-                empowered women to switch careers into tech, but we need help. 
+                empowered women to switch careers into tech, but we need help.
                 <br />
                 <br />
                 Join us in our mission to increase women's participation in the tech industry!

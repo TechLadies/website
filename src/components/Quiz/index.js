@@ -3,7 +3,7 @@ import { ArrowRight } from 'react-feather';
 
 import Modal from '../Modal';
 
-function Question({ type, nodes }) {
+function Question ({ type, nodes }) {
   const { id, type: questionType, title, options } = type;
   const [value, setSelectedValue] = useState('');
   const nextNode = (() => {
@@ -26,7 +26,7 @@ function Question({ type, nodes }) {
         </button>
         <Modal isShown={showModal} onClose={() => setShowModal(false)}>
           <div className="text-center">
-            <h3>{options[nodes[0].value]}</h3>
+            <div>{options[nodes[0].value]}</div>
           </div>
         </Modal>
       </>
@@ -65,7 +65,7 @@ function Question({ type, nodes }) {
   );
 }
 
-function Quiz({ data }) {
+function Quiz ({ data }) {
   const { type, nodes } = data;
   return (
     <div className="card">
