@@ -13,7 +13,7 @@ import programsFAQ from '../data/mentorship-faq.js';
 
 import Modal from '../components/Modal';
 
-export default function Home() {
+export default function Home () {
   const [showMentorsModal, setShowMentorsModal] = useState(false)
   const [selectedTopic, setSelectedTopic] = useState(null)
 
@@ -200,10 +200,10 @@ export default function Home() {
           <div className="row">
             <h2 className="mb-4 text-center">Mentors for 2020</h2>
             <div className="row gy-4">
-              <MentorsCard dataMessage='software' handleViewMentors={handleViewMentors} mentors={mentorsData['software']} icon='/icons/icon_softwaredevelopment.png'/>
+              <MentorsCard dataMessage='software' handleViewMentors={handleViewMentors} mentors={mentorsData['software']} icon='/icons/icon_softwaredevelopment.png' />
               <MentorsCard dataMessage='ux' handleViewMentors={handleViewMentors} mentors={mentorsData['ux']} icon='/icons/icon_UIUX.png' />
-              <MentorsCard dataMessage='data' handleViewMentors={handleViewMentors} mentors={mentorsData['data']} icon='/icons/icon_datascience.png'/>
-              <MentorsCard dataMessage='product' handleViewMentors={handleViewMentors} mentors={mentorsData['product']} icon='/icons/icon_productmanagement.png'/>
+              <MentorsCard dataMessage='data' handleViewMentors={handleViewMentors} mentors={mentorsData['data']} icon='/icons/icon_datascience.png' />
+              <MentorsCard dataMessage='product' handleViewMentors={handleViewMentors} mentors={mentorsData['product']} icon='/icons/icon_productmanagement.png' />
             </div>
           </div>
         </div>
