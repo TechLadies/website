@@ -1,20 +1,16 @@
+import { useState } from 'react';
 import Head from 'next/head';
-
 import clsx from 'clsx';
-
 import Accordion from '../components/Accordion';
-
 import bootcampFAQ from '../data/bootcamp-faq.js';
-import donations from '../data/donations.js';
-import volunteerInitiatives from '../data/volunteer-initiatives';
-
 import Timeline from '../components/Timeline';
 import TimelineItem from '../components/TimelineItem';
-
+import BootcampBuilders from '../components/BootcampBuilders'
+import EmailSubscription from '../components/EmailSubscription'
 import bootcampTimeline from '../data/bootcamp-timeline';
-import bootcamp6Builders from '../data/bootcamp-6-builders';
+import bootcampBuildersData from '../data/bootcamp-3-builders';
 
-export default function Home() {
+export default function Home () {
   return (
     <div>
       <Head>
@@ -24,20 +20,15 @@ export default function Home() {
         <div className="container p-3">
           <div className="row gy-6">
             <div className="col-md-9">
+              <h3 className="my-5">TechLadies Bootcamp #3</h3>
               <p className="mb-4">
-                <br />
-                <br />
-                <br />
-                <h3>TechLadies Bootcamp #3</h3>
-                <br />
-                <br />
-                The TechLadies Bootcamp #3 was a 12-week part-time accelerated learning program held in 2017. 
-                It was designed to help women with some basic programming background become professional programmers. 
+                The TechLadies Bootcamp #3 was a 12-week part-time accelerated learning program held in 2017.
+                It was designed to help women with some basic programming background become professional programmers.
                 creating products for non-profit organizations using the Ruby programming language under the guidance of industry experts.
                 <br />
                 <br />
-                To qualify, applicants had to create their own personal websites using Ruby on Rails. 
-                TechLadies conducted 3 pre-bootcamp workshops to equip women with basic programming skills to aid their submission app. 
+                To qualify, applicants had to create their own personal websites using Ruby on Rails.
+                TechLadies conducted 3 pre-bootcamp workshops to equip women with basic programming skills to aid their submission app.
                 <br />
                 <br />
                 See all workshop materials, slides and video recordings at this <a href="/">Link</a>.
@@ -56,22 +47,16 @@ export default function Home() {
         <div className="bg-gray">
           <div className="container py-6">
             <div className="row gy-6">
-              <p className="col-md-8">
-                <br />
-                <br />
-                <h3>Out of 86 applicants, 6 ladies were selected for this bootcamp.</h3>
-                <br />
-                <br />
-                <p className="mb-4 text-emphasis">
-                  They each have their unique backgrounds - coming from industries such as publishing, finance, logistics and more.
-                </p>
+              <h3>Out of 86 applicants, 6 ladies were selected for this bootcamp.</h3>
+              <p className="col-md-8 mb-4 text-emphasis">
+                They each have their unique backgrounds - coming from industries such as publishing, finance, logistics and more.
               </p>
-                <div className="col-md-4">
+              <div className="col-md-4">
                 <img
-                 className="img-fluid"
-                 alr="TODO: REPLACE ME"
-                 src="/img/bg_PLACEHOLDER_REMOVE_ME.png"
-               />
+                  className="img-fluid"
+                  alr="TODO: REPLACE ME"
+                  src="/img/bg_PLACEHOLDER_REMOVE_ME.png"
+                />
               </div>
             </div>
           </div>
@@ -80,40 +65,50 @@ export default function Home() {
         <div className="container py-6">
           <div className="row">
             <p className="mb-4 text-center text-emphasis text-primary">
-            The 6 TechLadies Bootcamp #3 participants formed 2 teams to build web applications for Mountbatten Vocational School and TechLadies.
-            They presented their work at the TechLadies Bootcamp #3 Graduation Party, hosted by Google.</p>
+              The 6 TechLadies Bootcamp #3 participants formed 2 teams to build web applications for Mountbatten Vocational School and TechLadies. They presented their work at the TechLadies Bootcamp #3 Graduation Party, hosted by Google.
+            </p>
           </div>
-          <div className="row">
-          <div className="col-md-5 offset-md-1">
-                <img
-                  alt="TODO: REPLACE ME"
-                  className="img-fluid"
-                  src="/img/bg_PLACEHOLDER_REMOVE_ME.png"
-                />
-              </div>
-            <div className="col-md-6">
-            <img
-                  alt="TODO: REPLACE ME"
-                  className="thumbnail thumbnail-lg d-block space-bottom-10"
-                  src="/icons/icon_TLmentorship.png"
-                />
+          <div className="row mt-4">
+            <div className="col-md-5">
+              <img
+                alt="TODO: REPLACE ME"
+                className="img-fluid"
+                src="/img/bg_PLACEHOLDER_REMOVE_ME.png"
+              />
+            </div>
+            <div className="offset-md-1 col-md-6">
+              <img
+                alt="TODO: REPLACE ME"
+                className="thumbnail thumbnail-lg d-block space-bottom-10"
+                src="/icons/icon_TLmentorship.png"
+              />
               <p>
-                Mountbatten Vocational School provides vocational courses for students with learning disabilities to prepare them for their careers. 
-                They were using paper and excel sheets to keep track of student details, 
+                Mountbatten Vocational School provides vocational courses for students with learning disabilities to prepare them for their careers.
+                They were using paper and excel sheets to keep track of student details,
                 which was becoming difficult given the multitude of courses and students.
                 <br />
                 <br />
                 Anukrity, Marta, and Pearly worked as a team to build a school management system that automates
                 and digitizes record keeping and report generation.</p>
-              
-            <img
-                  alt="TODO: REPLACE ME"
-                  className="thumbnail thumbnail-lg d-block space-bottom-10"
-                  src="/icons/icon_TLmentorship.png"
-                />
+            </div>
+          </div>
+          <div className="row mt-4">
+            <div className="col-md-5">
+              <img
+                alt="TODO: REPLACE ME"
+                className="img-fluid"
+                src="/img/bg_PLACEHOLDER_REMOVE_ME.png"
+              />
+            </div>
+            <div className="offset-md-1 col-md-6">
+              <img
+                alt="TODO: REPLACE ME"
+                className="thumbnail thumbnail-lg d-block space-bottom-10"
+                src="/icons/icon_TLmentorship.png"
+              />
               <p>
-                Mountbatten Vocational School provides vocational courses for students with learning disabilities to prepare them for their careers. 
-                They were using paper and excel sheets to keep track of student details, 
+                Mountbatten Vocational School provides vocational courses for students with learning disabilities to prepare them for their careers.
+                They were using paper and excel sheets to keep track of student details,
                 which was becoming difficult given the multitude of courses and students.
                 <br />
                 <br />
@@ -135,32 +130,18 @@ export default function Home() {
               </div>
               <div className="col-md-6 offset-md-1 d-flex flex-column align-items-start justify-content-center">
                 <p className="mb-4 h2 text-primary">
-                  Get updates on the next TechLadies Bootcamp. 
+                  Get updates on the next TechLadies Bootcamp.
                   <br />Join our mailing list below.
                 </p>
-                <label
-                  htmlFor="hero-email"
-                  className="form-label font-weight-bold"
-                >
-                  E-mail address
-                </label>
-                <form
-                  onSubmit={(event) => {
-                    event.preventDefault();
-                    alert('TODO: POST email to API');
-                  }}
-                >
-                  <input
-                    className="form-control"
-                    placeholder="johndoe@gmail.com"
-                    required={true}
-                    type="email"
-                  />
-                </form>
+                <div className="container pl-0">
+                  <EmailSubscription />
+                </div>
               </div>
             </div>
           </div>
         </div>
+
+        <BootcampBuilders data={bootcampBuildersData} />
 
         <div className="bg-gray">
           <div className="container py-6">
