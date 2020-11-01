@@ -48,6 +48,11 @@ a {
     width: 10rem;
   }
 
+  &.thumbnail-xxl {
+    height: 15rem;
+    width: 15rem;
+  }
+
   &:not(:first-child) {
     margin-left: 1rem;
   }

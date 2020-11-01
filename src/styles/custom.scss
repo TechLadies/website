@@ -111,3 +111,14 @@ $list-group-item-padding-y: 1rem;
   width: auto;
   margin: 0 auto;
 }
+
+.cta-button {
+  display: block !important;
+  margin: 20px auto 50px auto;
+  width: fit-content;
+}
+
+.display-block {
+  display: block !important;
+  width: fit-content;
+}

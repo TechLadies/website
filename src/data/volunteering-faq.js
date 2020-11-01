@@ -57,7 +57,7 @@ export default [
     item: <>Can I bring TechLadies to my city?</>,
     details: (
       <>
-        We are open to support women who wants to start new TechLadies chapters in Asia. Chapter leaders are passionate and committed to bringing change in their community with TechLadies. You are supported by the TechLadies Singapore chapter, however you are responsible for driving your local chapter. Ideal chapter leaders are resourceful, independent, and can commit >10 hours every month. A technical background is not required.
+        We are open to support women who wants to start new TechLadies chapters in Asia. Chapter leaders are passionate and committed to bringing change in their community with TechLadies. You are supported by the TechLadies Singapore chapter, however you are responsible for driving your local chapter. Ideal chapter leaders are resourceful, independent, and can commit >10 hours every month. A technical background is not required. If you are interested in applying, please email Elisha at elisha@techladies.co.
       </>
     ),
   },  
