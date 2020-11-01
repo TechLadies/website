@@ -77,8 +77,8 @@ export default function Navbar() {
             </li>
           </ul>
           <div className="d-flex">
-            <NavLink href="#">
-              <a className="btn btn-light">Dynamic CTA</a>
+            <NavLink href="/contribute">
+              <a className="btn btn-light">Volunteer with TechLadies</a>
             </NavLink>
           </div>
         </div>
