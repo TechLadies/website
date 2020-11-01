@@ -32,8 +32,8 @@ export default function Home () {
         <div className="container py-6">
           <div className="row gy-6">
             <div className="col-md-6">
-              <h3 class="large-line-height">TechLadies Mentorship 2020</h3>
-              <p className="mb-4 large-line-height">
+              <h1 class="large-line-height">TechLadies Mentorship</h1>
+              <p className="mb-4 text-body large-line-height">
                 TechLadies Mentorship is a 12-week program that provides women with personal career guidance
                 from experienced industry practitioners as they grow their
                 career in Software Engineering, UI/UX Design, Data
@@ -67,11 +67,11 @@ export default function Home () {
               <h2 className="text-center mb-5">Mentees Program Requirements</h2>
               <div className="col-md-4">
                 <img
-                  className="thumbnail thumbnail-lg mx-auto d-block space-bottom-10 "
+                  className="thumbnail thumbnail-lg mb-2 "
                   alt="TODO: REPLACE ME"
                   src="/icons/mentorship/goalsetting.png"
                 />
-                <h6 class="center-text">Goal Setting</h6>
+                <h6>Goal Setting</h6>
                 <p>
                   Have a clear goal for what you'll like to achieve from this
                   program
@@ -79,11 +79,11 @@ export default function Home () {
               </div>
               <div className="col-md-4">
                 <img
-                  className="thumbnail thumbnail-lg mx-auto d-block space-bottom-10 "
+                  className="thumbnail thumbnail-lg mb-2 "
                   alt="TODO: REPLACE ME"
                   src="/icons/mentorship/biweekly.png"
                 />
-                <h6 class="center-text">Bi-weekly commitments</h6>
+                <h6>Bi-weekly commitments</h6>
                 <p>
                   Commit to bi-weekly meetings (offline/virtual) with their
                   mentors from Jun 2020 - Aug 2020. Provide feedback on your progress with your mentor via a short report
@@ -91,11 +91,11 @@ export default function Home () {
               </div>
               <div className="col-md-4">
                 <img
-                  className="thumbnail thumbnail-lg mx-auto d-block space-bottom-10 "
+                  className="thumbnail thumbnail-lg mb-2 "
                   alt="TODO: REPLACE ME"
                   src="/icons/mentorship/presentation.png"
                 />
-                <h6 class="center-text">Final Presentation</h6>
+                <h6>Final Presentation</h6>
                 <p>Present a final project at the end of the program</p>
               </div>
             </div>
@@ -107,11 +107,11 @@ export default function Home () {
             <h2 className="text-center mb-5">Why join us as a Mentee?</h2>
             <div className="col-md-4">
               <img
-                className="thumbnail thumbnail-lg mx-auto d-block space-bottom-10 "
+                className="thumbnail thumbnail-lg mb-2 "
                 alt="TODO: REPLACE ME"
                 src="/icons/mentorship/growth.jpg"
               />
-              <h6 class="center-text">Grow your career in tech</h6>
+              <h6>Grow your career in tech</h6>
               <p>
                 One of the best ways to advance in the work you do is to learn
                 from a mentor, someone who has a wealth of experience and is
@@ -126,11 +126,11 @@ export default function Home () {
             </div>
             <div className="col-md-4">
               <img
-                className="thumbnail thumbnail-lg mx-auto d-block space-bottom-10 "
+                className="thumbnail thumbnail-lg mb-2 "
                 alt="TODO: REPLACE ME"
                 src="/icons/mentorship/network.jpg"
               />
-              <h6 class="center-text">Expand your professional network</h6>
+              <h6>Expand your professional network</h6>
               <p>
                 Working with a mentor is also a great chance to be introduced to
                 networks, companies and individuals which you previously never
@@ -144,11 +144,11 @@ export default function Home () {
             </div>
             <div className="col-md-4">
               <img
-                className="thumbnail thumbnail-lg mx-auto d-block space-bottom-10 "
+                className="thumbnail thumbnail-lg mb-2 "
                 alt="TODO: REPLACE ME"
                 src="/icons/mentorship/programs.jpg"
               />
-              <h6 class="center-text">Structured program</h6>
+              <h6>Structured program</h6>
               <p>
                 {' '}
                 We know how difficult it can be to find a mentor that is right
@@ -171,7 +171,7 @@ export default function Home () {
             <div className="row text-center">
               <div className="col-lg-2 col-md-3 offset-md-5">
                 <img
-                  className="thumbnail thumbnail-lg"
+                  className="thumbnail thumbnail-lg mb-2"
                   alt="Jill Quek, Mentor 2019"
                   src="../team/jill.png"
                 />
@@ -208,22 +208,25 @@ export default function Home () {
 
         <div className="bg-gray">
           <div className="container py-6">
-            <Timeline>
-              {mentorshipTimeline.map(({ date, title, description }) => (
-                <TimelineItem key={title}>
-                  <h3 className="h5 text-red mb-3">{date}</h3>
-                  <h4 className="h6 mb-3">{title}</h4>
-                  <p className="pb-3">{description}</p>
-                </TimelineItem>
-              ))}
-            </Timeline>
+            <h2 className="mb-5 text-center">Program Timeline</h2>
+            <div className="row gy-4">
+              <Timeline>
+                {mentorshipTimeline.map(({ date, title, description }) => (
+                  <TimelineItem key={title}>
+                    <h3 className="h5 text-red mb-3">{date}</h3>
+                    <h4 className="h6 mb-3">{title}</h4>
+                    <p className="pb-3">{description}</p>
+                  </TimelineItem>
+                ))}
+              </Timeline>
+            </div>
           </div>
         </div>
 
         <div className="container py-6">
           <div className="row">
             <div className="col-md-8 offset-md-2">
-              <h2 className="text-center mb-5">Frequently Asked Questions</h2>
+              <h3 className="text-center mb-5">Frequently Asked Questions</h3>
               <Accordion data={programsFAQ} />
             </div>
           </div>
@@ -233,19 +236,21 @@ export default function Home () {
           <div className="row gy-6">
             <div className="col-md-5">
               <img
-                alt="TODO: REPLACE ME"
+                alt="Contact us"
                 className="img-fluid"
-                src="/photos/mentorship2.jpg"
+                src="../illustrations/illus_contactus.png"
               />
             </div>
             <div className="col-md-6 offset-md-1 d-flex flex-column align-items-start justify-content-center">
-              <h2 className="mb-4 h4">
-                Have a burning question? Please contact us at the link down
-                below
-              </h2>
+              <h3 className="mb-4 h4">
+                Have a question? 
+              </h3>
+              <p>
+                Do drop us an email via the link below and we'll get back to you soon.
+              </p>
               <a
                 className="btn btn-primary"
-                href="mailto:bootcamp@techladies.co"
+                href="mailto:mentorship@techladies.co"
               >
                 Contact Us
               </a>

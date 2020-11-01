@@ -34,8 +34,8 @@ export default function Home () {
           <div className="row gy-6">
             <div className="col-md-6">
               <img
-                alt="TODO: REPLACE ME"
-                className="img-fluid mb-4"
+                alt="Contribute to TechLadies"
+                className="contribute-image mb-4"
                 src="/illustrations/illus_contribute.png"
               />
 
@@ -61,7 +61,7 @@ export default function Home () {
           </div>
         </div>
         <div className="container py-6">
-          <h2 className="text-center mb-5">Ways you can volunteer</h2>
+          <h3 className="text-center mb-5">Ways you can volunteer</h3>
           <p className="text-primary font-weight-bold">TechLadies is led by a group of core team leaders and supported by a larger group of ad hoc helpers. We are currently recruiting volunteers 2021, do apply by 8 Jan 2021. Join us if you're passion about gender diversity in tech and want to learn new skills and meet like-minded peers!</p>
           <div className="row gy-4 pt-5">
             {volunteerInitiatives.map(({ image, title, description }) => (
@@ -93,7 +93,7 @@ export default function Home () {
                 />
               </div>
               <div className="col-md-6 order-md-first d-flex flex-column justify-content-center">
-                <h2 className="mb-4 h4">Be our Corporate Partner</h2>
+                <h2 className="mb-4">Be our Corporate Partner</h2>
                 <p className="mb-4">
                   TechLadies is looking for corporations to partner with us,
                   providing speakers, mentors, and coaches, as well as venue or
@@ -159,9 +159,12 @@ export default function Home () {
           <div className="container py-6">
             <div className="row mb-4">
               <div className="col-md-6">
-                <h3 className="h4">
-                  Your one-time donation enable us to continue our activities at TechLadies
+                <h3>
+                  Donate to TechLadies
                 </h3>
+                <p>
+                  Your one-time donation enable us to continue our activities at TechLadies, including online tools and logistics.
+                </p>
               </div>
             </div>
             <div className="row gy-3 mb-4">
@@ -172,15 +175,13 @@ export default function Home () {
               ))}
             </div>
             <div className="row">
-              <div className="text-center">
-                <small>
-                  Clicking "Contribute" will bring you to make a donation
-                  securely via PayPal, where you can donate with all major
-                  credit cards. TechLadies' finances are managed by Learnemy Pte
-                  Ltd. As we are not a registered non-profit, we cannot send an
-                  invoice for tax purposes.
-                </small>
-              </div>
+              <small>
+                Clicking "Contribute" will bring you to make a donation
+                securely via PayPal, where you can donate with all major
+                credit cards. TechLadies' finances are managed by Learnemy Pte
+                Ltd. As we are not a registered non-profit, we cannot send an
+                invoice for tax purposes.
+              </small>
             </div>
           </div>
         </div>
@@ -188,7 +189,7 @@ export default function Home () {
         <div className="container py-6">
           <div className="row">
             <div className="col-md-8 offset-md-2">
-              <h2 className="text-center mb-5">Volunteering FAQ</h2>
+              <h3 className="text-center mb-5">Volunteering FAQ</h3>
               <Accordion data={volunteeringFAQ} />
             </div>
           </div>

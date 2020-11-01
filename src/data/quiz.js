@@ -28,7 +28,7 @@ const TIME = {
   title: 'How much time can you spare?',
   options: {
     notMuch: 'Not much!',
-    some: ' Some time',
+    some: ' Less than an hour per week',
     fewHoursPerWeek: 'A few hours per week',
     fewHoursPerMonth: 'A few hours per month',
   },

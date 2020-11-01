@@ -32,21 +32,17 @@ export default function Home() {
       </Head>
       <div className="container py-6">
         <div className="row gy-6">
-          <div className="col-lg-6 col-md-5">
+          <div className="col-lg-5 col-md-6">
             <img
-              alt="TODO: REPLACE ME"
+              alt="Learn about TechLadies' programs"
               className="img-fluid mb-4"
               src="/illustrations/illus_programmes.png"
             />
-            {/* <h1 className="h3 mb-4">Find a TechLadies program for you</h1>
-            <p className="text-body mb-4">
-              Take a short quiz to discover which program best suit your needs!
-            </p> */}
           </div>
-          <div className="col-lg-5 offset-lg-1 col-md-7">
-            <h1 className="h3 mb-4">Find a program for you</h1>
-            <p className="text-body mb-4">
-              Take a short quiz to discover which TechLadies program best suit your needs!
+          <div className="col-lg-6 offset-lg-1 col-md-6">
+            <h1 className="mb-4 h3">Take a short quiz to discover which TechLadies program best suits you!</h1>
+            <p className="text-body mb-4 large-line-height">
+              
             </p>
             <Quiz data={quiz} />
           </div>
@@ -201,7 +197,7 @@ export default function Home() {
       <div className="container py-6">
         <div className="row">
           <div className="col-md-8 offset-md-2">
-            <h2 className="text-center mb-5">Frequently Asked Questions</h2>
+            <h3 className="text-center mb-5">Frequently Asked Questions</h3>
             <Accordion data={programsFAQ} />
           </div>
         </div>

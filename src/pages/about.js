@@ -13,18 +13,18 @@ export default function Home() {
             <div className="col-md-6">
               <img
                 alt="About TechLadies"
-                className="img-fluid"
+                className="about-image mb-4"
                 src="/illustrations/illus_aboutus.png"
               />
             </div>
-            <div className="col-md-5 offset-md-1">
-              <h1 className="mb-4 h3">
+            <div className="col-md-6">
+              <h1 className="mb-4">
                 We create opportunities to increase women’s participation in tech
               </h1>
-              <p className="mb-4">
-                TechLadies is a community-led initiative for women to connect, learn, and grow in the tech industry as software engineers, product managers, data scientists, and designers. 
+              <p className="mb-4 text-body large-line-height">
+                TechLadies is a community-led initiative for women to connect, learn, and grow in the tech industry as software engineers, product managers, data scientists, and UI/UX designers. 
               </p>
-              <p className="mb-4">
+              <p className="mb-4 text-body large-line-height">
                 Our community is for women in tech and women keen in switching careers into tech.
               </p>
               <a
@@ -67,6 +67,65 @@ export default function Home() {
             </div>
           </div>
           <div className="row gy-4">
+            <div className="col-lg-6 col-md-6">
+              <div className="card">
+                <div className="card-body card-body-sm">
+                  <h6 className="card-title">Chapter Leaders</h6>
+                  <p className="card-text">Leads chapters in Singapore, Malaysia, and Vietnam</p>
+                  <div className="mb-4">
+                    <img
+                      className="thumbnail thumbnail-lg"
+                      alt="TODO: REPLACE ME"
+                      src="/team/elisha.jpg"
+                    />
+                    <img
+                      className="thumbnail thumbnail-lg"
+                      alt="TODO: REPLACE ME"
+                      src="/team/suying.png"
+                    />
+                    <img
+                      className="thumbnail thumbnail-lg"
+                      alt="TODO: REPLACE ME"
+                      src="/team/thy.jpg"
+                    />
+                  </div>
+                  <a href="mailto:elisha@techladies.co">Contact our team!</a>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-6 col-md-6">
+              <div className="card">
+                <div className="card-body card-body-sm">
+                  <h6 className="card-title">Mentorship Team</h6>
+                  <p className="card-text">Leads the TechLadies Mentorship program</p>
+                  <div className="mb-4">
+                    <img
+                      className="thumbnail thumbnail-lg"
+                      alt="TODO: REPLACE ME"
+                      src="/team/choryi.jpeg"
+                    />
+                    <img
+                      className="thumbnail thumbnail-lg"
+                      alt="TODO: REPLACE ME"
+                      src="/team/lillian.jpg"
+                    />
+                    <img
+                      className="thumbnail thumbnail-lg"
+                      alt="TODO: REPLACE ME"
+                      src="/team/shiqi.jpg"
+                    />
+                    <img
+                      className="thumbnail thumbnail-lg"
+                      alt="TODO: REPLACE ME"
+                      src="/team/shelvia.jpg"
+                    />
+                  </div>
+                  <a href="mailto:mentorship@techladies.co">Contact our team!</a>
+                </div>
+              </div>
+            </div>
+            
+            
             <div className="col-lg-4 col-md-6">
               <div className="card">
                 <div className="card-body card-body-sm">
@@ -140,64 +199,7 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className="col-lg-6 col-md-6">
-              <div className="card">
-                <div className="card-body card-body-sm">
-                  <h6 className="card-title">Mentorship Team</h6>
-                  <p className="card-text">Leads the TechLadies Mentorship program</p>
-                  <div className="mb-4">
-                    <img
-                      className="thumbnail thumbnail-lg"
-                      alt="TODO: REPLACE ME"
-                      src="/team/choryi.jpeg"
-                    />
-                    <img
-                      className="thumbnail thumbnail-lg"
-                      alt="TODO: REPLACE ME"
-                      src="/team/lillian.jpg"
-                    />
-                    <img
-                      className="thumbnail thumbnail-lg"
-                      alt="TODO: REPLACE ME"
-                      src="/team/shiqi.jpg"
-                    />
-                    <img
-                      className="thumbnail thumbnail-lg"
-                      alt="TODO: REPLACE ME"
-                      src="/team/shelvia.jpg"
-                    />
-                  </div>
-                  <a href="mailto:mentorship@techladies.co">Contact our team!</a>
-                </div>
-              </div>
-            </div>
             
-            <div className="col-lg-6 col-md-6">
-              <div className="card">
-                <div className="card-body card-body-sm">
-                  <h6 className="card-title">Chapter Leaders</h6>
-                  <p className="card-text">Leads chapters in Singapore, Malaysia, and Vietnam</p>
-                  <div className="mb-4">
-                    <img
-                      className="thumbnail thumbnail-lg"
-                      alt="TODO: REPLACE ME"
-                      src="/team/elisha.jpg"
-                    />
-                    <img
-                      className="thumbnail thumbnail-lg"
-                      alt="TODO: REPLACE ME"
-                      src="/team/suying.png"
-                    />
-                    <img
-                      className="thumbnail thumbnail-lg"
-                      alt="TODO: REPLACE ME"
-                      src="/team/thy.jpg"
-                    />
-                  </div>
-                  <a href="mailto:elisha@techladies.co">Contact our team!</a>
-                </div>
-              </div>
-            </div>
           </div>
         </div>
         <div className="container py-6">
@@ -217,7 +219,7 @@ export default function Home() {
                 We are always looking for volunteers and support from companies.
               </p>
               <NavLink href="/contribute/">
-                <a className="btn btn-primary">Learn More</a>
+                <a className="btn btn-primary">Volunteer with TechLadies</a>
               </NavLink>
             </div>
           </div>

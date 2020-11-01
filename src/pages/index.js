@@ -116,7 +116,7 @@ export default function Home () {
         <div className="container py-6">
           <div className="row gy-5 text-center">
             <div className="col-md-8 offset-md-2">
-              <h2>Featured on</h2>
+              <h3 class="large-line-height">Featured on</h3>
               <img
                 alt="Press Coverage"
                 className="img-fluid"
@@ -134,9 +134,9 @@ export default function Home () {
                   height="260"
                   src="/illustrations/illus_programmes.png"
                 />
-                <h3 className="mb-4 h4">
-                  Find a range of programs for women of all levels of technical skills
-                </h3>
+                <h2 className="mb-4">
+                  Find a range of programs for women of all technical abilities
+                </h2>
                 <p className="text-body mb-4">
                   Whether you are curious about the industry, looking to learn technical skills, or levelling up your career, TechLadies is for you!
                 </p>
@@ -157,7 +157,7 @@ export default function Home () {
                         )}
                       />
                       <div className="card-body">
-                        <h5 className="card-title mb-3">{title}</h5>
+                        <h3 className="card-title mb-3">{title}</h3>
                         <p className="card-text mb-3">{description}</p>
                         <a className="font-weight-bold" href="/our-programs">
                           Learn More

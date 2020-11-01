@@ -4,7 +4,7 @@ import clsx from 'clsx';
 
 import styles from './index.module.scss';
 
-function Gallery({ children, startIndex = 0, intervalMs = 3000 }) {
+function Gallery({ children, startIndex = 0, intervalMs = 5000 }) {
   const [selectedIndex, setSelectedIndex] = useState(startIndex);
   const shownItem = children[selectedIndex];
 
