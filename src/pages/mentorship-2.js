@@ -12,6 +12,7 @@ import mentorshipTimeline from '../data/mentorship-timeline';
 import programsFAQ from '../data/mentorship-faq.js';
 
 import Modal from '../components/Modal';
+import EmailSubscription from '../components/EmailSubscription'
 
 export default function Home () {
   const [showMentorsModal, setShowMentorsModal] = useState(false)
@@ -31,10 +32,8 @@ export default function Home () {
         <div className="container py-6">
           <div className="row gy-6">
             <div className="col-md-6">
-              <h3>TechLadies Mentorship 2020</h3>
-              <p className="mb-4">
-                <br />
-                <br />
+              <h3 class="large-line-height">TechLadies Mentorship 2020</h3>
+              <p className="mb-4 large-line-height">
                 TechLadies Mentorship is a 12-week program that provides women with personal career guidance
                 from experienced industry practitioners as they grow their
                 career in Software Engineering, UI/UX Design, Data
@@ -49,19 +48,7 @@ export default function Home () {
               >
                 Get updates on our activities
               </label>
-              <form
-                onSubmit={(event) => {
-                  event.preventDefault();
-                  alert('TODO: POST email to API');
-                }}
-              >
-                <input
-                  className="form-control"
-                  placeholder="E-mail address"
-                  required={true}
-                  type="email"
-                />
-              </form>
+              <EmailSubscription />
 
             </div>
             <div className="col-md-5  offset-md-1">
@@ -82,7 +69,7 @@ export default function Home () {
                 <img
                   className="thumbnail thumbnail-lg mx-auto d-block space-bottom-10 "
                   alt="TODO: REPLACE ME"
-                  src="/icons/mentorship/goalsetting.jpg"
+                  src="/icons/mentorship/goalsetting.png"
                 />
                 <h6 class="center-text">Goal Setting</h6>
                 <p>
@@ -94,7 +81,7 @@ export default function Home () {
                 <img
                   className="thumbnail thumbnail-lg mx-auto d-block space-bottom-10 "
                   alt="TODO: REPLACE ME"
-                  src="/icons/mentorship/biweekly.jpg"
+                  src="/icons/mentorship/biweekly.png"
                 />
                 <h6 class="center-text">Bi-weekly commitments</h6>
                 <p>
@@ -106,7 +93,7 @@ export default function Home () {
                 <img
                   className="thumbnail thumbnail-lg mx-auto d-block space-bottom-10 "
                   alt="TODO: REPLACE ME"
-                  src="/icons/mentorship/presentation.jpg"
+                  src="/icons/mentorship/presentation.png"
                 />
                 <h6 class="center-text">Final Presentation</h6>
                 <p>Present a final project at the end of the program</p>
@@ -129,7 +116,10 @@ export default function Home () {
                 One of the best ways to advance in the work you do is to learn
                 from a mentor, someone who has a wealth of experience and is
                 able to give you the guidance, feedback, and institutional
-                knowledge. In a mentorship, you can also develop a better
+                knowledge. 
+              </p>
+              <p>
+                In a mentorship, you can also develop a better
                 awareness of your strengths and weaknesses to reach your
                 specific career goals.
               </p>
@@ -144,7 +134,10 @@ export default function Home () {
               <p>
                 Working with a mentor is also a great chance to be introduced to
                 networks, companies and individuals which you previously never
-                had access to. The benefits of an expanded network is abundant,
+                had access to. 
+              </p>
+              <p>
+                The benefits of an expanded network is abundant,
                 ranging from broadened perspectives, new collaborations or even
                 employment opportunities!
               </p>
@@ -162,7 +155,10 @@ export default function Home () {
                 for you and develop a relationship from there. The TechLadies
                 Mentorship team has designed a structured program that has
                 helped make the journey of mentorship fruitful and enjoyable for
-                both mentors and mentees! In our program, we will be matching
+                both mentors and mentees! 
+              </p>
+              <p>
+                In our program, we will be matching
                 you with experienced and passionate mentors from the TechLadies
                 community! Check out our mentors below!
               </p>
@@ -173,14 +169,16 @@ export default function Home () {
         <div className="bg-gray">
           <div className="container py-6">
             <div className="row text-center">
-              <div className="col-lg-2 col-md-3">
+              <div className="col-lg-2 col-md-3 offset-md-5">
                 <img
                   className="thumbnail thumbnail-lg"
                   alt="Jill Quek, Mentor 2019"
                   src="../team/jill.png"
                 />
               </div>
-              <div className="col-lg-10 col-md-9">
+            </div>
+            <div className="row text-center">
+              <div className="col-lg-10 col-md-9 offset-md-1">
                 <p>
                   “I thought the overall organisation by TechLadies was great.
                   Clear communication and enough guidance to keep us on track,
