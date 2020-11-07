@@ -81,7 +81,7 @@ export default function Home () {
             </div>
             <div className="col-md-6">
               <h4 className="mb-3 h6">Registration and Selection:</h4>
-              <div className="d-inline-flex">
+              <div className="d-inline-flex mb-4">
                 <img
                   alt="Checkbox"
                   src="/icons/check-square.svg"
@@ -90,6 +90,7 @@ export default function Home () {
                   className="mr-2"
                 />
                 <p>Submit an application form AND a simple technical task for us to evaluate your technical capabilities. Task details will be available in July in a repository on Github. Only 8 ladies will be selected for this program. These ladies will work in teams of 4.</p>
+
               </div>
               <h4 className="mb-3 h6">During the Bootcamp, you are required to:</h4>
               <div className="flex-column">
@@ -103,7 +104,7 @@ export default function Home () {
                   />
                   <p>Put in at least 15 hours each week, inclusive of attending coding sessions.</p>
                 </div>
-                <div className="d-inline-flex">
+                <div className="d-inline-flex mb-4">
                   <img
                     alt="Checkbox"
                     src="/icons/check-square.svg"
@@ -143,7 +144,7 @@ export default function Home () {
 
         <div className="container py-6">
           <div className="row">
-            <h3 className="mb-3">Don't worry if it sounds scary, we’ve programs to help with the technical tasks! 💪💪💪</h3>
+            <h3 className="mb-4">Don't worry if it sounds scary, we’ve programs to help with the technical tasks! 💪💪💪</h3>
             <div className="col-md-6">
               <h5 className="text-blue font-weight-bold">July / August</h5>
               <div className="font-weight-bold my-2">Javascript and CSS Workshops 1 - 3 (Optional)</div>

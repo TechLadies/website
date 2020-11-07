@@ -61,8 +61,13 @@ export default function Home () {
           </div>
         </div>
         <div className="container py-6">
-          <h3 className="text-center mb-5">Ways you can volunteer</h3>
-          <p className="text-primary font-weight-bold">TechLadies is led by a group of core team leaders and supported by a larger group of ad hoc helpers. We are currently recruiting volunteers 2021, do apply by 8 Jan 2021. Join us if you're passion about gender diversity in tech and want to learn new skills and meet like-minded peers!</p>
+          <div className="col-md-6 order-md-first d-flex flex-column justify-content-center">
+            <h3 className="mb-4">Ways you can volunteer</h3>
+            <p className="text-primary font-weight-bold">
+              TechLadies is led by a group of core team leaders and supported by a larger group of ad hoc helpers. We are currently recruiting volunteers 2021, do apply by 8 Jan 2021. Join us if you're passionate about gender diversity in tech, want to learn new skills, and meet like-minded peers!
+            </p>
+          </div>
+
           <div className="row gy-4 pt-5">
             {volunteerInitiatives.map(({ image, title, description }) => (
               <div className="col-lg-3 col-sm-6" key={title}>
@@ -74,7 +79,7 @@ export default function Home () {
                 <h6 className="mb-3">{title}</h6>
                 <div>{description}</div>
                 <div className={clsx(styles.viewMore)} key={title}>
-                  <button type="button" onClick={handleViewMore} data-message={title} className="btn btn-link text-primary font-weight-bold p-0">
+                  <button type="button" onClick={handleViewMore} data-message={title} className="btn btn-link text-primary p-0">
                     See Role Descriptions
                    </button>
                 </div>
@@ -87,7 +92,7 @@ export default function Home () {
             <div className="row gy-6">
               <div className="col-md-5 offset-md-1 order-md-last">
                 <img
-                  alt="TODO: REPLACE ME"
+                  alt="Partner with TechLadies"
                   className="img-fluid"
                   src="/partners/partner_stage.png"
                 />
@@ -112,43 +117,45 @@ export default function Home () {
           <div className="row gy-5 text-center">
             <div className="col-md-4 col-sm-6">
               <img
-                alt="TODO: REPLACE ME"
+                alt="Microsoft"
                 className="mb-4 partner-logo-horizontal"
                 src="/partners/logos/microsoft.png"
               />
             </div>
             <div className="col-md-4 col-sm-6">
               <img
-                alt="TODO: REPLACE ME"
+                alt="Rakuten"
                 className="mb-4 partner-logo-horizontal"
                 src="/partners/logos/rakuten-logo.gif"
               />
             </div>
             <div className="col-md-4 col-sm-6">
               <img
-                alt="TODO: REPLACE ME"
+                alt="ThoughtWorks"
                 className="mb-4 partner-logo-horizontal"
                 src="/partners/logos/thoughtworks.png"
               />
             </div>
             <div className="col-md-4 col-sm-6">
               <img
-                alt="TODO: REPLACE ME"
+                alt="ZenDesk"
                 className="mb-4 partner-logo-square"
                 src="/partners/logos/zendesk.png"
               />
             </div>
             <div className="col-md-4 col-sm-6">
               <img
-                alt="TODO: REPLACE ME"
+                alt="Carousell"
                 className="mb-4 partner-logo-square"
+                style={{marginTop: -10}}
                 src="/partners/logos/carousell.png"
               />
             </div>
             <div className="col-md-4 col-sm-6">
               <img
-                alt="TODO: REPLACE ME"
+                alt="Kiat SG"
                 className="mb-4 partner-logo-horizontal"
+                style={{marginTop: 6}}
                 src="/partners/logos/kiatsg_logo.png"
               />
             </div>

@@ -30,7 +30,7 @@ export default function Navbar() {
       <nav className="container">
         <NavLink href="/">
           <a aria-label="TechLadies Logo" className="navbar-brand">
-            <img alt="TechLadies Logo" src="/img/logo.png" />
+            <img alt="TechLadies Logo" src="/img/logo.png" style={{marginTop: -8}} />
           </a>
         </NavLink>
         <button

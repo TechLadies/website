@@ -37,7 +37,7 @@ export default [
     amountClass: 'text-danger',
     title: 'Super Patron',
     description: (
-      <>This covers refreshments for one workshop.</>
+      <>This covers refreshments for one small workshop.</>
     ),
     buttonClass: 'btn-danger',
     url: 'https://www.paypal.com/paypalme/learnemy/250',

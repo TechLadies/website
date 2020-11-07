@@ -116,7 +116,7 @@ export default function Home () {
         <div className="container py-6">
           <div className="row gy-5 text-center">
             <div className="col-md-8 offset-md-2">
-              <h3 class="large-line-height">Featured on</h3>
+              <h3 class="large-line-height mb-4">Featured on</h3>
               <img
                 alt="Press Coverage"
                 className="img-fluid"

@@ -71,25 +71,30 @@ export default function Home() {
               <div className="card">
                 <div className="card-body card-body-sm">
                   <h6 className="card-title">Chapter Leaders</h6>
-                  <p className="card-text">Leads chapters in Singapore, Malaysia, and Vietnam</p>
+                  <p className="card-text">Leads chapters in Singapore, Malaysia, and Vietnam.</p>
                   <div className="mb-4">
                     <img
                       className="thumbnail thumbnail-lg"
-                      alt="TODO: REPLACE ME"
+                      alt="Elisha Tan"
                       src="/team/elisha.jpg"
                     />
                     <img
                       className="thumbnail thumbnail-lg"
-                      alt="TODO: REPLACE ME"
+                      alt="Suying Lim"
                       src="/team/suying.png"
                     />
                     <img
                       className="thumbnail thumbnail-lg"
-                      alt="TODO: REPLACE ME"
+                      alt="Thy Huynh"
                       src="/team/thy.jpg"
                     />
+                    <img
+                      className="thumbnail thumbnail-lg"
+                      alt="Tran Bui"
+                      src="/team/tranbui.jpg"
+                    />
                   </div>
-                  <a href="mailto:elisha@techladies.co">Contact our team!</a>
+                  <a href="mailto:elisha@techladies.co">Contact the Chapter Leaders</a>
                 </div>
               </div>
             </div>
@@ -97,30 +102,30 @@ export default function Home() {
               <div className="card">
                 <div className="card-body card-body-sm">
                   <h6 className="card-title">Mentorship Team</h6>
-                  <p className="card-text">Leads the TechLadies Mentorship program</p>
+                  <p className="card-text">Leads the TechLadies Mentorship program.</p>
                   <div className="mb-4">
                     <img
                       className="thumbnail thumbnail-lg"
-                      alt="TODO: REPLACE ME"
+                      alt="Poon Choryi"
                       src="/team/choryi.jpeg"
                     />
                     <img
                       className="thumbnail thumbnail-lg"
-                      alt="TODO: REPLACE ME"
+                      alt="Lillian So"
                       src="/team/lillian.jpg"
                     />
                     <img
                       className="thumbnail thumbnail-lg"
-                      alt="TODO: REPLACE ME"
+                      alt="Ng Shi Qi"
                       src="/team/shiqi.jpg"
                     />
                     <img
                       className="thumbnail thumbnail-lg"
-                      alt="TODO: REPLACE ME"
+                      alt="Shelvia Ho"
                       src="/team/shelvia.jpg"
                     />
                   </div>
-                  <a href="mailto:mentorship@techladies.co">Contact our team!</a>
+                  <a href="mailto:mentorship@techladies.co">Contact the Mentorship Team</a>
                 </div>
               </div>
             </div>
@@ -130,25 +135,25 @@ export default function Home() {
               <div className="card">
                 <div className="card-body card-body-sm">
                   <h6 className="card-title">Bootcamp Team</h6>
-                  <p className="card-text">Leads our flagship program, TechLadies Bootcamp</p>
+                  <p className="card-text">Leads our flagship program, TechLadies Bootcamp.</p>
                   <div className="mb-4">
                     <img
                       className="thumbnail thumbnail-lg"
-                      alt="TODO: REPLACE ME"
+                      alt="Angel Felismino"
                       src="/team/angel.png"
                     />
                     <img
                       className="thumbnail thumbnail-lg"
-                      alt="TODO: REPLACE ME"
+                      alt="Anna Lisicka"
                       src="/team/anna.jpeg"
                     />
                     <img
                       className="thumbnail thumbnail-lg"
-                      alt="TODO: REPLACE ME"
+                      alt="Tejasvita Rao"
                       src="/team/tejasvita.jpeg"
                     />
                   </div>
-                  <a href="mailto:bootcamp@techladies.co">Contact our team!</a>
+                  <a href="mailto:bootcamp@techladies.co">Contact the Bootcamp Team</a>
                 </div>
               </div>
             </div>
@@ -156,25 +161,25 @@ export default function Home() {
               <div className="card">
                 <div className="card-body card-body-sm">
                   <h6 className="card-title">Community Team</h6>
-                  <p className="card-text">Manages our TechLadies Community on social media</p>
+                  <p className="card-text">Grows our TechLadies Community online.</p>
                   <div className="mb-4">
                     <img
                       className="thumbnail thumbnail-lg"
-                      alt="TODO: REPLACE ME"
+                      alt="Marta Sanke"
                       src="/team/marta.jpg"
                     />
                     <img
                       className="thumbnail thumbnail-lg"
-                      alt="TODO: REPLACE ME"
+                      alt="Rae Koh"
                       src="/team/rae.jpg"
                     />
                     <img
                       className="thumbnail thumbnail-lg"
-                      alt="TODO: REPLACE ME"
+                      alt="Liang Hui Qian"
                       src="/team/qian.jpg"
                     />
                   </div>
-                  <a href="mailto:elisha@techladies.co">Contact our team!</a>
+                  <a href="mailto:elisha@techladies.co">Contact the Community team</a>
                 </div>
               </div>
             </div>
@@ -182,20 +187,20 @@ export default function Home() {
               <div className="card">
                 <div className="card-body card-body-sm">
                   <h6 className="card-title">Events Team</h6>
-                  <p className="card-text">Organizes activities to engage with the community</p>
+                  <p className="card-text">Organizes activities to engage with the community.</p>
                   <div className="mb-4">
                     <img
                       className="thumbnail thumbnail-lg"
-                      alt="TODO: REPLACE ME"
+                      alt="Giselle Cheo"
                       src="/team/giselle.png"
                     />
                     <img
                       className="thumbnail thumbnail-lg"
-                      alt="TODO: REPLACE ME"
+                      alt="Vanessa Zhao"
                       src="/team/vanessa.jpg"
                     />
                   </div>
-                  <a href="mailto:events@techladies.co">Contact our team!</a>
+                  <a href="mailto:events@techladies.co">Contact the Events Team</a>
                 </div>
               </div>
             </div>

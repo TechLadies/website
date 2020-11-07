@@ -24,7 +24,7 @@ function BootcampBuilders (props) {
                     src={image}
                   />
                 </div>
-                <div className="col-md-8">
+                <div className="col-md-8" style={{paddingLeft: 0}}>
                   <h4>{name}</h4>
                   <h6>{title}</h6>
                 </div>
@@ -46,7 +46,7 @@ function BootcampBuilders (props) {
                     src={image}
                   />
                 </div>
-                <div className="col-md-8">
+                <div className="col-md-8" style={{paddingLeft: 0}}>
                   <h4>{name}</h4>
                   <h6>{title}</h6>
                 </div>
