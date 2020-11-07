@@ -82,10 +82,10 @@ export default function Home () {
                   />
                 </div>
                 <p className="mb-4 text-emphasis">
-                  TechLadies is managed by volunteers who are passionate about increasing gender diversity in the tech industry.
+                  TechLadies is managed by volunteers passionate about increasing gender diversity in the tech industry.
                 </p>
                 <a className="font-weight-bold" href="#">
-                  Learn more about us
+                  Learn More About Us
                 </a>
               </div>
             </div>

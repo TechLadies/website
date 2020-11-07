@@ -46,7 +46,7 @@ export default function Home () {
                 htmlFor="hero-email"
                 className="form-label font-weight-bold"
               >
-                Get updates on our activities
+                Get updates on our activities.
               </label>
               <EmailSubscription />
 
@@ -74,7 +74,7 @@ export default function Home () {
                 <h6>Goal Setting</h6>
                 <p>
                   Have a clear goal for what you'll like to achieve from this
-                  program
+                  program.
                 </p>
               </div>
               <div className="col-md-4">
@@ -86,7 +86,7 @@ export default function Home () {
                 <h6>Bi-weekly commitments</h6>
                 <p>
                   Commit to bi-weekly meetings (offline/virtual) with their
-                  mentors from Jun 2020 - Aug 2020. Provide feedback on your progress with your mentor via a short report
+                  mentors from Jun 2020 - Aug 2020. Provide feedback on your progress with your mentor via a short report.
                 </p>
               </div>
               <div className="col-md-4">
@@ -96,7 +96,7 @@ export default function Home () {
                   src="/icons/mentorship/presentation.png"
                 />
                 <h6>Final Presentation</h6>
-                <p>Present a final project at the end of the program</p>
+                <p>Present a final project at the end of the program.</p>
               </div>
             </div>
           </div>

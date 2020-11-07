@@ -89,7 +89,7 @@ export default function Home () {
                   width="32"
                   className="mr-2"
                 />
-                <p>Submit an application form AND a simple technical task for us to evaluate your technical capabilities. Task details will be available in July in a repository on Github. Only 8 ladies will be selected for this program. These ladies will work in teams of 4.</p>
+                <p>Submit an application form AND a simple technical task for us to evaluate your technical capabilities. Task details will be available in July in a repository on Github. Only 8 ladies are selected for this program. These ladies will work in teams of 4.</p>
 
               </div>
               <h4 className="mb-3 h6">During the Bootcamp, you are required to:</h4>
@@ -149,7 +149,7 @@ export default function Home () {
               <h5 className="text-blue font-weight-bold">July / August</h5>
               <div className="font-weight-bold my-2">Javascript and CSS Workshops 1 - 3 (Optional)</div>
               <p>
-                3 pre-bootcamp workshops will be conducted to equip women with basic programming skills to code complete the technical task for their application. These workshops are open to all women. It is not obligatory to sign up for the Bootcamp to attend these workshops
+                3 pre-bootcamp workshops are conducted to equip women with basic programming skills to code complete the technical task for their application. These workshops are open to all women. It is not obligatory to sign up for the Bootcamp to attend these workshops.
               </p>
             </div>
             <div className="col-md-6">
