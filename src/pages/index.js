@@ -53,7 +53,7 @@ export default function Home () {
             <div className="col-lg-6">
               <div className={styles.quoteBackground}>
                 <h2 className="mb-0 text-center">
-                  Technology should be inclusive and accessible by all
+                  Technology should be inclusive and accessible by all.
                 </h2>
               </div>
             </div>

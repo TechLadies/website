@@ -61,10 +61,14 @@ export default function Home () {
           </div>
         </div>
         <div className="container py-6">
-          <div className="col-md-6 order-md-first d-flex flex-column justify-content-center">
+          <div className="col-md-9 order-md-first d-flex flex-column justify-content-center">
             <h3 className="mb-4">Ways you can volunteer</h3>
             <p className="text-primary font-weight-bold">
-              TechLadies is led by a group of core team leaders and supported by a larger group of ad hoc helpers. We are currently recruiting volunteers 2021, do apply by 8 Jan 2021. Join us if you're passionate about gender diversity in tech, want to learn new skills, and meet like-minded peers!
+              TechLadies is led by a group of core team leaders and supported by a larger group of ad hoc helpers. Join us if you're passionate about gender diversity in tech, want to learn new skills, and meet like-minded peers!
+              <br/>
+              <br/>
+
+              We are currently recruiting volunteers for 2021. If you are interested, do apply by 8 Jan 2021. 
             </p>
           </div>
 
@@ -100,7 +104,7 @@ export default function Home () {
               <div className="col-md-6 order-md-first d-flex flex-column justify-content-center">
                 <h2 className="mb-4">Be our Corporate Partner</h2>
                 <p className="mb-4">
-                  TechLadies is looking for corporations to partner with us,
+                  TechLadies is looking for companies to partner with us,
                   providing speakers, mentors, and coaches, as well as venue or
                   financial sponsorships. Do reach out to{' '}
                   <a href=" mailto:elisha@techladies.co">

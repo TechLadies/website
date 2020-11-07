@@ -221,7 +221,7 @@ export default function Home() {
                 Passionate about increasing gender diversity in tech?
               </h2>
               <p className="mb-4">
-                We are always looking for volunteers and support from companies.
+                We are looking for volunteers and support from companies.
               </p>
               <NavLink href="/contribute/">
                 <a className="btn btn-primary">Volunteer with TechLadies</a>

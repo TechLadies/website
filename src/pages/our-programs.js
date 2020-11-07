@@ -40,7 +40,7 @@ export default function Home() {
             />
           </div>
           <div className="col-lg-6 offset-lg-1 col-md-6">
-            <h1 className="mb-4 h3">Discover which TechLadies program best suits you with this quiz!</h1>
+            <h1 className="mb-4 h3">Discover which TechLadies program best suits you with this quiz</h1>
             <p className="text-body mb-4 large-line-height">
               
             </p>
@@ -187,7 +187,7 @@ export default function Home() {
               <p className="mb-4">
                 We are also on the lookout for awesome people to be a coach for
                 our programs. Connect with many others and contribute to the
-                tech scene.
+                tech community.
               </p>
               <a className="btn btn-primary">I'm interested!</a>
             </div>
