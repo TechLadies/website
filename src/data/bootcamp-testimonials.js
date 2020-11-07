@@ -1,42 +1,36 @@
 export default [
   {
     image: '/patterns/Patternspattern1.png',
-    thumbnail: 'https://i.pravatar.cc/128?img=1',
-    name: 'John Doe',
+    thumbnail: '../team/bootcamptestimonial/Shirlaine.png',
+    name: 'Shirlaine Phang, Grad (2017)',
     message: (
       <>
-        The bootcamp was awesome, I learnt so much and met many amazing people.
+        It was really inspiring to see how the coaches gave it their 110% to see us succeed.
       </>
     ),
   },
   {
     image: '/patterns/Patternspattern2.png',
-    thumbnail: 'https://i.pravatar.cc/128?img=2',
-    name: 'John Appleseed 2',
+    thumbnail: '../team/bootcamptestimonial/brianna.png',
+    name: 'Brianna de Gaston, Grad (2018)',
     message: (
       <>
-        The bootcamp was awesome, I learnt so much and met many amazing people.
+        The TechLadies Bootcamp was what I needed to set me up for my career in tech. 
       </>
     ),
   },
   {
     image: '/patterns/Patternspattern3.png',
-    thumbnail: 'https://i.pravatar.cc/128?img=3',
-    name: 'John Appleseed 3',
+    thumbnail: '../team/bootcamptestimonial/lukhei.jpeg',
+    name: 'Chong Lu Khei, Grad (2019)',
     message: (
       <>
-        The bootcamp was awesome, I learnt so much and met many amazing people.
-      </>
-    ),
-  },
-  {
-    image: '/patterns/Patternspattern4.png',
-    thumbnail: 'https://i.pravatar.cc/128?img=4',
-    name: 'John Appleseed 4',
-    message: (
-      <>
-        The bootcamp was awesome, I learnt so much and met many amazing people.
+        This was a great way to challenge myself and see if a tech career was right for me.
       </>
     ),
   },
 ];
+
+
+
+

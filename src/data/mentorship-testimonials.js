@@ -9,4 +9,26 @@ export default [
       </>
     ),
   },
+
+  {
+    image: '/patterns/Patternspattern3.png',
+    thumbnail: '../team/mentorship2/bridgetlee.jpg',
+    name: 'Bridget Lee, Mentee (2020)',
+    message: (
+      <>
+        I enjoyed learning from and socializing with an industry expert. My mentor has greatly accelerated my learning!
+      </>
+    ),
+  },
+
+  {
+    image: '/patterns/Patternspattern4.png',
+    thumbnail: '../team/mentorship2/maryana.jpeg',
+    name: 'Maryana Hermawan, Mentee (2020)',
+    message: (
+      <>
+        The TechLadies Mentorship program gave me an useful overview on starting a career in tech industry.
+      </>
+    ),
+  },
 ];

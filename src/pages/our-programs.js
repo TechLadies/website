@@ -40,7 +40,7 @@ export default function Home() {
             />
           </div>
           <div className="col-lg-6 offset-lg-1 col-md-6">
-            <h1 className="mb-4 h3">Take a short quiz to discover which TechLadies program best suits you!</h1>
+            <h1 className="mb-4 h3">Discover which TechLadies program best suits you with this quiz!</h1>
             <p className="text-body mb-4 large-line-height">
               
             </p>
