@@ -18,7 +18,7 @@ const DESCRIPTION = {
     newbie: 'Newbie in tech',
     intermediate: 'Intermediate techie',
     advanced: 'Advanced tech professional',
-    noSmartphone: "I don't even own a smartphone",
+    noSmartphone: "I'm not tech savvy at all",
   },
 };
 
@@ -64,6 +64,11 @@ const ACTION = {
 
     communityMember: (
       <>
+        <img
+          className="thumbnail thumbnail-xl mx-auto d-block space-bottom-10 "
+          alt="TODO: REPLACE ME"
+          src="/icons/icon_TLcommunity.png"
+        />
         <br />
         <a
           href="https://www.facebook.com/groups/techladiescode"
@@ -76,18 +81,19 @@ const ACTION = {
 
     mentorshipProgram: (
       <>
-        <h3>We think you're great for our mentorship program. </h3>
-        <br />
+        <h3>We think you're great for our mentorship program!</h3>
         <img
-          className="thumbnail thumbnail-lg mx-auto d-block space-bottom-10 "
-          alt="TODO: REPLACE ME"
+          className="thumbnail thumbnail-xxl mx-auto d-block programs-modal-image"
+          alt="TechLadies Mentorship"
           src="/icons/icon_TLmentorship.png"
         />
-        <h1>TechLadies Mentorship</h1>
-        <p>
-          Ready to start or grow your career in tech? TechLadies Mentorship is a 3-month mentorship program that pairs women who are transitioning into or establishing themselves in the tech industry with industry practitioners.
-        </p>
-        <a className="btn btn-primary" href="/mentorship-2">
+        <h2>TechLadies Mentorship</h2>
+        <div className="col-md-10 offset-md-1">
+          <p className="left-align mb-3">
+            TechLadies Mentorship is a 3-month mentorship program that pairs women who are transitioning into or establishing themselves in the tech industry with industry practitioners. Selected participants receive tailored guidance on their career goals.
+          </p>
+        </div>
+        <a className="btn btn-primary mb-5" href="/mentorship-2">
           Learn More
         </a>
       </>
@@ -95,18 +101,19 @@ const ACTION = {
 
     joinBootcamp: (
       <>
-        <h3>We think you're great for our bootcamp program.</h3>
-        <br />
+        <h3>We think you're great for our bootcamp program!</h3>
         <img
-          className="thumbnail thumbnail-lg mx-auto d-block space-bottom-10 "
-          alt="TODO: REPLACE ME"
+          className="thumbnail thumbnail-xxl mx-auto d-block programs-modal-image"
+          alt="TechLadies Bootcamp"
           src="/icons/icon_TLbootcamp.png"
         />
-        <h1>TechLadies Bootcamp</h1>
-        <p>
-          Looking to become a professional programmer? TechLadies Bootcamp is a part-time accelerated learning program where you learn valuable technical skills from industry experts by building a product from scratch.
-        </p>
-        <a className="btn btn-primary" href="/bootcamp-6">
+        <h2>TechLadies Bootcamp</h2>
+        <div className="col-md-10 offset-md-1">
+          <p className="left-align mb-3">
+            TechLadies Bootcamp is a part-time accelerated learning program where you learn valuable technical skills from industry experts by building a product from scratch. This program is best for women exploring a career switch into tech. 
+          </p>
+        </div>
+        <a className="btn btn-primary mb-5" href="/bootcamp-6">
           Learn More
         </a>
       </>

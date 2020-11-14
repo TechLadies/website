@@ -49,7 +49,7 @@ export default function Home() {
               <div className="col-md-6 order-md-first d-flex flex-column align-items-start justify-content-center">
                 <h2 className="mb-4 h4">How we got started</h2>
                 <p>
-                  As someone without any formal technical background, Elisha Tan learned to code from the developer community. Being a minority in tech, she wondered if women had adequate opportunities to explore the industry.
+                  As someone with no formal technical background, Elisha Tan learned to code from the developer community. Being a minority in tech, she wondered if women had adequate opportunities to explore the industry.
                 </p>
                 <p>
                   That’s why she started TechLadies in 2016, to provide a space where women can learn technical skills and switch careers into the tech industry. 
