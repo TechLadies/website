@@ -230,7 +230,7 @@ export default function Home () {
 
               <h5>Ad Hoc Builders Team: 10 Coaches</h5> 
               <p>
-                You are the team of coaches that will teach Bootcamp participants the valuable skills that help them kick start their journey in tech. You will pair-program with the participants, following a curriculum set by the Tech Lead, and provide feedback to the participants and Tech Lead on how the Bootcamp is progressing. 
+                You are part of the team that teaches the Bootcamp participants valuable skills that help them kick start their journey in tech.You will pair-program with the participants, following a curriculum set by the Tech Lead, and provide feedback to the participants and Tech Lead on how the Bootcamp is progressing. 
               </p>
               <p>
                 <b><i>Ideal profile:</i></b> You are a JS developer and want to gain experiences with coaching. You will spend around 2 hours per month before the Bootcamp starts, and 6 - 8 hours per month when the Bootcamp is running. You can also take on more responsibilities by being a Lead Coach for a team or commit less by being an assistant Coach.

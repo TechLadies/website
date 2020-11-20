@@ -6,14 +6,13 @@ const REASON = {
     learnNewSkills: 'I want to learn new skills',
     moreWomenInTech: 'I want to see more women in tech',
     makeNewFriends: 'I want to make new friends',
-    justBrowsing: 'No goals, just browsing',
   },
 };
 
 const DESCRIPTION = {
   id: 'description',
   type: 'question',
-  title: 'Which phrase best describes your level of tech experiences?',
+  title: 'What is your level of tech experience?',
   options: {
     newbie: 'Newbie in tech',
     intermediate: 'Intermediate techie',
@@ -25,7 +24,7 @@ const DESCRIPTION = {
 const TIME = {
   id: 'time',
   type: 'question',
-  title: 'How much time can you spare?',
+  title: 'How much time can you spend?',
   options: {
     notMuch: 'Not much!',
     some: ' Less than an hour per week',
@@ -38,43 +37,23 @@ const ACTION = {
   type: 'result',
   title: null,
   options: {
-    learnMore: (
-      <>
-        <h3> Want to learn more about what we do? </h3>
-        <br />
-        <img
-          className="thumbnail thumbnail-lg mx-auto d-block space-bottom-10 "
-          alt="TODO: REPLACE ME"
-          src="/icons/mentorship/goalsetting.jpg"
-        />
-        <a
-          href="https://www.facebook.com/groups/techladiescode"
-          target="_blank"
-        >
-          Become a COMMUNITY MEMBER ON FACEBOOK
-        </a>
-        <p>
-          Beyond programs and events, TechLadies is a community. Join us online for the latest industry news, highlights on awesome women in tech, and get support on your journey in tech on our Facebook group and Facebook page.
-        </p>
-        <a className="btn btn-primary" href="#">
-          Volunteer with TechLadies
-        </a>
-      </>
-    ),
 
     communityMember: (
       <>
+        <h3>We think you're great for our community!</h3>
         <img
-          className="thumbnail thumbnail-xl mx-auto d-block space-bottom-10 "
-          alt="TODO: REPLACE ME"
+          className="thumbnail thumbnail-xxl mx-auto d-block programs-modal-image"
+          alt="TechLadies Community"
           src="/icons/icon_TLcommunity.png"
         />
-        <br />
-        <a
-          href="https://www.facebook.com/groups/techladiescode"
-          target="_blank"
-        >
-          Become a COMMUNITY MEMBER ON FACEBOOK
+        <h2>TechLadies Community</h2>
+        <div className="col-md-10 offset-md-1">
+          <p className="left-align mb-3">
+            Beyond programs and events, TechLadies is a community. Join us online for the latest industry news, highlights on awesome women in tech, and get support on your journey in tech on our Facebook group and Facebook page.
+          </p>
+        </div>
+        <a className="btn btn-primary mb-5" href="https://www.facebook.com/groups/techladiescode" target="_blank">
+          Join Community
         </a>
       </>
     ),
@@ -119,11 +98,83 @@ const ACTION = {
       </>
     ),
 
-    studyGroup: 'Are you looking for a STUDY GROUP?',
-    volunteer: 'Would you be interested in VOLUNTEERING with us?',
-    bootcampCoach: 'Why not join us as a BOOTCAMP COACH?',
-    guestArticleBlog:
-      'Would you be interested in contributing a GUEST ARTICLE to our BLOG?',
+    meet: (
+      <>
+        <h3>We think you'll find our get-togethers useful!</h3>
+        <img
+          className="thumbnail thumbnail-xxl mx-auto d-block programs-modal-image"
+          alt="TechLadies Meet"
+          src="/icons/icon_TLmeet.png"
+        />
+        <h2>TechLadies Meet</h2>
+        <div className="col-md-10 offset-md-1">
+          <p className="left-align mb-3">
+            We run frequent in-person or virtual events on technical talks, roundtable discussions, study groups and more. You'll find something for you at TechLadies Meet, available for women of all levels of technical skills.
+          </p>
+        </div>
+        <a className="btn btn-primary mb-5" href="https://www.eventbrite.sg/o/techladies-11040976589" target="_blank">
+          Learn More
+        </a>
+      </>
+    ),
+    volunteer: (
+      <>
+        <h3>We think you'll enjoy volunteering with us!</h3>
+        <img
+          className="thumbnail thumbnail-xxl mx-auto d-block programs-modal-image"
+          alt="Join us to increase gender diversity in tech"
+          src="/illustrations/illus_contribute.png"
+        />
+        <h2>Contribute to TechLadies</h2>
+        <div className="col-md-10 offset-md-1">
+          <p className="left-align mb-3">
+            We're looking for volunteers for a range of different technical and non-technical roles. Volunteer with TechLadies in 2021 to meet like-minded peers passionate about gender diversity in tech!
+          </p>
+        </div>
+        <a className="btn btn-primary mb-5" href="/contribute">
+          Learn More
+        </a>
+      </>
+    ),
+
+    bootcampCoach:  (
+      <>
+        <h3>We think you'll enjoy coaching at TechLadies Bootcamp!</h3>
+        <img
+          className="thumbnail thumbnail-xxl mx-auto d-block programs-modal-image"
+          alt="TechLadies Bootcamp"
+          src="/icons/icon_TLbootcamp.png"
+        />
+        <h2>TechLadies Bootcamp</h2>
+        <div className="col-md-10 offset-md-1">
+          <p className="left-align mb-3">
+            You are part of the team that teaches the Bootcamp participants valuable skills that help them kick start their journey in tech. You will pair-program with the participants, following a curriculum set by the Tech Lead, and provide feedback to the participants and Tech Lead on how the Bootcamp is progressing.
+          </p>
+        </div>
+        <a className="btn btn-primary mb-5" href="/contribute">
+          Learn More
+        </a>
+      </>
+    ),
+    featureSpeaker: (
+      <>
+        <h3>We think you'll enjoy sharing your knowledge with us!</h3>
+        <img
+          className="thumbnail thumbnail-xxl mx-auto d-block programs-modal-image"
+          alt="Join us to increase gender diversity in tech"
+          src="/illustrations/illus_contribute.png"
+        />
+        <h2>Ladies in Tech Feature</h2>
+        <div className="col-md-10 offset-md-1">
+          <p className="left-align mb-3">
+            We love to feature you and share your knowledge with our community! You can be part of our Ladies in Tech feature, write guest articles, or speak at our events. Fill the form below to let us know more about you.
+          </p>
+        </div>
+        <a className="btn btn-primary mb-5" href="http://bit.ly/ladiesintechTL" target="_blank">
+          Learn More
+        </a>
+      </>
+    ),
   },
 };
 
@@ -136,17 +187,6 @@ const FOLLOW_UP_ACTION = {
 const CHART = {
   type: REASON,
   nodes: [
-    {
-      value: 'justBrowsing',
-      next: {
-        type: ACTION,
-        nodes: [
-          {
-            value: 'learnMore',
-          },
-        ],
-      },
-    },
     {
       value: 'learnNewSkills',
       next: {
@@ -196,7 +236,7 @@ const CHART = {
                     type: ACTION,
                     nodes: [
                       {
-                        value: 'studyGroup',
+                        value: 'meet',
                       },
                     ],
                   },
@@ -406,7 +446,7 @@ const CHART = {
                     type: ACTION,
                     nodes: [
                       {
-                        value: 'guestArticleBlog',
+                        value: 'featureSpeaker',
                       },
                     ],
                   },
@@ -510,7 +550,7 @@ const CHART = {
                     type: ACTION,
                     nodes: [
                       {
-                        value: 'studyGroup',
+                        value: 'meet',
                       },
                     ],
                   },
