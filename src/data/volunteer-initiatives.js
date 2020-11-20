@@ -4,7 +4,7 @@ export default [
     title: 'TechLadies Bootcamp',
     description: (
       <>
-        Help women gain valuable tech skills to start their careers in tech! 
+        Help women gain valuable technical skills to start their careers in tech! 
         <br/>
         <br/>
         We are looking for <b>3 - 4 Bootcamp Leads, 1 Tech Lead, 10 Coaches, 1 Product Lead, and 3 UI/UX Designers.</b>
@@ -35,7 +35,7 @@ export default [
     title: 'TechLadies Meet',
     description: (
       <>
-        Create amazing events every quarter that connect & share insights on the tech industry with our community, including the TechLadies Career Fair. 
+        Create amazing events every quarter that connect our community & share insights on the tech industry, including the TechLadies Career Fair. 
         <br/>
         <br/>
         We are looking for <b>3 - 4 Event Leads and ~10 Event Helpers. </b>
