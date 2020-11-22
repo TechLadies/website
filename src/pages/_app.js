@@ -1,3 +1,4 @@
+import { useEffect } from "react"
 import HeadComponent from "../components/Head"
 import Footer from "../components/Footer"
 import Navbar from "../components/Navbar"
@@ -5,8 +6,7 @@ import { useAnalytics } from "../hooks/useAnalytics"
 import Router, { useRouter } from "next/router"
 import withFBQ from "next-fbq"
 
-import "../styles/globals.scss";
-import { useEffect } from "react";
+import "../styles/globals.scss"
 
 function MyApp ({ Component, pageProps }) {
   const { init, trackPageViewed } = useAnalytics()
