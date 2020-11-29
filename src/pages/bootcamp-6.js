@@ -1,6 +1,4 @@
-import { useState } from 'react';
 import Head from 'next/head';
-import clsx from 'clsx';
 import Accordion from '../components/Accordion';
 import bootcampFAQ from '../data/bootcamp-faq.js';
 
@@ -10,13 +8,13 @@ import BootcampBuilders from '../components/BootcampBuilders'
 import bootcampTimeline from '../data/bootcamp-timeline';
 import bootcampBuilders from '../data/bootcamp-6-builders';
 import EmailSubscription from '../components/EmailSubscription'
+import { NextSeo } from 'next-seo'
+import { Bootcamp6PageSeo } from '../data/seo.js'
 
 export default function Home () {
   return (
     <div>
-      <Head>
-        <title>Bootcamp #6 | TechLadies</title>
-      </Head>
+      <NextSeo {...Bootcamp6PageSeo} />
       <main>
         <div className="container py-6">
           <div className="row">
@@ -32,12 +30,12 @@ export default function Home () {
               <p className="mb-4 text-body large-line-height">
                 The TechLadies Bootcamp #6 is a 14-week part-time accelerated
                 learning program designed to help women with basic programming
-                background become professional programmers. 
+                background become professional programmers.
               </p>
-              <p className="mb-4 text-body large-line-height"> 
+              <p className="mb-4 text-body large-line-height">
                 You will be guided
                 by industry experts, creating products for non-profit
-                organizations.   
+                organizations.
               </p>
             </div>
           </div>
@@ -203,7 +201,7 @@ export default function Home () {
             </div>
             <div className="col-md-6 offset-md-1 d-flex flex-column align-items-start justify-content-center">
               <h3 className="mb-4 h4">
-                Have a question? 
+                Have a question?
               </h3>
               <p>
                 Do drop us an email via the link below and we'll get back to you soon.
