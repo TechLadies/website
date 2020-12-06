@@ -1,7 +1,5 @@
 import React from 'react'
 import Head from 'next/head'
-import { DefaultSeo } from 'next-seo'
-import SEO from '../../../next-seo.config'
 
 function HeadComponent (props) {
   return (
@@ -11,8 +9,6 @@ function HeadComponent (props) {
       <meta content="IE=edge" httpEquiv="X-UA-Compatible" />
       <meta content="width=device-width, initial-scale=1" name="viewport" />
       <link rel="icon" href="/ogimages/favicon.png" sizes="16x16" type="image/png" />
-
-      <DefaultSeo {...SEO} />
     </Head>
   )
 }
