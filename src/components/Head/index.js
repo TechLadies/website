@@ -9,8 +9,6 @@ function HeadComponent (props) {
       <meta content="IE=edge" httpEquiv="X-UA-Compatible" />
       <meta content="width=device-width, initial-scale=1" name="viewport" />
       <link rel="icon" href="/ogimages/favicon.png" sizes="16x16" type="image/png" />
-      <meta content="https://techladies.co/ogimages/og-main.png" property="og:image" />
-
     </Head>
   )
 }

@@ -42,9 +42,22 @@ const VolunteerSeo = {
   }
 }
 
+const HomeSeo = {
+  ...seo,
+  openGraph: {
+    ...requiredOpenGraphProperties,
+    url: "https://techladies.co/",
+    images: [
+      {
+        url: "https://techladies.co/ogimages/og-main.png",
+      },
+    ]
+  }
+}
 
 
 export {
   Bootcamp6PageSeo,
-  VolunteerSeo
+  VolunteerSeo,
+  HomeSeo
 }
