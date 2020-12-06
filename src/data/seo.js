@@ -25,6 +25,26 @@ const Bootcamp6PageSeo = {
   }
 }
 
+const VolunteerSeo = {
+  ...seo,
+  title: "Contribute to TechLadies",
+  description: "Volunteer or donate to join us in our mission to increase women's participation in the tech industry! ",
+  openGraph: {
+    ...requiredOpenGraphProperties,
+    title: "Contribute to TechLadies",
+    description: "Volunteer or donate to join us in our mission to increase women's participation in the tech industry!",
+    url: "https://techladies.co/contribute/",
+    images: [
+      {
+        url: "https://techladies.co/ogimages/contribute.png",
+      },
+    ]
+  }
+}
+
+
+
 export {
-  Bootcamp6PageSeo
+  Bootcamp6PageSeo,
+  VolunteerSeo
 }

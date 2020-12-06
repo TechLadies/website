@@ -13,6 +13,8 @@ import donations from '../data/donations.js';
 import volunteerInitiatives from '../data/volunteer-initiatives';
 
 import Modal from '../components/Modal';
+import { NextSeo } from 'next-seo'
+import { VolunteerSeo } from '../data/seo.js'
 
 export default function Home () {
 
@@ -26,9 +28,7 @@ export default function Home () {
 
   return (
     <div>
-      <Head>
-        <title>Contribute | TechLadies</title>
-      </Head>
+      <NextSeo {...VolunteerSeo} />
       <main>
         <div className="container py-6">
           <div className="row gy-6">
