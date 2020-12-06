@@ -5,6 +5,8 @@ import Navbar from "../components/Navbar"
 import { useAnalytics } from "../hooks/useAnalytics"
 import Router, { useRouter } from "next/router"
 import withFBQ from "next-fbq"
+import { DefaultSeo } from 'next-seo'
+import SEO from '../../next-seo.config'
 
 import "../styles/globals.scss"
 
@@ -23,6 +25,7 @@ function MyApp ({ Component, pageProps }) {
   return (
     <>
       <HeadComponent />
+      <DefaultSeo {...SEO} />
       <Navbar />
       <Component {...pageProps} />
       <Footer />
