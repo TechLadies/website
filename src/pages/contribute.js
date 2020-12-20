@@ -129,7 +129,7 @@ export default function Home () {
               <img
                 alt="Rakuten"
                 className="mb-4 partner-logo-horizontal"
-                src="/partners/logos/rakuten-logo.gif"
+                src="/partners/logos/rakuten.png"
               />
             </div>
             <div className="col-md-4 col-sm-6">
