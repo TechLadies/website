@@ -68,7 +68,7 @@ export default function Home () {
               <br/>
               <br/>
 
-              We are currently recruiting volunteers for 2021. Do apply by 8 Jan 2021 if you are interested. 
+              We are currently recruiting volunteers for 2021. Do apply by 15 Jan 2021 if you are interested. 
             </p>
           </div>
 
