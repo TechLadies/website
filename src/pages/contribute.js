@@ -106,8 +106,8 @@ export default function Home () {
                 <p className="mb-4">
                   We are looking for partner companies that provide speakers, mentors, coaches, and venue or
                   financial sponsorship. Do reach out to{' '}
-                  <a href=" mailto:elisha@techladies.co">
-                    elisha@techladies.co
+                  <a href=" mailto:lillian@techladies.co">
+                    lillian@techladies.co
                   </a>{' '}
                   to start a conversation.
                 </p>
