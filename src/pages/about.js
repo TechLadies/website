@@ -179,7 +179,7 @@ export default function Home() {
                       src="/team/qian.jpg"
                     />
                   </div>
-                  <a href="mailto:elisha@techladies.co">Contact the Community team</a>
+                  <a href="mailto:elisha@techladies.co">Contact the Community Team</a>
                 </div>
               </div>
             </div>
