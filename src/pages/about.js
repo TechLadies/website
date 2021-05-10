@@ -29,9 +29,9 @@ export default function Home() {
               </p>
               <a
                 className="btn btn-primary"
-                href="https://www.facebook.com/groups/techladiescode/"
+                href="https://www.facebook.com/groups/techladiescode/" target="_blank"
               >
-                Join our Community
+                Join our Community on Facebook
               </a>
             </div>
           </div>
