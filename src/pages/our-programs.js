@@ -42,7 +42,7 @@ export default function Home() {
           <div className="col-lg-6 offset-lg-1 col-md-6">
             <h1 className="mb-4 h3">Discover which TechLadies program best suits you with this quiz</h1>
             <p className="text-body mb-4 large-line-height">
-              
+
             </p>
             <Quiz data={quiz} />
           </div>
@@ -58,7 +58,7 @@ export default function Home() {
                 src="/icons/icon_TLbootcamp.png"
               />
               <h3 className="mb-4 h4">TechLadies Bootcamp</h3>
-              <p className="mb-4">Duration: 14 weeks</p>
+              <p className="mb-4">Duration: 15 weeks</p>
               <p className="mb-4">
                 A part-time accelerated learning program designed for women who
                 wish to be professional programmers. You'll be guided by
@@ -66,7 +66,7 @@ export default function Home() {
                 Bootcamp graduates found software-related jobs and internships.
               </p>
               <button className="btn btn-primary">
-                <NavLink href="/bootcamp-6/">
+                <NavLink href="/bootcamp-7/">
                   <a className="white-text">I'm Interested!</a>
                 </NavLink>
               </button>
@@ -189,7 +189,7 @@ export default function Home() {
                 our programs. Connect with many others and contribute to the
                 tech community.
               </p>
-              <a className="btn btn-primary">I'm interested!</a>
+              <a className="btn btn-primary" href='https://forms.gle/yPAibeKXEbiN98qg9' target="_blank">I'm interested!</a>
             </div>
           </div>
         </div>

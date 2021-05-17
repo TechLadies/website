@@ -22,7 +22,7 @@ export default function Home() {
                 We create opportunities to increase women’s participation in tech
               </h1>
               <p className="mb-4 text-body large-line-height">
-                TechLadies is a community-led initiative for women to connect, learn, and grow in the tech industry as software engineers, product managers, data scientists, and UI/UX designers. 
+                TechLadies is a community-led initiative for women to connect, learn, and grow in the tech industry as software engineers, product managers, data scientists, and UI/UX designers.
               </p>
               <p className="mb-4 text-body large-line-height">
                 Our community is for women in tech and women keen in switching careers into tech.
@@ -52,7 +52,7 @@ export default function Home() {
                   As someone with no formal technical background, Elisha Tan learned to code from the developer community. Being a minority in tech, she wondered if women had adequate opportunities to explore the industry.
                 </p>
                 <p>
-                  That’s why she started TechLadies in 2016, to provide a space where women can learn technical skills and switch careers into the tech industry. 
+                  That’s why she started TechLadies in 2016, to provide a space where women can learn technical skills and switch careers into the tech industry.
                 </p>
               </div>
             </div>
@@ -129,28 +129,43 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            
-            
-            <div className="col-lg-4 col-md-6">
+
+
+            <div className="col-lg-8 col-md-8 col-12">
               <div className="card">
                 <div className="card-body card-body-sm">
                   <h6 className="card-title">Bootcamp Team</h6>
                   <p className="card-text">Leads our flagship program, TechLadies Bootcamp.</p>
-                  <div className="mb-4">
+                  <div className="mb-5">
                     <img
                       className="thumbnail thumbnail-lg"
-                      alt="Angel Felismino"
-                      src="/team/angel.png"
+                      alt="Jeslyn"
+                      src="/team/bootcamp7/jeslyn.png"
                     />
                     <img
                       className="thumbnail thumbnail-lg"
-                      alt="Anna Lisicka"
-                      src="/team/anna.jpeg"
+                      alt="Nicole"
+                      src="/team/bootcamp7/nicole.jpg"
                     />
                     <img
                       className="thumbnail thumbnail-lg"
-                      alt="Tejasvita Rao"
-                      src="/team/tejasvita.jpeg"
+                      alt="Diya"
+                      src="/team/bootcamp7/diya.jpeg"
+                    />
+                    <img
+                      className="thumbnail thumbnail-lg"
+                      alt="Akshata"
+                      src="/team/bootcamp7/akshata.png"
+                    />
+                    <img
+                      className="thumbnail thumbnail-lg"
+                      alt="Thomas"
+                      src="/team/bootcamp7/thomas.jpg"
+                    />
+                    <img
+                      className="thumbnail thumbnail-lg"
+                      alt="Andrew"
+                      src="/team/bootcamp7/andrew.png"
                     />
                   </div>
                   <a href="mailto:bootcamp@techladies.co">Contact the Bootcamp Team</a>
@@ -204,7 +219,7 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            
+
           </div>
         </div>
         <div className="container py-6">

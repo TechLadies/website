@@ -4,13 +4,14 @@ export default [
     title: 'TechLadies Bootcamp',
     description: (
       <>
-        Help women gain valuable technical skills to start their careers in tech! 
+        Help women gain valuable technical skills to start their careers in tech!
         <br/>
         <br/>
-        We are looking for <b>3 - 4 Bootcamp Leads, 1 Tech Lead, 10 Coaches, 1 Product Lead, and 3 UI/UX Designers.</b>
-
+        We are looking for <b>8 -10 Coaches</b>
         <br/>
-        <br/> 
+        <br/>
+        <br/>
+        <br/>
       </>
     ),
   },
@@ -19,11 +20,11 @@ export default [
     title: 'TechLadies Mentorship',
     description: (
       <>
-        Grow women's careers in tech with this 3-month program! 
+        Grow women's careers in tech with this 3-month program!
         <br/>
         <br/>
 
-        We are looking for <b>3 - 4 Mentorship Leads, and ~30 Mentors in Software Eng, Product Management, Data Science, and UI/UX Design.</b> 
+        We are looking for <b>3 - 4 Mentorship Leads, and ~30 Mentors in Software Eng, Product Management, Data Science, and UI/UX Design.</b>
 
         <br/>
         <br />
@@ -35,7 +36,7 @@ export default [
     title: 'TechLadies Meet',
     description: (
       <>
-        Create amazing events every quarter that connect our community & share insights on the tech industry, including the TechLadies Career Fair. 
+        Create amazing events every quarter that connect our community & share insights on the tech industry, including the TechLadies Career Fair.
         <br/>
         <br/>
         We are looking for <b>3 - 4 Event Leads and ~10 Event Helpers. </b>
@@ -50,7 +51,7 @@ export default [
     title: 'TechLadies Community',
     description: (
       <>
-        Grow the TechLadies community in Asia! This team manages our newsletter and social media channels. 
+        Grow the TechLadies community in Asia! This team manages our newsletter and social media channels.
         <br/>
         <br/>
         We are looking for <b>3 - 4 Community Leads and ~3 content creators.</b>

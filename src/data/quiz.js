@@ -89,10 +89,10 @@ const ACTION = {
         <h2>TechLadies Bootcamp</h2>
         <div className="col-md-10 offset-md-1">
           <p className="left-align mb-3">
-            TechLadies Bootcamp is a part-time accelerated learning program where you learn valuable technical skills from industry experts by building a product from scratch. This program is best for women exploring a career switch into tech. 
+            TechLadies Bootcamp is a part-time accelerated learning program where you learn valuable technical skills from industry experts by building a product from scratch. This program is best for women exploring a career switch into tech.
           </p>
         </div>
-        <a className="btn btn-primary mb-5" href="/bootcamp-6">
+        <a className="btn btn-primary mb-5" href="/bootcamp-7">
           Learn More
         </a>
       </>
