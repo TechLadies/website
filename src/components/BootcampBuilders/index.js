@@ -5,7 +5,7 @@ function BootcampBuilders (props) {
   const { data } = props
 
   const firstThreeBuilders = data.slice(0, 3)
-  const remainingBuilders = data.slice(4)
+  const remainingBuilders = data.slice(3)
 
   const [showMoreBuilders, setShowMoreBuilders] = useState(false)
 

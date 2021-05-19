@@ -165,7 +165,7 @@ export default function Home() {
                     <img
                       className="thumbnail thumbnail-lg"
                       alt="Andrew"
-                      src="/team/bootcamp7/andrew.png"
+                      src="/team/bootcamp7/andrew.jpg"
                     />
                   </div>
                   <a href="mailto:bootcamp@techladies.co">Contact the Bootcamp Team</a>
