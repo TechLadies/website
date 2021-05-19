@@ -37,17 +37,7 @@ export default [
     title: 'Bootcamp Lead',
     description: (
       <>
-        Akshata is a Senior Engineer, specializing in fullstack web applications. She is a self taught developer, with a degree in Architecture (for buildings).
-      </>
-    ),
-  },
-  {
-    image: '/team/bootcamp7/akshata.png',
-    name: 'Akshata',
-    title: 'Bootcamp Lead',
-    description: (
-      <>
-        Akshata is a Senior Engineer, specializing in fullstack web applications. She is a self taught developer, with a degree in Architecture (for buildings).
+        Akshata is a software engineer, specializing in fullstack web applications. She is a self taught developer, with a degree in Architecture (for buildings!). She believes in equal opportunity and accessible high quality education for all.
       </>
     ),
   },
@@ -58,6 +48,16 @@ export default [
     description: (
       <>
         I'm Thomas, a software developer by profession (though I also develop for fun). I'm self-taught and have never looked back since the day I printed my first log statement. When I'm not doing software, you can find me outside running or riding my road bike with friends.
+      </>
+    ),
+  },
+  {
+    image: '/team/bootcamp7/andrew.jpg',
+    name: 'Thomas Chia',
+    title: 'Tech Lead',
+    description: (
+      <>
+        Andrew is the CTO of Straits Interactive, a privacy compliance startup. He has built, deployed and exited a few startups. With his free time, he also helps other startups build their MVPs. He enjoys learning about how different industries operate and how tech can help to enable them and make them more efficient. He also hopes to enrich people's tech journeys by passing on the lessons he's learnt over the years.
       </>
     ),
   },

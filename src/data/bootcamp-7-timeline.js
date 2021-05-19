@@ -42,18 +42,6 @@ export default [
       </>
     ),
   },
-  // {
-  //   date: '11 and 19 September',
-  //   title: 'Level Up workshops',
-  //   description: (
-  //     <>
-  //       The Bootcamp will start with 2 days of Level Up workshops for chosen
-  //       participants to balance the set of skills needed. Level Up workshops
-  //       will take place on 11 Sep and 19 Sep afternoon/evening (attendance is
-  //       obligatory).
-  //     </>
-  //   ),
-  // },
   {
     date: '9 October \'21 - 15 January \'22',
     title: 'TechLadies Bootcamp #7',
@@ -70,8 +58,7 @@ export default [
     title: 'TechLadies Bootcamp #7 Conclusion',
     description: (
       <>
-        Participants bring together all they've learn over the past 13 weeks into a portfolio
-        and gear up to face actual interviews - ready to step into the tech industry!
+        Participants consolidate all they've learned into a portfolio and gear up to face real interviews - ready to step into the tech industry!
       </>
     ),
   },
