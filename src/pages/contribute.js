@@ -68,7 +68,7 @@ export default function Home () {
               <br/>
               <br/>
 
-              We are currently recruiting volunteers for 2021. Do apply by 15 Jan 2021 if you are interested. 
+              We are currently recruiting volunteers for 2021. Do apply by 15 Jan 2021 if you are interested.
             </p>
           </div>
 
@@ -210,49 +210,18 @@ export default function Home () {
             <>
               <img class="thumbnail thumbnail-xxl center-image display-block" alt="TechLadies Bootcamp" src="/icons/icon_TLbootcamp.png"></img>
 
-              <p>Help create our most impactful program! We've seen Bootcamp grads switching careers into tech who were previously pet groomer, air stewardess, and customer service rep etc. To continue this program in 2021, we are looking for <b>3 - 4 Bootcamp Leads, 1 Tech Lead, 10 Coaches, 1 Product Lead and 3 UI/UX Designers.</b>
+              <p>Help create our most impactful program! We've seen Bootcamp grads switching careers into tech who were previously pet groomer, air stewardess, and customer service rep etc. To continue this program in 2021, we are looking for <b>8-10 Coaches.</b>
               </p>
 
-              <h5>Core Team: 3 - 4 Bootcamp Leads</h5>
-              <p>Behind the magic of our most impactful program are Bootcamp Leads who plan and execute this program, including sourcing for NGOs, recruiting coaches, marketing, and running the bootcamp (including pre-bootcamp workshops). It’s time-consuming but very rewarding. Don’t worry, we have a playbook ready.</p>
+              <h5>Coaches Team: 8-10 Coaches</h5>
               <p>
-                <b><i>Ideal profile:</i></b> You have good project management skills and can commit ~8 hours per month in 2021.
-              </p>
-
-              <h5>Core Team: 1 Tech Lead</h5> 
-              <p>
-                The Tech Lead guides the team of coaches on product architecture, setting the application technical task, and designing curriculum for the bootcamp and pre-bootcamp workshops. This person makes tech decisions on behalf of the Bootcamp Builders team.
-              </p>
-              <p>
-                <b><i>Ideal profile:</i></b> You are a developer with experiences in building products and mentoring/teaching others, and want to gain experiences leading other developers. You will spend around 4 - 6 hours per month before the Bootcamp starts, and less than 2 hours per month when the Bootcamp is running.
-              </p>
-
-              <h5>Ad Hoc Builders Team: 10 Coaches</h5> 
-              <p>
-                You are part of the team that teaches the Bootcamp participants valuable skills to help them kickstart their journey in tech. You will pair-program with the participants, follow a curriculum set by the Tech Lead, and provide feedback to both the participants and Tech Lead. 
+                You are part of the team that teaches the Bootcamp participants valuable skills to help them kickstart their journey in tech. You will pair-program with the participants, follow a curriculum set by the Tech Lead, and provide feedback to both the participants and Tech Lead.
               </p>
               <p>
                 <b><i>Ideal profile:</i></b> You are a JS developer and want to gain coaching experiences. You will spend around 2 hours per month before the Bootcamp starts, and 6 - 8 hours per month when the Bootcamp is running. You can also take on more responsibilities by being a Lead Coach for a team or commit less by being an assistant Coach.
               </p>
 
-              <h5>Ad Hoc Builders Team: 2 Product Leads</h5> 
-              <p>
-                The Product Lead guides a team of UI/UX designers, working with the Tech Lead and NGOs, to design product features, facilitate sprint planning, and communicate with stakeholders to drive product development.
-              </p>
-              <p>
-                <b><i>Ideal profile:</i></b> You are a product manager with experiences building products from scratch, want to gain experiences leading a team of designers, and want to create products for NGOs. You will spend around 4 - 6 hours per month before the Bootcamp starts, and around 2 hours per month when the Bootcamp is running.
-              </p>
-
-              <h5>Ad Hoc Builders Team: 3 UI/UX Designers</h5> 
-              <p>
-                NGOs come to us to solve their problems with tech. You will help craft how these products work and look by understanding what the NGO’s needs are, creating user journeys, and designing mockups for the Bootcamp participants to build.
-              </p>
-              <p>
-                <b><i>Ideal profile:</i></b> You have UI/UX knowledge and want to contribute! You will spend around 4 - 6 hours per month before the Bootcamp starts, and around 2 hours per month when the Bootcamp is running. 
-              </p>
-
-
-              <a className="btn btn-primary cta-button" target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSepj-kx0qMTe7stfAiRB9slYA-HvTTiT3GvbodLj23geH8ZIg/viewform">
+              <a className="btn btn-primary cta-button" target="_blank" href="https://forms.gle/yPAibeKXEbiN98qg9">
                 Volunteer for TechLadies Bootcamp
               </a>
             </>
@@ -300,7 +269,7 @@ export default function Home () {
               </p>
 
               <h5>Ad Hoc: 10 Event Helpers</h5>
-              <p>Supporting all our events is a group of Event Helpers! You will help with the logistics of in-person and online events, such as checking in attendees, handling catering, or engaging with the audience.  
+              <p>Supporting all our events is a group of Event Helpers! You will help with the logistics of in-person and online events, such as checking in attendees, handling catering, or engaging with the audience.
               </p>
               <p>
                 <b><i>Ideal profile:</i></b> We don't have a preferred profile for this. Anyone can help!
@@ -324,7 +293,7 @@ export default function Home () {
                 TechLadies is a community - and this role is the heart of it! You will grow and engage with the community via our social media channels, monthly newsletter Tech List, and the Ladies in Tech feature. You are also empowered to come up with new creative ideas and have the resources to execute on them!
               </p>
               <p>
-                <b><i>Ideal profile:</i></b> You should be comfortable with digital marketing and community engagement, including maintaining a Facebook page, Facebook group, Twitter, Instagram, and creating newsletters. You will spend roughly 5 hours every month in 2021. 
+                <b><i>Ideal profile:</i></b> You should be comfortable with digital marketing and community engagement, including maintaining a Facebook page, Facebook group, Twitter, Instagram, and creating newsletters. You will spend roughly 5 hours every month in 2021.
               </p>
 
               <h5>Ad Hoc: 3 - 4 Content Creators</h5>
@@ -332,7 +301,7 @@ export default function Home () {
                 People look to the TechLadies blog for information on programming, our activities, and discover stories of awesome women in tech. You will help create these amazing content! We are also looking for graphic designers/illustrators - people who know their way around Photoshop, Illustrator, or just good'ol Canva to help us with our marketing collaterals.
               </p>
               <p>
-                <b><i>Ideal profile:</i></b> You should have prior experiences with content creation. 
+                <b><i>Ideal profile:</i></b> You should have prior experiences with content creation.
               </p>
 
               <a className="btn btn-primary cta-button" target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSepj-kx0qMTe7stfAiRB9slYA-HvTTiT3GvbodLj23geH8ZIg/viewform">

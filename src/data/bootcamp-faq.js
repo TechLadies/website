@@ -4,7 +4,7 @@ export default [
     item: <>What programming language will I be learning?</>,
     details: (
       <>
-        Batch 6 of the TechLadies Bootcamp cover the Javascript programming language.
+        Batch 7 of the TechLadies Bootcamp will cover fullstack Javascript - React, Nodejs and relational databases.
       </>
     ),
   },
@@ -14,7 +14,6 @@ export default [
     details: (
       <>
         The TechLadies Bootcamp is designed to help women with some basic coding background to switch careers into the tech industry. You should be at least 21 years old, or at an age where it is impossible for you to be formally educated in Computer Science. We will also guide you through writing your resume, preparing for tech interviews and making introductions to recruiting companies.
-
       </>
     ),
   },
@@ -23,7 +22,7 @@ export default [
     item: <>What is the success rate of TechLadies Bootcamps?</>,
     details: (
       <>
-        We have conducted 5 TechLadies Bootcamps since launch, training 42 women. 12 of our graduates have successfully gotten a software development internship or junior developer roles, with more in non-engineering roles in the tech industry.
+        We have conducted 6 TechLadies Bootcamps since launch, training 50 women. 12(?) of our graduates have successfully gotten a software development internship or junior developer roles, with more in non-engineering roles in the tech industry.
       </>
     ),
   },
@@ -41,7 +40,7 @@ export default [
     item: <>What is the level of commitment required for participants?</>,
     details: (
       <>
-        This coding program is a part-time program. Still, you are required to attend sessions on every Saturdays (1 - 6pm) and code on your own throughout the week, committing at least 15 hours per week between 19 Oct 2019 - 25 Jan 2020 (with a 2 week break in the second half of December).
+        This coding program is a part-time program. Still, you are required to attend sessions on every Saturdays (10am - 3pm) and code on your own throughout the week, committing at least 15 hours per week between 9 Oct 2021 - 29 Jan 2022 (with a 2 week break in the second half of December).
       </>
     ),
   },
@@ -68,7 +67,7 @@ export default [
     item: <>Are there any prerequisites for application?</>,
     details: (
       <>
-        Yes! We learned that it is important for TechLadies Bootcamp participants to have some sort of programming foundation in order to build a web product that will be used by the NGOs. Hence, you will need to complete a technical task before applying to the TechLadies Bootcamp. Don’t worry; we are here to help you acquire the skills you need to complete the task with a series of pre-bootcamp workshops!
+        Yes! We learned that it is important for TechLadies Bootcamp participants to have some sort of programming foundation in order to build the projects during the bootcamp. Hence, you will need to complete a technical task before applying to the TechLadies Bootcamp. Don’t worry; we are here to help you acquire the skills you need to complete the task with a series of pre-bootcamp workshops!
       </>
     ),
   },
