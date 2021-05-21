@@ -53,7 +53,7 @@ export default [
   },
   {
     image: '/team/bootcamp7/andrew.jpg',
-    name: 'Thomas Chia',
+    name: 'Andrew Fam',
     title: 'Tech Lead',
     description: (
       <>
