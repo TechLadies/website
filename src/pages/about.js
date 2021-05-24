@@ -30,8 +30,10 @@ export default function Home() {
               <a
                 className="btn btn-primary"
                 href="https://www.facebook.com/groups/techladiescode/"
+                target="_blank"
+                rel="noopener"
               >
-                Join our Community
+                Join our Community on Facebook
               </a>
             </div>
           </div>
@@ -194,7 +196,7 @@ export default function Home() {
                       src="/team/qian.jpg"
                     />
                   </div>
-                  <a href="mailto:elisha@techladies.co">Contact the Community team</a>
+                  <a href="mailto:elisha@techladies.co">Contact the Community Team</a>
                 </div>
               </div>
             </div>
