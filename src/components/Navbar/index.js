@@ -71,8 +71,8 @@ export default function Navbar() {
               </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink>
-                <a className="nav-link" href='http://blog.techladies.co/' target='_new'>Blog</a>
+              <NavLink href="http://blog.techladies.co/">
+                <a className="nav-link" target="_blank" rel="noopener">Blog</a>
               </NavLink>
             </li>
           </ul>
