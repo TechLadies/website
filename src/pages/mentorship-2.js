@@ -249,6 +249,7 @@ export default function Home () {
               <a
                 className="btn btn-primary"
                 href="mailto:mentorship@techladies.co"
+                target="_blank"
               >
                 Contact Us
               </a>
