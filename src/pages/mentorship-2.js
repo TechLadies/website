@@ -12,7 +12,7 @@ import mentorshipTimeline from '../data/mentorship-timeline';
 import programsFAQ from '../data/mentorship-faq.js';
 
 import Modal from '../components/Modal';
-import EmailSubscription from '../components/EmailSubscription'
+import NavLink from '../components/NavLink';
 
 export default function Home () {
   const [showMentorsModal, setShowMentorsModal] = useState(false)
@@ -42,13 +42,11 @@ export default function Home () {
                 <br />
                 The TechLadies Mentorship 2020 has concluded. To stay updated on when our 2021 season opens for applications, please sign up for our newsletter below.
               </p>
+              <a className="btn btn-primary" target="_blank" href="https://forms.gle/sg4C2eCByp7TCJPV7">
+                  Register interest for 2021's program
+              </a>
               <label
-                htmlFor="hero-email"
-                className="form-label font-weight-bold"
-              >
-                Get updates on our activities.
-              </label>
-              <EmailSubscription />
+                className="form-label font-weight-bold">We will contact you as soon as we launch the program!</label>
 
             </div>
             <div className="col-md-5  offset-md-1">
@@ -86,7 +84,7 @@ export default function Home () {
                 <h6>Bi-weekly commitments</h6>
                 <p>
                   Commit to bi-weekly meetings (offline/virtual) with their
-                  mentors from Jun 2020 - Aug 2020. Provide feedback on your progress with your mentor via a short report.
+                  mentors. Provide feedback on your progress with your mentor via a short report.
                 </p>
               </div>
               <div className="col-md-4">
@@ -208,7 +206,7 @@ export default function Home () {
 
         <div className="bg-gray">
           <div className="container py-6">
-            <h2 className="mb-5 text-center">Program Timeline</h2>
+            <h2 className="mb-5 text-center">Program Timeline 2020</h2>
             <div className="row gy-4">
               <Timeline>
                 {mentorshipTimeline.map(({ date, title, description }) => (
