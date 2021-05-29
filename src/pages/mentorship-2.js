@@ -12,7 +12,6 @@ import mentorshipTimeline from '../data/mentorship-timeline';
 import programsFAQ from '../data/mentorship-faq.js';
 
 import Modal from '../components/Modal';
-import NavLink from '../components/NavLink';
 
 export default function Home () {
   const [showMentorsModal, setShowMentorsModal] = useState(false)
