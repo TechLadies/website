@@ -169,7 +169,7 @@ export default function Home () {
           <div className="container py-6">
             <div className="row mb-4">
               <div className="col-md-6">
-                <h3>
+                <h3 id='donate'>
                   Donate to TechLadies
                 </h3>
                 <p>
