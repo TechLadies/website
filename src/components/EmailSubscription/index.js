@@ -8,7 +8,7 @@ function EmailSubscription (props) {
   const [addContactFeedback, setAddContactFeedback] = useState(null)
 
   const handleAddEmail = data => {
-    fetch('./api/addContact/', {
+    fetch('/api/addContact', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ email: data.email })
