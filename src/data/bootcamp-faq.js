@@ -49,7 +49,7 @@ export default [
     item: <>What is the format of this program?</>,
     details: (
       <>
-        You will go through a hands-on experience and our coaches will be here to guide you. Throughout the week, you are expected to work on the project with our coaches checking in on your codes and answer any questions you have. This will happen online. On Saturdays, we will meet in-person to learn new concepts and revise old ones.
+        You will go through a hands-on experience and our coaches will be here to guide you. Throughout the week, you are expected to work on the project with our coaches checking in on your codes and answer any questions you have. This will happen online. On Saturdays, we will meet online to learn new concepts and revise old ones.
       </>
     ),
   },
