@@ -22,7 +22,7 @@ export default [
     item: <>What is the success rate of TechLadies Bootcamps?</>,
     details: (
       <>
-        We have conducted 6 TechLadies Bootcamps since launch, training 50 women. 12(?) of our graduates have successfully gotten a software development internship or junior developer roles, with more in non-engineering roles in the tech industry.
+        We have successfully conducted 6 TechLadies Bootcamps since launch, trained 50 women, and many of our graduates have successfully gotten a software development internship or junior developer roles, with more in non-engineering roles in the tech industry.
       </>
     ),
   },
