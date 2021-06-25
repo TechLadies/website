@@ -1,15 +1,16 @@
-import Head from 'next/head';
+import { NextSeo } from 'next-seo'
 import Accordion from '../components/Accordion';
 import bootcampFAQ from '../data/bootcamp-faq.js';
-
 import Timeline from '../components/Timeline';
 import TimelineItem from '../components/TimelineItem';
 import BootcampBuilders from '../components/BootcampBuilders'
 import bootcampTimeline from '../data/bootcamp-7-timeline';
 import bootcampBuilders from '../data/bootcamp-7-builders';
 import EmailSubscription from '../components/EmailSubscription'
-import { NextSeo } from 'next-seo'
 import { BootcampPageSeo } from '../data/seo.js'
+
+const REGISTRATION_OPEN = false;
+const SHOW_NEWSLETTER_SIGNUP = false;
 
 export default function Home () {
   return (
@@ -35,70 +36,61 @@ export default function Home () {
               <p className="mb-4 text-body large-line-height">
                 You will be guided by industry experts, and get hands-on experience building multiple projects.
               </p>
+              {REGISTRATION_OPEN && (
+                <a
+                  className="btn btn-primary"
+                  href="https://www.eventbrite.sg/e/bootcamp-7-information-session-tickets-159836732971"
+                  target="blank"
+                  rel="noopener"
+                >
+                  Register Now
+                </a>
+              )}
             </div>
           </div>
         </div>
 
-        <div className="bg-gray">
-          <div className="container py-6">
-            <div className="row">
-              <div className="col-md-8 offset-md-2">
-                <div className="card">
-                  <div className="card-body">
-                    <img
-                      alt="TecLadies Bootcamp #6"
-                      src="/icons/icon_TLbootcamp.png"
-                      className="thumbnail thumbnail-xl mb-4 center-image display-block"
-                    />
-                    <p className="mb-4">
-                      Applications to the TechLadies Bootcamp will begin  in July 2021. To stay updated, please sign up for our newsletter below.
-                    </p>
-                    <EmailSubscription />
+        {SHOW_NEWSLETTER_SIGNUP && (
+          <div className="bg-gray">
+            <div className="container py-6">
+              <div className="row">
+                <div className="col-md-8 offset-md-2">
+                  <div className="card">
+                    <div className="card-body">
+                      <img
+                        alt="TecLadies Bootcamp #6"
+                        src="/icons/icon_TLbootcamp.png"
+                        className="thumbnail thumbnail-xl mb-4 center-image display-block"
+                      />
+                      <p className="mb-4">
+                        Applications to the TechLadies Bootcamp will begin  in July 2021. To stay updated, please sign up for our newsletter below.
+                      </p>
+                      <EmailSubscription />
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
+        )}
 
-        <div className="container py-6">
-          <div className="row">
-            <div className="col-md-6">
-              <img
-                alt="TODO: REPLACE ME"
-                className="img-fluid"
-                src="../photos/bootcamp_stage.jpg"
-              />
-              <h4 className="my-4">
-                This program will take place in Singapore from 9 Oct 2021 to 29 Jan 2022 and cost SGD550.
-              </h4>
-              <p>Full scholarships are provided for people with financial difficulties. We welcome women of all backgrounds and nationalities to apply.
-              </p>
-            </div>
-            <div className="col-md-6">
-              <h4 className="mb-3 h6">Registration and Selection:</h4>
-              <div className="d-inline-flex mb-4">
+        <div className="bg-gray">
+          <div className="container py-6">
+            <div className="row">
+              <div className="col-md-6">
                 <img
-                  alt="Checkbox"
-                  src="/icons/check-square.svg"
-                  height="32"
-                  width="32"
-                  className="mr-2"
+                  alt="TODO: REPLACE ME"
+                  className="img-fluid"
+                  src="../photos/bootcamp_stage.jpg"
                 />
-                <p>Submit an application form AND a simple technical task for us to evaluate your technical capabilities. Task details will be available in July in a repository on Github. Each selected participant will be paired with a Coach.</p>
+                <h4 className="my-4">
+                  This program will take place in Singapore from 9 Oct 2021 to 29 Jan 2022 and cost SGD550.
+                </h4>
+                <p>Full scholarships are provided for people with financial difficulties. We welcome women of all backgrounds and nationalities to apply.
+                </p>
               </div>
-              <h4 className="mb-3 h6">During the Bootcamp, you are required to:</h4>
-              <div className="flex-column">
-                <div className="d-inline-flex">
-                  <img
-                    alt="Checkbox"
-                    src="/icons/check-square.svg"
-                    height="32"
-                    width="32"
-                    className="mr-2"
-                  />
-                  <p>Put in at least 15 hours each week, inclusive of attending coding sessions.</p>
-                </div>
+              <div className="col-md-6">
+                <h4 className="mb-3 h6">Registration and Selection:</h4>
                 <div className="d-inline-flex mb-4">
                   <img
                     alt="Checkbox"
@@ -107,30 +99,53 @@ export default function Home () {
                     width="32"
                     className="mr-2"
                   />
-                  <p>Attend all workshops conducted and at least 80% of coding sessions on every Saturday. (10am - 3pm)</p>
+                  <p>Submit an application form AND a simple technical task for us to evaluate your technical capabilities. Task details will be available in July in a repository on Github. Each selected participant will be paired with a Coach.</p>
                 </div>
-              </div>
-              <h4 className="mb-3 h6">After the Bootcamp:</h4>
-              <div className="flex-column">
-                <div className="d-inline-flex">
-                  <img
-                    alt="Checkbox"
-                    src="/icons/check-square.svg"
-                    height="32"
-                    width="32"
-                    className="mr-2"
-                  />
-                  <p>Do a written interview and a technical article (on a topic of your choice) for the TechLadies blog.</p>
+                <h4 className="mb-3 h6">During the Bootcamp, you are required to:</h4>
+                <div className="flex-column">
+                  <div className="d-inline-flex">
+                    <img
+                      alt="Checkbox"
+                      src="/icons/check-square.svg"
+                      height="32"
+                      width="32"
+                      className="mr-2"
+                    />
+                    <p>Put in at least 15 hours each week, inclusive of attending coding sessions.</p>
+                  </div>
+                  <div className="d-inline-flex mb-4">
+                    <img
+                      alt="Checkbox"
+                      src="/icons/check-square.svg"
+                      height="32"
+                      width="32"
+                      className="mr-2"
+                    />
+                    <p>Attend all workshops conducted and at least 80% of coding sessions on every Saturday. (10am - 3pm)</p>
+                  </div>
                 </div>
-                <div className="d-inline-flex">
-                  <img
-                    alt="Checkbox"
-                    src="/icons/check-square.svg"
-                    height="32"
-                    width="32"
-                    className="mr-2"
-                  />
-                  <p>Present your portfolio at the TechLadies Graduation Party in Jan 2022.</p>
+                <h4 className="mb-3 h6">After the Bootcamp:</h4>
+                <div className="flex-column">
+                  <div className="d-inline-flex">
+                    <img
+                      alt="Checkbox"
+                      src="/icons/check-square.svg"
+                      height="32"
+                      width="32"
+                      className="mr-2"
+                    />
+                    <p>Do a written interview and a technical article (on a topic of your choice) for the TechLadies blog.</p>
+                  </div>
+                  <div className="d-inline-flex">
+                    <img
+                      alt="Checkbox"
+                      src="/icons/check-square.svg"
+                      height="32"
+                      width="32"
+                      className="mr-2"
+                    />
+                    <p>Present your portfolio at the TechLadies Graduation Party in Jan 2022.</p>
+                  </div>
                 </div>
               </div>
             </div>
