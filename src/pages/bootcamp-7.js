@@ -166,7 +166,7 @@ export default function Home () {
               <h5 className="text-blue font-weight-bold">21 August</h5>
               <div className="font-weight-bold my-2">Code Clinic (Optional)</div>
               <p>
-                Women interested in completing the technical task can attend this session to ask questions & get help for their submission apps.
+                Women interested in completing the technical task can attend this session to ask questions & get help for their technical task.
               </p>
             </div>
           </div>
