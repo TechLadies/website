@@ -177,11 +177,12 @@ export default function Home () {
             <h2 className="mb-4 text-center">Program Timeline</h2>
             <div className="row">
               <Timeline>
-                {bootcampTimeline.map(({ date, title, description }) => (
+                {bootcampTimeline.map(({ date, title, description, cta = null }) => (
                   <TimelineItem key={title}>
                     <h3 className="h5 text-red mb-3">{date}</h3>
                     <h4 className="h6 mb-3">{title}</h4>
                     <p className="pb-3">{description}</p>
+                    {REGISTRATION_OPEN && cta}
                   </TimelineItem>
                 ))}
               </Timeline>

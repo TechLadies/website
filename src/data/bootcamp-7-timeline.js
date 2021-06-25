@@ -4,11 +4,21 @@ export default [
     title: 'Info Session & Application Opens',
     description: (
       <>
-        We will share with you more about the application process, and explain
-        the participants will get to learn. Women interested in the TechLadies
-        Bootcamp #7 should join this meeting.
+        We will share details and requirements of the application process and
+        the bootcamp modules. Women interested in the TechLadies Bootcamp #7
+        should join this meeting.
       </>
     ),
+    cta: (
+      <a
+        className="btn btn-primary"
+        href="https://www.eventbrite.sg/e/bootcamp-7-information-session-tickets-159836732971"
+        target="blank"
+        rel="noopener"
+      >
+        Register Now
+      </a>
+    )
   },
   {
     date: 'July - August',
@@ -43,7 +53,7 @@ export default [
     ),
   },
   {
-    date: '9 October \'21 - 15 January \'22',
+    date: "9 October '21 - 15 January '22",
     title: 'TechLadies Bootcamp #7',
     description: (
       <>
@@ -58,8 +68,9 @@ export default [
     title: 'TechLadies Bootcamp #7 Conclusion',
     description: (
       <>
-        Participants consolidate all they've learned into a portfolio and gear up to face real interviews - ready to step into the tech industry!
+        Participants consolidate all they've learned into a portfolio and gear
+        up to face real interviews - ready to step into the tech industry!
       </>
     ),
   },
-];
+]
