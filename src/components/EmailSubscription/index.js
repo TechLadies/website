@@ -1,11 +1,12 @@
-import { useState } from 'react'
+import { useState, useMemo } from 'react'
 import { useForm } from 'react-hook-form'
 import clsx from 'clsx'
 import styles from './index.module.scss'
 
-function EmailSubscription (props) {
+function EmailSubscription () {
   const { register, handleSubmit, reset } = useForm()
   const [addContactFeedback, setAddContactFeedback] = useState(null)
+  const [feedbackState, setFeedbackState] = useState("SUCCESS")
 
   const handleAddEmail = data => {
     fetch('/api/addContact', {
@@ -15,12 +16,25 @@ function EmailSubscription (props) {
     }).then(function (res) {
       if (res.ok) {
         setAddContactFeedback('Thank you, your email is added to our list')
+        setFeedbackState("SUCCESS")
         reset()
       } else {
         setAddContactFeedback('Something went wrong. Your email was not added')
+        setFeedbackState("ERROR")
       }
     })
   }
+
+  const alertClasses = useMemo(() => {
+    let classes = ['alert']
+    if (feedbackState === 'SUCCESS') {
+      classes.push('alert-success')
+    } else if (feedbackState === "ERROR") {
+      classes.push('alert-warning')
+    }
+
+    return classes.join(" ")
+  }, [feedbackState])
 
   return (
     <>
@@ -38,7 +52,7 @@ function EmailSubscription (props) {
         </div>
       </form>
       {
-        addContactFeedback && (<div>{addContactFeedback}</div>)
+        addContactFeedback && (<div className={alertClasses}>{addContactFeedback}</div>)
       }
     </>
   )
