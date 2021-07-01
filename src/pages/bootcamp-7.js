@@ -9,7 +9,7 @@ import bootcampBuilders from '../data/bootcamp-7-builders';
 import EmailSubscription from '../components/EmailSubscription'
 import { BootcampPageSeo } from '../data/seo.js'
 
-const REGISTRATION_OPEN = false;
+const REGISTRATION_OPEN = true;
 const SHOW_NEWSLETTER_SIGNUP = false;
 
 export default function Home () {
