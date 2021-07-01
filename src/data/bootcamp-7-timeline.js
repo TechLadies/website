@@ -11,7 +11,7 @@ export default [
     ),
     cta: (
       <a
-        className="btn btn-primary"
+        className="btn btn-primary mb-3"
         href="https://www.eventbrite.sg/e/bootcamp-7-information-session-tickets-159836732971"
         target="blank"
         rel="noopener"
