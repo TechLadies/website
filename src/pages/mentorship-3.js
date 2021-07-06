@@ -7,9 +7,12 @@ import Accordion from '../components/Accordion';
 import Timeline from '../components/Timeline';
 import TimelineItem from '../components/TimelineItem';
 import MentorsCard from '../components/MentorsCard'
+import Gallery from '../components/Gallery';
+import TestimonialCard from '../components/TestimonialCard';
 
 import mentorshipTimeline from '../data/mentorship-timeline-3';
 import programsFAQ from '../data/mentorship-faq.js';
+import mentorshipTestimonials from '../data/mentorship-testimonials.js';
 
 import Modal from '../components/Modal';
 
@@ -25,7 +28,7 @@ export default function Home () {
   return (
     <div>
       <Head>
-        <title>Mentorship #2 | TechLadies</title>
+        <title>Mentorship #3 | TechLadies</title>
       </Head>
       <main>
         <div className="container py-6">
@@ -49,7 +52,7 @@ export default function Home () {
                 </div>
                <div className="col-md-6">
                   <a className="btn btn-primary" target="_blank" href="https://forms.gle/5xoBrmBPyNNuqpgo9">
-                        Sign up as Mentee!
+                      Sign up as Mentee!
                   </a>
                </div>
               </div>
@@ -172,34 +175,6 @@ export default function Home () {
 
         <div className="bg-gray">
           <div className="container py-6">
-            <div className="row text-center">
-              <div className="col-lg-2 col-md-3 offset-md-5">
-                <img
-                  className="thumbnail thumbnail-lg mb-2"
-                  alt="Jill Quek, Mentor 2019"
-                  src="../team/jill.png"
-                />
-              </div>
-            </div>
-            <div className="row text-center">
-              <div className="col-lg-10 col-md-9 offset-md-1">
-                <p>
-                  “I thought the overall organisation by TechLadies was great.
-                  Clear communication and enough guidance to keep us on track,
-                  without being overly prescriptive. The kickoff session was good
-                  too -- it set clear expectations on both mentor and mentee, and
-                  that was very useful.”
-                </p>
-                <p>
-                  <b>Jill Quek, TechLadies Mentor (2019)</b>
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div className="bg-gray">
-          <div className="container py-6">
             <h2 className="mb-5 text-center">Program Timeline 2021</h2>
             <div className="row gy-4">
               <Timeline>
@@ -214,6 +189,25 @@ export default function Home () {
             </div>
           </div>
         </div>
+
+        <div className="container py-6">
+            <h2 className="mb-5 text-center">Testimonials</h2>
+            <div className="row gy-4">
+              <Gallery>
+                {mentorshipTestimonials.map(
+                  ({ image, thumbnail, name, message }) => (
+                    <TestimonialCard
+                      image={image}
+                      key={name}
+                      thumbnail={thumbnail}
+                      name={name}
+                      message={message}
+                    />
+                  )
+                )}
+              </Gallery>
+            </div>
+          </div>
 
         <div className="container py-6">
           <div className="row">

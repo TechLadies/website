@@ -12,6 +12,7 @@ import mentorshipTimeline from '../data/mentorship-timeline-2';
 import programsFAQ from '../data/mentorship-faq.js';
 
 import Modal from '../components/Modal';
+import EmailSubscription from '../components/EmailSubscription'
 
 export default function Home () {
   const [showMentorsModal, setShowMentorsModal] = useState(false)
@@ -39,21 +40,16 @@ export default function Home () {
                 Science/Engineering/Analysis, Product Management.
                 <br />
                 <br />
-                Registration for the TechLadies Mentorship Program 2021 has just opened. Sign up for this year’s Mentorship Program now!
+                The TechLadies Mentorship 2020 has concluded. To stay updated on when our 2021 season opens for applications, please sign up for our newsletter below.
               </p>
-              <div className="row">
-                <div className="col-md-6">
-                  <a className="btn btn-primary" target="_blank" href="https://forms.gle/2a1Ns12WSV5tJJ3b7">
-                      Sign up as Mentor!
-                  </a>
-                </div>
-               <div className="col-md-6">
-                  <a className="btn btn-primary" target="_blank" href="https://forms.gle/5xoBrmBPyNNuqpgo9">
-                        Sign up as Mentee!
-                  </a>
-               </div>
-              </div>
-              
+              <label
+                htmlFor="hero-email"
+                className="form-label font-weight-bold"
+              >
+                Get updates on our activities.
+              </label>
+              <EmailSubscription />
+
             </div>
             <div className="col-md-5  offset-md-1">
               <img
@@ -90,7 +86,7 @@ export default function Home () {
                 <h6>Bi-weekly commitments</h6>
                 <p>
                   Commit to bi-weekly meetings (offline/virtual) with their
-                  mentors. Provide feedback on your progress with your mentor via a short report.
+                  mentors from Jun 2020 - Aug 2020. Provide feedback on your progress with your mentor via a short report.
                 </p>
               </div>
               <div className="col-md-4">
@@ -198,9 +194,21 @@ export default function Home () {
           </div>
         </div>
 
+        <div className="container py-6">
+          <div className="row">
+            <h2 className="mb-4 text-center">Mentors for 2020</h2>
+            <div className="row gy-4">
+              <MentorsCard dataMessage='software' handleViewMentors={handleViewMentors} mentors={mentorsData['software']} icon='/icons/icon_softwaredevelopment.png' />
+              <MentorsCard dataMessage='ux' handleViewMentors={handleViewMentors} mentors={mentorsData['ux']} icon='/icons/icon_UIUX.png' />
+              <MentorsCard dataMessage='data' handleViewMentors={handleViewMentors} mentors={mentorsData['data']} icon='/icons/icon_datascience.png' />
+              <MentorsCard dataMessage='product' handleViewMentors={handleViewMentors} mentors={mentorsData['product']} icon='/icons/icon_productmanagement.png' />
+            </div>
+          </div>
+        </div>
+
         <div className="bg-gray">
           <div className="container py-6">
-            <h2 className="mb-5 text-center">Program Timeline 2021</h2>
+            <h2 className="mb-5 text-center">Program Timeline</h2>
             <div className="row gy-4">
               <Timeline>
                 {mentorshipTimeline.map(({ date, title, description }) => (
@@ -211,18 +219,6 @@ export default function Home () {
                   </TimelineItem>
                 ))}
               </Timeline>
-            </div>
-          </div>
-        </div>
-
-        <div className="container py-6">
-          <div className="row">
-            <h2 className="mb-4 text-center">Mentors from 2020</h2>
-            <div className="row gy-4">
-              <MentorsCard dataMessage='software' handleViewMentors={handleViewMentors} mentors={mentorsData['software']} icon='/icons/icon_softwaredevelopment.png' />
-              <MentorsCard dataMessage='ux' handleViewMentors={handleViewMentors} mentors={mentorsData['ux']} icon='/icons/icon_UIUX.png' />
-              <MentorsCard dataMessage='data' handleViewMentors={handleViewMentors} mentors={mentorsData['data']} icon='/icons/icon_datascience.png' />
-              <MentorsCard dataMessage='product' handleViewMentors={handleViewMentors} mentors={mentorsData['product']} icon='/icons/icon_productmanagement.png' />
             </div>
           </div>
         </div>
@@ -255,7 +251,6 @@ export default function Home () {
               <a
                 className="btn btn-primary"
                 href="mailto:mentorship@techladies.co"
-                target="_blank"
               >
                 Contact Us
               </a>

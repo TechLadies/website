@@ -25,7 +25,7 @@ export default function Footer () {
                     <a href="/bootcamp-7">Bootcamp</a>
                   </li>
                   <li>
-                    <a href="/mentorship-2">Mentorship</a>
+                    <a href="/mentorship-3">Mentorship</a>
                   </li>
                 </ul>
               </div>

@@ -1,12 +1,12 @@
 export default [
   {
-    date: '21 June - 16 July',
+    date: '10 July - 10 Aug',
     title: 'Mentee Application',
     description: <>Apply to be a mentee of Techladies Mentroship #3.</>,
   },
   {
-    date: '10 July',
-    title: 'Info Session for mentees',
+    date: '24 July',
+    title: 'Mentorship Ask-Me-Anything (AMA) Session',
     description: (
       <>
         Come for our Info Session to learn more about what our mentorship program has to offer.
@@ -14,7 +14,7 @@ export default [
     ),
   },
   {
-    date: '6 Aug',
+    date: '12 Aug',
     title: 'Applications Results',
     description: (
       <>
