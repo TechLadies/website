@@ -8,7 +8,7 @@ import Timeline from '../components/Timeline';
 import TimelineItem from '../components/TimelineItem';
 import MentorsCard from '../components/MentorsCard'
 
-import mentorshipTimeline from '../data/mentorship-timeline-2';
+import mentorshipTimeline from '../data/mentorship-timeline-3';
 import programsFAQ from '../data/mentorship-faq.js';
 
 import Modal from '../components/Modal';
