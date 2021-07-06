@@ -39,12 +39,21 @@ export default function Home () {
                 Science/Engineering/Analysis, Product Management.
                 <br />
                 <br />
-                The TechLadies Mentorship 2020 has concluded. Please register your interest below for 2021's Mentorship Program and we will get back to you!
+                Registration for the TechLadies Mentorship Program 2021 has just opened. Sign up for this year’s Mentorship Program now!
               </p>
-              <a className="btn btn-primary" target="_blank" href="https://forms.gle/sg4C2eCByp7TCJPV7">
-                  Register interest for 2021's program
-              </a>
-              <label className="form-label font-weight-bold">We will contact you as soon as we launch the program!</label>
+              <div className="row">
+                <div className="col-md-6">
+                  <a className="btn btn-primary" target="_blank" href="https://forms.gle/2a1Ns12WSV5tJJ3b7">
+                      Sign up as Mentor!
+                  </a>
+                </div>
+               <div className="col-md-6">
+                  <a className="btn btn-primary" target="_blank" href="https://forms.gle/5xoBrmBPyNNuqpgo9">
+                        Sign up as Mentee!
+                  </a>
+               </div>
+              </div>
+              
             </div>
             <div className="col-md-5  offset-md-1">
               <img
