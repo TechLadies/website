@@ -32,7 +32,7 @@ export default [
     ),
   },
   {
-    date: 'Aug - Oct',
+    date: 'Aug - Nov',
     title: 'Mentorship',
     description: (
       <>
@@ -43,7 +43,7 @@ export default [
     ),
   },
   {
-    date: '30 Oct',
+    date: '20 Nov',
     title: 'Project Showcase',
     description: (
       <>
