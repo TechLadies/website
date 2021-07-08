@@ -72,7 +72,7 @@ const ACTION = {
             TechLadies Mentorship is a 3-month mentorship program that pairs women who are transitioning into or establishing themselves in the tech industry with industry practitioners. Selected participants receive tailored guidance on their career goals.
           </p>
         </div>
-        <a className="btn btn-primary mb-5" href="/mentorship-2">
+        <a className="btn btn-primary mb-5" href="/mentorship-3">
           Learn More
         </a>
       </>

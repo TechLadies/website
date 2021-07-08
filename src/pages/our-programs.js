@@ -106,7 +106,7 @@ export default function Home() {
             </p>
 
             <button className="btn btn-primary">
-              <NavLink href="/mentorship-2/">
+              <NavLink href="/mentorship-3/">
                 <a className="white-text">I'm Interested!</a>
               </NavLink>
             </button>
