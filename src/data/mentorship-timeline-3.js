@@ -9,7 +9,8 @@ export default [
     title: 'Mentorship Ask-Me-Anything (AMA) Session',
     description: (
       <>
-        Come for our Info Session to learn more about what our mentorship program has to offer.
+        Come for our Info Session to learn more about what our mentorship program has to offer.<br/>
+        <p><a href="https://www.eventbrite.sg/e/techladies-mentorship-2021-ama-session-tickets-162945362967">Sign up here!</a></p>
       </>
     ),
   },
