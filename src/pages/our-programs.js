@@ -98,7 +98,7 @@ export default function Home() {
               src="/icons/icon_TLmentorship.png"
             />
             <h3 className="mb-4 h4">TechLadies Mentorship</h3>
-            <p className="mb-4">Duration: 15 weeks</p>
+            <p className="mb-4">Duration: 12 weeks</p>
             <p className="mb-4">
               A 3-month mentorship program that pairs women who are
               transitioning into or establishing themselves in the tech industry
