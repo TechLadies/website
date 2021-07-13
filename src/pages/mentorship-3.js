@@ -60,7 +60,7 @@ export default function Home () {
             </div>
             <div className="col-md-5  offset-md-1">
               <img
-                alt="TODO: REPLACE ME"
+                alt="mentorship illustration"
                 className="img-fluid"
                 src="/illustrations/illus_mentorship.png"
               />
@@ -75,7 +75,7 @@ export default function Home () {
               <div className="col-md-4">
                 <img
                   className="thumbnail thumbnail-lg mb-2 "
-                  alt="TODO: REPLACE ME"
+                  alt="mentorship goal setting"
                   src="/icons/mentorship/goalsetting.png"
                 />
                 <h6>Goal Setting</h6>
@@ -87,7 +87,7 @@ export default function Home () {
               <div className="col-md-4">
                 <img
                   className="thumbnail thumbnail-lg mb-2 "
-                  alt="TODO: REPLACE ME"
+                  alt="mentorship biweekly"
                   src="/icons/mentorship/biweekly.png"
                 />
                 <h6>Bi-weekly commitments</h6>
@@ -99,7 +99,7 @@ export default function Home () {
               <div className="col-md-4">
                 <img
                   className="thumbnail thumbnail-lg mb-2 "
-                  alt="TODO: REPLACE ME"
+                  alt="mentorship presentation"
                   src="/icons/mentorship/presentation.png"
                 />
                 <h6>Final Presentation</h6>
@@ -115,7 +115,7 @@ export default function Home () {
             <div className="col-md-4">
               <img
                 className="thumbnail thumbnail-lg mb-2 "
-                alt="TODO: REPLACE ME"
+                alt="mentorship growth"
                 src="/icons/mentorship/growth.jpg"
               />
               <h6>Grow your career in tech</h6>
@@ -134,7 +134,7 @@ export default function Home () {
             <div className="col-md-4">
               <img
                 className="thumbnail thumbnail-lg mb-2 "
-                alt="TODO: REPLACE ME"
+                alt="mentorship network"
                 src="/icons/mentorship/network.jpg"
               />
               <h6>Expand your professional network</h6>
@@ -152,7 +152,7 @@ export default function Home () {
             <div className="col-md-4">
               <img
                 className="thumbnail thumbnail-lg mb-2 "
-                alt="TODO: REPLACE ME"
+                alt="mentorship programs"
                 src="/icons/mentorship/programs.jpg"
               />
               <h6>Structured program</h6>
