@@ -1,6 +1,6 @@
 export default [
   {
-    date: '17 July, 11am (SGT)',
+    date: '17 July, 2:30pm (SGT)',
     title: 'Info Session & Application Opens',
     description: (
       <>
