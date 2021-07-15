@@ -30,13 +30,23 @@ export default [
         learn.
       </>
     ),
+    cta: (
+      <a
+        className="btn btn-primary mb-3"
+        href="https://www.eventbrite.sg/e/techladies-bootcamp-7-pre-bootcamp-workshops-tickets-161443723523"
+        target="blank"
+        rel="noopener"
+      >
+        Register Now
+      </a>
+    )
   },
   {
-    date: '28 August',
+    date: '5 September',
     title: 'Application Closes',
     description: (
       <>
-        Applications close on 28 August so make sure you submit your completed
+        Applications close on 5 September so make sure you submit your completed
         Technical Task and application form to be considered for the Bootcamp.
       </>
     ),
