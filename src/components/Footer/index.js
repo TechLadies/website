@@ -68,24 +68,29 @@ export default function Footer () {
                 <a
                   aria-label="Link to Facebook"
                   href="https://www.facebook.com/TechLadies"
+                  target="_blank"
+                  rel="noopener"
                 >
                   <Facebook />
                 </a>
                 <a
                   aria-label="Link to Linkedin"
                   href="https://www.linkedin.com/company/techladies"
+                  target="_blank"
                 >
                   <Linkedin />
                 </a>
                 <a
                   aria-label="Link to Twitter"
                   href="https://www.twitter.com/techladiescode"
+                  target="_blank"
                 >
                   <Twitter />
                 </a>
                 <a
                   aria-label="Link to Instagram"
                   href="https://www.instagram.com/techladiescode/"
+                  target="_blank"
                 >
                   <Instagram />
                 </a>
