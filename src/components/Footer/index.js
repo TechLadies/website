@@ -69,6 +69,7 @@ export default function Footer () {
                   aria-label="Link to Facebook"
                   href="https://www.facebook.com/TechLadies"
                   target="_blank"
+                  rel="noopener"
                 >
                   <Facebook />
                 </a>
