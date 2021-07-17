@@ -134,7 +134,7 @@ export default function Home () {
                       width="32"
                       className="mr-2"
                     />
-                    <p>Do a written interview and a technical article (on a topic of your choice) for the TechLadies blog.</p>
+                    <p>Present your portfolio at the TechLadies Graduation Party in Jan 2022.</p>
                   </div>
                   <div className="d-inline-flex">
                     <img
@@ -144,7 +144,7 @@ export default function Home () {
                       width="32"
                       className="mr-2"
                     />
-                    <p>Present your portfolio at the TechLadies Graduation Party in Jan 2022.</p>
+                    <p>Prepare for technical interviews and start applying for engineering roles.</p>
                   </div>
                 </div>
               </div>
@@ -157,16 +157,16 @@ export default function Home () {
             <h3 className="mb-4">Don't worry if it sounds scary, we’ve programs to help with the technical tasks! 💪💪💪</h3>
             <div className="col-md-6">
               <h5 className="text-blue font-weight-bold">July / August</h5>
-              <div className="font-weight-bold my-2">Javascript and CSS Workshops 1 - 3 (Optional)</div>
+              <div className="font-weight-bold my-2">Pre-Bootcamp Workshops 1 - 4 (Optional)</div>
               <p>
-                3 pre-bootcamp workshops are conducted to equip women with basic programming skills to code complete the technical task for their application. These workshops are open to all women. It is not obligatory to sign up for the Bootcamp to attend these workshops.
+                4 pre-bootcamp workshops are conducted to equip women with basic programming skills to code complete the technical task for their application. These workshops are open to all women. It is not obligatory to sign up for the Bootcamp to attend these workshops.
               </p>
             </div>
             <div className="col-md-6">
-              <h5 className="text-blue font-weight-bold">21 August</h5>
-              <div className="font-weight-bold my-2">Code Clinic (Optional)</div>
+              <h5 className="text-blue font-weight-bold">14 August & 4 September</h5>
+              <div className="font-weight-bold my-2">Code Clinics (Optional)</div>
               <p>
-                Women interested in completing the technical task can attend this session to ask questions & get help for their technical task.
+                Women interested in completing the technical task can attend these sessions to ask questions & get help for their technical task.
               </p>
             </div>
           </div>
