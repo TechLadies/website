@@ -63,7 +63,7 @@ export default function Home() {
         <div className="container py-6">
           <div className="row mb-5">
             <div className="col-md-10 offset-md-1">
-              <h2 className="text-center">
+              <h2 className="text-center" id='team'>
                 Today, TechLadies is led by a small group of volunteers
               </h2>
             </div>
