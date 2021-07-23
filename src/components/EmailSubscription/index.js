@@ -44,6 +44,9 @@ function EmailSubscription () {
             name="email"
             className={clsx('form-control', styles.emailTextfieldWithRightButton)}
             placeholder="E-mail address"
+            title="Please enter an email address"
+            // KISS email regex: https://stackoverflow.com/a/1610200/3545099
+            pattern=".+@[^@]+\.[^@]{2,}$"
             required={true}
             type="email"
             ref={register}
