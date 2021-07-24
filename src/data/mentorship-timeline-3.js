@@ -15,7 +15,7 @@ export default [
     ),
   },
   {
-    date: '12 Aug',
+    date: '23 Aug',
     title: 'Applications Results',
     description: (
       <>
@@ -24,7 +24,7 @@ export default [
     ),
   },
   {
-    date: '21 Aug',
+    date: '30 Aug',
     title: 'Program Kick Off',
     description: (
       <>
@@ -33,7 +33,7 @@ export default [
     ),
   },
   {
-    date: 'Aug - Nov',
+    date: 'Sep - Nov',
     title: 'Mentorship',
     description: (
       <>
@@ -44,7 +44,7 @@ export default [
     ),
   },
   {
-    date: '20 Nov',
+    date: '30 Nov',
     title: 'Project Showcase',
     description: (
       <>
