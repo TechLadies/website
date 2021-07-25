@@ -50,7 +50,7 @@ export default [
     item: <>When will the application fees be collected and refunded?</>,
     details: (
       <>
-        The fees of SGD$100 will be collected from you upon your confirmed placement in the program between 15 - 22 June 2020. This amount will be fully refunded to you after the program wraps up in Sep 2020, upon satisfaction of the above program requirements.
+        The fees of SGD$100 will be collected from you upon your confirmed placement in the program between 23 - 30 August 2021. This amount will be fully refunded to you after the program wraps up in Dec 2021, upon satisfaction of the above program requirements.
       </>
     ),
   },
