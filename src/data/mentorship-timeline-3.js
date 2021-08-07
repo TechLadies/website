@@ -19,7 +19,7 @@ export default [
     title: 'Applications Results',
     description: (
       <>
-        Applicants will be notified of their application status, latest by 6 Aug. You may be contacted if we have questions about your application, do keep your eyes peeled on your inbox!
+        Applicants will be notified of their application status, latest by 23 Aug. You may be contacted if we have questions about your application, do keep your eyes peeled on your inbox!
       </>
     ),
   },
