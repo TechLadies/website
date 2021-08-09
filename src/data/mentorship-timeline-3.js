@@ -24,7 +24,7 @@ export default [
     ),
   },
   {
-    date: '30 Aug',
+    date: '28 Aug',
     title: 'Program Kick Off',
     description: (
       <>
