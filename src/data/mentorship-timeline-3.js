@@ -28,7 +28,7 @@ export default [
     title: 'Program Kick Off',
     description: (
       <>
-        Join us for an evening where all mentees and mentors of the program gather, and meet your mentor for the first time! This will be a time for you to work with your mentors to set the direction for the months ahead and set up your final project.
+        Join us on this day where all mentees and mentors of the program gather, and meet your mentor for the first time! This will be a time for you to work with your mentors to set the direction for the months ahead and set up your final project.
       </>
     ),
   },
