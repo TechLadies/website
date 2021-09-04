@@ -42,7 +42,7 @@ export default [
     )
   },
   {
-    date: '5 September',
+    date: '19 September',
     title: 'Application Closes',
     description: (
       <>
