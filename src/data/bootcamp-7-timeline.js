@@ -9,16 +9,6 @@ export default [
         should join this meeting.
       </>
     ),
-    cta: (
-      <a
-        className="btn btn-primary mb-3"
-        href="https://www.eventbrite.sg/e/bootcamp-7-information-session-tickets-159836732971"
-        target="blank"
-        rel="noopener"
-      >
-        Register Now
-      </a>
-    ),
   },
   {
     date: "July - August",
@@ -30,25 +20,25 @@ export default [
         learn.
       </>
     ),
-    cta: (
-      <a
-        className="btn btn-primary mb-3"
-        href="https://www.eventbrite.sg/e/techladies-bootcamp-7-pre-bootcamp-workshops-tickets-161443723523"
-        target="blank"
-        rel="noopener"
-      >
-        Register Now
-      </a>
-    ),
   },
   {
-    date: "19 September",
+    date: "1 October",
     title: "Application Closes",
     description: (
       <>
-        Applications close on 5 September so make sure you submit your completed
+        Applications close on 1 October so make sure you submit your completed
         Technical Task and application form to be considered for the Bootcamp.
       </>
+    ),
+    cta: (
+      <a
+        className="btn btn-primary mb-3"
+        href="https://forms.gle/ZtmtuGau7b5dL8wb8"
+        target="blank"
+        rel="noopener"
+      >
+        Apply Now
+      </a>
     ),
   },
   {
