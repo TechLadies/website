@@ -1,7 +1,7 @@
 export default [
   {
-    date: '17 July, 2:30pm (SGT)',
-    title: 'Info Session & Application Opens',
+    date: "17 July, 2:30pm (SGT)",
+    title: "Info Session & Application Opens",
     description: (
       <>
         We will share details and requirements of the application process and
@@ -18,11 +18,11 @@ export default [
       >
         Register Now
       </a>
-    )
+    ),
   },
   {
-    date: 'July - August',
-    title: 'Pre-Bootcamp Workshops & Clinics',
+    date: "July - August",
+    title: "Pre-Bootcamp Workshops & Clinics",
     description: (
       <>
         We have a series of workshops lined up to assist you in completing the
@@ -39,11 +39,11 @@ export default [
       >
         Register Now
       </a>
-    )
+    ),
   },
   {
-    date: '19 September',
-    title: 'Application Closes',
+    date: "19 September",
+    title: "Application Closes",
     description: (
       <>
         Applications close on 5 September so make sure you submit your completed
@@ -52,19 +52,19 @@ export default [
     ),
   },
   {
-    date: '25 September',
-    title: 'Application results',
+    date: "3 October",
+    title: "Application results",
     description: (
       <>
         Applicants will be notified of their statuses, on a rolling basis,
-        latest by 25 Sep. You may be contacted if we have questions, so do keep
-        your eyes peeled on your email inbox!
+        latest by 3 October. You may be contacted if we have questions, so do
+        keep your eyes peeled on your email inbox!
       </>
     ),
   },
   {
     date: "9 October '21 - 15 January '22",
-    title: 'TechLadies Bootcamp #7',
+    title: "TechLadies Bootcamp #7",
     description: (
       <>
         Starting from the week of 9 Oct participants will need to code
@@ -74,8 +74,8 @@ export default [
     ),
   },
   {
-    date: '15 January 2022 - 29 January 2022',
-    title: 'TechLadies Bootcamp #7 Conclusion',
+    date: "15 January 2022 - 29 January 2022",
+    title: "TechLadies Bootcamp #7 Conclusion",
     description: (
       <>
         Participants consolidate all they've learned into a portfolio and gear
@@ -83,4 +83,4 @@ export default [
       </>
     ),
   },
-]
+];
