@@ -1,18 +1,18 @@
-import { NextSeo } from 'next-seo'
-import Accordion from '../components/Accordion';
-import bootcampFAQ from '../data/bootcamp-faq.js';
-import Timeline from '../components/Timeline';
-import TimelineItem from '../components/TimelineItem';
-import BootcampBuilders from '../components/BootcampBuilders'
-import bootcampTimeline from '../data/bootcamp-7-timeline';
-import bootcampBuilders from '../data/bootcamp-7-builders';
-import EmailSubscription from '../components/EmailSubscription'
-import { BootcampPageSeo } from '../data/seo.js'
+import { NextSeo } from "next-seo";
+import Accordion from "../components/Accordion";
+import bootcampFAQ from "../data/bootcamp-faq.js";
+import Timeline from "../components/Timeline";
+import TimelineItem from "../components/TimelineItem";
+import BootcampBuilders from "../components/BootcampBuilders";
+import bootcampTimeline from "../data/bootcamp-7-timeline";
+import bootcampBuilders from "../data/bootcamp-7-builders";
+import EmailSubscription from "../components/EmailSubscription";
+import { BootcampPageSeo } from "../data/seo.js";
 
 const REGISTRATION_OPEN = true;
 const SHOW_NEWSLETTER_SIGNUP = false;
 
-export default function Home () {
+export default function Home() {
   return (
     <div>
       <NextSeo {...BootcampPageSeo} />
@@ -34,16 +34,17 @@ export default function Home () {
                 background become professional programmers.
               </p>
               <p className="mb-4 text-body large-line-height">
-                You will be guided by industry experts, and get hands-on experience building multiple projects.
+                You will be guided by industry experts, and get hands-on
+                experience building multiple projects.
               </p>
               {REGISTRATION_OPEN && (
                 <a
                   className="btn btn-primary"
-                  href="https://www.eventbrite.sg/e/bootcamp-7-information-session-tickets-159836732971"
+                  href="https://forms.gle/ZtmtuGau7b5dL8wb8"
                   target="blank"
                   rel="noopener"
                 >
-                  Register Now
+                  Apply Now
                 </a>
               )}
             </div>
@@ -63,7 +64,9 @@ export default function Home () {
                         className="thumbnail thumbnail-xl mb-4 center-image display-block"
                       />
                       <p className="mb-4">
-                        Applications to the TechLadies Bootcamp will begin  in July 2021. To stay updated, please sign up for our newsletter below.
+                        Applications to the TechLadies Bootcamp will begin in
+                        July 2021. To stay updated, please sign up for our
+                        newsletter below.
                       </p>
                       <EmailSubscription />
                     </div>
@@ -84,9 +87,13 @@ export default function Home () {
                   src="../photos/bootcamp_stage.jpg"
                 />
                 <h4 className="my-4">
-                  This program will take place in Singapore from 9 Oct 2021 to 29 Jan 2022 and cost SGD550.
+                  This program will take place in Singapore from 9 Oct 2021 to
+                  29 Jan 2022 and cost SGD550.
                 </h4>
-                <p>Full scholarships are provided for people with financial difficulties. We welcome women of all backgrounds and nationalities to apply.
+                <p>
+                  Full scholarships are provided for people with financial
+                  difficulties. We welcome women of all backgrounds and
+                  nationalities to apply.
                 </p>
               </div>
               <div className="col-md-6">
@@ -99,9 +106,16 @@ export default function Home () {
                     width="32"
                     className="mr-2"
                   />
-                  <p>Submit an application form AND a simple technical task for us to evaluate your technical capabilities. Task details will be available in July in a repository on Github. Each selected participant will be paired with a Coach.</p>
+                  <p>
+                    Submit an application form AND a simple technical task for
+                    us to evaluate your technical capabilities. Task details
+                    will be available in July in a repository on Github. Each
+                    selected participant will be paired with a Coach.
+                  </p>
                 </div>
-                <h4 className="mb-3 h6">During the Bootcamp, you are required to:</h4>
+                <h4 className="mb-3 h6">
+                  During the Bootcamp, you are required to:
+                </h4>
                 <div className="flex-column">
                   <div className="d-inline-flex">
                     <img
@@ -111,7 +125,10 @@ export default function Home () {
                       width="32"
                       className="mr-2"
                     />
-                    <p>Put in at least 15 hours each week, inclusive of attending coding sessions.</p>
+                    <p>
+                      Put in at least 15 hours each week, inclusive of attending
+                      coding sessions.
+                    </p>
                   </div>
                   <div className="d-inline-flex mb-4">
                     <img
@@ -121,7 +138,10 @@ export default function Home () {
                       width="32"
                       className="mr-2"
                     />
-                    <p>Attend all workshops conducted and at least 80% of coding sessions on every Saturday. (10am - 3pm)</p>
+                    <p>
+                      Attend all workshops conducted and at least 80% of coding
+                      sessions on every Saturday. (10am - 3pm)
+                    </p>
                   </div>
                 </div>
                 <h4 className="mb-3 h6">After the Bootcamp:</h4>
@@ -134,7 +154,10 @@ export default function Home () {
                       width="32"
                       className="mr-2"
                     />
-                    <p>Present your portfolio at the TechLadies Graduation Party in Jan 2022.</p>
+                    <p>
+                      Present your portfolio at the TechLadies Graduation Party
+                      in Jan 2022.
+                    </p>
                   </div>
                   <div className="d-inline-flex">
                     <img
@@ -144,7 +167,10 @@ export default function Home () {
                       width="32"
                       className="mr-2"
                     />
-                    <p>Prepare for technical interviews and start applying for engineering roles.</p>
+                    <p>
+                      Prepare for technical interviews and start applying for
+                      engineering roles.
+                    </p>
                   </div>
                 </div>
               </div>
@@ -154,19 +180,34 @@ export default function Home () {
 
         <div className="container py-6">
           <div className="row">
-            <h3 className="mb-4">Don't worry if it sounds scary, we’ve programs to help with the technical tasks! 💪💪💪</h3>
+            <h3 className="mb-4">
+              Don't worry if it sounds scary, we’ve programs to help with the
+              technical tasks! 💪💪💪
+            </h3>
             <div className="col-md-6">
               <h5 className="text-blue font-weight-bold">July / August</h5>
-              <div className="font-weight-bold my-2">Pre-Bootcamp Workshops 1 - 4 (Optional)</div>
+              <div className="font-weight-bold my-2">
+                Pre-Bootcamp Workshops 1 - 4 (Optional)
+              </div>
               <p>
-                4 pre-bootcamp workshops are conducted to equip women with basic programming skills to code complete the technical task for their application. These workshops are open to all women. It is not obligatory to sign up for the Bootcamp to attend these workshops.
+                4 pre-bootcamp workshops are conducted to equip women with basic
+                programming skills to code complete the technical task for their
+                application. These workshops are open to all women. It is not
+                obligatory to sign up for the Bootcamp to attend these
+                workshops.
               </p>
             </div>
             <div className="col-md-6">
-              <h5 className="text-blue font-weight-bold">14 August & 4 September</h5>
-              <div className="font-weight-bold my-2">Code Clinics (Optional)</div>
+              <h5 className="text-blue font-weight-bold">
+                14 August & 4 September
+              </h5>
+              <div className="font-weight-bold my-2">
+                Code Clinics (Optional)
+              </div>
               <p>
-                Women interested in completing the technical task can attend these sessions to ask questions & get help for their technical task.
+                Women interested in completing the technical task can attend
+                these sessions to ask questions & get help for their technical
+                task.
               </p>
             </div>
           </div>
@@ -177,14 +218,16 @@ export default function Home () {
             <h2 className="mb-4 text-center">Program Timeline</h2>
             <div className="row">
               <Timeline>
-                {bootcampTimeline.map(({ date, title, description, cta = null }) => (
-                  <TimelineItem key={title}>
-                    <h3 className="h5 text-red mb-3">{date}</h3>
-                    <h4 className="h6 mb-3">{title}</h4>
-                    <p className="pb-3">{description}</p>
-                    {REGISTRATION_OPEN && cta}
-                  </TimelineItem>
-                ))}
+                {bootcampTimeline.map(
+                  ({ date, title, description, cta = null }) => (
+                    <TimelineItem key={title}>
+                      <h3 className="h5 text-red mb-3">{date}</h3>
+                      <h4 className="h6 mb-3">{title}</h4>
+                      <p className="pb-3">{description}</p>
+                      {REGISTRATION_OPEN && cta}
+                    </TimelineItem>
+                  )
+                )}
               </Timeline>
             </div>
           </div>
@@ -213,11 +256,10 @@ export default function Home () {
               />
             </div>
             <div className="col-md-6 offset-md-1 d-flex flex-column align-items-start justify-content-center">
-              <h3 className="mb-4 h4">
-                Have a question?
-              </h3>
+              <h3 className="mb-4 h4">Have a question?</h3>
               <p>
-                Do drop us an email via the link below and we'll get back to you soon.
+                Do drop us an email via the link below and we'll get back to you
+                soon.
               </p>
               <a
                 className="btn btn-primary"
