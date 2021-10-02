@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import Head from 'next/head';
 
-import { mentorsData } from '../data/mentorship-2-mentors';
+import { mentorsData } from '../data/mentorship-3-mentors';
 
 import Accordion from '../components/Accordion';
 import Timeline from '../components/Timeline';
@@ -211,7 +211,7 @@ export default function Home () {
 
         <div className="container py-6">
           <div className="row">
-            <h2 className="mb-4 text-center">Mentors from 2020</h2>
+            <h2 className="mb-4 text-center">Mentors from 2021</h2>
             <div className="row gy-4">
               <MentorsCard dataMessage='software' handleViewMentors={handleViewMentors} mentors={mentorsData['software']} icon='/icons/icon_softwaredevelopment.png' />
               <MentorsCard dataMessage='ux' handleViewMentors={handleViewMentors} mentors={mentorsData['ux']} icon='/icons/icon_UIUX.png' />
