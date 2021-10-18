@@ -1,5 +1,5 @@
-import Head from 'next/head';
-import NavLink from '../components/NavLink';
+import Head from "next/head"
+import NavLink from "../components/NavLink"
 
 export default function Home() {
   return (
@@ -19,13 +19,17 @@ export default function Home() {
             </div>
             <div className="col-md-6">
               <h1 className="mb-4">
-                We create opportunities to increase women’s participation in tech
+                We create opportunities to increase women’s participation in
+                tech
               </h1>
               <p className="mb-4 text-body large-line-height">
-                TechLadies is a community-led initiative for women to connect, learn, and grow in the tech industry as software engineers, product managers, data scientists, and UI/UX designers.
+                TechLadies is a community-led initiative for women to connect,
+                learn, and grow in the tech industry as software engineers,
+                product managers, data scientists, and UI/UX designers.
               </p>
               <p className="mb-4 text-body large-line-height">
-                Our community is for women in tech and women keen in switching careers into tech.
+                Our community is for women in tech and women keen in switching
+                careers into tech.
               </p>
               <a
                 className="btn btn-primary"
@@ -51,10 +55,15 @@ export default function Home() {
               <div className="col-md-6 order-md-first d-flex flex-column align-items-start justify-content-center">
                 <h2 className="mb-4 h4">How we got started</h2>
                 <p>
-                  As someone with no formal technical background, Elisha Tan learned to code from the developer community. Being a minority in tech, she wondered if women had adequate opportunities to explore the industry.
+                  As someone with no formal technical background, Elisha Tan
+                  learned to code from the developer community. Being a minority
+                  in tech, she wondered if women had adequate opportunities to
+                  explore the industry.
                 </p>
                 <p>
-                  That’s why she started TechLadies in 2016, to provide a space where women can learn technical skills and switch careers into the tech industry.
+                  That’s why she started TechLadies in 2016, to provide a space
+                  where women can learn technical skills and switch careers into
+                  the tech industry.
                 </p>
               </div>
             </div>
@@ -73,7 +82,9 @@ export default function Home() {
               <div className="card">
                 <div className="card-body card-body-sm">
                   <h6 className="card-title">Chapter Leaders</h6>
-                  <p className="card-text">Leads chapters in Singapore, Malaysia, and Vietnam.</p>
+                  <p className="card-text">
+                    Leads chapters in Singapore, Malaysia, and Vietnam.
+                  </p>
                   <div className="mb-4">
                     <img
                       className="thumbnail thumbnail-lg"
@@ -96,7 +107,9 @@ export default function Home() {
                       src="/team/tranbui.jpg"
                     />
                   </div>
-                  <a href="mailto:elisha@techladies.co">Contact the Chapter Leaders</a>
+                  <a href="mailto:elisha@techladies.co">
+                    Contact the Chapter Leaders
+                  </a>
                 </div>
               </div>
             </div>
@@ -104,7 +117,9 @@ export default function Home() {
               <div className="card">
                 <div className="card-body card-body-sm">
                   <h6 className="card-title">Mentorship Team</h6>
-                  <p className="card-text">Leads the TechLadies Mentorship program.</p>
+                  <p className="card-text">
+                    Leads the TechLadies Mentorship program.
+                  </p>
                   <div className="mb-4">
                     <img
                       className="thumbnail thumbnail-lg"
@@ -127,17 +142,20 @@ export default function Home() {
                       src="/team/shelvia.jpg"
                     />
                   </div>
-                  <a href="mailto:mentorship@techladies.co">Contact the Mentorship Team</a>
+                  <a href="mailto:mentorship@techladies.co">
+                    Contact the Mentorship Team
+                  </a>
                 </div>
               </div>
             </div>
-
 
             <div className="col-lg-8 col-md-8 col-12">
               <div className="card">
                 <div className="card-body card-body-sm">
                   <h6 className="card-title">Bootcamp Team</h6>
-                  <p className="card-text">Leads our flagship program, TechLadies Bootcamp.</p>
+                  <p className="card-text">
+                    Leads our flagship program, TechLadies Bootcamp.
+                  </p>
                   <div className="mb-5">
                     <img
                       className="thumbnail thumbnail-lg"
@@ -170,7 +188,9 @@ export default function Home() {
                       src="/team/bootcamp7/andrew.jpg"
                     />
                   </div>
-                  <a href="mailto:bootcamp@techladies.co">Contact the Bootcamp Team</a>
+                  <a href="mailto:bootcamp@techladies.co">
+                    Contact the Bootcamp Team
+                  </a>
                 </div>
               </div>
             </div>
@@ -178,7 +198,9 @@ export default function Home() {
               <div className="card">
                 <div className="card-body card-body-sm">
                   <h6 className="card-title">Community Team</h6>
-                  <p className="card-text">Grows our TechLadies Community online.</p>
+                  <p className="card-text">
+                    Grows our TechLadies Community online.
+                  </p>
                   <div className="mb-4">
                     <img
                       className="thumbnail thumbnail-lg"
@@ -196,7 +218,9 @@ export default function Home() {
                       src="/team/qian.jpg"
                     />
                   </div>
-                  <a href="mailto:elisha@techladies.co">Contact the Community Team</a>
+                  <a href="mailto:elisha@techladies.co">
+                    Contact the Community Team
+                  </a>
                 </div>
               </div>
             </div>
@@ -204,7 +228,9 @@ export default function Home() {
               <div className="card">
                 <div className="card-body card-body-sm">
                   <h6 className="card-title">Events Team</h6>
-                  <p className="card-text">Organizes activities to engage with the community.</p>
+                  <p className="card-text">
+                    Organizes activities to engage with the community.
+                  </p>
                   <div className="mb-4">
                     <img
                       className="thumbnail thumbnail-lg"
@@ -217,11 +243,12 @@ export default function Home() {
                       src="/team/vanessa.jpg"
                     />
                   </div>
-                  <a href="mailto:events@techladies.co">Contact the Events Team</a>
+                  <a href="mailto:events@techladies.co">
+                    Contact the Events Team
+                  </a>
                 </div>
               </div>
             </div>
-
           </div>
         </div>
         <div className="container py-6">
@@ -248,5 +275,5 @@ export default function Home() {
         </div>
       </main>
     </div>
-  );
+  )
 }

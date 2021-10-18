@@ -1,28 +1,28 @@
-import clsx from 'clsx';
+import clsx from "clsx"
 
-import styles from './index.module.scss';
+import styles from "./index.module.scss"
 
 export default function TestimonialCard({ image, thumbnail, name, message }) {
   return (
     <div className="text-center">
-      <div className={clsx('card', styles.card)}>
+      <div className={clsx("card", styles.card)}>
         <img
-          alt={name + ' message'}
+          alt={name + " message"}
           src={image}
-          className={clsx('card-img-top', styles.bannerImage)}
+          className={clsx("card-img-top", styles.bannerImage)}
         />
         <div className="card-body">
           {thumbnail && (
             <img
-              className={clsx('thumbnail thumbnail-lg mb-3', styles.thumbnail)}
-              alt={name + ' thumbnail'}
+              className={clsx("thumbnail thumbnail-lg mb-3", styles.thumbnail)}
+              alt={name + " thumbnail"}
               src={thumbnail}
             />
           )}
-          <p className={clsx('text-emphasis')}>{message}</p>
+          <p className={clsx("text-emphasis")}>{message}</p>
           <h5>{name}</h5>
         </div>
       </div>
     </div>
-  );
+  )
 }

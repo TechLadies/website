@@ -1,13 +1,13 @@
-import { Facebook, Instagram, Linkedin, Twitter } from 'react-feather';
-import clsx from 'clsx';
+import { Facebook, Instagram, Linkedin, Twitter } from "react-feather"
+import clsx from "clsx"
 
-import styles from './index.module.scss'
-import NavLink from '../NavLink/index'
-import EmailSubscription from '../EmailSubscription'
+import styles from "./index.module.scss"
+import NavLink from "../NavLink/index"
+import EmailSubscription from "../EmailSubscription"
 
-export default function Footer () {
+export default function Footer() {
   return (
-    <footer className={clsx('py-5', styles.footer)}>
+    <footer className={clsx("py-5", styles.footer)}>
       <div className="container">
         <div className="row gy-5">
           <div className="col-lg-3">
@@ -20,7 +20,7 @@ export default function Footer () {
                 <h5>
                   <a href="/our-programs">Programs</a>
                 </h5>
-                <ul className={clsx('list-unstyled', styles.footerLinksList)}>
+                <ul className={clsx("list-unstyled", styles.footerLinksList)}>
                   <li>
                     <a href="/bootcamp-7">Bootcamp</a>
                   </li>
@@ -33,7 +33,7 @@ export default function Footer () {
                 <h5>
                   <a href="/contribute">Contribute</a>
                 </h5>
-                <ul className={clsx('list-unstyled', styles.footerLinksList)}>
+                <ul className={clsx("list-unstyled", styles.footerLinksList)}>
                   <li>
                     <a href="/contribute">Volunteer</a>
                   </li>
@@ -46,7 +46,7 @@ export default function Footer () {
                 <h5>
                   <a href="/about">About</a>
                 </h5>
-                <ul className={clsx('list-unstyled', styles.footerLinksList)}>
+                <ul className={clsx("list-unstyled", styles.footerLinksList)}>
                   <li>
                     <NavLink href="/conduct/">
                       <a className="nav-link">Code of Conduct</a>
@@ -61,7 +61,7 @@ export default function Footer () {
               <h5 className="mb-3">Contact Us</h5>
               <p>
                 For general enquiries, please email:
-              <br />
+                <br />
                 <a href="mailto:hello@techladies.co">hello@techladies.co</a>
               </p>
               <div className="d-flex">
@@ -100,7 +100,11 @@ export default function Footer () {
               <h5 className="mb-3">Powered by</h5>
               <div className="d-flex">
                 <p>
-                  <a aria-label="Link to Vercel" href="https://vercel.com/?utm_source=techladies&utm_campaign=oss" target="_blank">
+                  <a
+                    aria-label="Link to Vercel"
+                    href="https://vercel.com/?utm_source=techladies&utm_campaign=oss"
+                    target="_blank"
+                  >
                     <img src="/img/vercel.svg" alt="Vercel Logo" width="80" />
                   </a>
                 </p>
@@ -110,5 +114,5 @@ export default function Footer () {
         </div>
       </div>
     </footer>
-  );
+  )
 }

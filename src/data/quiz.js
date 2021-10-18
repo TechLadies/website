@@ -1,43 +1,42 @@
 const REASON = {
-  id: 'reason',
-  type: 'question',
-  title: 'What is your main goal at TechLadies?',
+  id: "reason",
+  type: "question",
+  title: "What is your main goal at TechLadies?",
   options: {
-    learnNewSkills: 'I want to learn new skills',
-    moreWomenInTech: 'I want to see more women in tech',
-    makeNewFriends: 'I want to make new friends',
+    learnNewSkills: "I want to learn new skills",
+    moreWomenInTech: "I want to see more women in tech",
+    makeNewFriends: "I want to make new friends",
   },
-};
+}
 
 const DESCRIPTION = {
-  id: 'description',
-  type: 'question',
-  title: 'What is your level of tech experience?',
+  id: "description",
+  type: "question",
+  title: "What is your level of tech experience?",
   options: {
-    newbie: 'Newbie in tech',
-    intermediate: 'Intermediate techie',
-    advanced: 'Advanced tech professional',
+    newbie: "Newbie in tech",
+    intermediate: "Intermediate techie",
+    advanced: "Advanced tech professional",
     noSmartphone: "I'm not tech savvy at all",
   },
-};
+}
 
 const TIME = {
-  id: 'time',
-  type: 'question',
-  title: 'How much time can you spend?',
+  id: "time",
+  type: "question",
+  title: "How much time can you spend?",
   options: {
-    notMuch: 'Not much!',
-    some: ' Less than an hour per week',
-    fewHoursPerWeek: 'A few hours per week',
-    fewHoursPerMonth: 'A few hours per month',
+    notMuch: "Not much!",
+    some: " Less than an hour per week",
+    fewHoursPerWeek: "A few hours per week",
+    fewHoursPerMonth: "A few hours per month",
   },
-};
+}
 
 const ACTION = {
-  type: 'result',
+  type: "result",
   title: null,
   options: {
-
     communityMember: (
       <>
         <h3>We think you're great for our community!</h3>
@@ -49,10 +48,17 @@ const ACTION = {
         <h2>TechLadies Community</h2>
         <div className="col-md-10 offset-md-1">
           <p className="left-align mb-3">
-            Beyond programs and events, TechLadies is a community. Join us online for the latest industry news, highlights on awesome women in tech, and get support on your journey in tech on our Facebook group and Facebook page.
+            Beyond programs and events, TechLadies is a community. Join us
+            online for the latest industry news, highlights on awesome women in
+            tech, and get support on your journey in tech on our Facebook group
+            and Facebook page.
           </p>
         </div>
-        <a className="btn btn-primary mb-5" href="https://www.facebook.com/groups/techladiescode" target="_blank">
+        <a
+          className="btn btn-primary mb-5"
+          href="https://www.facebook.com/groups/techladiescode"
+          target="_blank"
+        >
           Join Community
         </a>
       </>
@@ -69,7 +75,10 @@ const ACTION = {
         <h2>TechLadies Mentorship</h2>
         <div className="col-md-10 offset-md-1">
           <p className="left-align mb-3">
-            TechLadies Mentorship is a 3-month mentorship program that pairs women who are transitioning into or establishing themselves in the tech industry with industry practitioners. Selected participants receive tailored guidance on their career goals.
+            TechLadies Mentorship is a 3-month mentorship program that pairs
+            women who are transitioning into or establishing themselves in the
+            tech industry with industry practitioners. Selected participants
+            receive tailored guidance on their career goals.
           </p>
         </div>
         <a className="btn btn-primary mb-5" href="/mentorship-3">
@@ -89,7 +98,10 @@ const ACTION = {
         <h2>TechLadies Bootcamp</h2>
         <div className="col-md-10 offset-md-1">
           <p className="left-align mb-3">
-            TechLadies Bootcamp is a part-time accelerated learning program where you learn valuable technical skills from industry experts by building a product from scratch. This program is best for women exploring a career switch into tech.
+            TechLadies Bootcamp is a part-time accelerated learning program
+            where you learn valuable technical skills from industry experts by
+            building a product from scratch. This program is best for women
+            exploring a career switch into tech.
           </p>
         </div>
         <a className="btn btn-primary mb-5" href="/bootcamp-7">
@@ -109,10 +121,17 @@ const ACTION = {
         <h2>TechLadies Meet</h2>
         <div className="col-md-10 offset-md-1">
           <p className="left-align mb-3">
-            We run frequent in-person or virtual events on technical talks, roundtable discussions, study groups and more. You'll find something for you at TechLadies Meet, available for women of all levels of technical skills.
+            We run frequent in-person or virtual events on technical talks,
+            roundtable discussions, study groups and more. You'll find something
+            for you at TechLadies Meet, available for women of all levels of
+            technical skills.
           </p>
         </div>
-        <a className="btn btn-primary mb-5" href="https://www.eventbrite.sg/o/techladies-11040976589" target="_blank">
+        <a
+          className="btn btn-primary mb-5"
+          href="https://www.eventbrite.sg/o/techladies-11040976589"
+          target="_blank"
+        >
           Learn More
         </a>
       </>
@@ -128,7 +147,9 @@ const ACTION = {
         <h2>Contribute to TechLadies</h2>
         <div className="col-md-10 offset-md-1">
           <p className="left-align mb-3">
-            We're looking for volunteers for a range of different technical and non-technical roles. Volunteer with TechLadies in 2021 to meet like-minded peers passionate about gender diversity in tech!
+            We're looking for volunteers for a range of different technical and
+            non-technical roles. Volunteer with TechLadies in 2021 to meet
+            like-minded peers passionate about gender diversity in tech!
           </p>
         </div>
         <a className="btn btn-primary mb-5" href="/contribute">
@@ -137,7 +158,7 @@ const ACTION = {
       </>
     ),
 
-    bootcampCoach:  (
+    bootcampCoach: (
       <>
         <h3>We think you'll enjoy coaching at TechLadies Bootcamp!</h3>
         <img
@@ -148,7 +169,11 @@ const ACTION = {
         <h2>TechLadies Bootcamp</h2>
         <div className="col-md-10 offset-md-1">
           <p className="left-align mb-3">
-            You are part of the team that teaches the Bootcamp participants valuable skills that help them kick start their journey in tech. You will pair-program with the participants, following a curriculum set by the Tech Lead, and provide feedback to the participants and Tech Lead on how the Bootcamp is progressing.
+            You are part of the team that teaches the Bootcamp participants
+            valuable skills that help them kick start their journey in tech. You
+            will pair-program with the participants, following a curriculum set
+            by the Tech Lead, and provide feedback to the participants and Tech
+            Lead on how the Bootcamp is progressing.
           </p>
         </div>
         <a className="btn btn-primary mb-5" href="/contribute">
@@ -167,76 +192,82 @@ const ACTION = {
         <h2>Ladies in Tech Feature</h2>
         <div className="col-md-10 offset-md-1">
           <p className="left-align mb-3">
-            We love to feature you and share your knowledge with our community! You can be part of our Ladies in Tech feature, write guest articles, or speak at our events. Fill the form below to let us know more about you.
+            We love to feature you and share your knowledge with our community!
+            You can be part of our Ladies in Tech feature, write guest articles,
+            or speak at our events. Fill the form below to let us know more
+            about you.
           </p>
         </div>
-        <a className="btn btn-primary mb-5" href="http://bit.ly/ladiesintechTL" target="_blank">
+        <a
+          className="btn btn-primary mb-5"
+          href="http://bit.ly/ladiesintechTL"
+          target="_blank"
+        >
           Learn More
         </a>
       </>
     ),
   },
-};
-
+}
 
 const FOLLOW_UP_ACTION = {
-  becomeMentee: 'Are you hoping to become a MENTEE?',
-  becomeMentor: 'Have you ever considered becoming a mentor?',
-};
+  becomeMentee: "Are you hoping to become a MENTEE?",
+  becomeMentor: "Have you ever considered becoming a mentor?",
+}
 
 const CHART = {
   type: REASON,
   nodes: [
     {
-      value: 'learnNewSkills',
+      value: "learnNewSkills",
       next: {
         type: DESCRIPTION,
         nodes: [
           {
-            value: 'newbie',
+            value: "newbie",
             next: {
               type: TIME,
               nodes: [
                 {
-                  value: 'notMuch',
+                  value: "notMuch",
                   next: {
                     type: ACTION,
                     nodes: [
                       {
-                        value: 'communityMember',
+                        value: "communityMember",
                       },
                     ],
                   },
                 },
                 {
-                  value: 'some',
+                  value: "some",
                   next: {
                     type: ACTION,
                     nodes: [
                       {
-                        value: 'mentorshipProgram',
+                        value: "mentorshipProgram",
                       },
                     ],
                   },
                 },
                 {
-                  value: 'fewHoursPerWeek',
+                  value: "fewHoursPerWeek",
                   next: {
                     type: ACTION,
                     nodes: [
                       {
-                        value: 'joinBootcamp',
+                        value: "joinBootcamp",
                       },
                     ],
                   },
                 },
                 {
-                  value: 'fewHoursPerMonth',
+                  value: "fewHoursPerMonth",
                   next: {
                     type: ACTION,
                     nodes: [
                       {
-                        value: 'meet',
+                        value: "meet",
                       },
                     ],
                   },
@@ -245,50 +276,50 @@ const CHART = {
             },
           },
           {
-            value: 'intermediate',
+            value: "intermediate",
             next: {
               type: TIME,
               nodes: [
                 {
-                  value: 'notMuch',
+                  value: "notMuch",
                   next: {
                     type: ACTION,
                     nodes: [
                       {
-                        value: 'communityMember',
+                        value: "communityMember",
                       },
                     ],
                   },
                 },
                 {
-                  value: 'some',
+                  value: "some",
                   next: {
                     type: ACTION,
                     nodes: [
                       {
-                        value: 'mentorshipProgram',
+                        value: "mentorshipProgram",
                       },
                     ],
                   },
                 },
                 {
-                  value: 'fewHoursPerWeek',
+                  value: "fewHoursPerWeek",
                   next: {
                     type: ACTION,
                     nodes: [
                       {
-                        value: 'joinBootcamp',
+                        value: "joinBootcamp",
                       },
                     ],
                   },
                 },
                 {
-                  value: 'fewHoursPerMonth',
+                  value: "fewHoursPerMonth",
                   next: {
                     type: ACTION,
                     nodes: [
                       {
-                        value: 'volunteer',
+                        value: "volunteer",
                       },
                     ],
                   },
@@ -297,34 +328,34 @@ const CHART = {
             },
           },
           {
-            value: 'advanced',
+            value: "advanced",
             next: {
               type: TIME,
               nodes: [
                 {
-                  value: 'notMuch',
+                  value: "notMuch",
                 },
                 {
-                  value: 'some',
+                  value: "some",
                   next: {
                     type: ACTION,
                     nodes: [
                       {
-                        value: 'mentorshipProgram',
+                        value: "mentorshipProgram",
                       },
                     ],
                   },
                 },
                 {
-                  value: 'fewHoursPerWeek',
+                  value: "fewHoursPerWeek",
                 },
                 {
-                  value: 'fewHoursPerMonth',
+                  value: "fewHoursPerMonth",
                   next: {
                     type: ACTION,
                     nodes: [
                       {
-                        value: 'bootcampCoach',
+                        value: "bootcampCoach",
                       },
                     ],
                   },
@@ -333,12 +364,12 @@ const CHART = {
             },
           },
           {
-            value: 'noSmartphone',
+            value: "noSmartphone",
             next: {
               type: ACTION,
               nodes: [
                 {
-                  value: 'communityMember',
+                  value: "communityMember",
                 },
               ],
             },
@@ -347,40 +378,40 @@ const CHART = {
       },
     },
     {
-      value: 'moreWomenInTech',
+      value: "moreWomenInTech",
       next: {
         type: DESCRIPTION,
         nodes: [
           {
-            value: 'newbie',
+            value: "newbie",
             next: {
               type: TIME,
               nodes: [
                 {
-                  value: 'notMuch',
+                  value: "notMuch",
                   next: {
                     type: ACTION,
                     nodes: [
                       {
-                        value: 'communityMember',
+                        value: "communityMember",
                       },
                     ],
                   },
                 },
                 {
-                  value: 'some',
+                  value: "some",
                   next: {
                     type: ACTION,
                   },
                 },
                 {
-                  value: 'fewHoursPerWeek',
+                  value: "fewHoursPerWeek",
                   next: {
                     type: ACTION,
                   },
                 },
                 {
-                  value: 'fewHoursPerMonth',
+                  value: "fewHoursPerMonth",
                   next: {
                     type: ACTION,
                   },
@@ -389,45 +420,45 @@ const CHART = {
             },
           },
           {
-            value: 'intermediate',
+            value: "intermediate",
             next: {
               type: TIME,
               nodes: [
                 {
-                  value: 'notMuch',
+                  value: "notMuch",
                   next: {
                     type: ACTION,
                   },
                 },
                 {
-                  value: 'some',
+                  value: "some",
                   next: {
                     type: ACTION,
                     nodes: [
                       {
-                        value: 'mentorshipProgram',
+                        value: "mentorshipProgram",
                       },
                     ],
                   },
                 },
                 {
-                  value: 'fewHoursPerWeek',
+                  value: "fewHoursPerWeek",
                   next: {
                     type: ACTION,
                     nodes: [
                       {
-                        value: 'bootcampCoach',
+                        value: "bootcampCoach",
                       },
                     ],
                   },
                 },
                 {
-                  value: 'fewHoursPerMonth',
+                  value: "fewHoursPerMonth",
                   next: {
                     type: ACTION,
                     nodes: [
                       {
-                        value: 'volunteer',
+                        value: "volunteer",
                       },
                     ],
                   },
@@ -436,50 +467,50 @@ const CHART = {
             },
           },
           {
-            value: 'advanced',
+            value: "advanced",
             next: {
               type: TIME,
               nodes: [
                 {
-                  value: 'notMuch',
+                  value: "notMuch",
                   next: {
                     type: ACTION,
                     nodes: [
                       {
-                        value: 'featureSpeaker',
+                        value: "featureSpeaker",
                       },
                     ],
                   },
                 },
                 {
-                  value: 'some',
+                  value: "some",
                   next: {
                     type: ACTION,
                     nodes: [
                       {
-                        value: 'mentorshipProgram',
+                        value: "mentorshipProgram",
                       },
                     ],
                   },
                 },
                 {
-                  value: 'fewHoursPerWeek',
+                  value: "fewHoursPerWeek",
                   next: {
                     type: ACTION,
                     nodes: [
                       {
-                        value: 'bootcampCoach',
+                        value: "bootcampCoach",
                       },
                     ],
                   },
                 },
                 {
-                  value: 'fewHoursPerMonth',
+                  value: "fewHoursPerMonth",
                   next: {
                     type: ACTION,
                     nodes: [
                       {
-                        value: 'volunteer',
+                        value: "volunteer",
                       },
                     ],
                   },
@@ -488,12 +519,12 @@ const CHART = {
             },
           },
           {
-            value: 'noSmartphone',
+            value: "noSmartphone",
             next: {
               type: ACTION,
               nodes: [
                 {
-                  value: 'communityMember',
+                  value: "communityMember",
                 },
               ],
             },
@@ -502,55 +533,55 @@ const CHART = {
       },
     },
     {
-      value: 'makeNewFriends',
+      value: "makeNewFriends",
       next: {
         type: DESCRIPTION,
         nodes: [
           {
-            value: 'newbie',
+            value: "newbie",
             next: {
               type: TIME,
               nodes: [
                 {
-                  value: 'notMuch',
+                  value: "notMuch",
                   next: {
                     type: ACTION,
                     nodes: [
                       {
-                        value: 'communityMember',
+                        value: "communityMember",
                       },
                     ],
                   },
                 },
                 {
-                  value: 'some',
+                  value: "some",
                   next: {
                     type: ACTION,
                     nodes: [
                       {
-                        value: 'mentorshipProgram',
+                        value: "mentorshipProgram",
                       },
                     ],
                   },
                 },
                 {
-                  value: 'fewHoursPerWeek',
+                  value: "fewHoursPerWeek",
                   next: {
                     type: ACTION,
                     nodes: [
                       {
-                        value: 'volunteer',
+                        value: "volunteer",
                       },
                     ],
                   },
                 },
                 {
-                  value: 'fewHoursPerMonth',
+                  value: "fewHoursPerMonth",
                   next: {
                     type: ACTION,
                     nodes: [
                       {
-                        value: 'meet',
+                        value: "meet",
                       },
                     ],
                   },
@@ -559,50 +590,50 @@ const CHART = {
             },
           },
           {
-            value: 'intermediate',
+            value: "intermediate",
             next: {
               type: TIME,
               nodes: [
                 {
-                  value: 'notMuch',
+                  value: "notMuch",
                   next: {
                     type: ACTION,
                     nodes: [
                       {
-                        value: 'communityMember',
+                        value: "communityMember",
                       },
                     ],
                   },
                 },
                 {
-                  value: 'some',
+                  value: "some",
                   next: {
                     type: ACTION,
                     nodes: [
                       {
-                        value: 'mentorshipProgram',
+                        value: "mentorshipProgram",
                       },
                     ],
                   },
                 },
                 {
-                  value: 'fewHoursPerWeek',
+                  value: "fewHoursPerWeek",
                   next: {
                     type: ACTION,
                     nodes: [
                       {
-                        value: 'bootcampCoach',
+                        value: "bootcampCoach",
                       },
                     ],
                   },
                 },
                 {
-                  value: 'fewHoursPerMonth',
+                  value: "fewHoursPerMonth",
                   next: {
                     type: ACTION,
                     nodes: [
                       {
-                        value: 'volunteer',
+                        value: "volunteer",
                       },
                     ],
                   },
@@ -611,53 +642,53 @@ const CHART = {
             },
           },
           {
-            value: 'advanced',
+            value: "advanced",
             next: {
               type: TIME,
               nodes: [
                 {
-                  value: 'notMuch',
+                  value: "notMuch",
                   next: {
                     type: ACTION,
                     nodes: [
                       {
-                        value: 'communityMember',
+                        value: "communityMember",
                       },
                       {
-                        value: 'volunteer',
-                      },
-                    ],
-                  },
-                },
-                {
-                  value: 'some',
-                  next: {
-                    type: ACTION,
-                    nodes: [
-                      {
-                        value: 'mentorshipProgram',
+                        value: "volunteer",
                       },
                     ],
                   },
                 },
                 {
-                  value: 'fewHoursPerWeek',
+                  value: "some",
                   next: {
                     type: ACTION,
                     nodes: [
                       {
-                        value: 'bootcampCoach',
+                        value: "mentorshipProgram",
                       },
                     ],
                   },
                 },
                 {
-                  value: 'fewHoursPerMonth',
+                  value: "fewHoursPerWeek",
                   next: {
                     type: ACTION,
                     nodes: [
                       {
-                        value: 'volunteer',
+                        value: "bootcampCoach",
+                      },
+                    ],
+                  },
+                },
+                {
+                  value: "fewHoursPerMonth",
+                  next: {
+                    type: ACTION,
+                    nodes: [
+                      {
+                        value: "volunteer",
                       },
                     ],
                   },
@@ -666,12 +697,12 @@ const CHART = {
             },
           },
           {
-            value: 'noSmartphone',
+            value: "noSmartphone",
             next: {
               type: ACTION,
               nodes: [
                 {
-                  value: 'communityMember',
+                  value: "communityMember",
                 },
               ],
             },
@@ -680,6 +711,6 @@ const CHART = {
       },
     },
   ],
-};
+}
 
-export default CHART;
+export default CHART
