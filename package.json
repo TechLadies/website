@@ -7,22 +7,30 @@
     "build": "next build",
     "start": "next start",
     "export": "next export",
-    "deploy": "next build && next export && touch out/.nojekyll && git add out/ && git commit -m \"Deploy Next.js to gh-pages\" && git subtree push --prefix out origin gh-pages"
+    "deploy": "next build && next export && touch out/.nojekyll && git add out/ && git commit -m \"Deploy Next.js to gh-pages\" && git subtree push --prefix out origin gh-pages",
+    "format": "prettier --write 'src/**/*.js'"
   },
   "dependencies": {
     "axios": "^0.20.0",
     "bootstrap": "^5.0.0-alpha1",
     "clsx": "^1.1.1",
-    "next": "^9.5.4",
+    "next": "^11.1.2",
     "next-fbq": "^2.0.0",
     "next-seo": "^4.17.0",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
     "react-feather": "^2.0.8",
     "react-ga": "^3.2.1",
     "react-hook-form": "^6.9.6"
   },
   "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-next": "11.1.2",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-react-hooks": "4.2.0",
+    "prettier": "^2.4.1",
+    "prettier-eslint": "^13.0.0",
+    "prettier-eslint-cli": "^5.0.1",
     "sass": "^1.26.10"
   }
 }
