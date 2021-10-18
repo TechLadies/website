@@ -1,9 +1,8 @@
 export default [
   {
-    image:
-      '/team/anna.jpeg',
-    name: 'Anna Lisicka',
-    title: 'Bootcamp Lead',
+    image: "/team/anna.jpeg",
+    name: "Anna Lisicka",
+    title: "Bootcamp Lead",
     description: (
       <>
         Anna has 6 years of experience in IT and has worked at HP Inc as a
@@ -18,10 +17,9 @@ export default [
     ),
   },
   {
-    image:
-      '/team/angel.png',
-    name: 'Angel Felismino',
-    title: 'Bootcamp Lead',
+    image: "/team/angel.png",
+    name: "Angel Felismino",
+    title: "Bootcamp Lead",
     description: (
       <>
         Angel is a technical recruiter mainly for banking and financial
@@ -33,9 +31,9 @@ export default [
     ),
   },
   {
-    image: '/team/tejasvita.jpeg',
-    name: 'Tejasvita Rao',
-    title: 'Bootcamp Lead',
+    image: "/team/tejasvita.jpeg",
+    name: "Tejasvita Rao",
+    title: "Bootcamp Lead",
     description: (
       <>
         Tejasvita has over 10 years of work experience in media and marketing.
@@ -51,9 +49,9 @@ export default [
     ),
   },
   {
-    image: '/team/choryi.jpeg',
-    name: 'Chor Yi Poon',
-    title: 'Product Lead',
+    image: "/team/choryi.jpeg",
+    name: "Chor Yi Poon",
+    title: "Product Lead",
     description: (
       <>
         Chor Yi is a Product Manager who is interested in how technology can
@@ -68,9 +66,9 @@ export default [
     ),
   },
   {
-    image: '/team/bootcamp6/purnima.jpeg',
-    name: 'Purnima Kamath',
-    title: 'Tech Lead',
+    image: "/team/bootcamp6/purnima.jpeg",
+    name: "Purnima Kamath",
+    title: "Tech Lead",
     description: (
       <>
         Purnima is a Lead Engineer with Oliver Wyman, co-founder, and Director
@@ -83,9 +81,9 @@ export default [
     ),
   },
   {
-    image: '/team/bootcamp6/kate.png',
-    name: 'Kate Lim',
-    title: 'UX/UI Lead',
+    image: "/team/bootcamp6/kate.png",
+    name: "Kate Lim",
+    title: "UX/UI Lead",
     description: (
       <>
         Kate is a UX designer and researcher. Through TechLadies, she has had
@@ -96,9 +94,9 @@ export default [
     ),
   },
   {
-    image: '/team/bootcamp6/jayli.png',
-    name: 'Jay Li Quek',
-    title: 'UX/UI Assistant',
+    image: "/team/bootcamp6/jayli.png",
+    name: "Jay Li Quek",
+    title: "UX/UI Assistant",
     description: (
       <>
         Jay Li is a student at New York University studying Computer Science and
@@ -110,9 +108,9 @@ export default [
     ),
   },
   {
-    image: '/team/bootcamp6/sukyee.png',
-    name: 'Suk Yee Gong',
-    title: 'Coach',
+    image: "/team/bootcamp6/sukyee.png",
+    name: "Suk Yee Gong",
+    title: "Coach",
     description: (
       <>
         Suk Yee is a self-taught coder and currently an AI intern with AISG.
@@ -125,9 +123,9 @@ export default [
     ),
   },
   {
-    image: '/team/bootcamp6/fara.jpeg',
-    name: 'Fara Blanco',
-    title: 'Coach',
+    image: "/team/bootcamp6/fara.jpeg",
+    name: "Fara Blanco",
+    title: "Coach",
     description: (
       <>
         Fara has over 15 years experience in the Tech industry and has has
@@ -140,9 +138,9 @@ export default [
     ),
   },
   {
-    image: '/team/bootcamp6/neha.png',
-    name: 'Neha Modi',
-    title: 'Coach',
+    image: "/team/bootcamp6/neha.png",
+    name: "Neha Modi",
+    title: "Coach",
     description: (
       <>
         Neha is a Senior Software Engineer at Visa . She has worked as full
@@ -158,9 +156,9 @@ export default [
     ),
   },
   {
-    image: '../team/bootcamp6/yingtong.png',
-    name: 'Ying Tong Lai',
-    title: 'Coach',
+    image: "../team/bootcamp6/yingtong.png",
+    name: "Ying Tong Lai",
+    title: "Coach",
     description: (
       <>
         Ying Tong is a cryptographic engineer at the Electric Coin Company. She
@@ -172,9 +170,9 @@ export default [
     ),
   },
   {
-    image: '/team/bootcamp6/aaron.jpg',
-    name: 'Aaron Gong',
-    title: 'Coach',
+    image: "/team/bootcamp6/aaron.jpg",
+    name: "Aaron Gong",
+    title: "Coach",
     description: (
       <>
         Full stack developer focusing heavily on ExpressJS and VueJS. Still
@@ -184,9 +182,9 @@ export default [
     ),
   },
   {
-    image: '/team/bootcamp6/thomas.png',
-    name: 'Thomas Chia',
-    title: 'Coach',
+    image: "/team/bootcamp6/thomas.png",
+    name: "Thomas Chia",
+    title: "Coach",
     description: (
       <>
         Thomas is a self taught developer, with a professional focus on web
@@ -197,9 +195,9 @@ export default [
     ),
   },
   {
-    image: '/team/bootcamp6/arjay.jpg',
-    name: 'Arjay Elbore',
-    title: 'Coach',
+    image: "/team/bootcamp6/arjay.jpg",
+    name: "Arjay Elbore",
+    title: "Coach",
     description: (
       <>
         Jay is a Frontend Developer in a Bank, who has experience on building
@@ -209,9 +207,9 @@ export default [
     ),
   },
   {
-    image: '/team/mentorship2/akshata.png',
-    name: 'Akshata Mohanty',
-    title: 'Coach',
+    image: "/team/mentorship2/akshata.png",
+    name: "Akshata Mohanty",
+    title: "Coach",
     description: (
       <>
         Akshata is a Fullstack Engineer on the Web team at Rakuten Viki. She is
@@ -223,4 +221,4 @@ export default [
       </>
     ),
   },
-];
+]

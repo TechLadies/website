@@ -1,35 +1,35 @@
-import { useState, Fragment } from 'react';
-import { ChevronDown, ChevronRight } from 'react-feather';
+import { useState, Fragment } from "react"
+import { ChevronDown, ChevronRight } from "react-feather"
 
-import clsx from 'clsx';
+import clsx from "clsx"
 
-import styles from './index.module.scss';
+import styles from "./index.module.scss"
 
-const ICON_SIZE = 20;
+const ICON_SIZE = 20
 
 function Accordion({ data }) {
-  const [selected, setSelected] = useState(null);
+  const [selected, setSelected] = useState(null)
 
   return (
     <ul className="list-group">
       {data.map(({ key, item, details }, index) => {
-        const isSelected = selected === index;
+        const isSelected = selected === index
 
         return (
           <Fragment key={key}>
             <li
-              className={clsx('list-group-item', 'd-flex', styles.listItem)}
+              className={clsx("list-group-item", "d-flex", styles.listItem)}
               onClick={() => {
-                setSelected(isSelected ? null : index);
+                setSelected(isSelected ? null : index)
               }}
             >
               <button
                 aria-label="Toggle question display"
                 className={clsx(
-                  'btn',
-                  'btn-link',
-                  'btn-sm',
-                  styles.iconContainer,
+                  "btn",
+                  "btn-link",
+                  "btn-sm",
+                  styles.iconContainer
                 )}
               >
                 {isSelected ? (
@@ -44,10 +44,10 @@ function Accordion({ data }) {
               <li className="list-group-item bg-gray">{details}</li>
             )}
           </Fragment>
-        );
+        )
       })}
     </ul>
-  );
+  )
 }
 
-export default Accordion;
+export default Accordion

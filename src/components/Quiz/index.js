@@ -1,24 +1,24 @@
-import { useState } from 'react';
-import { ArrowRight } from 'react-feather';
+import { useState } from "react"
+import { ArrowRight } from "react-feather"
 
-import Modal from '../Modal';
+import Modal from "../Modal"
 
-function Question ({ type, nodes }) {
-  const { id, type: questionType, title, options } = type;
-  const [value, setSelectedValue] = useState('');
+function Question({ type, nodes }) {
+  const { id, type: questionType, title, options } = type
+  const [value, setSelectedValue] = useState("")
   const nextNode = (() => {
-    return nodes.find(({ value: nodeValue }) => value === nodeValue);
-  })();
-  const [showModal, setShowModal] = useState(false);
+    return nodes.find(({ value: nodeValue }) => value === nodeValue)
+  })()
+  const [showModal, setShowModal] = useState(false)
 
-  if (questionType === 'result') {
+  if (questionType === "result") {
     return (
       <>
         <button
           aria-label="Submit"
           className="btn btn-primary btn-sm rounded-circle"
           onClick={() => {
-            setShowModal(true);
+            setShowModal(true)
           }}
           type="button"
         >
@@ -30,7 +30,7 @@ function Question ({ type, nodes }) {
           </div>
         </Modal>
       </>
-    );
+    )
   }
 
   return (
@@ -43,18 +43,18 @@ function Question ({ type, nodes }) {
           id={id}
           className="form-select"
           onChange={(event) => {
-            setSelectedValue(event.target.value);
+            setSelectedValue(event.target.value)
           }}
           value={value}
         >
           <option value="">Select an option</option>
           {nodes.map(({ value, next }) => {
-            const label = options[value];
+            const label = options[value]
             return (
               <option key={value} value={value}>
                 {label}
               </option>
-            );
+            )
           })}
         </select>
       </div>
@@ -62,18 +62,18 @@ function Question ({ type, nodes }) {
         <Question type={nextNode.next.type} nodes={nextNode.next.nodes} />
       )}
     </>
-  );
+  )
 }
 
-function Quiz ({ data }) {
-  const { type, nodes } = data;
+function Quiz({ data }) {
+  const { type, nodes } = data
   return (
     <div className="card">
       <div className="card-body">
         <Question type={type} nodes={nodes} />
       </div>
     </div>
-  );
+  )
 }
 
-export default Quiz;
+export default Quiz

@@ -1,10 +1,10 @@
-import Head from 'next/head';
-import NavLink from '../components/NavLink';
+import Head from "next/head"
+import NavLink from "../components/NavLink"
 
-import Timeline from '../components/Timeline';
-import TimelineItem from '../components/TimelineItem';
+import Timeline from "../components/Timeline"
+import TimelineItem from "../components/TimelineItem"
 
-import bootcampTimeline from '../data/bootcamp-timeline';
+import bootcampTimeline from "../data/bootcamp-timeline"
 
 export default function Home() {
   return (
@@ -26,5 +26,5 @@ export default function Home() {
         </div>
       </main>
     </div>
-  );
+  )
 }

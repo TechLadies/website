@@ -1,26 +1,26 @@
-import { useState, useEffect, useCallback } from 'react';
-import { useRouter } from 'next/router';
-import clsx from 'clsx';
+import { useState, useEffect, useCallback } from "react"
+import { useRouter } from "next/router"
+import clsx from "clsx"
 
-import NavLink from '../NavLink';
+import NavLink from "../NavLink"
 
 export default function Navbar() {
-  const [isExpanded, setExpanded] = useState(false);
+  const [isExpanded, setExpanded] = useState(false)
 
-  const router = useRouter();
+  const router = useRouter()
 
   useEffect(() => {
     function hideExpandedNav() {
-      setExpanded(false);
+      setExpanded(false)
     }
 
     // Close the navbar when a navigation occurs.
-    router.events.on('routeChangeStart', hideExpandedNav);
+    router.events.on("routeChangeStart", hideExpandedNav)
 
     return () => {
-      router.events.off('routeChangeStart', hideExpandedNav);
-    };
-  }, [router]);
+      router.events.off("routeChangeStart", hideExpandedNav)
+    }
+  }, [router])
 
   return (
     <header
@@ -30,7 +30,11 @@ export default function Navbar() {
       <nav className="container">
         <NavLink href="/">
           <a aria-label="TechLadies Logo" className="navbar-brand">
-            <img alt="TechLadies Logo" src="/img/logo.png" style={{marginTop: -8}} />
+            <img
+              alt="TechLadies Logo"
+              src="/img/logo.png"
+              style={{ marginTop: -8 }}
+            />
           </a>
         </NavLink>
         <button
@@ -39,13 +43,13 @@ export default function Navbar() {
           aria-expanded={isExpanded}
           aria-label="Toggle navigation"
           onClick={() => {
-            setExpanded(!isExpanded);
+            setExpanded(!isExpanded)
           }}
         >
           <span className="navbar-toggler-icon" />
         </button>
         <div
-          className={clsx('navbar-collapse', {
+          className={clsx("navbar-collapse", {
             collapse: !isExpanded,
           })}
         >
@@ -72,7 +76,9 @@ export default function Navbar() {
             </li>
             <li className="nav-item">
               <NavLink href="http://blog.techladies.co/">
-                <a className="nav-link" target="_blank" rel="noopener">Blog</a>
+                <a className="nav-link" target="_blank" rel="noopener">
+                  Blog
+                </a>
               </NavLink>
             </li>
           </ul>
@@ -84,5 +90,5 @@ export default function Navbar() {
         </div>
       </nav>
     </header>
-  );
+  )
 }

@@ -1,16 +1,16 @@
-import { NextSeo } from "next-seo";
-import Accordion from "../components/Accordion";
-import bootcampFAQ from "../data/bootcamp-faq.js";
-import Timeline from "../components/Timeline";
-import TimelineItem from "../components/TimelineItem";
-import BootcampBuilders from "../components/BootcampBuilders";
-import bootcampTimeline from "../data/bootcamp-7-timeline";
-import bootcampBuilders from "../data/bootcamp-7-builders";
-import EmailSubscription from "../components/EmailSubscription";
-import { BootcampPageSeo } from "../data/seo.js";
+import { NextSeo } from "next-seo"
+import Accordion from "../components/Accordion"
+import bootcampFAQ from "../data/bootcamp-faq.js"
+import Timeline from "../components/Timeline"
+import TimelineItem from "../components/TimelineItem"
+import BootcampBuilders from "../components/BootcampBuilders"
+import bootcampTimeline from "../data/bootcamp-7-timeline"
+import bootcampBuilders from "../data/bootcamp-7-builders"
+import EmailSubscription from "../components/EmailSubscription"
+import { BootcampPageSeo } from "../data/seo.js"
 
-const REGISTRATION_OPEN = true;
-const SHOW_NEWSLETTER_SIGNUP = false;
+const REGISTRATION_OPEN = true
+const SHOW_NEWSLETTER_SIGNUP = false
 
 export default function Home() {
   return (
@@ -272,5 +272,5 @@ export default function Home() {
         </div>
       </main>
     </div>
-  );
+  )
 }

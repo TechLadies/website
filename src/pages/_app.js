@@ -5,12 +5,12 @@ import Navbar from "../components/Navbar"
 import { useAnalytics } from "../hooks/useAnalytics"
 import Router, { useRouter } from "next/router"
 import withFBQ from "next-fbq"
-import { DefaultSeo } from 'next-seo'
-import SEO from '../../next-seo.config'
+import { DefaultSeo } from "next-seo"
+import SEO from "../../next-seo.config"
 
 import "../styles/globals.scss"
 
-function MyApp ({ Component, pageProps }) {
+function MyApp({ Component, pageProps }) {
   const { init, trackPageViewed } = useAnalytics()
   const router = useRouter()
 
@@ -30,7 +30,7 @@ function MyApp ({ Component, pageProps }) {
       <Component {...pageProps} />
       <Footer />
     </>
-  );
+  )
 }
 
 // Wrap with fb pixel
