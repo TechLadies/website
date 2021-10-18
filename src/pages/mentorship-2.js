@@ -13,6 +13,8 @@ import programsFAQ from "../data/mentorship-faq.js"
 
 import Modal from "../components/Modal"
 import EmailSubscription from "../components/EmailSubscription"
+import Image from "next/image"
+import Link from "next/link"
 
 export default function Home() {
   const [showMentorsModal, setShowMentorsModal] = useState(false)
@@ -32,7 +34,7 @@ export default function Home() {
         <div className="container py-6">
           <div className="row gy-6">
             <div className="col-md-6">
-              <h1 class="large-line-height">TechLadies Mentorship</h1>
+              <h1 className="large-line-height">TechLadies Mentorship</h1>
               <p className="mb-4 text-body large-line-height">
                 TechLadies Mentorship is a 12-week program that provides women
                 with personal career guidance from experienced industry
@@ -54,7 +56,7 @@ export default function Home() {
               <EmailSubscription />
             </div>
             <div className="col-md-5  offset-md-1">
-              <img
+              <Image
                 alt="TODO: REPLACE ME"
                 className="img-fluid"
                 src="/illustrations/illus_mentorship.png"
@@ -68,19 +70,19 @@ export default function Home() {
             <div className="row">
               <h2 className="text-center mb-5">Mentees Program Requirements</h2>
               <div className="col-md-4">
-                <img
+                <Image
                   className="thumbnail thumbnail-lg mb-2 "
                   alt="TODO: REPLACE ME"
                   src="/icons/mentorship/goalsetting.png"
                 />
                 <h6>Goal Setting</h6>
                 <p>
-                  Have a clear goal for what you'll like to achieve from this
-                  program.
+                  Have a clear goal for what you&quot;ll like to achieve from
+                  this program.
                 </p>
               </div>
               <div className="col-md-4">
-                <img
+                <Image
                   className="thumbnail thumbnail-lg mb-2 "
                   alt="TODO: REPLACE ME"
                   src="/icons/mentorship/biweekly.png"
@@ -93,7 +95,7 @@ export default function Home() {
                 </p>
               </div>
               <div className="col-md-4">
-                <img
+                <Image
                   className="thumbnail thumbnail-lg mb-2 "
                   alt="TODO: REPLACE ME"
                   src="/icons/mentorship/presentation.png"
@@ -109,7 +111,7 @@ export default function Home() {
           <div className="row">
             <h2 className="text-center mb-5">Why join us as a Mentee?</h2>
             <div className="col-md-4">
-              <img
+              <Image
                 className="thumbnail thumbnail-lg mb-2 "
                 alt="TODO: REPLACE ME"
                 src="/icons/mentorship/growth.jpg"
@@ -127,7 +129,7 @@ export default function Home() {
               </p>
             </div>
             <div className="col-md-4">
-              <img
+              <Image
                 className="thumbnail thumbnail-lg mb-2 "
                 alt="TODO: REPLACE ME"
                 src="/icons/mentorship/network.jpg"
@@ -145,7 +147,7 @@ export default function Home() {
               </p>
             </div>
             <div className="col-md-4">
-              <img
+              <Image
                 className="thumbnail thumbnail-lg mb-2 "
                 alt="TODO: REPLACE ME"
                 src="/icons/mentorship/programs.jpg"
@@ -172,7 +174,7 @@ export default function Home() {
           <div className="container py-6">
             <div className="row text-center">
               <div className="col-lg-2 col-md-3 offset-md-5">
-                <img
+                <Image
                   className="thumbnail thumbnail-lg mb-2"
                   alt="Jill Quek, Mentor 2019"
                   src="../team/jill.png"
@@ -257,7 +259,7 @@ export default function Home() {
         <div className="container py-6">
           <div className="row gy-6">
             <div className="col-md-5">
-              <img
+              <Image
                 alt="Contact us"
                 className="img-fluid"
                 src="../illustrations/illus_contactus.png"
@@ -266,15 +268,15 @@ export default function Home() {
             <div className="col-md-6 offset-md-1 d-flex flex-column align-items-start justify-content-center">
               <h3 className="mb-4 h4">Have a question?</h3>
               <p>
-                Do drop us an email via the link below and we'll get back to you
-                soon.
+                Do drop us an email via the link below and we&apos;ll get back
+                to you soon.
               </p>
-              <a
+              <Link
                 className="btn btn-primary"
                 href="mailto:mentorship@techladies.co"
               >
                 Contact Us
-              </a>
+              </Link>
             </div>
           </div>
         </div>
@@ -291,7 +293,7 @@ export default function Home() {
                   ({ image, title, link, description }) => (
                     <div className="row gy-3 mb-4" key={title}>
                       <div className="col-md-2">
-                        <img
+                        <Image
                           className="thumbnail thumbnail-lg"
                           alt={title + " image"}
                           src={image}
@@ -301,9 +303,9 @@ export default function Home() {
                       <div className="col-md-10">
                         <h6 className="mb-3">
                           {title} (
-                          <a href={link} target="_blank">
+                          <Link href={link} target="_blank" rel="noreferrer">
                             LinkedIn
-                          </a>
+                          </Link>
                           )
                         </h6>
                         <p>{description}</p>

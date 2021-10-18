@@ -1,8 +1,5 @@
 import Head from "next/head"
-
 import { useEffect } from "react"
-
-import clsx from "clsx"
 
 import Accordion from "../components/Accordion"
 import Gallery from "../components/Gallery"
@@ -16,6 +13,8 @@ import bootcampTestimonials from "../data/bootcamp-testimonials.js"
 import mentorshipTestimonials from "../data/mentorship-testimonials.js"
 import programsFAQ from "../data/programs-faq.js"
 import quiz from "../data/quiz.js"
+import Image from "next/image"
+import Link from "next/link"
 
 export default function Home() {
   useEffect(() => {
@@ -33,7 +32,7 @@ export default function Home() {
       <div className="container py-6">
         <div className="row gy-6">
           <div className="col-lg-5 col-md-6">
-            <img
+            <Image
               alt="Learn about TechLadies' programs"
               className="img-fluid mb-4"
               src="/illustrations/illus_programmes.png"
@@ -52,7 +51,7 @@ export default function Home() {
         <div className="container py-6">
           <div className="row gy-5">
             <div className="col-md-5 offset-md-1 col-lg-6 offset-lg-1 order-md-last">
-              <img
+              <Image
                 alt="TODO: REPLACE ME"
                 className="thumbnail thumbnail-xl mb-4"
                 src="/icons/icon_TLbootcamp.png"
@@ -92,7 +91,7 @@ export default function Home() {
       <div className="container py-6">
         <div className="row gy-5">
           <div className="col-lg-6 col-md-5">
-            <img
+            <Image
               alt="TODO: REPLACE ME"
               className="thumbnail thumbnail-xl mb-4"
               src="/icons/icon_TLmentorship.png"
@@ -131,7 +130,7 @@ export default function Home() {
       <div className="container py-6 text-center">
         <div className="row gy-6">
           <div className="col-md-5 offset-md-1">
-            <img
+            <Image
               alt="TODO: REPLACE ME"
               className="thumbnail thumbnail-xl mb-4"
               src="/icons/icon_TLmeet.png"
@@ -151,7 +150,7 @@ export default function Home() {
             </a>
           </div>
           <div className="col-md-5">
-            <img
+            <Image
               alt="TODO: REPLACE ME"
               className="thumbnail thumbnail-xl mb-4"
               src="/icons/icon_TLcommunity.png"
@@ -176,7 +175,7 @@ export default function Home() {
         <div className="container py-6">
           <div className="row gy-6">
             <div className="col-md-5 offset-md-1 order-md-last">
-              <img
+              <Image
                 alt="TODO: REPLACE ME"
                 className="img-fluid"
                 src="/photos/coach.jpg"

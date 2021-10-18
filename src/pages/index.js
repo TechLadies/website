@@ -9,6 +9,8 @@ import EmailSubscription from "../components/EmailSubscription"
 
 import { NextSeo } from "next-seo"
 import { HomeSeo } from "../data/seo.js"
+import Image from "next/image"
+import Link from "next/link"
 
 export default function Home() {
   useEffect(() => {
@@ -22,7 +24,7 @@ export default function Home() {
         <div className="container py-6">
           <div className="row gy-6">
             <div className="col-lg-5 offset-lg-2 col-md-5 offset-md-1 order-md-last">
-              <img
+              <Image
                 alt="Join the TechLadies Community"
                 className="img-fluid"
                 src="/illustrations/illus_home.png"
@@ -59,30 +61,34 @@ export default function Home() {
             <div className="col-lg-6">
               <div className="pt-6 pb-6 pl-lg-6 pr-lg-6">
                 <div className="mb-4">
-                  <img
+                  <Image
                     className="thumbnail"
                     alt="Angel"
                     src="/team/angel.png"
                   />
-                  <img
+                  <Image
                     className="thumbnail"
                     alt="Chor Yi"
                     src="/team/choryi.jpeg"
                   />
-                  <img
+                  <Image
                     className="thumbnail"
                     alt="Tejasvita"
                     src="/team/tejasvita.jpeg"
                   />
-                  <img className="thumbnail" alt="Anna" src="/team/anna.jpeg" />
+                  <Image
+                    className="thumbnail"
+                    alt="Anna"
+                    src="/team/anna.jpeg"
+                  />
                 </div>
                 <p className="mb-4 text-emphasis">
                   TechLadies is managed by volunteers passionate about
                   increasing gender diversity in the tech industry.
                 </p>
-                <a className="font-weight-bold" href="#">
+                <Link className="font-weight-bold" href="#">
                   Learn More About Us
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -116,7 +122,7 @@ export default function Home() {
           <div className="row gy-5 text-center">
             <div className="col-md-8 offset-md-2">
               <h3 className="large-line-height mb-4">Featured on</h3>
-              <img
+              <Image
                 alt="Press Coverage"
                 className="img-fluid"
                 src="/media/press.png"
@@ -128,7 +134,7 @@ export default function Home() {
           <div className="container py-6">
             <div className="row gy-5">
               <div className="col-md-6 d-flex flex-column align-items-start justify-content-center">
-                <img
+                <Image
                   className="mb-4"
                   height="260"
                   src="/illustrations/illus_programmes.png"
@@ -142,14 +148,14 @@ export default function Home() {
                   for you!
                 </p>
                 <NavLink href="/our-programs/">
-                  <a className="btn btn-primary">See Our Programs</a>
+                  <Link className="btn btn-primary">See Our Programs</Link>
                 </NavLink>
               </div>
               <div className="col-md-5 offset-md-1">
                 <Gallery>
                   {programs.map(({ image, title, description }) => (
                     <div className="card" key="title">
-                      <img
+                      <Image
                         alt={title + " image"}
                         src={image}
                         className={clsx(
@@ -160,9 +166,9 @@ export default function Home() {
                       <div className="card-body">
                         <h3 className="card-title mb-3">{title}</h3>
                         <p className="card-text mb-3">{description}</p>
-                        <a className="font-weight-bold" href="/our-programs">
+                        <Link className="font-weight-bold" href="/our-programs">
                           Learn More
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   ))}

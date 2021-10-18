@@ -1,5 +1,3 @@
-import Head from "next/head"
-
 import { useState } from "react"
 
 import clsx from "clsx"
@@ -15,6 +13,8 @@ import volunteerInitiatives from "../data/volunteer-initiatives"
 import Modal from "../components/Modal"
 import { NextSeo } from "next-seo"
 import { VolunteerSeo } from "../data/seo.js"
+import Image from "next/image"
+import Link from "next/link"
 
 export default function Home() {
   const [showMoreModal, setShowMoreModal] = useState(null)
@@ -32,7 +32,7 @@ export default function Home() {
         <div className="container py-6">
           <div className="row gy-6">
             <div className="col-md-6">
-              <img
+              <Image
                 alt="Contribute to TechLadies"
                 className="contribute-image mb-4"
                 src="/illustrations/illus_contribute.png"
@@ -49,13 +49,14 @@ export default function Home() {
                 Join us in our mission to increase women's participation in the
                 tech industry!
               </p>
-              <a
+              <Link
                 className="btn btn-primary"
                 target="_blank"
                 href="https://docs.google.com/forms/d/e/1FAIpQLSepj-kx0qMTe7stfAiRB9slYA-HvTTiT3GvbodLj23geH8ZIg/viewform"
+                rel="noreferrer"
               >
                 Volunteer with TechLadies
-              </a>
+              </Link>
             </div>
           </div>
         </div>
@@ -77,7 +78,7 @@ export default function Home() {
           <div className="row gy-4 pt-5">
             {volunteerInitiatives.map(({ image, title, description }) => (
               <div className="col-lg-3 col-sm-6" key={title}>
-                <img
+                <Image
                   className="thumbnail thumbnail-xl mb-4 center-image"
                   alt={title + " image"}
                   src={image}
@@ -102,7 +103,7 @@ export default function Home() {
           <div className="container py-6">
             <div className="row gy-6">
               <div className="col-md-5 offset-md-1 order-md-last">
-                <img
+                <Image
                   alt="Partner with TechLadies"
                   className="img-fluid"
                   src="/partners/partner_stage.png"
@@ -114,9 +115,9 @@ export default function Home() {
                   We are looking for partner companies that provide speakers,
                   mentors, coaches, and venue or financial sponsorship. Do reach
                   out to{" "}
-                  <a href=" mailto:lillian@techladies.co">
+                  <Link href=" mailto:lillian@techladies.co">
                     lillian@techladies.co
-                  </a>{" "}
+                  </Link>{" "}
                   to start a conversation.
                 </p>
               </div>
@@ -127,35 +128,35 @@ export default function Home() {
         <div className="container py-6">
           <div className="row gy-5 text-center">
             <div className="col-md-4 col-sm-6">
-              <img
+              <Image
                 alt="Microsoft"
                 className="mb-4 partner-logo-horizontal"
                 src="/partners/logos/microsoft.png"
               />
             </div>
             <div className="col-md-4 col-sm-6">
-              <img
+              <Image
                 alt="Rakuten"
                 className="mb-4 partner-logo-horizontal"
                 src="/partners/logos/rakuten.png"
               />
             </div>
             <div className="col-md-4 col-sm-6">
-              <img
+              <Image
                 alt="ThoughtWorks"
                 className="mb-4 partner-logo-horizontal"
                 src="/partners/logos/thoughtworks.png"
               />
             </div>
             <div className="col-md-4 col-sm-6">
-              <img
+              <Image
                 alt="ZenDesk"
                 className="mb-4 partner-logo-square"
                 src="/partners/logos/zendesk.png"
               />
             </div>
             <div className="col-md-4 col-sm-6">
-              <img
+              <Image
                 alt="Carousell"
                 className="mb-4 partner-logo-square"
                 style={{ marginTop: -10 }}
@@ -163,7 +164,7 @@ export default function Home() {
               />
             </div>
             <div className="col-md-4 col-sm-6">
-              <img
+              <Image
                 alt="Kiat SG"
                 className="mb-4 partner-logo-horizontal"
                 style={{ marginTop: 6 }}
@@ -207,7 +208,7 @@ export default function Home() {
           <div className="row">
             <div className="col-md-8 offset-md-2">
               <h3 className="text-center mb-5">Volunteering FAQ</h3>
-              <Accordion data={volunteeringFAQ} />
+              <Linkccordion data={volunteeringFAQ} />
             </div>
           </div>
         </div>
@@ -221,12 +222,11 @@ export default function Home() {
         >
           {selectedTopic === "TechLadies Bootcamp" && (
             <>
-              <img
+              <Image
                 class="thumbnail thumbnail-xxl center-image display-block"
                 alt="TechLadies Bootcamp"
                 src="/icons/icon_TLbootcamp.png"
-              ></img>
-
+              />
               <p>
                 Help create our most impactful program! We've seen Bootcamp
                 grads switching careers into tech who were previously pet
@@ -254,18 +254,18 @@ export default function Home() {
                 for a team or commit less by being an assistant Coach.
               </p>
 
-              <a
+              <Link
                 className="btn btn-primary cta-button"
                 target="_blank"
                 href="https://forms.gle/yPAibeKXEbiN98qg9"
               >
                 Volunteer for TechLadies Bootcamp
-              </a>
+              </Link>
             </>
           )}
           {selectedTopic === "TechLadies Mentorship" && (
             <>
-              <img
+              <Image
                 class="thumbnail thumbnail-xxl center-image display-block"
                 alt="TechLadies Mentorship"
                 src="/icons/icon_TLmentorship.png"
@@ -319,18 +319,18 @@ export default function Home() {
                 experiences are preferred, but not compulsory. :)
               </p>
 
-              <a
+              <Link
                 className="btn btn-primary cta-button"
                 target="_blank"
                 href="https://docs.google.com/forms/d/e/1FAIpQLSepj-kx0qMTe7stfAiRB9slYA-HvTTiT3GvbodLj23geH8ZIg/viewform"
               >
                 Volunteer for TechLadies Mentorship
-              </a>
+              </Link>
             </>
           )}
           {selectedTopic === "TechLadies Meet" && (
             <>
-              <img
+              <Image
                 class="thumbnail thumbnail-xxl center-image display-block"
                 alt="TechLadies Meet"
                 src="/icons/icon_TLmeet.png"
@@ -375,18 +375,18 @@ export default function Home() {
                 We don't have a preferred profile for this. Anyone can help!
               </p>
 
-              <a
+              <Link
                 className="btn btn-primary cta-button"
                 target="_blank"
                 href="https://docs.google.com/forms/d/e/1FAIpQLSepj-kx0qMTe7stfAiRB9slYA-HvTTiT3GvbodLj23geH8ZIg/viewform"
               >
                 Volunteer for TechLadies Meet
-              </a>
+              </Link>
             </>
           )}
           {selectedTopic === "TechLadies Community" && (
             <>
-              <img
+              <Image
                 class="thumbnail thumbnail-xxl center-image display-block"
                 alt="TechLadies Community"
                 src="/icons/icon_TLcommunity.png"
@@ -433,13 +433,13 @@ export default function Home() {
                 You should have prior experiences with content creation.
               </p>
 
-              <a
+              <Link
                 className="btn btn-primary cta-button"
                 target="_blank"
                 href="https://docs.google.com/forms/d/e/1FAIpQLSepj-kx0qMTe7stfAiRB9slYA-HvTTiT3GvbodLj23geH8ZIg/viewform"
               >
                 Volunteer for TechLadies Community
-              </a>
+              </Link>
             </>
           )}
         </Modal>

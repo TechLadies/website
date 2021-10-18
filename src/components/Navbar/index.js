@@ -3,6 +3,7 @@ import { useRouter } from "next/router"
 import clsx from "clsx"
 
 import NavLink from "../NavLink"
+import Image from "next/image"
 
 export default function Navbar() {
   const [isExpanded, setExpanded] = useState(false)
@@ -30,7 +31,7 @@ export default function Navbar() {
       <nav className="container">
         <NavLink href="/">
           <a aria-label="TechLadies Logo" className="navbar-brand">
-            <img
+            <Image
               alt="TechLadies Logo"
               src="/img/logo.png"
               style={{ marginTop: -8 }}
