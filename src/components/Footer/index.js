@@ -4,6 +4,8 @@ import clsx from "clsx"
 import styles from "./index.module.scss"
 import NavLink from "../NavLink/index"
 import EmailSubscription from "../EmailSubscription"
+import Link from "next/link"
+import Image from "next/image"
 
 export default function Footer() {
   return (
@@ -18,38 +20,38 @@ export default function Footer() {
             <div className="row">
               <div className="col-lg-12 col-6 mb-4">
                 <h5>
-                  <a href="/our-programs">Programs</a>
+                  <Link href="/our-programs">Programs</Link>
                 </h5>
                 <ul className={clsx("list-unstyled", styles.footerLinksList)}>
                   <li>
-                    <a href="/bootcamp-7">Bootcamp</a>
+                    <Link href="/bootcamp-7">Bootcamp</Link>
                   </li>
                   <li>
-                    <a href="/mentorship-3">Mentorship</a>
+                    <Link href="/mentorship-3">Mentorship</Link>
                   </li>
                 </ul>
               </div>
               <div className="col-lg-12 col-6 mb-4">
                 <h5>
-                  <a href="/contribute">Contribute</a>
+                  <Link href="/contribute">Contribute</Link>
                 </h5>
                 <ul className={clsx("list-unstyled", styles.footerLinksList)}>
                   <li>
-                    <a href="/contribute">Volunteer</a>
+                    <Link href="/contribute">Volunteer</Link>
                   </li>
                   <li>
-                    <a href="/contribute#donate">Donate</a>
+                    <Link href="/contribute#donate">Donate</Link>
                   </li>
                 </ul>
               </div>
               <div className="col-lg-12 col-6">
                 <h5>
-                  <a href="/about">About</a>
+                  <Link href="/about">About</Link>
                 </h5>
                 <ul className={clsx("list-unstyled", styles.footerLinksList)}>
                   <li>
                     <NavLink href="/conduct/">
-                      <a className="nav-link">Code of Conduct</a>
+                      <Link className="nav-link">Code of Conduct</Link>
                     </NavLink>
                   </li>
                 </ul>
@@ -62,51 +64,62 @@ export default function Footer() {
               <p>
                 For general enquiries, please email:
                 <br />
-                <a href="mailto:hello@techladies.co">hello@techladies.co</a>
+                <Link href="mailto:hello@techladies.co">
+                  hello@techladies.co
+                </Link>
               </p>
               <div className="d-flex">
-                <a
+                <Link
                   aria-label="Link to Facebook"
                   href="https://www.facebook.com/TechLadies"
                   target="_blank"
-                  rel="noopener"
+                  rel="noreferrer"
+                  passHref={true}
                 >
                   <Facebook />
-                </a>
-                <a
+                </Link>
+                <Link
                   aria-label="Link to Linkedin"
                   href="https://www.linkedin.com/company/techladies"
                   target="_blank"
+                  rel="noreferrer"
+                  passHref={true}
                 >
                   <Linkedin />
-                </a>
-                <a
+                </Link>
+                <Link
                   aria-label="Link to Twitter"
                   href="https://www.twitter.com/techladiescode"
                   target="_blank"
+                  rel="noreferrer"
+                  passHref={true}
                 >
                   <Twitter />
-                </a>
-                <a
+                </Link>
+                <Link
                   aria-label="Link to Instagram"
                   href="https://www.instagram.com/techladiescode/"
                   target="_blank"
+                  rel="noreferrer"
+                  passHref={true}
                 >
                   <Instagram />
-                </a>
+                </Link>
               </div>
             </div>
             <div className="col-lg-12 col-6 mb-4">
               <h5 className="mb-3">Powered by</h5>
               <div className="d-flex">
                 <p>
-                  <a
+                  <Link
                     aria-label="Link to Vercel"
                     href="https://vercel.com/?utm_source=techladies&utm_campaign=oss"
                     target="_blank"
+                    rel="noreferrer"
+                    passHref={true}
                   >
-                    <img src="/img/vercel.svg" alt="Vercel Logo" width="80" />
-                  </a>
+                    <Image src="/img/vercel.svg" alt="Vercel Logo" width="80" />
+                  </Link>
                 </p>
               </div>
             </div>

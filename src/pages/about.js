@@ -1,5 +1,6 @@
 import Head from "next/head"
 import NavLink from "../components/NavLink"
+import Image from "next/image"
 
 export default function Home() {
   return (
@@ -11,7 +12,7 @@ export default function Home() {
         <div className="container py-6">
           <div className="row gy-6">
             <div className="col-md-6">
-              <img
+              <Image
                 alt="About TechLadies"
                 className="about-image mb-4"
                 src="/illustrations/illus_aboutus.png"
@@ -35,7 +36,7 @@ export default function Home() {
                 className="btn btn-primary"
                 href="https://www.facebook.com/groups/techladiescode/"
                 target="_blank"
-                rel="noopener"
+                rel="noreferrer"
               >
                 Join our Community on Facebook
               </a>
@@ -46,9 +47,9 @@ export default function Home() {
           <div className="container py-6">
             <div className="row gy-6">
               <div className="col-md-5 offset-md-1 order-md-last">
-                <img
+                <Image
                   alt="TODO: REPLACE ME"
-                  className="img-fluid"
+                  className="Image-fluid"
                   src="/photos/history.jpg"
                 />
               </div>
@@ -86,22 +87,22 @@ export default function Home() {
                     Leads chapters in Singapore, Malaysia, and Vietnam.
                   </p>
                   <div className="mb-4">
-                    <img
+                    <Image
                       className="thumbnail thumbnail-lg"
                       alt="Elisha Tan"
                       src="/team/elisha.jpg"
                     />
-                    <img
+                    <Image
                       className="thumbnail thumbnail-lg"
                       alt="Suying Lim"
                       src="/team/suying.png"
                     />
-                    <img
+                    <Image
                       className="thumbnail thumbnail-lg"
                       alt="Thy Huynh"
                       src="/team/thy.jpg"
                     />
-                    <img
+                    <Image
                       className="thumbnail thumbnail-lg"
                       alt="Tran Bui"
                       src="/team/tranbui.jpg"
@@ -121,22 +122,22 @@ export default function Home() {
                     Leads the TechLadies Mentorship program.
                   </p>
                   <div className="mb-4">
-                    <img
+                    <Image
                       className="thumbnail thumbnail-lg"
                       alt="Poon Choryi"
                       src="/team/choryi.jpeg"
                     />
-                    <img
+                    <Image
                       className="thumbnail thumbnail-lg"
                       alt="Lillian So"
                       src="/team/lillian.jpg"
                     />
-                    <img
+                    <Image
                       className="thumbnail thumbnail-lg"
                       alt="Ng Shi Qi"
                       src="/team/shiqi.jpg"
                     />
-                    <img
+                    <Image
                       className="thumbnail thumbnail-lg"
                       alt="Shelvia Ho"
                       src="/team/shelvia.jpg"
@@ -157,32 +158,32 @@ export default function Home() {
                     Leads our flagship program, TechLadies Bootcamp.
                   </p>
                   <div className="mb-5">
-                    <img
+                    <Image
                       className="thumbnail thumbnail-lg"
                       alt="Jeslyn"
                       src="/team/bootcamp7/jeslyn.png"
                     />
-                    <img
+                    <Image
                       className="thumbnail thumbnail-lg"
                       alt="Nicole"
                       src="/team/bootcamp7/nicole.jpg"
                     />
-                    <img
+                    <Image
                       className="thumbnail thumbnail-lg"
                       alt="Diya"
                       src="/team/bootcamp7/diya.jpeg"
                     />
-                    <img
+                    <Image
                       className="thumbnail thumbnail-lg"
                       alt="Akshata"
                       src="/team/bootcamp7/akshata.png"
                     />
-                    <img
+                    <Image
                       className="thumbnail thumbnail-lg"
                       alt="Thomas"
                       src="/team/bootcamp7/thomas.jpg"
                     />
-                    <img
+                    <Image
                       className="thumbnail thumbnail-lg"
                       alt="Andrew"
                       src="/team/bootcamp7/andrew.jpg"
@@ -202,17 +203,17 @@ export default function Home() {
                     Grows our TechLadies Community online.
                   </p>
                   <div className="mb-4">
-                    <img
+                    <Image
                       className="thumbnail thumbnail-lg"
                       alt="Marta Sanke"
                       src="/team/marta.jpg"
                     />
-                    <img
+                    <Image
                       className="thumbnail thumbnail-lg"
                       alt="Rae Koh"
                       src="/team/rae.jpg"
                     />
-                    <img
+                    <Image
                       className="thumbnail thumbnail-lg"
                       alt="Liang Hui Qian"
                       src="/team/qian.jpg"
@@ -232,12 +233,12 @@ export default function Home() {
                     Organizes activities to engage with the community.
                   </p>
                   <div className="mb-4">
-                    <img
+                    <Image
                       className="thumbnail thumbnail-lg"
                       alt="Giselle Cheo"
                       src="/team/giselle.png"
                     />
-                    <img
+                    <Image
                       className="thumbnail thumbnail-lg"
                       alt="Vanessa Zhao"
                       src="/team/vanessa.jpg"
@@ -254,9 +255,9 @@ export default function Home() {
         <div className="container py-6">
           <div className="row gy-6">
             <div className="col-md-5">
-              <img
+              <Image
                 alt="TODO: REPLACE ME"
-                className="img-fluid"
+                className="Image-fluid"
                 src="/photos/team.jpg"
               />
             </div>

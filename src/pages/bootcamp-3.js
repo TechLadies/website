@@ -1,14 +1,11 @@
-import { useState } from "react"
 import Head from "next/head"
-import clsx from "clsx"
 import Accordion from "../components/Accordion"
 import bootcampFAQ from "../data/bootcamp-faq.js"
-import Timeline from "../components/Timeline"
-import TimelineItem from "../components/TimelineItem"
 import BootcampBuilders from "../components/BootcampBuilders"
 import EmailSubscription from "../components/EmailSubscription"
-import bootcampTimeline from "../data/bootcamp-timeline"
 import bootcampBuildersData from "../data/bootcamp-3-builders"
+import Image from "next/image"
+import Link from "next/link"
 
 export default function Home() {
   return (
@@ -37,11 +34,11 @@ export default function Home() {
                 <br />
                 <br />
                 See all workshop materials, slides and video recordings at this{" "}
-                <a href="/">Link</a>.
+                <Link href="/">Link</Link>.
               </p>
             </div>
             <div className="col-md-3">
-              <img
+              <Image
                 alt="TODO: REPLACE ME"
                 className="img-fluid"
                 src="/img/img2_PLACEHOLDER_REMOVE_ME.png"
@@ -61,9 +58,9 @@ export default function Home() {
                 such as publishing, finance, logistics and more.
               </p>
               <div className="col-md-4">
-                <img
+                <Image
                   className="img-fluid"
-                  alr="TODO: REPLACE ME"
+                  alt="TODO: REPLACE ME"
                   src="/img/bg_PLACEHOLDER_REMOVE_ME.png"
                 />
               </div>
@@ -82,14 +79,14 @@ export default function Home() {
           </div>
           <div className="row mt-4">
             <div className="col-md-5">
-              <img
+              <Image
                 alt="TODO: REPLACE ME"
                 className="img-fluid"
                 src="/img/bg_PLACEHOLDER_REMOVE_ME.png"
               />
             </div>
             <div className="offset-md-1 col-md-6">
-              <img
+              <Image
                 alt="TODO: REPLACE ME"
                 className="thumbnail thumbnail-lg d-block space-bottom-10"
                 src="/icons/icon_TLmentorship.png"
@@ -110,14 +107,14 @@ export default function Home() {
           </div>
           <div className="row mt-4">
             <div className="col-md-5">
-              <img
+              <Image
                 alt="TODO: REPLACE ME"
                 className="img-fluid"
                 src="/img/bg_PLACEHOLDER_REMOVE_ME.png"
               />
             </div>
             <div className="offset-md-1 col-md-6">
-              <img
+              <Image
                 alt="TODO: REPLACE ME"
                 className="thumbnail thumbnail-lg d-block space-bottom-10"
                 src="/icons/icon_TLmentorship.png"
@@ -142,7 +139,7 @@ export default function Home() {
           <div className="container py-6">
             <div className="row gy-6">
               <div className="col-md-4 offset-md-1">
-                <img
+                <Image
                   alt="TODO: REPLACE ME"
                   className="img-fluid"
                   src="/img/img1_PLACEHOLDER_REMOVE_ME.png"

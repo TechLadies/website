@@ -10,6 +10,7 @@ import bootcampBuilders from "../data/bootcamp-6-builders"
 import EmailSubscription from "../components/EmailSubscription"
 import { NextSeo } from "next-seo"
 import { Bootcamp6PageSeo } from "../data/seo.js"
+import Image from "next/image"
 
 export default function Home() {
   return (
@@ -19,14 +20,14 @@ export default function Home() {
         <div className="container py-6">
           <div className="row">
             <div className="col-md-5">
-              <img
+              <Image
                 alt="TechLadies Bootcamp #6"
                 className="img-fluid"
                 src="/illustrations/Illus_astronaut.png"
               />
             </div>
             <div className="col-md-6 offset-md-1">
-              <h1 class="large-line-height mt-4">TechLadies Bootcamp</h1>
+              <h1 className="large-line-height mt-4">TechLadies Bootcamp</h1>
               <p className="mb-4 text-body large-line-height">
                 The TechLadies Bootcamp #6 is a 14-week part-time accelerated
                 learning program designed to help women with basic programming
@@ -46,7 +47,7 @@ export default function Home() {
               <div className="col-md-8 offset-md-2">
                 <div className="card">
                   <div className="card-body">
-                    <img
+                    <Image
                       alt="TecLadies Bootcamp #6"
                       src="/icons/icon_TLbootcamp.png"
                       className="thumbnail thumbnail-xl mb-4 center-image display-block"
@@ -67,7 +68,7 @@ export default function Home() {
         <div className="container py-6">
           <div className="row">
             <div className="col-md-6">
-              <img
+              <Image
                 alt="TODO: REPLACE ME"
                 className="img-fluid"
                 src="../photos/bootcamp_stage.jpg"
@@ -85,7 +86,7 @@ export default function Home() {
             <div className="col-md-6">
               <h4 className="mb-3 h6">Registration and Selection:</h4>
               <div className="d-inline-flex mb-4">
-                <img
+                <Image
                   alt="Checkbox"
                   src="/icons/check-square.svg"
                   height="32"
@@ -105,7 +106,7 @@ export default function Home() {
               </h4>
               <div className="flex-column">
                 <div className="d-inline-flex">
-                  <img
+                  <Image
                     alt="Checkbox"
                     src="/icons/check-square.svg"
                     height="32"
@@ -118,7 +119,7 @@ export default function Home() {
                   </p>
                 </div>
                 <div className="d-inline-flex mb-4">
-                  <img
+                  <Image
                     alt="Checkbox"
                     src="/icons/check-square.svg"
                     height="32"
@@ -134,7 +135,7 @@ export default function Home() {
               <h4 className="mb-3 h6">After the Bootcamp:</h4>
               <div className="flex-column">
                 <div className="d-inline-flex">
-                  <img
+                  <Image
                     alt="Checkbox"
                     src="/icons/check-square.svg"
                     height="32"
@@ -147,7 +148,7 @@ export default function Home() {
                   </p>
                 </div>
                 <div className="d-inline-flex">
-                  <img
+                  <Image
                     alt="Checkbox"
                     src="/icons/check-square.svg"
                     height="32"
@@ -167,8 +168,8 @@ export default function Home() {
         <div className="container py-6">
           <div className="row">
             <h3 className="mb-4">
-              Don't worry if it sounds scary, we’ve programs to help with the
-              technical tasks! 💪💪💪
+              Don&apos;t worry if it sounds scary, we’ve programs to help with
+              the technical tasks! 💪💪💪
             </h3>
             <div className="col-md-6">
               <h5 className="text-blue font-weight-bold">July / August</h5>
@@ -230,7 +231,7 @@ export default function Home() {
         <div className="container py-6">
           <div className="row gy-6">
             <div className="col-md-5">
-              <img
+              <Image
                 alt="Contact us"
                 className="img-fluid"
                 src="../illustrations/illus_contactus.png"
@@ -239,8 +240,8 @@ export default function Home() {
             <div className="col-md-6 offset-md-1 d-flex flex-column align-items-start justify-content-center">
               <h3 className="mb-4 h4">Have a question?</h3>
               <p>
-                Do drop us an email via the link below and we'll get back to you
-                soon.
+                Do drop us an email via the link below and we&apos;ll get back
+                to you soon.
               </p>
               <a
                 className="btn btn-primary"
