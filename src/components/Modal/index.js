@@ -1,36 +1,36 @@
-import { useEffect } from 'react';
-import clsx from 'clsx';
+import { useEffect } from "react"
+import clsx from "clsx"
 
-const ID = 'modal-react-component';
+const ID = "modal-react-component"
 
-let $modalBackDrop = null;
+let $modalBackDrop = null
 
 // Only one modal should be shown on the page at any one time.
-function Modal ({ children, isShown, onClose, title }) {
+function Modal({ children, isShown, onClose, title }) {
   useEffect(() => {
     if (isShown) {
-      document.body.classList.add('modal-open');
-      $modalBackDrop = document.createElement('div');
-      $modalBackDrop.className = 'modal-backdrop fade show';
-      document.body.appendChild($modalBackDrop);
+      document.body.classList.add("modal-open")
+      $modalBackDrop = document.createElement("div")
+      $modalBackDrop.className = "modal-backdrop fade show"
+      document.body.appendChild($modalBackDrop)
     } else {
-      document.body.classList.remove('modal-open');
+      document.body.classList.remove("modal-open")
       if (!$modalBackDrop) {
-        return;
+        return
       }
-      $modalBackDrop.parentNode.removeChild($modalBackDrop);
-      $modalBackDrop = null;
+      $modalBackDrop.parentNode.removeChild($modalBackDrop)
+      $modalBackDrop = null
     }
-  }, [isShown, $modalBackDrop]);
+  }, [isShown, $modalBackDrop])
 
   return (
     <div
-      className={clsx('modal', {
+      className={clsx("modal", {
         show: isShown,
       })}
       tabIndex="-1"
       style={{
-        display: isShown ? 'block' : 'none',
+        display: isShown ? "block" : "none",
       }}
       // So that clicking the modal background will dismiss it.
       onClick={onClose}
@@ -39,11 +39,10 @@ function Modal ({ children, isShown, onClose, title }) {
         className="modal-dialog modal-dialog-centered modal-lg"
         onClick={(event) => {
           // Stop click events within the modal from dismissing it.
-          event.stopPropagation();
+          event.stopPropagation()
         }}
       >
         <div className="modal-content pt-2">
-
           {title && (
             <div className="modal-header">
               <h5 className="modal-title">{title}</h5>
@@ -69,12 +68,11 @@ function Modal ({ children, isShown, onClose, title }) {
               </button>
             </div>
           )}
-          <div className="modal-body">
-            {children}</div>
+          <div className="modal-body">{children}</div>
         </div>
       </div>
     </div>
-  );
+  )
 }
 
-export default Modal;
+export default Modal

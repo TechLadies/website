@@ -1,20 +1,20 @@
-import { useState } from 'react';
-import Head from 'next/head';
+import { useState } from "react"
+import Head from "next/head"
 
-import { mentorsData } from '../data/mentorship-2-mentors';
+import { mentorsData } from "../data/mentorship-2-mentors"
 
-import Accordion from '../components/Accordion';
-import Timeline from '../components/Timeline';
-import TimelineItem from '../components/TimelineItem';
-import MentorsCard from '../components/MentorsCard'
+import Accordion from "../components/Accordion"
+import Timeline from "../components/Timeline"
+import TimelineItem from "../components/TimelineItem"
+import MentorsCard from "../components/MentorsCard"
 
-import mentorshipTimeline from '../data/mentorship-timeline-2';
-import programsFAQ from '../data/mentorship-faq.js';
+import mentorshipTimeline from "../data/mentorship-timeline-2"
+import programsFAQ from "../data/mentorship-faq.js"
 
-import Modal from '../components/Modal';
-import EmailSubscription from '../components/EmailSubscription'
+import Modal from "../components/Modal"
+import EmailSubscription from "../components/EmailSubscription"
 
-export default function Home () {
+export default function Home() {
   const [showMentorsModal, setShowMentorsModal] = useState(false)
   const [selectedTopic, setSelectedTopic] = useState(null)
 
@@ -34,13 +34,16 @@ export default function Home () {
             <div className="col-md-6">
               <h1 class="large-line-height">TechLadies Mentorship</h1>
               <p className="mb-4 text-body large-line-height">
-                TechLadies Mentorship is a 12-week program that provides women with personal career guidance
-                from experienced industry practitioners as they grow their
-                career in Software Engineering, UI/UX Design, Data
-                Science/Engineering/Analysis, Product Management.
+                TechLadies Mentorship is a 12-week program that provides women
+                with personal career guidance from experienced industry
+                practitioners as they grow their career in Software Engineering,
+                UI/UX Design, Data Science/Engineering/Analysis, Product
+                Management.
                 <br />
                 <br />
-                The TechLadies Mentorship 2020 has concluded. To stay updated on when our 2021 season opens for applications, please sign up for our newsletter below.
+                The TechLadies Mentorship 2020 has concluded. To stay updated on
+                when our 2021 season opens for applications, please sign up for
+                our newsletter below.
               </p>
               <label
                 htmlFor="hero-email"
@@ -49,7 +52,6 @@ export default function Home () {
                 Get updates on our activities.
               </label>
               <EmailSubscription />
-
             </div>
             <div className="col-md-5  offset-md-1">
               <img
@@ -86,7 +88,8 @@ export default function Home () {
                 <h6>Bi-weekly commitments</h6>
                 <p>
                   Commit to bi-weekly meetings (offline/virtual) with their
-                  mentors from Jun 2020 - Aug 2020. Provide feedback on your progress with your mentor via a short report.
+                  mentors from Jun 2020 - Aug 2020. Provide feedback on your
+                  progress with your mentor via a short report.
                 </p>
               </div>
               <div className="col-md-4">
@@ -116,12 +119,11 @@ export default function Home () {
                 One of the best ways to advance in the work you do is to learn
                 from a mentor, someone who has a wealth of experience and is
                 able to give you the guidance, feedback, and institutional
-                knowledge. 
+                knowledge.
               </p>
               <p>
-                In a mentorship, you can also develop a better
-                awareness of your strengths and weaknesses to reach your
-                specific career goals.
+                In a mentorship, you can also develop a better awareness of your
+                strengths and weaknesses to reach your specific career goals.
               </p>
             </div>
             <div className="col-md-4">
@@ -134,12 +136,12 @@ export default function Home () {
               <p>
                 Working with a mentor is also a great chance to be introduced to
                 networks, companies and individuals which you previously never
-                had access to. 
+                had access to.
               </p>
               <p>
-                The benefits of an expanded network is abundant,
-                ranging from broadened perspectives, new collaborations or even
-                employment opportunities!
+                The benefits of an expanded network is abundant, ranging from
+                broadened perspectives, new collaborations or even employment
+                opportunities!
               </p>
             </div>
             <div className="col-md-4">
@@ -150,17 +152,17 @@ export default function Home () {
               />
               <h6>Structured program</h6>
               <p>
-                {' '}
+                {" "}
                 We know how difficult it can be to find a mentor that is right
                 for you and develop a relationship from there. The TechLadies
                 Mentorship team has designed a structured program that has
                 helped make the journey of mentorship fruitful and enjoyable for
-                both mentors and mentees! 
+                both mentors and mentees!
               </p>
               <p>
-                In our program, we will be matching
-                you with experienced and passionate mentors from the TechLadies
-                community! Check out our mentors below!
+                In our program, we will be matching you with experienced and
+                passionate mentors from the TechLadies community! Check out our
+                mentors below!
               </p>
             </div>
           </div>
@@ -182,9 +184,9 @@ export default function Home () {
                 <p>
                   “I thought the overall organisation by TechLadies was great.
                   Clear communication and enough guidance to keep us on track,
-                  without being overly prescriptive. The kickoff session was good
-                  too -- it set clear expectations on both mentor and mentee, and
-                  that was very useful.”
+                  without being overly prescriptive. The kickoff session was
+                  good too -- it set clear expectations on both mentor and
+                  mentee, and that was very useful.”
                 </p>
                 <p>
                   <b>Jill Quek, TechLadies Mentor (2019)</b>
@@ -198,10 +200,30 @@ export default function Home () {
           <div className="row">
             <h2 className="mb-4 text-center">Mentors for 2020</h2>
             <div className="row gy-4">
-              <MentorsCard dataMessage='software' handleViewMentors={handleViewMentors} mentors={mentorsData['software']} icon='/icons/icon_softwaredevelopment.png' />
-              <MentorsCard dataMessage='ux' handleViewMentors={handleViewMentors} mentors={mentorsData['ux']} icon='/icons/icon_UIUX.png' />
-              <MentorsCard dataMessage='data' handleViewMentors={handleViewMentors} mentors={mentorsData['data']} icon='/icons/icon_datascience.png' />
-              <MentorsCard dataMessage='product' handleViewMentors={handleViewMentors} mentors={mentorsData['product']} icon='/icons/icon_productmanagement.png' />
+              <MentorsCard
+                dataMessage="software"
+                handleViewMentors={handleViewMentors}
+                mentors={mentorsData["software"]}
+                icon="/icons/icon_softwaredevelopment.png"
+              />
+              <MentorsCard
+                dataMessage="ux"
+                handleViewMentors={handleViewMentors}
+                mentors={mentorsData["ux"]}
+                icon="/icons/icon_UIUX.png"
+              />
+              <MentorsCard
+                dataMessage="data"
+                handleViewMentors={handleViewMentors}
+                mentors={mentorsData["data"]}
+                icon="/icons/icon_datascience.png"
+              />
+              <MentorsCard
+                dataMessage="product"
+                handleViewMentors={handleViewMentors}
+                mentors={mentorsData["product"]}
+                icon="/icons/icon_productmanagement.png"
+              />
             </div>
           </div>
         </div>
@@ -242,11 +264,10 @@ export default function Home () {
               />
             </div>
             <div className="col-md-6 offset-md-1 d-flex flex-column align-items-start justify-content-center">
-              <h3 className="mb-4 h4">
-                Have a question? 
-              </h3>
+              <h3 className="mb-4 h4">Have a question?</h3>
               <p>
-                Do drop us an email via the link below and we'll get back to you soon.
+                Do drop us an email via the link below and we'll get back to you
+                soon.
               </p>
               <a
                 className="btn btn-primary"
@@ -258,38 +279,43 @@ export default function Home () {
           </div>
         </div>
 
-
-        {
-          selectedTopic && (
-            <Modal isShown={showMentorsModal} onClose={() => setShowMentorsModal(false)} title={mentorsData[selectedTopic].title}>
-              <div className="container">
-                <div className="row">
-                  {mentorsData[selectedTopic].mentors.map(
-                    ({ image, title, link, description }) => (
-                      <div className="row gy-3 mb-4" key={title}>
-                        <div className="col-md-2">
-                          <img
-                            className="thumbnail thumbnail-lg"
-                            alt={title + ' image'}
-                            src={image}
-                          />
-                        </div>
-
-                        <div className="col-md-10">
-                          <h6 className="mb-3">
-                            {title} (<a href={link} target="_blank">LinkedIn</a>)
-                      </h6>
-                          <p>{description}</p>
-                        </div>
+        {selectedTopic && (
+          <Modal
+            isShown={showMentorsModal}
+            onClose={() => setShowMentorsModal(false)}
+            title={mentorsData[selectedTopic].title}
+          >
+            <div className="container">
+              <div className="row">
+                {mentorsData[selectedTopic].mentors.map(
+                  ({ image, title, link, description }) => (
+                    <div className="row gy-3 mb-4" key={title}>
+                      <div className="col-md-2">
+                        <img
+                          className="thumbnail thumbnail-lg"
+                          alt={title + " image"}
+                          src={image}
+                        />
                       </div>
-                    )
-                  )}
-                </div>
+
+                      <div className="col-md-10">
+                        <h6 className="mb-3">
+                          {title} (
+                          <a href={link} target="_blank">
+                            LinkedIn
+                          </a>
+                          )
+                        </h6>
+                        <p>{description}</p>
+                      </div>
+                    </div>
+                  )
+                )}
               </div>
-            </Modal>
-          )
-        }
+            </div>
+          </Modal>
+        )}
       </main>
     </div>
-  );
+  )
 }

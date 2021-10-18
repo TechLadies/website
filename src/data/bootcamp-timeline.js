@@ -1,7 +1,7 @@
 export default [
   {
-    date: '4 July, 11am (SGT)',
-    title: 'Info Session & Application Opens',
+    date: "4 July, 11am (SGT)",
+    title: "Info Session & Application Opens",
     description: (
       <>
         We will share with you more about the application process, and explain
@@ -11,8 +11,8 @@ export default [
     ),
   },
   {
-    date: 'July - August',
-    title: 'Pre-Bootcamp Workshops & Clinics',
+    date: "July - August",
+    title: "Pre-Bootcamp Workshops & Clinics",
     description: (
       <>
         We have a series of workshops lined up to assist you in completing the
@@ -22,8 +22,8 @@ export default [
     ),
   },
   {
-    date: '15 August',
-    title: 'Application Closes',
+    date: "15 August",
+    title: "Application Closes",
     description: (
       <>
         Applications close on 15 August so make sure you submit your completed
@@ -32,8 +32,8 @@ export default [
     ),
   },
   {
-    date: '4 September',
-    title: 'Application results',
+    date: "4 September",
+    title: "Application results",
     description: (
       <>
         Applicants will be notified of their statuses, on a rolling basis,
@@ -43,8 +43,8 @@ export default [
     ),
   },
   {
-    date: '11 and 19 September',
-    title: 'Level Up workshops',
+    date: "11 and 19 September",
+    title: "Level Up workshops",
     description: (
       <>
         The Bootcamp will start with 2 days of Level Up workshops for chosen
@@ -55,8 +55,8 @@ export default [
     ),
   },
   {
-    date: '21 September - 12 December',
-    title: 'TechLadies Bootcamp #6',
+    date: "21 September - 12 December",
+    title: "TechLadies Bootcamp #6",
     description: (
       <>
         Starting from the week of 21 Sep participants will need to code
@@ -65,4 +65,4 @@ export default [
       </>
     ),
   },
-];
+]

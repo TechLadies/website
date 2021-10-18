@@ -1,7 +1,7 @@
-import axios from 'axios'
-import getConfig from 'next/config'
+import axios from "axios"
+import getConfig from "next/config"
 
-const SENDGRID_API = 'https://api.sendgrid.com/v3/contactdb/recipients'
+const SENDGRID_API = "https://api.sendgrid.com/v3/contactdb/recipients"
 
 const addContact = async (req, res) => {
   const { serverRuntimeConfig } = getConfig()
@@ -14,7 +14,7 @@ const addContact = async (req, res) => {
   await axios
     .post(SENDGRID_API, payload, {
       headers: {
-        'Content-Type': 'application/json',
+        "Content-Type": "application/json",
         Authorization: `Bearer ${serverRuntimeConfig.SENDGRID_API_KEY}`,
       },
     })
@@ -25,7 +25,7 @@ const addContact = async (req, res) => {
       () => {
         return res.status(404).json({
           error: {
-            message: 'Unable to add the contact.',
+            message: "Unable to add the contact.",
           },
         })
       }

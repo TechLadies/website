@@ -1,29 +1,29 @@
-import Head from 'next/head';
+import Head from "next/head"
 
-import { useEffect } from 'react';
+import { useEffect } from "react"
 
-import clsx from 'clsx';
+import clsx from "clsx"
 
-import Accordion from '../components/Accordion';
-import Gallery from '../components/Gallery';
-import TestimonialCard from '../components/TestimonialCard';
-import Quiz from '../components/Quiz';
-import NavLink from '../components/NavLink';
+import Accordion from "../components/Accordion"
+import Gallery from "../components/Gallery"
+import TestimonialCard from "../components/TestimonialCard"
+import Quiz from "../components/Quiz"
+import NavLink from "../components/NavLink"
 
-import preloadImages from '../utils/preloadImages';
+import preloadImages from "../utils/preloadImages"
 
-import bootcampTestimonials from '../data/bootcamp-testimonials.js';
-import mentorshipTestimonials from '../data/mentorship-testimonials.js';
-import programsFAQ from '../data/programs-faq.js';
-import quiz from '../data/quiz.js';
+import bootcampTestimonials from "../data/bootcamp-testimonials.js"
+import mentorshipTestimonials from "../data/mentorship-testimonials.js"
+import programsFAQ from "../data/programs-faq.js"
+import quiz from "../data/quiz.js"
 
 export default function Home() {
   useEffect(() => {
-    preloadImages(bootcampTestimonials.map((testimonial) => testimonial.image));
+    preloadImages(bootcampTestimonials.map((testimonial) => testimonial.image))
     preloadImages(
       mentorshipTestimonials.map((testimonial) => testimonial.image)
-    );
-  }, [bootcampTestimonials, mentorshipTestimonials]);
+    )
+  }, [bootcampTestimonials, mentorshipTestimonials])
 
   return (
     <div>
@@ -40,10 +40,10 @@ export default function Home() {
             />
           </div>
           <div className="col-lg-6 offset-lg-1 col-md-6">
-            <h1 className="mb-4 h3">Discover which TechLadies program best suits you with this quiz</h1>
-            <p className="text-body mb-4 large-line-height">
-
-            </p>
+            <h1 className="mb-4 h3">
+              Discover which TechLadies program best suits you with this quiz
+            </h1>
+            <p className="text-body mb-4 large-line-height"></p>
             <Quiz data={quiz} />
           </div>
         </div>
@@ -189,7 +189,13 @@ export default function Home() {
                 our programs. Connect with many others and contribute to the
                 tech community.
               </p>
-              <a className="btn btn-primary" href='https://forms.gle/yPAibeKXEbiN98qg9' target="_blank">I'm interested!</a>
+              <a
+                className="btn btn-primary"
+                href="https://forms.gle/yPAibeKXEbiN98qg9"
+                target="_blank"
+              >
+                I'm interested!
+              </a>
             </div>
           </div>
         </div>
@@ -203,5 +209,5 @@ export default function Home() {
         </div>
       </div>
     </div>
-  );
+  )
 }

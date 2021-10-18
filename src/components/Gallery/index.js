@@ -1,22 +1,22 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useState } from "react"
 
-import clsx from 'clsx';
+import clsx from "clsx"
 
-import styles from './index.module.scss';
+import styles from "./index.module.scss"
 
 function Gallery({ children, startIndex = 0, intervalMs = 5000 }) {
-  const [selectedIndex, setSelectedIndex] = useState(startIndex);
-  const shownItem = children[selectedIndex];
+  const [selectedIndex, setSelectedIndex] = useState(startIndex)
+  const shownItem = children[selectedIndex]
 
   useEffect(() => {
     const timer = setTimeout(() => {
-      setSelectedIndex((selectedIndex + 1) % children.length);
-    }, intervalMs);
+      setSelectedIndex((selectedIndex + 1) % children.length)
+    }, intervalMs)
 
     return () => {
-      clearTimeout(timer);
-    };
-  }, [selectedIndex]);
+      clearTimeout(timer)
+    }
+  }, [selectedIndex])
 
   return (
     <div>
@@ -31,14 +31,14 @@ function Gallery({ children, startIndex = 0, intervalMs = 5000 }) {
             <span
               className={clsx(
                 styles.selectorItem,
-                index === selectedIndex && styles.selectorItemActive,
+                index === selectedIndex && styles.selectorItemActive
               )}
             />
           </button>
         ))}
       </div>
     </div>
-  );
+  )
 }
 
-export default Gallery;
+export default Gallery
