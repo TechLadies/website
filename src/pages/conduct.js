@@ -1,5 +1,4 @@
 import Head from "next/head"
-import Link from "next/link"
 
 export default function Home() {
   return (
@@ -103,13 +102,13 @@ export default function Home() {
             </li>
             <li>
               <b>Most recommended:</b>{" "}
-              <Link
+              <a
                 href="https://docs.google.com/forms/d/e/1FAIpQLSenVJX_Z_aQvWAJM6fqJ9qQSGQaQew9IDJAx1t7SHYGk_zF2g/viewform"
                 target="_blank"
                 rel="noreferrer"
               >
                 Report it to us by filling up this form.
-              </Link>{" "}
+              </a>{" "}
               You can make a report either personally or anonymously, and all
               reports are confidential. Where we determine that a public
               statement will need to be made, the identities of all victims and

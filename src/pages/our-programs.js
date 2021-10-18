@@ -60,13 +60,13 @@ export default function Home() {
               <p className="mb-4">Duration: 15 weeks</p>
               <p className="mb-4">
                 A part-time accelerated learning program designed for women who
-                wish to be professional programmers. You'll be guided by
+                wish to be professional programmers. You&apos;ll be guided by
                 industry experts to create a product. 30% of the TechLadies
                 Bootcamp graduates found software-related jobs and internships.
               </p>
               <button className="btn btn-primary">
                 <NavLink href="/bootcamp-7/">
-                  <a className="white-text">I'm Interested!</a>
+                  <a className="white-text">I&apos;m Interested!</a>
                 </NavLink>
               </button>
             </div>
@@ -106,7 +106,7 @@ export default function Home() {
 
             <button className="btn btn-primary">
               <NavLink href="/mentorship-3/">
-                <a className="white-text">I'm Interested!</a>
+                <a className="white-text">I&apos;m Interested!</a>
               </NavLink>
             </button>
           </div>
@@ -141,13 +141,14 @@ export default function Home() {
               talks, roundtable discussions, study groups and more! TechLadies
               Meet is open to women of all levels of technical skills.
             </p>
-            <a
+            <Link
               className="btn btn-primary"
               href="https://www.eventbrite.sg/o/techladies-11040976589"
               target="_blank"
+              rel="noreferrer"
             >
               See our Events
-            </a>
+            </Link>
           </div>
           <div className="col-md-5">
             <Image
@@ -161,13 +162,14 @@ export default function Home() {
               online for the latest industry news, highlights on awesome women
               in tech, and get support on your journey in tech.
             </p>
-            <a
+            <Link
               className="btn btn-primary"
               href="https://www.facebook.com/groups/techladiescode"
               target="_blank"
+              rel="noreferrer"
             >
               Join us on Facebook
-            </a>
+            </Link>
           </div>
         </div>
       </div>
@@ -188,13 +190,14 @@ export default function Home() {
                 our programs. Connect with many others and contribute to the
                 tech community.
               </p>
-              <a
+              <Link
                 className="btn btn-primary"
                 href="https://forms.gle/yPAibeKXEbiN98qg9"
                 target="_blank"
+                rel="noreferrer"
               >
-                I'm interested!
-              </a>
+                I&apos;m interested!
+              </Link>
             </div>
           </div>
         </div>

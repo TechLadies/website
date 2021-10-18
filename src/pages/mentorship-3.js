@@ -93,8 +93,8 @@ export default function Home() {
                 />
                 <h6>Goal Setting</h6>
                 <p>
-                  Have a clear goal for what you'll like to achieve from this
-                  program.
+                  Have a clear goal for what you&apos;ll like to achieve from
+                  this program.
                 </p>
               </div>
               <div className="col-md-4">

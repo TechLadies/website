@@ -46,8 +46,8 @@ export default function Home() {
                 empowered women to switch careers into tech, but we need help.
                 <br />
                 <br />
-                Join us in our mission to increase women's participation in the
-                tech industry!
+                Join us in our mission to increase women&apos;s participation in
+                the tech industry!
               </p>
               <Link
                 className="btn btn-primary"
@@ -65,9 +65,9 @@ export default function Home() {
             <h3 className="mb-4">Ways you can volunteer</h3>
             <p className="text-primary font-weight-bold">
               TechLadies is led by a group of core team leaders and supported by
-              a larger group of ad hoc helpers. Join us if you're passionate
-              about gender diversity in tech, want to learn new skills, and meet
-              like-minded peers!
+              a larger group of ad hoc helpers. Join us if you&apos;re
+              passionate about gender diversity in tech, want to learn new
+              skills, and meet like-minded peers!
               <br />
               <br />
               We are currently recruiting volunteers for 2021. Do apply by 15
@@ -194,11 +194,11 @@ export default function Home() {
             </div>
             <div className="row">
               <small>
-                Clicking "Contribute" will bring you to make a donation securely
-                via PayPal, where you can donate with all major credit cards.
-                TechLadies' finances are managed by Learnemy Pte Ltd. As we are
-                not a registered non-profit, we cannot send an invoice for tax
-                purposes.
+                Clicking &quot;Contribute&quot; will bring you to make a
+                donation securely via PayPal, where you can donate with all
+                major credit cards. TechLadies&apos; finances are managed by
+                Learnemy Pte Ltd. As we are not a registered non-profit, we
+                cannot send an invoice for tax purposes.
               </small>
             </div>
           </div>
@@ -208,7 +208,7 @@ export default function Home() {
           <div className="row">
             <div className="col-md-8 offset-md-2">
               <h3 className="text-center mb-5">Volunteering FAQ</h3>
-              <Linkccordion data={volunteeringFAQ} />
+              <Accordion data={volunteeringFAQ} />
             </div>
           </div>
         </div>
@@ -228,10 +228,10 @@ export default function Home() {
                 src="/icons/icon_TLbootcamp.png"
               />
               <p>
-                Help create our most impactful program! We've seen Bootcamp
+                Help create our most impactful program! We&apos;ve seen Bootcamp
                 grads switching careers into tech who were previously pet
                 groomer, air stewardess, and customer service rep etc. To
-                continue this program in 2021, we are looking for{" "}
+                continue this program in 2021, we are looking for
                 <b>8-10 Coaches.</b>
               </p>
 
@@ -266,16 +266,15 @@ export default function Home() {
           {selectedTopic === "TechLadies Mentorship" && (
             <>
               <Image
-                class="thumbnail thumbnail-xxl center-image display-block"
+                className="thumbnail thumbnail-xxl center-image display-block"
                 alt="TechLadies Mentorship"
                 src="/icons/icon_TLmentorship.png"
-              ></img>
-
+              />
               <p>
-                Kickstart and grow women's careers in tech! Through TechLadies
-                Mentorship, we have helped women raise their visibility in tech,
-                build their portfolios, and ace their job interviews. To
-                continue this program in 2021, we are looking for{" "}
+                Kickstart and grow women&apos;s careers in tech! Through
+                TechLadies Mentorship, we have helped women raise their
+                visibility in tech, build their portfolios, and ace their job
+                interviews. To continue this program in 2021, we are looking for{" "}
                 <b>
                   3 - 4 Mentorship Leads and ~30 Mentors in Software
                   Engineering, Product Management, Data Science, and UI/UX
@@ -331,11 +330,10 @@ export default function Home() {
           {selectedTopic === "TechLadies Meet" && (
             <>
               <Image
-                class="thumbnail thumbnail-xxl center-image display-block"
+                className="thumbnail thumbnail-xxl center-image display-block"
                 alt="TechLadies Meet"
                 src="/icons/icon_TLmeet.png"
-              ></img>
-
+              />
               <p>
                 Create amazing events every quarter that connect & share
                 insights on the tech industry with our community, including the
@@ -372,7 +370,8 @@ export default function Home() {
                 <b>
                   <i>Ideal profile:</i>
                 </b>{" "}
-                We don't have a preferred profile for this. Anyone can help!
+                We don&apos;t have a preferred profile for this. Anyone can
+                help!
               </p>
 
               <Link
@@ -387,11 +386,10 @@ export default function Home() {
           {selectedTopic === "TechLadies Community" && (
             <>
               <Image
-                class="thumbnail thumbnail-xxl center-image display-block"
+                className="thumbnail thumbnail-xxl center-image display-block"
                 alt="TechLadies Community"
                 src="/icons/icon_TLcommunity.png"
-              ></img>
-
+              />
               <p>
                 Connect and grow the TechLadies community in Asia! This team
                 manages our monthly newsletter Tech List, Ladies in Tech
@@ -423,8 +421,8 @@ export default function Home() {
                 programming, our activities, and discover stories of awesome
                 women in tech. You will help create these amazing content! We
                 are also looking for graphic designers/illustrators - people who
-                know their way around Photoshop, Illustrator, or just good'ol
-                Canva to help us with our marketing collaterals.
+                know their way around Photoshop, Illustrator, or just
+                good&apos;ol Canva to help us with our marketing collaterals.
               </p>
               <p>
                 <b>
