@@ -147,7 +147,7 @@ export default function Home() {
               </div>
               <div className="col-md-5 offset-md-1">
                 <Gallery>
-                  {programs.map(({ image, title, description }) => (
+                  {programs.map(({ image, title, description, link }) => (
                     <div className="card" key="title">
                       <img
                         alt={title + " image"}
@@ -160,7 +160,7 @@ export default function Home() {
                       <div className="card-body">
                         <h3 className="card-title mb-3">{title}</h3>
                         <p className="card-text mb-3">{description}</p>
-                        <a className="font-weight-bold" href="/our-programs">
+                        <a className="font-weight-bold" href={link}>
                           Learn More
                         </a>
                       </div>

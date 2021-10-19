@@ -1,19 +1,21 @@
-export default [
+const programs = [
   {
     image: "/photos/bootcamp.jpg",
     title: "Bootcamp",
+    link: "/our-programs/#bootcamp",
     description: (
       <>
         Looking to become a professional programmer? TechLadies Bootcamp is a
         part-time accelerated learning program where you learn valuable
-        technical skills from industry experts by building a product from
-        scratch.
+        technical skills from industry experts by by building multiple projects
+        from scratch.
       </>
     ),
   },
   {
     image: "/photos/mentorship.jpg",
     title: "Mentorship",
+    link: "/our-programs/#mentorship",
     description: (
       <>
         Ready to start or grow your career in tech? TechLadies Mentorship is a
@@ -26,6 +28,7 @@ export default [
   {
     image: "/photos/meet.jpg",
     title: "Meet",
+    link: "/our-programs/#meet",
     description: (
       <>
         Want to meet like-minded peers? Meet fellow tech ladies through
@@ -38,6 +41,7 @@ export default [
   {
     image: "/photos/community.jpg",
     title: "Community",
+    link: "/our-programs/#community",
     description: (
       <>
         Beyond programs and events, TechLadies is a community. Join us online
@@ -48,3 +52,5 @@ export default [
     ),
   },
 ]
+
+export default programs
