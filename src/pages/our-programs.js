@@ -49,11 +49,11 @@ export default function Home() {
         </div>
       </div>
       <div className="bg-gray">
-        <div className="container py-6">
+        <div id="bootcamp" className="container py-6">
           <div className="row gy-5">
             <div className="col-md-5 offset-md-1 col-lg-6 offset-lg-1 order-md-last">
               <img
-                alt="TODO: REPLACE ME"
+                alt="TechLadies Bootcamp"
                 className="thumbnail thumbnail-xl mb-4"
                 src="/icons/icon_TLbootcamp.png"
               />
@@ -90,10 +90,10 @@ export default function Home() {
         </div>
       </div>
       <div className="container py-6">
-        <div className="row gy-5">
+        <div id="mentorship" className="row gy-5">
           <div className="col-lg-6 col-md-5">
             <img
-              alt="TODO: REPLACE ME"
+              alt="TechLadies Mentorship"
               className="thumbnail thumbnail-xl mb-4"
               src="/icons/icon_TLmentorship.png"
             />
@@ -130,9 +130,9 @@ export default function Home() {
       </div>
       <div className="container py-6 text-center">
         <div className="row gy-6">
-          <div className="col-md-5 offset-md-1">
+          <div id="meet" className="col-md-5 offset-md-1">
             <img
-              alt="TODO: REPLACE ME"
+              alt="TechLadies Meet"
               className="thumbnail thumbnail-xl mb-4"
               src="/icons/icon_TLmeet.png"
             />
@@ -150,9 +150,9 @@ export default function Home() {
               See our Events
             </a>
           </div>
-          <div className="col-md-5">
+          <div id="community" className="col-md-5">
             <img
-              alt="TODO: REPLACE ME"
+              alt="TechLadies Community"
               className="thumbnail thumbnail-xl mb-4"
               src="/icons/icon_TLcommunity.png"
             />
