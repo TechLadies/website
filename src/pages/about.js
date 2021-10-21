@@ -35,7 +35,7 @@ export default function Home() {
                 className="btn btn-primary"
                 href="https://www.facebook.com/groups/techladiescode/"
                 target="_blank"
-                rel="noopener"
+                rel="noopener noreferrer"
               >
                 Join our Community on Facebook
               </a>
@@ -85,7 +85,7 @@ export default function Home() {
                   <p className="card-text">
                     Leads chapters in Singapore, Malaysia, and Vietnam.
                   </p>
-                  <div className="mb-4">
+                  <div className="mb-4 d-flex flex-row flex-wrap">
                     <img
                       className="thumbnail thumbnail-lg"
                       alt="Elisha Tan"

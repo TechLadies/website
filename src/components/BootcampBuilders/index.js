@@ -11,14 +11,14 @@ function BootcampBuilders(props) {
 
   return (
     <div className="container py-6">
-      <div className="row">
+      <div className="row m-0">
         <h2 className="mb-4 text-center">Bootcamp Builders</h2>
         <div className="row">
           {firstThreeBuilders.map(
             ({ image, name, title, description }, index) => (
               <div className="col-12 col-md-4" key={index}>
-                <div className="row">
-                  <div className="col-md-4">
+                <div className="d-flex flex-row">
+                  <div className="col-md-4 pr-3">
                     <img
                       className="thumbnail thumbnail-lg"
                       alt={title + " image"}
