@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700&display=swap');
-@import 'custom.scss';
-@import '~bootstrap/scss/bootstrap.scss';
-@import 'bootstrap-overrides.scss';
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700&display=swap");
+@import "custom.scss";
+@import "~bootstrap/scss/bootstrap.scss";
+@import "bootstrap-overrides.scss";
 
 html {
   text-rendering: optimizelegibility;
@@ -38,6 +38,10 @@ a {
 
   &.thumbnail-lg {
     width: 5rem;
+
+    @media (max-width: 375px) {
+      margin: 0 1rem 1rem 1rem;
+    }
   }
 
   &.thumbnail-xl {
