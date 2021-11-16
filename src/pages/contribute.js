@@ -52,7 +52,7 @@ export default function Home() {
               <a
                 className="btn btn-primary"
                 target="_blank"
-                href="https://docs.google.com/forms/d/e/1FAIpQLSepj-kx0qMTe7stfAiRB9slYA-HvTTiT3GvbodLj23geH8ZIg/viewform"
+                href="https://forms.gle/R5zeetywXYGvrY2T9"
               >
                 Volunteer with TechLadies
               </a>
@@ -69,8 +69,8 @@ export default function Home() {
               like-minded peers!
               <br />
               <br />
-              We are currently recruiting volunteers for 2021. Do apply by 15
-              Jan 2021 if you are interested.
+              We are currently recruiting volunteers for 2022. Do apply by 17th
+              Dec 2021 if you are interested.
             </p>
           </div>
 
@@ -231,7 +231,7 @@ export default function Home() {
                 Help create our most impactful program! We've seen Bootcamp
                 grads switching careers into tech who were previously pet
                 groomer, air stewardess, and customer service rep etc. To
-                continue this program in 2021, we are looking for{" "}
+                continue this program in 2022, we are looking for{" "}
                 <b>8-10 Coaches.</b>
               </p>
 
@@ -275,7 +275,7 @@ export default function Home() {
                 Kickstart and grow women's careers in tech! Through TechLadies
                 Mentorship, we have helped women raise their visibility in tech,
                 build their portfolios, and ace their job interviews. To
-                continue this program in 2021, we are looking for{" "}
+                continue this program in 2022, we are looking for{" "}
                 <b>
                   3 - 4 Mentorship Leads and ~30 Mentors in Software
                   Engineering, Product Management, Data Science, and UI/UX
@@ -295,8 +295,8 @@ export default function Home() {
                 <b>
                   <i>Ideal profile:</i>
                 </b>{" "}
-                You have good project management skills and able to spend about
-                6 hours per month in 2021.
+                You have good project management skills and is able to commit about
+                6 hours per month in 2022.
               </p>
 
               <h5>Ad Hoc: ~30 Mentors</h5>
@@ -311,7 +311,7 @@ export default function Home() {
                 <b>
                   <i>Ideal profile:</i>
                 </b>{" "}
-                You have at least 3 years of experiences in either software
+                You have at least 3 years of experience in either software
                 engineering, data science/engineering, product management, or
                 UI/UX. You can expect to spend about 3 hours per month during
                 the program in mentorship and taking part in ancillary
@@ -414,7 +414,7 @@ export default function Home() {
                 You should be comfortable with digital marketing and community
                 engagement, including maintaining a Facebook page, Facebook
                 group, Twitter, Instagram, and creating newsletters. You will
-                spend roughly 5 hours every month in 2021.
+                spend roughly 5 hours every month in 2022.
               </p>
 
               <h5>Ad Hoc: 3 - 4 Content Creators</h5>
