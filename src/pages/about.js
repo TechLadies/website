@@ -234,18 +234,28 @@ export default function Home() {
                 <div className="card-body card-body-sm">
                   <h6 className="card-title">Events Team</h6>
                   <p className="card-text">
-                    Organizes activities to engage with the community.
+                    Organize activities to engage with the community.
                   </p>
                   <div className="mb-4">
                     <img
                       className="thumbnail thumbnail-lg"
-                      alt="Giselle Cheo"
-                      src="/team/giselle.png"
+                      alt="Nisha Sharda"
+                      src="/team/evenisha.png"
                     />
                     <img
                       className="thumbnail thumbnail-lg"
-                      alt="Vanessa Zhao"
-                      src="/team/vanessa.jpg"
+                      alt="Zhang Xuqian"
+                      src="/team/evexuqian.png"
+                    />
+                    <img
+                      className="thumbnail thumbnail-lg"
+                      alt="Yuka Suzuki"
+                      src="/team/eveyuka.png"
+                    />
+                    <img
+                      className="thumbnail thumbnail-lg"
+                      alt="Poon Chor Yi"
+                      src="/team/choryi.jpeg"
                     />
                   </div>
                   <a href="mailto:events@techladies.co">
