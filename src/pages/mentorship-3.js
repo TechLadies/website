@@ -118,70 +118,52 @@ export default function Home() {
 
         <div className="container py-6">
           <div className="row">
-            <h2 className="text-center mb-5">Why join us as a Mentee?</h2>
-            <div className="col-md-4">
+            <h2 className="text-center mb-5">Why join us as a Mentor?</h2>
+            <div className="container">
               <img
-                className="thumbnail thumbnail-lg mb-2 "
+                className="container mb-6"
                 alt="mentorship growth"
-                src="/icons/mentorship/growth.jpg"
+                src="/photos/team2.jpg"
               />
-              <h6>Grow your career in tech</h6>
-              <p>
-                One of the best ways to advance in the work you do is to learn
-                from a mentor, someone who has a wealth of experience and is
-                able to give you the guidance, feedback, and institutional
-                knowledge.
-              </p>
-              <p>
-                In a mentorship, you can also develop a better awareness of your
-                strengths and weaknesses to reach your specific career goals.
-              </p>
             </div>
-            <div className="col-md-4">
-              <img
-                className="thumbnail thumbnail-lg mb-2 "
-                alt="mentorship network"
-                src="/icons/mentorship/network.jpg"
-              />
-              <h6>Expand your professional network</h6>
-              <p>
-                Working with a mentor is also a great chance to be introduced to
-                networks, companies and individuals which you previously never
-                had access to.
-              </p>
-              <p>
-                The benefits of an expanded network is abundant, ranging from
-                broadened perspectives, new collaborations or even employment
-                opportunities!
-              </p>
+            <div className="col-md-3 text-center">
+                <img
+                  className="thumbnail thumbnail-lg mb-2 "
+                  alt="product management"
+                  src="/img/paper-plane.svg"
+                />
+              <h6>You are passionate about empowering others to succeed in their career.</h6>
             </div>
-            <div className="col-md-4">
-              <img
-                className="thumbnail thumbnail-lg mb-2 "
-                alt="mentorship programs"
-                src="/icons/mentorship/programs.jpg"
-              />
-              <h6>Structured program</h6>
-              <p>
-                {" "}
-                We know how difficult it can be to find a mentor that is right
-                for you and develop a relationship from there. The TechLadies
-                Mentorship team has designed a structured program that has
-                helped make the journey of mentorship fruitful and enjoyable for
-                both mentors and mentees!
-              </p>
-              <p>
-                In our program, we will be matching you with experienced and
-                passionate mentors from the TechLadies community! Check out our
-                mentors below!
-              </p>
+            <div className="col-md-3 text-center">
+                <img
+                  className="thumbnail thumbnail-md mb-2 "
+                  alt="product management"
+                  src="/img/paper-plane.svg"
+                />
+              <h6>You desire to make a difference for aspiring women in Tech.</h6>
+            </div>
+            <div className="col-md-3 text-center">
+                <img
+                  className="thumbnail thumbnail-lg mb-2 "
+                  alt="product management"
+                  src="/img/paper-plane.svg"
+                />
+              <h6>You believe mentoring is a two-way learning - for you and your mentees.</h6>
+            </div>
+            <div className="col-md-3 text-center">
+                <img
+                  className="thumbnail thumbnail-md mb-2 "
+                  alt="product management"
+                  src="/img/paper-plane.svg"
+                />
+              <h6>You want to contribute to the Tech community with your time and expertise.</h6>
             </div>
           </div>
         </div>
 
         <div className="bg-gray">
           <div className="container py-6">
-            <h2 className="mb-5 text-center">Program Timeline 2021</h2>
+            <h2 className="mb-5 text-center">Program Timeline 2022</h2>
             <div className="row gy-4">
               <Timeline>
                 {mentorshipTimeline.map(({ date, title, description }) => (
