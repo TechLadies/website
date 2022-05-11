@@ -34,29 +34,28 @@ export default function Home() {
         <div className="container py-6">
           <div className="row gy-6">
             <div className="col-md-6">
-              <h1 class="large-line-height">TechLadies Mentorship</h1>
+              <h1 class="large-line-height">TechLadies Mentorship 2022</h1>
               <p className="mb-4 text-body large-line-height">
-                TechLadies Mentorship is a 12-week program that provides women
+                TechLadies Mentorship provides women
                 with personal career guidance from experienced industry
                 practitioners as they grow their career in Software Engineering,
                 UI/UX Design, Data Science/Engineering/Analysis, Product
                 Management.
                 <br />
                 <br />
-                Registration for the TechLadies Mentorship Program 2021 has just
-                opened. Sign up for this year’s Mentorship Program now!
+                If you are interested in contributing your expertise to mentor junior professionals or recent graduates, we would love for you to join us!
               </p>
               <div className="row">
                 <div className="col-md-6">
                   <a
                     className="btn btn-primary"
                     target="_blank"
-                    href="https://forms.gle/2a1Ns12WSV5tJJ3b7"
+                    href="https://forms.gle/uiuY13fE7d1nvpq2A"
                   >
                     Sign up as Mentor!
                   </a>
                 </div>
-                <div className="col-md-6">
+                {/* <div className="col-md-6">
                   <a
                     className="btn btn-primary"
                     target="_blank"
@@ -64,7 +63,7 @@ export default function Home() {
                   >
                     Sign up as Mentee!
                   </a>
-                </div>
+                </div> */}
               </div>
             </div>
             <div className="col-md-5  offset-md-1">
@@ -80,40 +79,38 @@ export default function Home() {
         <div className="bg-gray">
           <div className="container py-6">
             <div className="row">
-              <h2 className="text-center mb-5">Mentees Program Requirements</h2>
-              <div className="col-md-4">
+              <h2 className="text-center mb-5">Mentorship Focus Areas</h2>
+              <div className="col-md-3 text-center">
                 <img
-                  className="thumbnail thumbnail-lg mb-2 "
-                  alt="mentorship goal setting"
-                  src="/icons/mentorship/goalsetting.png"
+                  className="thumbnail thumbnail-xl mb-2 "
+                  alt="data science engineering"
+                  src="/icons/icon_datascience.png"
                 />
-                <h6>Goal Setting</h6>
-                <p>
-                  Have a clear goal for what you'll like to achieve from this
-                  program.
-                </p>
+                <h6>Data Science / Engineering</h6>
               </div>
-              <div className="col-md-4">
+              <div className="col-md-3 text-center">
                 <img
-                  className="thumbnail thumbnail-lg mb-2 "
-                  alt="mentorship biweekly"
-                  src="/icons/mentorship/biweekly.png"
+                  className="thumbnail thumbnail-xl mb-2 "
+                  alt="product management"
+                  src="/icons/icon_productmanagement.png"
                 />
-                <h6>Bi-weekly commitments</h6>
-                <p>
-                  Commit to bi-weekly meetings (offline/virtual) with their
-                  mentors. Provide feedback on your progress with your mentor
-                  via a short report.
-                </p>
+                <h6>Product Management</h6>
               </div>
-              <div className="col-md-4">
+              <div className="col-md-3 text-center">
                 <img
-                  className="thumbnail thumbnail-lg mb-2 "
-                  alt="mentorship presentation"
-                  src="/icons/mentorship/presentation.png"
+                  className="thumbnail thumbnail-xl mb-2 "
+                  alt="software engineering"
+                  src="/icons/icon_softwaredevelopment.png"
                 />
-                <h6>Final Presentation</h6>
-                <p>Present a final project at the end of the program.</p>
+                <h6>Software Engineering</h6>
+              </div>
+              <div className="col-md-3 text-center">
+                <img
+                  className="thumbnail thumbnail-xl mb-2 "
+                  alt="UI UX"
+                  src="/icons/icon_UIUX.png"
+                />
+                <h6>UI / UX</h6>
               </div>
             </div>
           </div>
