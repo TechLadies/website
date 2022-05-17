@@ -197,6 +197,43 @@ export default function Home() {
           </div>
         </div>
 
+        <div className="bg-gray">
+          <div className="container py-6">
+            <div className="row">
+              <h2 className="text-center mb-5">Meet Our TechLadies Mentorship Core Team 2022</h2>
+              <div className="col-md-3 text-center">
+                <img
+                  className="thumbnail thumbnail-xl mb-2 "
+                  alt="diya"
+                  src="/team/bootdiya.png"
+                />
+              </div>
+              <div className="col-md-3 text-center">
+                <img
+                  className="thumbnail thumbnail-xl mb-2 "
+                  alt="xuqian"
+                  src="/team/evexuqian.png"
+                />
+              </div>
+              <div className="col-md-3 text-center">
+                <img
+                  className="thumbnail thumbnail-xl mb-2 "
+                  alt="ena"
+                  src="/team/coreteam2022/ment_ena.jpeg"
+                />
+              </div>
+              <div className="col-md-3 text-center">
+                <img
+                  className="thumbnail thumbnail-xl mb-2 "
+                  alt="ruhani"
+                  src="/team/coreteam2022/ment_ruhani.jpg"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+
+
         <div className="container py-6">
           <div className="row">
             <h2 className="mb-4 text-center">Mentors from 2021</h2>
