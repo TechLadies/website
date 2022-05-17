@@ -120,26 +120,26 @@ export default function Home() {
                   <p className="card-text">
                     Leads the TechLadies Mentorship program.
                   </p>
-                  <div className="mb-4">
+                  <div className="mb-4 d-flex flex-row flex-wrap">
                     <img
                       className="thumbnail thumbnail-lg"
-                      alt="Saloni Kaur"
-                      src="/team/mentsaloni.png"
+                      alt="Diya"
+                      src="/team/bootdiya.png"
+                    />
+                   <img
+                      className="thumbnail thumbnail-lg"
+                      alt="Xuqian"
+                      src="/team/evexuqian.png"
                     />
                     <img
                       className="thumbnail thumbnail-lg"
-                      alt="Yeo Wan Qing"
-                      src="/team/mentwanqing.png"
+                      alt="Ena"
+                      src="/team/coreteam2022/ment_ena.jpeg"
                     />
                     <img
                       className="thumbnail thumbnail-lg"
-                      alt="Gladys Jahja"
-                      src="/team/mentgladys.png"
-                    />
-                    <img
-                      className="thumbnail thumbnail-lg"
-                      alt="Alexandra Mercz"
-                      src="/team/mentalexandra.png"
+                      alt="Ruhani"
+                      src="/team/coreteam2022/ment_ruhani.jpg"
                     />
                   </div>
                   <a href="mailto:mentorship@techladies.co">
@@ -148,44 +148,28 @@ export default function Home() {
                 </div>
               </div>
             </div>
-
-            <div className="col-lg-12 col-md-8 col-12">
+            <div className="col-lg-6 col-md-6">
               <div className="card">
                 <div className="card-body card-body-sm">
                   <h6 className="card-title">Bootcamp Team</h6>
                   <p className="card-text">
                     Leads our flagship program, TechLadies Bootcamp.
                   </p>
-                  <div className="mb-4">
+                  <div className="mb-4 d-flex flex-row flex-wrap">
                     <img
                       className="thumbnail thumbnail-lg"
-                      alt="Jeslyn"
-                      src="/team/bootcamp7/jeslyn.png"
+                      alt="Siew Yean"
+                      src="/team/coreteam2022/boot_siew_yean.jpg"
                     />
                     <img
                       className="thumbnail thumbnail-lg"
-                      alt="Nicole"
-                      src="/team/bootcamp7/nicole.jpg"
+                      alt="Xi Yi"
+                      src="/team/coreteam2022/boot_xi_yi.png"
                     />
                     <img
                       className="thumbnail thumbnail-lg"
-                      alt="Diya"
-                      src="/team/bootdiya.png"
-                    />
-                    <img
-                      className="thumbnail thumbnail-lg"
-                      alt="Akshata"
-                      src="/team/bootcamp7/akshata.png"
-                    />
-                    <img
-                      className="thumbnail thumbnail-lg"
-                      alt="Thomas"
-                      src="/team/bootcamp7/thomas.jpg"
-                    />
-                    <img
-                      className="thumbnail thumbnail-lg"
-                      alt="Andrew"
-                      src="/team/bootcamp7/andrew.jpg"
+                      alt="Sushama"
+                      src="/team/coreteam2022/boot_sushama.png"
                     />
                   </div>
                   <a href="mailto:bootcamp@techladies.co">
@@ -201,26 +185,16 @@ export default function Home() {
                   <p className="card-text">
                     Grows our TechLadies Community online.
                   </p>
-                  <div className="mb-4">
+                  <div className="mb-4 d-flex flex-row flex-wrap">
                     <img
                       className="thumbnail thumbnail-lg"
-                      alt="Audrey Kon"
+                      alt="Audrey"
                       src="/team/commaudz.png"
                     />
                     <img
                       className="thumbnail thumbnail-lg"
-                      alt="Pauline Yoong"
+                      alt="Pauline"
                       src="/team/commpauline.jpg"
-                    />
-                    <img
-                      className="thumbnail thumbnail-lg"
-                      alt="Cherie Tan"
-                      src="/team/commcherie.png"
-                    />
-                    <img
-                      className="thumbnail thumbnail-lg"
-                      alt="Priyanka"
-                      src="/team/commpriyanka.png"
                     />
                   </div>
                   <a href="mailto:elisha@techladies.co">
@@ -236,30 +210,40 @@ export default function Home() {
                   <p className="card-text">
                     Organize activities to engage with the community.
                   </p>
-                  <div className="mb-4">
+                  <div className="mb-4 d-flex flex-row flex-wrap">
                     <img
                       className="thumbnail thumbnail-lg"
-                      alt="Nisha Sharda"
-                      src="/team/evenisha.png"
-                    />
-                    <img
-                      className="thumbnail thumbnail-lg"
-                      alt="Zhang Xuqian"
-                      src="/team/evexuqian.png"
-                    />
-                    <img
-                      className="thumbnail thumbnail-lg"
-                      alt="Yuka Suzuki"
-                      src="/team/eveyuka.png"
-                    />
-                    <img
-                      className="thumbnail thumbnail-lg"
-                      alt="Poon Chor Yi"
-                      src="/team/choryi.jpeg"
+                      alt="Beatrice"
+                      src="/icons/icon_TLmeet.png"
                     />
                   </div>
                   <a href="mailto:events@techladies.co">
                     Contact the Events Team
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-6 col-md-6">
+              <div className="card">
+                <div className="card-body card-body-sm">
+                  <h6 className="card-title">Partnerships Team</h6>
+                  <p className="card-text">
+                    Leads partnership conversations.
+                  </p>
+                  <div className="mb-4">
+                    <img
+                      className="thumbnail thumbnail-lg"
+                      alt="Lillian"
+                      src="/team/lillian.jpg"
+                    />
+                    <img
+                      className="thumbnail thumbnail-lg"
+                      alt="Debby"
+                      src="/team/coreteam2022/part_debby.jpg"
+                    />
+                  </div>
+                  <a href="mailto:partnerships@techladies.co">
+                    Contact the Partnerships Team
                   </a>
                 </div>
               </div>
