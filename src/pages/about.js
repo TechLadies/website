@@ -196,29 +196,14 @@ export default function Home() {
                       alt="Pauline"
                       src="/team/commpauline.jpg"
                     />
+                    <img
+                      className="thumbnail thumbnail-lg"
+                      alt="Charu"
+                      src="/team/coreteam2022/comm_charu.jpeg"
+                    />
                   </div>
                   <a href="mailto:elisha@techladies.co">
                     Contact the Community Team
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-6 col-md-6">
-              <div className="card">
-                <div className="card-body card-body-sm">
-                  <h6 className="card-title">Events Team</h6>
-                  <p className="card-text">
-                    Organize activities to engage with the community.
-                  </p>
-                  <div className="mb-4 d-flex flex-row flex-wrap">
-                    <img
-                      className="thumbnail thumbnail-lg"
-                      alt="Beatrice"
-                      src="/icons/icon_TLmeet.png"
-                    />
-                  </div>
-                  <a href="mailto:events@techladies.co">
-                    Contact the Events Team
                   </a>
                 </div>
               </div>
@@ -240,6 +225,11 @@ export default function Home() {
                       className="thumbnail thumbnail-lg"
                       alt="Debby"
                       src="/team/coreteam2022/part_debby.jpg"
+                    />
+                    <img
+                      className="thumbnail thumbnail-lg"
+                      alt="Nicole"
+                      src="/team/bootnicole.png"
                     />
                   </div>
                   <a href="mailto:partnerships@techladies.co">
