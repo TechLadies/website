@@ -1,33 +1,62 @@
 export default [
   {
-    date: "17 July, 2:30pm (SGT)",
-    title: "Info Session & Application Opens",
+    date: "27th August 2022",
+    title: "Getting Started with HTML, CSS and Javascript",
     description: (
       <>
-        We will share details and requirements of the application process and
-        the bootcamp modules. Women interested in the TechLadies Bootcamp #7
-        should join this meeting.
+        &middot; Overview HTML, CSS and Javascript
+        <br></br>
+        &middot; Create simple app using HTML, CSS and Javascript
+
       </>
     ),
   },
   {
-    date: "July - August",
-    title: "Pre-Bootcamp Workshops & Clinics",
+    date: "10th September 2022",
+    title: "Introduction to Git & Database/NoSQL/SQL ",
     description: (
       <>
-        We have a series of workshops lined up to assist you in completing the
-        technical task. These workshops are open to all women who are keen to
-        learn.
+ 
       </>
     ),
   },
   {
-    date: "1 October",
-    title: "Application Closes",
+    date: "24th September 2022",
+    title: "Getting started with Rest API & NodeJS",
     description: (
       <>
-        Applications close on 1 October so make sure you submit your completed
-        Technical Task and application form to be considered for the Bootcamp.
+        &middot; Gain an overview of Rest API and NodeJS
+      </>
+    ),
+  },
+  {
+    date: "8th October 2022",
+    title: "Application Getting started with ExpressJS & React",
+    description: (
+      <>
+        &middot; Overview with ExpressJS
+        &middot; Create simple endpoint
+        <br></br> 
+        &middot; Overview of React
+        &middot; Create simple React app
+
+      </>
+    ),
+  },
+  {
+    date: "22nd October 2022",
+    title: "Introduction to Agile, Scrum or Kanban & React Level up",
+    description: (
+      <>
+        &middot; Overview 
+        &middot; How this works to the team
+        &middot; Devtools
+        <br></br>
+        &middot; Lifecycle of React
+        &middot; Hooks
+        &middot; State Management
+        <br></br>
+        &middot; Connecting with Rest API
       </>
     ),
     cta: (
@@ -39,38 +68,6 @@ export default [
       >
         Apply Now
       </a>
-    ),
-  },
-  {
-    date: "3 October",
-    title: "Application results",
-    description: (
-      <>
-        Applicants will be notified of their statuses, on a rolling basis,
-        latest by 3 October. You may be contacted if we have questions, so do
-        keep your eyes peeled on your email inbox!
-      </>
-    ),
-  },
-  {
-    date: "9 October '21 - 15 January '22",
-    title: "TechLadies Bootcamp #7",
-    description: (
-      <>
-        Starting from the week of 9 Oct participants will need to code
-        15hrs/week, inclusive of attending coding sessions every Sat from 10am
-        to 3pm 😱
-      </>
-    ),
-  },
-  {
-    date: "15 January 2022 - 29 January 2022",
-    title: "TechLadies Bootcamp #7 Conclusion",
-    description: (
-      <>
-        Participants consolidate all they've learned into a portfolio and gear
-        up to face real interviews - ready to step into the tech industry!
-      </>
     ),
   },
 ]

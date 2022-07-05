@@ -29,13 +29,11 @@ export default function Home() {
             <div className="col-md-6 offset-md-1">
               <h1 className="large-line-height mt-4">TechLadies Bootcamp</h1>
               <p className="mb-4 text-body large-line-height">
-                The TechLadies Bootcamp #7 is a 15-week part-time accelerated
-                learning program designed to help women with basic programming
-                background become professional programmers.
+              The TechLadies Bootcamp #8 offers 5 weekend part-time workshops to help women come into TECH. 
               </p>
               <p className="mb-4 text-body large-line-height">
-                You will be guided by industry experts, and get hands-on
-                experience building multiple projects.
+              Regardless of your technical background, you will be taught by industry experts on how
+              to get started with various coding languages and software development.
               </p>
               {REGISTRATION_OPEN && (
                 <a
@@ -87,8 +85,7 @@ export default function Home() {
                   src="../photos/bootcamp_stage.jpg"
                 />
                 <h4 className="my-4">
-                  This program will take place in Singapore from 9 Oct 2021 to
-                  29 Jan 2022 and cost SGD550.
+                This program will take place in Singapore from Aug 2022 to Oct 2022.
                 </h4>
                 <p>
                   Full scholarships are provided for people with financial
@@ -97,7 +94,7 @@ export default function Home() {
                 </p>
               </div>
               <div className="col-md-6">
-                <h4 className="mb-3 h6">Registration and Selection:</h4>
+                <h4 className="mb-3 h6">Registration:</h4>
                 <div className="d-inline-flex mb-4">
                   <img
                     alt="Checkbox"
@@ -107,14 +104,35 @@ export default function Home() {
                     className="mr-2"
                   />
                   <p>
-                    Submit an application form AND a simple technical task for
-                    us to evaluate your technical capabilities. Task details
-                    will be available in July in a repository on Github. Each
-                    selected participant will be paired with a Coach.
+                  Submit your application form. Slot for each session is given on a first come first serve basis.
+                  </p>
+                </div>
+                <div className="d-inline-flex mb-4">
+                  <img
+                    alt="Checkbox"
+                    src="/icons/check-square.svg"
+                    height="32"
+                    width="32"
+                    className="mr-2"
+                  />
+                  <p>
+                  For beginners in Tech, you are encourage to attend all sessions to have a comprehensive understanding of Web App development.
+                  </p>
+                </div>
+                <div className="d-inline-flex mb-4">
+                  <img
+                    alt="Checkbox"
+                    src="/icons/check-square.svg"
+                    height="32"
+                    width="32"
+                    className="mr-2"
+                  />
+                  <p>
+                  Each session is SGD$40. Sign up for all 5 sessions at a discounted rate of SGD$160 (i.e the fifth session is FREE!)
                   </p>
                 </div>
                 <h4 className="mb-3 h6">
-                  During the Bootcamp, you are required to:
+                  Workshops:
                 </h4>
                 <div className="flex-column">
                   <div className="d-inline-flex">
@@ -126,8 +144,7 @@ export default function Home() {
                       className="mr-2"
                     />
                     <p>
-                      Put in at least 15 hours each week, inclusive of attending
-                      coding sessions.
+                     Attend the workshops.
                     </p>
                   </div>
                   <div className="d-inline-flex mb-4">
@@ -139,12 +156,12 @@ export default function Home() {
                       className="mr-2"
                     />
                     <p>
-                      Attend all workshops conducted and at least 80% of coding
-                      sessions on every Saturday. (10am - 3pm)
+                    Practise is key! Put in at least 15 hours each week, inclusive of attending the workshops. 
+                    Additional time practising is definitely needed to pick up coding skills. 
                     </p>
                   </div>
                 </div>
-                <h4 className="mb-3 h6">After the Bootcamp:</h4>
+                <h4 className="mb-3 h6">Post Workshops:</h4>
                 <div className="flex-column">
                   <div className="d-inline-flex">
                     <img
@@ -155,21 +172,8 @@ export default function Home() {
                       className="mr-2"
                     />
                     <p>
-                      Present your portfolio at the TechLadies Graduation Party
-                      in Jan 2022.
-                    </p>
-                  </div>
-                  <div className="d-inline-flex">
-                    <img
-                      alt="Checkbox"
-                      src="/icons/check-square.svg"
-                      height="32"
-                      width="32"
-                      className="mr-2"
-                    />
-                    <p>
-                      Prepare for technical interviews and start applying for
-                      engineering roles.
+                      Continue to push code, learn new languages and build your portfolio. Reach out to the TechLadies Community 
+                      to learn more about technical interviews and interview skills.
                     </p>
                   </div>
                 </div>
@@ -178,7 +182,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="container py-6">
+        {/* <div className="container py-6">
           <div className="row">
             <h3 className="mb-4">
               Don't worry if it sounds scary, we’ve programs to help with the
@@ -211,11 +215,11 @@ export default function Home() {
               </p>
             </div>
           </div>
-        </div>
+        </div> */}
 
         <div className="bg-gray">
           <div className="container py-6">
-            <h2 className="mb-4 text-center">Program Timeline</h2>
+            <h2 className="mb-4 text-center">Workshop Schedule</h2>
             <div className="row">
               <Timeline>
                 {bootcampTimeline.map(
@@ -233,7 +237,7 @@ export default function Home() {
           </div>
         </div>
 
-        <BootcampBuilders data={bootcampBuilders} />
+        {/* <BootcampBuilders data={bootcampBuilders} /> */}
 
         <div className="bg-gray">
           <div className="container py-6">
