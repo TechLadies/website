@@ -38,7 +38,7 @@ export default function Home() {
               {REGISTRATION_OPEN && (
                 <a
                   className="btn btn-primary"
-                  href="https://forms.gle/PiSSWK5MMDV7NR6R9"
+                  href="https://forms.gle/5FmKpBvNpgedWGoh9"
                   target="blank"
                   rel="noopener"
                 >
@@ -57,13 +57,13 @@ export default function Home() {
                   <div className="card">
                     <div className="card-body">
                       <img
-                        alt="TecLadies Bootcamp #6"
+                        alt="TechLadies Bootcamp #8"
                         src="/icons/icon_TLbootcamp.png"
                         className="thumbnail thumbnail-xl mb-4 center-image display-block"
                       />
                       <p className="mb-4">
                         Applications to the TechLadies Bootcamp will begin in
-                        July 2021. To stay updated, please sign up for our
+                        2022. To stay updated, please sign up for our
                         newsletter below.
                       </p>
                       <EmailSubscription />

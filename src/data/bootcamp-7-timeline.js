@@ -62,7 +62,7 @@ export default [
     cta: (
       <a
         className="btn btn-primary mb-3"
-        href="https://forms.gle/ZtmtuGau7b5dL8wb8"
+        href="https://forms.gle/5FmKpBvNpgedWGoh9"
         target="blank"
         rel="noopener"
       >
