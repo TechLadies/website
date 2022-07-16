@@ -5,7 +5,7 @@ export default [
     description: <>Apply to be a mentor for Techladies Mentorship #4.</>,
   },
   {
-    date: "June 2022",
+    date: "July 2022",
     title: "Menteeship Applications Open",
     description: (
       <>
@@ -14,7 +14,7 @@ export default [
     ),
   },
   {
-    date: "July 2022 - Sept 2022 (Projected)",
+    date: "August 2022 - October 2022 (Projected)",
     title: "Mentorship Program",
     description: (
       <>
@@ -23,7 +23,7 @@ export default [
     ),
   },
   {
-    date: "October 2022 (Projected)",
+    date: "November 2022 (Projected)",
     title: "Final Project Showcase",
     description: (
       <>
