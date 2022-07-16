@@ -55,15 +55,15 @@ export default function Home() {
                     Sign up as Mentor!
                   </a>
                 </div>
-                {/* <div className="col-md-6">
+                <div className="col-md-6">
                   <a
                     className="btn btn-primary"
                     target="_blank"
-                    href="https://forms.gle/5xoBrmBPyNNuqpgo9"
+                    href="https://forms.gle/PjFKJLU3XForvXkRA"
                   >
                     Sign up as Mentee!
                   </a>
-                </div> */}
+                </div>
               </div>
             </div>
             <div className="col-md-5  offset-md-1">
