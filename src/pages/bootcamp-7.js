@@ -38,7 +38,7 @@ export default function Home() {
               {REGISTRATION_OPEN && (
                 <a
                   className="btn btn-primary"
-                  href="https://forms.gle/ZtmtuGau7b5dL8wb8"
+                  href="https://forms.gle/PiSSWK5MMDV7NR6R9"
                   target="blank"
                   rel="noopener"
                 >
