@@ -66,7 +66,7 @@ export default function Home() {
                 Bootcamp graduates found software-related jobs and internships.
               </p>
               <button className="btn btn-primary">
-                <NavLink href="/bootcamp-7/">
+                <NavLink href="/bootcamp/">
                   <a className="white-text">I'm Interested!</a>
                 </NavLink>
               </button>
@@ -106,7 +106,7 @@ export default function Home() {
             </p>
 
             <button className="btn btn-primary">
-              <NavLink href="/mentorship-3/">
+              <NavLink href="/mentorship/">
                 <a className="white-text">I'm Interested!</a>
               </NavLink>
             </button>

@@ -28,7 +28,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Mentorship #3 | TechLadies</title>
+        <title>Mentorship | TechLadies</title>
       </Head>
       <main>
         <div className="container py-6">

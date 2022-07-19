@@ -81,7 +81,7 @@ const ACTION = {
             receive tailored guidance on their career goals.
           </p>
         </div>
-        <a className="btn btn-primary mb-5" href="/mentorship-3">
+        <a className="btn btn-primary mb-5" href="/mentorship">
           Learn More
         </a>
       </>
@@ -104,7 +104,7 @@ const ACTION = {
             exploring a career switch into tech.
           </p>
         </div>
-        <a className="btn btn-primary mb-5" href="/bootcamp-7">
+        <a className="btn btn-primary mb-5" href="/bootcamp">
           Learn More
         </a>
       </>

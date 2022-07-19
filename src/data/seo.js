@@ -29,15 +29,15 @@ const Bootcamp6PageSeo = {
 
 const BootcampPageSeo = {
   ...seo,
-  title: "Bootcamp #7 | TechLadies",
+  title: "Bootcamp | TechLadies",
   description:
-    "The TechLadies Bootcamp #7 is a 15-week part-time accelerated learning program designed to help women with basic programming background become professional programmers.",
+    "The TechLadies Bootcamp is a 15-week part-time accelerated learning program designed to help women with basic programming background become professional programmers.",
   openGraph: {
     ...requiredOpenGraphProperties,
-    title: "Bootcamp #7 | TechLadies",
+    title: "Bootcamp | TechLadies",
     description:
-      "The TechLadies Bootcamp #7 is a 15-week part-time accelerated learning program designed to help women with basic programming background become professional programmers.",
-    url: "https://techladies.co/bootcamp-7/",
+      "The TechLadies Bootcamp is a 15-week part-time accelerated learning program designed to help women with basic programming background become professional programmers.",
+    url: "https://techladies.co/bootcamp/",
     images: [
       {
         url: "https://techladies.co/photos/bootcamp_stage.jpg",
