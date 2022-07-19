@@ -39,7 +39,7 @@ export default function Home() {
                 TechLadies Mentorship provides women
                 with personal career guidance from experienced industry
                 practitioners as they grow their career in Software Engineering,
-                UI/UX Design, Data Science/Engineering/Analysis, Product
+                UI/UX Design, Data Science/Engineering/Analysis and Product
                 Management.
                 <br />
                 <br />
