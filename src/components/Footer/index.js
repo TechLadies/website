@@ -22,10 +22,10 @@ export default function Footer() {
                 </h5>
                 <ul className={clsx("list-unstyled", styles.footerLinksList)}>
                   <li>
-                    <a href="/bootcamp-7">Bootcamp</a>
+                    <a href="/bootcamp">Bootcamp</a>
                   </li>
                   <li>
-                    <a href="/mentorship-3">Mentorship</a>
+                    <a href="/mentorship">Mentorship</a>
                   </li>
                 </ul>
               </div>

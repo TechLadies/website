@@ -2,7 +2,7 @@ export default [
   {
     date: "May 2022",
     title: "Mentorship Applications Open",
-    description: <>Apply to be a mentor for Techladies Mentorship #4.</>,
+    description: <>Apply to be a mentor for Techladies Mentorship</>,
   },
   {
     date: "July 2022",
