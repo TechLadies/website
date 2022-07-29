@@ -40,8 +40,6 @@ export default [
         <br></br>
         &middot; Create simple endpoint
         <br></br>
-        &middot; Understand version control
-        <br></br>
         &middot; Overview of React
         <br></br>
         &middot; Create simple React app
