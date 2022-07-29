@@ -39,7 +39,8 @@ export default [
         &middot; Overview with ExpressJS
         <br></br>
         &middot; Create simple endpoint
-        Understand version control
+        <br></br>
+        &middot; Understand version control
         <br></br>
         &middot; Overview of React
         <br></br>
@@ -53,13 +54,16 @@ export default [
     title: "Introduction to Agile & React Level up",
     description: (
       <>
-        &middot; Overview 
+        &middot; Overview
+        <br></br>
         &middot; How this works to the team
         <br></br>
         &middot; Devtools
         <br></br>
         &middot; Lifecycle of React
+        <br></br>
         &middot; Hooks
+        <br></br>
         &middot; State Management
         <br></br>
         &middot; Connecting with Rest API
