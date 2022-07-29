@@ -13,10 +13,12 @@ export default [
   },
   {
     date: "10th September 2022",
-    title: "Introduction to Git & Database/NoSQL/SQL ",
+    title: "Introduction to Git & Database ",
     description: (
       <>
- 
+        &middot; Understand version control
+        <br></br>
+        &middot; Learn about databases
       </>
     ),
   },
@@ -35,9 +37,12 @@ export default [
     description: (
       <>
         &middot; Overview with ExpressJS
+        <br></br>
         &middot; Create simple endpoint
-        <br></br> 
+        Understand version control
+        <br></br>
         &middot; Overview of React
+        <br></br>
         &middot; Create simple React app
 
       </>
@@ -45,11 +50,12 @@ export default [
   },
   {
     date: "22nd October 2022",
-    title: "Introduction to Agile, Scrum or Kanban & React Level up",
+    title: "Introduction to Agile & React Level up",
     description: (
       <>
         &middot; Overview 
         &middot; How this works to the team
+        <br></br>
         &middot; Devtools
         <br></br>
         &middot; Lifecycle of React
