@@ -85,7 +85,7 @@ export default function Home() {
                   src="../photos/bootcamp_stage.jpg"
                 />
                 <h4 className="my-4">
-                This program will take place in Singapore from Aug 2022 to Oct 2022.
+                This in-person program will take place in Singapore from Aug 2022 to Oct 2022. Please refer to the dates below.
                 </h4>
                 <p>
                   Full scholarships are provided for people with financial
