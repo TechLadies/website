@@ -61,20 +61,22 @@ export default function Home() {
                 <div className="mb-4">
                   <img
                     className="thumbnail"
-                    alt="Angel"
-                    src="/team/angel.png"
+                    alt="Lillian"
+                    src="/team/lillian.jpg"
                   />
                   <img
                     className="thumbnail"
-                    alt="Chor Yi"
-                    src="/team/choryi.jpeg"
+                    alt="Siew Yean"
+                    src="/team/coreteam2022/boot_siew_yean.jpg"
                   />
                   <img
                     className="thumbnail"
-                    alt="Tejasvita"
-                    src="/team/tejasvita.jpeg"
+                    alt="Audrey"
+                    src="/team/commaudz.png"
                   />
-                  <img className="thumbnail" alt="Anna" src="/team/anna.jpeg" />
+                  <img className="thumbnail" 
+                  alt="Ena" 
+                  src="/team/coreteam2022/ment_ena.jpeg" />
                 </div>
                 <p className="mb-4 text-emphasis">
                   TechLadies is managed by volunteers passionate about

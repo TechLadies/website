@@ -57,13 +57,10 @@ export default function Home() {
                 className="thumbnail thumbnail-xl mb-4"
                 src="/icons/icon_TLbootcamp.png"
               />
-              <h3 className="mb-4 h4">TechLadies Bootcamp</h3>
-              <p className="mb-4">Duration: 15 weeks</p>
+              <h3 className="mb-4 h4">TechLadies Bootcamp Workshops</h3>
+              <p className="mb-4">Duration: 5 weekends</p>
               <p className="mb-4">
-                A part-time accelerated learning program designed for women who
-                wish to be professional programmers. You'll be guided by
-                industry experts to create a product. 30% of the TechLadies
-                Bootcamp graduates found software-related jobs and internships.
+              The TechLadies Bootcamp #8 offers 5 weekend workshops to help women come into TECH.
               </p>
               <button className="btn btn-primary">
                 <NavLink href="/bootcamp/">
