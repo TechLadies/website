@@ -1,6 +1,6 @@
 export default [
   {
-    date: "27th August 2022",
+    date: "27th August 2022, 10am-2.30pm",
     title: "Getting Started with HTML, CSS and Javascript",
     description: (
       <>
@@ -12,7 +12,7 @@ export default [
     ),
   },
   {
-    date: "10th September 2022",
+    date: "10th September 2022, 10am-2.30pm",
     title: "Introduction to Git & Database ",
     description: (
       <>
@@ -23,7 +23,7 @@ export default [
     ),
   },
   {
-    date: "24th September 2022",
+    date: "24th September 2022, 10am-2.30pm",
     title: "Getting started with Rest API & NodeJS",
     description: (
       <>
@@ -32,7 +32,7 @@ export default [
     ),
   },
   {
-    date: "8th October 2022",
+    date: "8th October 2022, 10am-2.30pm",
     title: "Application Getting started with ExpressJS & React",
     description: (
       <>
@@ -48,7 +48,7 @@ export default [
     ),
   },
   {
-    date: "22nd October 2022",
+    date: "22nd October 2022, 10am-2.30pm",
     title: "Introduction to Agile & React Level up",
     description: (
       <>
