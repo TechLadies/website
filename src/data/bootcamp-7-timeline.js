@@ -36,7 +36,7 @@ export default [
   },
   {
     date: "8th October 2022, 10am-2.30pm",
-    location: "AWS (Asia Square Tower)",
+    location: "[TBC] AWS (Asia Square Tower)",
     title: "Application Getting started with ExpressJS & React",
     description: (
       <>
