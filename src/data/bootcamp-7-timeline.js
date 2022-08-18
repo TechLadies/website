@@ -1,6 +1,7 @@
 export default [
   {
     date: "27th August 2022, 10am-2.30pm",
+    location: "AWS (Asia Square Tower)",
     title: "Getting Started with HTML, CSS and Javascript",
     description: (
       <>
@@ -13,6 +14,7 @@ export default [
   },
   {
     date: "10th September 2022, 10am-2.30pm",
+    location: "ThoughtWorks (Cross Street Exchange)",
     title: "Introduction to Git & Database ",
     description: (
       <>
@@ -24,6 +26,7 @@ export default [
   },
   {
     date: "24th September 2022, 10am-2.30pm",
+    location: "ThoughtWorks (Cross Street Exchange)",
     title: "Getting started with Rest API & NodeJS",
     description: (
       <>
@@ -33,6 +36,7 @@ export default [
   },
   {
     date: "8th October 2022, 10am-2.30pm",
+    location: "AWS (Asia Square Tower)",
     title: "Application Getting started with ExpressJS & React",
     description: (
       <>
@@ -49,6 +53,7 @@ export default [
   },
   {
     date: "22nd October 2022, 10am-2.30pm",
+    location: "ThoughtWorks (Cross Street Exchange)",
     title: "Introduction to Agile & React Level up",
     description: (
       <>
