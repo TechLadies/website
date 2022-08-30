@@ -14,7 +14,7 @@ export default [
   },
   {
     date: "10th September 2022, 10am-2.30pm",
-    location: "ThoughtWorks (Cross Street Exchange)",
+    location: "Thoughtworks (Cross Street Exchange)",
     title: "Introduction to Git & Database ",
     description: (
       <>
@@ -26,7 +26,7 @@ export default [
   },
   {
     date: "24th September 2022, 10am-2.30pm",
-    location: "ThoughtWorks (Cross Street Exchange)",
+    location: "Thoughtworks (Cross Street Exchange)",
     title: "Getting started with Rest API & NodeJS",
     description: (
       <>
@@ -53,7 +53,7 @@ export default [
   },
   {
     date: "22nd October 2022, 10am-2.30pm",
-    location: "ThoughtWorks (Cross Street Exchange)",
+    location: "Thoughtworks (Cross Street Exchange)",
     title: "Introduction to Agile & React Level up",
     description: (
       <>
