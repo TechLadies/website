@@ -188,7 +188,7 @@ export default function Home() {
               </p>
               <a
                 className="btn btn-primary"
-                href="https://forms.gle/yPAibeKXEbiN98qg9"
+                href="https://docs.google.com/forms/d/e/1FAIpQLSdmKUasl2XeZjaFzx58PxDwLL2WtVcI4LSKM1KaZXyOcRVvTg/viewform"
                 target="_blank"
               >
                 I'm interested!
