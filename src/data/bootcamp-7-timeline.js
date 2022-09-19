@@ -74,12 +74,12 @@ export default [
     ),
     cta: (
       <a
-        className="btn btn-primary mb-3"
+        className="btn btn-primary mb-3 disabled"
         href="https://forms.gle/5FmKpBvNpgedWGoh9"
         target="blank"
         rel="noopener"
       >
-        Apply Now
+        Applications are now closed
       </a>
     ),
   },

@@ -37,12 +37,12 @@ export default function Home() {
               </p>
               {REGISTRATION_OPEN && (
                 <a
-                  className="btn btn-primary"
-                  href="https://forms.gle/qfcuY4zuC21tukWs7"
+                  className="btn btn-primary disabled" 
+                  href=""
                   target="blank"
                   rel="noopener"
                 >
-                  Apply Now
+                  Applications are now closed
                 </a>
               )}
             </div>
