@@ -233,7 +233,7 @@ export default function Home() {
                       <div className="col-md-3 d-flex">
                       {speakers.map((speaker,index) => (
                       <div id={index} className="col-md-12">
-                         <img src={speaker.speaker_img} width={100} height={100} />
+                         <img src={speaker.speaker_img} width={100} height={100} className="padded-image" />
                          <a href={speaker.speaker_linkedin_url}><p className="pb-3">{speaker.speaker_name}</p></a>
                       </div>
                       )
