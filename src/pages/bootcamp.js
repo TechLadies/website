@@ -228,11 +228,12 @@ export default function Home() {
                       <h3 className="h5 text-red mb-3">{date}</h3>
                       <p className="text-red mb-3">🏢 {location}</p>
                       <h4 className="h6 mb-3">{title}</h4>
-                      <p className="pb-3">{description}</p>
-                      <div className="col-md-6 d-flex">
+                      <p className="pb-1">{description}</p>
+                      <p className="text-red mb-1">Trainers</p>
+                      <div className="col-md-3 d-flex">
                       {speakers.map((speaker,index) => (
-                      <div id={index}>
-                         <img src={speaker.speaker_img} width={100} height={100}/>
+                      <div id={index} className="col-md-12">
+                         <img src={speaker.speaker_img} width={100} height={100} />
                          <a href={speaker.speaker_linkedin_url}><p className="pb-3">{speaker.speaker_name}</p></a>
                       </div>
                       )
