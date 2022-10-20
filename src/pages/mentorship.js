@@ -34,7 +34,7 @@ export default function Home() {
         <div className="container py-6">
           <div className="row gy-6">
             <div className="col-md-6">
-              <h1 class="large-line-height">TechLadies Mentorship 2022</h1>
+              <h1 className="large-line-height">TechLadies Mentorship 2022</h1>
               <p className="mb-4 text-body large-line-height">
                 TechLadies Mentorship provides women
                 with personal career guidance from experienced industry
@@ -46,22 +46,15 @@ export default function Home() {
                 If you are interested in contributing your expertise to mentor junior professionals or recent graduates, we would love for you to join us!
               </p>
               <div className="row">
-                <div className="col-md-6">
+                <div className="col-md-12">
                   <a
-                    className="btn btn-primary"
+                    className="btn btn-primary disabled"
                     target="_blank"
-                    href="https://forms.gle/uiuY13fE7d1nvpq2A"
+                    rel="noreferrer"
+                    href=""
+  
                   >
-                    Sign up as Mentor!
-                  </a>
-                </div>
-                <div className="col-md-6">
-                  <a
-                    className="btn btn-primary"
-                    target="_blank"
-                    href="https://forms.gle/PjFKJLU3XForvXkRA"
-                  >
-                    Sign up as Mentee!
+                    Applications are now closed
                   </a>
                 </div>
               </div>
@@ -287,13 +280,14 @@ export default function Home() {
             <div className="col-md-6 offset-md-1 d-flex flex-column align-items-start justify-content-center">
               <h3 className="mb-4 h4">Have a question?</h3>
               <p>
-                Do drop us an email via the link below and we'll get back to you
+                Do drop us an email via the link below and we&apos;ll get back to you
                 soon.
               </p>
               <a
                 className="btn btn-primary"
                 href="mailto:mentorship@techladies.co"
                 target="_blank"
+                rel="noreferrer"
               >
                 Contact Us
               </a>
@@ -323,7 +317,7 @@ export default function Home() {
                       <div className="col-md-10">
                         <h6 className="mb-3">
                           {title} (
-                          <a href={link} target="_blank">
+                          <a href={link} target="_blank" rel="noreferrer">
                             LinkedIn
                           </a>
                           )

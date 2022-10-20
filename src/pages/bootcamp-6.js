@@ -167,7 +167,7 @@ export default function Home() {
         <div className="container py-6">
           <div className="row">
             <h3 className="mb-4">
-              Don't worry if it sounds scary, we’ve programs to help with the
+              Don&apos;t worry if it sounds scary, we’ve programs to help with the
               technical tasks! 💪💪💪
             </h3>
             <div className="col-md-6">
@@ -239,7 +239,7 @@ export default function Home() {
             <div className="col-md-6 offset-md-1 d-flex flex-column align-items-start justify-content-center">
               <h3 className="mb-4 h4">Have a question?</h3>
               <p>
-                Do drop us an email via the link below and we'll get back to you
+                Do drop us an email via the link below and we&apos;ll get back to you
                 soon.
               </p>
               <a

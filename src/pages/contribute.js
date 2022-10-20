@@ -46,12 +46,13 @@ export default function Home() {
                 empowered women to switch careers into tech, but we need help.
                 <br />
                 <br />
-                Join us in our mission to increase women's participation in the
+                Join us in our mission to increase women&apos;s participation in the
                 tech industry!
               </p>
               <a
                 className="btn btn-primary"
                 target="_blank"
+                rel="noreferrer"
                 href="https://forms.gle/R5zeetywXYGvrY2T9"
               >
                 Volunteer with TechLadies
@@ -64,7 +65,7 @@ export default function Home() {
             <h3 className="mb-4">Ways you can volunteer</h3>
             <p className="text-primary font-weight-bold">
               TechLadies is led by a group of core team leaders and supported by
-              a larger group of ad hoc helpers. Join us if you're passionate
+              a larger group of ad hoc helpers. Join us if you&apos;re passionate
               about gender diversity in tech, want to learn new skills, and meet
               like-minded peers!
               <br />
@@ -193,9 +194,9 @@ export default function Home() {
             </div>
             <div className="row">
               <small>
-                Clicking "Contribute" will bring you to make a donation securely
+                Clicking Contribute will bring you to make a donation securely
                 via PayPal, where you can donate with all major credit cards.
-                TechLadies' finances are managed by Learnemy Pte Ltd. As we are
+                TechLadies finances are managed by Learnemy Pte Ltd. As we are
                 not a registered non-profit, we cannot send an invoice for tax
                 purposes.
               </small>
@@ -222,13 +223,13 @@ export default function Home() {
           {selectedTopic === "TechLadies Bootcamp" && (
             <>
               <img
-                class="thumbnail thumbnail-xxl center-image display-block"
+                className="thumbnail thumbnail-xxl center-image display-block"
                 alt="TechLadies Bootcamp"
                 src="/icons/icon_TLbootcamp.png"
               ></img>
 
               <p>
-                Help create our most impactful program! We've seen Bootcamp
+                Help create our most impactful program! We&apos;ve seen Bootcamp
                 grads switching careers into tech who were previously pet
                 groomer, air stewardess, and customer service rep etc. To
                 continue this program in 2022, we are looking for{" "}
@@ -257,6 +258,7 @@ export default function Home() {
               <a
                 className="btn btn-primary cta-button"
                 target="_blank"
+                rel="noreferrer"
                 href="https://forms.gle/yPAibeKXEbiN98qg9"
               >
                 Volunteer for TechLadies Bootcamp
@@ -266,13 +268,13 @@ export default function Home() {
           {selectedTopic === "TechLadies Mentorship" && (
             <>
               <img
-                class="thumbnail thumbnail-xxl center-image display-block"
+                className="thumbnail thumbnail-xxl center-image display-block"
                 alt="TechLadies Mentorship"
                 src="/icons/icon_TLmentorship.png"
               ></img>
 
               <p>
-                Kickstart and grow women's careers in tech! Through TechLadies
+                Kickstart and grow women&apos;s careers in tech! Through TechLadies
                 Mentorship, we have helped women raise their visibility in tech,
                 build their portfolios, and ace their job interviews. To
                 continue this program in 2022, we are looking for{" "}
@@ -322,6 +324,7 @@ export default function Home() {
               <a
                 className="btn btn-primary cta-button"
                 target="_blank"
+                rel="noreferrer"
                 href="https://docs.google.com/forms/d/e/1FAIpQLSepj-kx0qMTe7stfAiRB9slYA-HvTTiT3GvbodLj23geH8ZIg/viewform"
               >
                 Volunteer for TechLadies Mentorship
@@ -331,13 +334,13 @@ export default function Home() {
           {selectedTopic === "TechLadies Meet" && (
             <>
               <img
-                class="thumbnail thumbnail-xxl center-image display-block"
+                className="thumbnail thumbnail-xxl center-image display-block"
                 alt="TechLadies Meet"
                 src="/icons/icon_TLmeet.png"
               ></img>
 
               <p>
-                Create amazing events every quarter that connect & share
+                Create amazing events every quarter that connect and share
                 insights on the tech industry with our community, including the
                 TechLadies Career Fair. We are looking for{" "}
                 <b>3 - 4 Event Leads and ~10 Event Helpers. </b>
@@ -347,8 +350,8 @@ export default function Home() {
               <p>
                 Event Leads plan and create amazing TechLadies events! You plan
                 the events calendar, run quarterly events (including TechLadies
-                Bootcamp Info Session & Grad Party and TechLadies Career Fair),
-                source logistics vendors & partnerships for in-person events,
+                Bootcamp Info Session and Grad Party and TechLadies Career Fair),
+                source logistics vendors and partnerships for in-person events,
                 and inviting speakers.
               </p>
               <p>
@@ -372,12 +375,13 @@ export default function Home() {
                 <b>
                   <i>Ideal profile:</i>
                 </b>{" "}
-                We don't have a preferred profile for this. Anyone can help!
+                We don&apos;t have a preferred profile for this. Anyone can help!
               </p>
 
               <a
                 className="btn btn-primary cta-button"
                 target="_blank"
+                rel="noreferrer"
                 href="https://docs.google.com/forms/d/e/1FAIpQLSepj-kx0qMTe7stfAiRB9slYA-HvTTiT3GvbodLj23geH8ZIg/viewform"
               >
                 Volunteer for TechLadies Meet
@@ -387,7 +391,7 @@ export default function Home() {
           {selectedTopic === "TechLadies Community" && (
             <>
               <img
-                class="thumbnail thumbnail-xxl center-image display-block"
+                className="thumbnail thumbnail-xxl center-image display-block"
                 alt="TechLadies Community"
                 src="/icons/icon_TLcommunity.png"
               ></img>
@@ -423,7 +427,7 @@ export default function Home() {
                 programming, our activities, and discover stories of awesome
                 women in tech. You will help create these amazing content! We
                 are also looking for graphic designers/illustrators - people who
-                know their way around Photoshop, Illustrator, or just good'ol
+                know their way around Photoshop, Illustrator, or just good&apos;ol
                 Canva to help us with our marketing collaterals.
               </p>
               <p>
@@ -436,6 +440,7 @@ export default function Home() {
               <a
                 className="btn btn-primary cta-button"
                 target="_blank"
+                rel="noreferrer"
                 href="https://docs.google.com/forms/d/e/1FAIpQLSepj-kx0qMTe7stfAiRB9slYA-HvTTiT3GvbodLj23geH8ZIg/viewform"
               >
                 Volunteer for TechLadies Community
