@@ -263,7 +263,7 @@ export default function Home() {
             <div className="col-md-6 offset-md-1 d-flex flex-column align-items-start justify-content-center">
               <h3 className="mb-4 h4">Have a question?</h3>
               <p>
-                Do drop us an email via the link below and we'll get back to you
+                Do drop us an email via the link below and we&apos;ll get back to you
                 soon.
               </p>
               <a

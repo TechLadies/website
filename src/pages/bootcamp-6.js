@@ -26,7 +26,7 @@ export default function Home() {
               />
             </div>
             <div className="col-md-6 offset-md-1">
-              <h1 class="large-line-height mt-4">TechLadies Bootcamp</h1>
+              <h1 className="large-line-height mt-4">TechLadies Bootcamp</h1>
               <p className="mb-4 text-body large-line-height">
                 The TechLadies Bootcamp #6 is a 14-week part-time accelerated
                 learning program designed to help women with basic programming
