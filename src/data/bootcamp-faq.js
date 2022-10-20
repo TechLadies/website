@@ -1,4 +1,4 @@
-export default [
+const exp = [
   {
     key: "a",
     item: <>Who is the TechLadies Workshop designed for?</>,
@@ -12,7 +12,7 @@ export default [
   },
   {
     key: "b",
-    item: <>I'm not a Singaporean, can I still join this Workshop?</>,
+    item: <>I&apos;m not a Singaporean, can I still join this Workshop?</>,
     details: (
       <>
         Yea, sure! As long as you can be in Singapore legally to attend the workshops as scheduled. 
@@ -78,3 +78,5 @@ export default [
     ),
   },
 ]
+
+export default exp

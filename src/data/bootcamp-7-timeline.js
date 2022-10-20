@@ -1,4 +1,4 @@
-export default [
+const exp = [
   {
     speakers: [
     {
@@ -67,7 +67,7 @@ export default [
     },
   ],
     date: "24th September 2022, 10am-2.30pm",
-    location: "Thoughtworks (Cross Street Exchange)",
+    location: "AWS (Capital Square)",
     title: "Getting started with Rest API & NodeJS",
     description: (
       <>
@@ -88,7 +88,7 @@ export default [
           speaker_linkedin_url:"https://www.linkedin.com/in/joeychuasm",
       }],
     date: "8th October 2022, 10am-2.30pm",
-    location: "[TBC] AWS (Asia Square Tower)",
+    location: "AWS (capital Square)",
     title: "Application Getting started with ExpressJS & React",
     description: (
       <>
@@ -117,7 +117,7 @@ export default [
     },
     ],
     date: "22nd October 2022, 10am-2.30pm",
-    location: "Thoughtworks (Cross Street Exchange)",
+    location: "AWS (Capital Square)",
     title: "Introduction to Agile & React Level up",
     description: (
       <>
@@ -148,3 +148,5 @@ export default [
     ),
   },
 ]
+
+export default exp

@@ -1,4 +1,4 @@
-export default [
+const exp = [
   {
     image: "/patterns/Patternspattern1.png",
     thumbnail: "../team/bootcamptestimonial/Shirlaine.png",
@@ -33,3 +33,5 @@ export default [
     ),
   },
 ]
+
+export default exp
