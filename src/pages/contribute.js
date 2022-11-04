@@ -53,7 +53,7 @@ export default function Home() {
                 className="btn btn-primary"
                 target="_blank"
                 rel="noreferrer"
-                href="https://forms.gle/R5zeetywXYGvrY2T9"
+                href="https://forms.gle/GUcBSR1j5yDhSY3t8"
               >
                 Volunteer with TechLadies
               </a>
