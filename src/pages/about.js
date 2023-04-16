@@ -93,8 +93,8 @@ export default function Home() {
                     />
                     <img
                       className="thumbnail thumbnail-lg"
-                      alt="Lillian So"
-                      src="/team/lillian.jpg"
+                      alt="Nicole"
+                      src="/team/bootnicole.png"
                     />
                     <img
                       className="thumbnail thumbnail-lg"
@@ -107,7 +107,7 @@ export default function Home() {
                       src="/team/tranbui.jpg"
                     />
                   </div>
-                  <a href="mailto:elisha@techladies.co">
+                  <a href="mailto:hello@techladies.co">
                     Contact the Chapter Leaders
                   </a>
                 </div>
@@ -125,21 +125,6 @@ export default function Home() {
                       className="thumbnail thumbnail-lg"
                       alt="Diya"
                       src="/team/bootdiya.png"
-                    />
-                   <img
-                      className="thumbnail thumbnail-lg"
-                      alt="Xuqian"
-                      src="/team/evexuqian.png"
-                    />
-                    <img
-                      className="thumbnail thumbnail-lg"
-                      alt="Ena"
-                      src="/team/coreteam2022/ment_ena.jpeg"
-                    />
-                    <img
-                      className="thumbnail thumbnail-lg"
-                      alt="Ruhani"
-                      src="/team/coreteam2022/ment_ruhani.jpg"
                     />
                   </div>
                   <a href="mailto:mentorship@techladies.co">
@@ -163,13 +148,13 @@ export default function Home() {
                     />
                     <img
                       className="thumbnail thumbnail-lg"
-                      alt="Xi Yi"
-                      src="/team/coreteam2022/boot_xi_yi.png"
+                      alt="Sushama"
+                      src="/team/coreteam2022/boot_sushama.png"
                     />
                     <img
                       className="thumbnail thumbnail-lg"
-                      alt="Sushama"
-                      src="/team/coreteam2022/boot_sushama.png"
+                      alt="Charu"
+                      src="/team/coreteam2022/comm_charu.jpeg"
                     />
                   </div>
                   <a href="mailto:bootcamp@techladies.co">
@@ -191,18 +176,8 @@ export default function Home() {
                       alt="Audrey"
                       src="/team/commaudz.png"
                     />
-                    <img
-                      className="thumbnail thumbnail-lg"
-                      alt="Pauline"
-                      src="/team/commpauline.jpg"
-                    />
-                    <img
-                      className="thumbnail thumbnail-lg"
-                      alt="Charu"
-                      src="/team/coreteam2022/comm_charu.jpeg"
-                    />
                   </div>
-                  <a href="mailto:elisha@techladies.co">
+                  <a href="mailto:hello@techladies.co">
                     Contact the Community Team
                   </a>
                 </div>
@@ -218,18 +193,18 @@ export default function Home() {
                   <div className="mb-4">
                     <img
                       className="thumbnail thumbnail-lg"
-                      alt="Lillian"
-                      src="/team/lillian.jpg"
-                    />
-                    <img
-                      className="thumbnail thumbnail-lg"
-                      alt="Debby"
-                      src="/team/coreteam2022/part_debby.jpg"
-                    />
-                    <img
-                      className="thumbnail thumbnail-lg"
                       alt="Nicole"
                       src="/team/bootnicole.png"
+                    />
+                    <img
+                      className="thumbnail thumbnail-lg"
+                      alt="Pauline"
+                      src="/team/commpauline.jpg"
+                    />
+                    <img
+                      className="thumbnail thumbnail-lg"
+                      alt="Xi Yi"
+                      src="/team/coreteam2022/boot_xi_yi.png"
                     />
                   </div>
                   <a href="mailto:partnerships@techladies.co">
