@@ -126,6 +126,11 @@ export default function Home() {
                       alt="Diya"
                       src="/team/bootdiya.png"
                     />
+                    <img
+                      className="thumbnail thumbnail-lg"
+                      alt="Cheryl"
+                      src="/team/mentorshipcheryl.png"
+                    />
                   </div>
                   <a href="mailto:mentorship@techladies.co">
                     Contact the Mentorship Team
