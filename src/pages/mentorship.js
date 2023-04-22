@@ -43,7 +43,8 @@ export default function Home() {
                 Management.
                 <br />
                 <br />
-                This year we are collaborating with <a href="https://www.womenwhocode.com/singapore">WomenWhoCode Singapore</a> to make this program even more impactful. There would be 1 - 1 mentoring session with a mentor and mentee that with matching criteria. Minimum once a month for 3 months.
+                This year we are collaborating with <a href="https://www.womenwhocode.com/singapore">WomenWhoCode Singapore</a> to make this program even more impactful.
+                There would be 1 - 1 mentoring sessions with a mentor and mentee with matching criterias. Minimum once a month for 3 months.
                 <br />
                 <br />
                 Registration for the TechLadies Mentorship Program 2023 has just opened. Sign up for this year’s Mentorship Program now!
