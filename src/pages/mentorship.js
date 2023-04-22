@@ -43,7 +43,7 @@ export default function Home() {
                 Management.
                 <br />
                 <br />
-                This year we are collaborating with <a href="https://www.womenwhocode.com/singapore">WomenWhoCode Singapore</a> to make this program even more impactful.
+                This year we are collaborating with <a href="https://www.womenwhocode.com/singapore" target="_blank">WomenWhoCode Singapore</a> to make this program even more impactful.
                 There would be 1 - 1 mentoring sessions with a mentor and mentee with matching criterias. Minimum once a month for 3 months.
                 <br />
                 <br />
