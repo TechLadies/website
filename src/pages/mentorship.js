@@ -10,7 +10,7 @@ import MentorsCard from "../components/MentorsCard"
 import Gallery from "../components/Gallery"
 import TestimonialCard from "../components/TestimonialCard"
 
-import mentorshipTimeline from "../data/mentorship-timeline-3"
+import mentorshipTimeline from "../data/mentorship-timeline-4"
 import programsFAQ from "../data/mentorship-faq.js"
 import mentorshipTestimonials from "../data/mentorship-testimonials.js"
 
@@ -34,7 +34,7 @@ export default function Home() {
         <div className="container py-6">
           <div className="row gy-6">
             <div className="col-md-6">
-              <h1 className="large-line-height">TechLadies Mentorship 2022</h1>
+              <h1 className="large-line-height">TechLadies Mentorship 2023</h1>
               <p className="mb-4 text-body large-line-height">
                 TechLadies Mentorship provides women
                 with personal career guidance from experienced industry
@@ -43,20 +43,22 @@ export default function Home() {
                 Management.
                 <br />
                 <br />
-                If you are interested in contributing your expertise to mentor junior professionals or recent graduates, we would love for you to join us!
+                This year we are collaborating with <a href="https://www.womenwhocode.com/singapore">WomenWhoCode Singapore</a> to make this program even more impactful. There would be 1 - 1 mentoring session with a mentor and mentee that with matching criteria. Minimum once a month for 3 months.
+                <br />
+                <br />
+                Registration for the TechLadies Mentorship Program 2023 has just opened. Sign up for this year’s Mentorship Program now!
               </p>
               <div className="row">
-                <div className="col-md-12">
-                  <a
-                    className="btn btn-primary disabled"
-                    target="_blank"
-                    rel="noreferrer"
-                    href=""
-  
-                  >
-                    Applications are now closed
+                <div className="col-md-6">
+                  <a className="btn btn-primary" target="_blank" href="https://forms.gle/2a1Ns12WSV5tJJ3b7">
+                      Sign up as Mentor!
                   </a>
                 </div>
+               <div className="col-md-6">
+                  <a className="btn btn-primary" target="_blank" href="https://forms.gle/5xoBrmBPyNNuqpgo9">
+                      Sign up as Mentee!
+                  </a>
+               </div>
               </div>
             </div>
             <div className="col-md-5  offset-md-1">
@@ -156,7 +158,7 @@ export default function Home() {
 
         <div className="bg-gray">
           <div className="container py-6">
-            <h2 className="mb-5 text-center">Program Timeline 2022</h2>
+            <h2 className="mb-5 text-center">Program Timeline 2023</h2>
             <div className="row gy-4">
               <Timeline>
                 {mentorshipTimeline.map(({ date, title, description }) => (
@@ -193,7 +195,7 @@ export default function Home() {
         <div className="bg-gray">
           <div className="container py-6">
             <div className="row">
-              <h2 className="text-center mb-5">Meet Our TechLadies Mentorship Core Team 2022</h2>
+              <h2 className="text-center mb-5">Meet Our TechLadies Mentorship Core Team 2023</h2>
               <div className="col-md-3 text-center">
                 <img
                   className="thumbnail thumbnail-xl mb-2 "
