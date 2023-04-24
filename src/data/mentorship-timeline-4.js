@@ -14,7 +14,7 @@ export default [
     ),
   },
   {
-    date: "July 2023 - September 2023 (Projected)",
+    date: "August 2023 - October 2023 (Projected)",
     title: "Mentorship Program",
     description: (
       <>
@@ -23,7 +23,7 @@ export default [
     ),
   },
   {
-    date: "October 2023 (Projected)",
+    date: "November 2023 (Projected)",
     title: "Final Project Showcase",
     description: (
       <>
