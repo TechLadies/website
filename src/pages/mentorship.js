@@ -44,7 +44,7 @@ export default function Home() {
                 <br />
                 <br />
                 This year we are collaborating with <a href="https://www.womenwhocode.com/singapore" target="_blank">WomenWhoCode Singapore</a> to make this program even more impactful.
-                There would be 1 - 1 mentoring sessions with a mentor and mentee with matching criterias. Minimum once a month for 3 months.
+                There will be one-to-one mentoring sessions between a mentor and mentee with matching criteria. The minimum commitment level will be once a month for three months.
                 <br />
                 <br />
                 Registration for the TechLadies x WWCode SG Mentorship Program 2023 has just opened. Sign up for this year’s Mentorship Program now!
