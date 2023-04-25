@@ -1,7 +1,7 @@
 import { useState } from "react"
 import Head from "next/head"
 
-import { mentorsData } from "../data/mentorship-3-mentors"
+import { mentorsData } from "../data/mentorship-2021-mentors"
 
 import Accordion from "../components/Accordion"
 import Timeline from "../components/Timeline"
@@ -10,7 +10,7 @@ import MentorsCard from "../components/MentorsCard"
 import Gallery from "../components/Gallery"
 import TestimonialCard from "../components/TestimonialCard"
 
-import mentorshipTimeline from "../data/mentorship-timeline-3"
+import mentorshipTimeline from "../data/mentorship-timeline-2022"
 import programsFAQ from "../data/mentorship-faq.js"
 import mentorshipTestimonials from "../data/mentorship-testimonials.js"
 

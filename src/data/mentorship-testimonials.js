@@ -13,7 +13,7 @@ export default [
 
   {
     image: "/patterns/Patternspattern3.png",
-    thumbnail: "../team/mentorship2/bridgetlee.jpg",
+    thumbnail: "../team/mentorship2020/bridgetlee.jpg",
     name: "Bridget Lee, Mentee (2020)",
     message: (
       <>
@@ -25,7 +25,7 @@ export default [
 
   {
     image: "/patterns/Patternspattern4.png",
-    thumbnail: "../team/mentorship2/maryana.jpeg",
+    thumbnail: "../team/mentorship2020/maryana.jpeg",
     name: "Maryana Hermawan, Mentee (2020)",
     message: (
       <>

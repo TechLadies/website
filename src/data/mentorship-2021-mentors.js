@@ -3,7 +3,7 @@ export const mentorsData = {
     title: "Software Engineering",
     mentors: [
       {
-        image: "../team/mentorship3/softwareengineering/amanda.png",
+        image: "../team/mentorship2021/softwareengineering/amanda.png",
         title: "Amanda Oh",
         link: "https://www.linkedin.com/in/amandaoh/",
         description: (
@@ -19,7 +19,7 @@ export const mentorsData = {
         ),
       },
       {
-        image: "../team/mentorship3/softwareengineering/angie.png",
+        image: "../team/mentorship2021/softwareengineering/angie.png",
         title: "Angie Sasmita",
         link: "https://www.linkedin.com/in/angie-sasmita/",
         description: (
@@ -34,7 +34,7 @@ export const mentorsData = {
         ),
       },
       {
-        image: "../team/mentorship3/softwareengineering/salonikaur.png",
+        image: "../team/mentorship2021/softwareengineering/salonikaur.png",
         title: "Saloni Kaur",
         link: "https://www.linkedin.com/in/saloni-kaur/",
         description: (
@@ -50,7 +50,7 @@ export const mentorsData = {
         ),
       },
       {
-        image: "../team/mentorship3/softwareengineering/vanessa.png",
+        image: "../team/mentorship2021/softwareengineering/vanessa.png",
         title: "Vanessa Cassandra",
         link: "https://www.linkedin.com/in/vanessa-cassandra/",
         description: (
@@ -62,7 +62,7 @@ export const mentorsData = {
         ),
       },
       {
-        image: "../team/mentorship3/softwareengineering/aryn.png",
+        image: "../team/mentorship2021/softwareengineering/aryn.png",
         title: "Aryn, Yue Lin Choong",
         link: "https://www.linkedin.com/in/ychoong/",
         description: (
@@ -74,7 +74,7 @@ export const mentorsData = {
         ),
       },
       {
-        image: "../team/mentorship3/softwareengineering/biju.png",
+        image: "../team/mentorship2021/softwareengineering/biju.png",
         title: "Biju Joseph",
         link: "https://www.linkedin.com/in/bijujosephjacob/",
         description: (
@@ -96,7 +96,7 @@ export const mentorsData = {
     title: "UI/UX Design",
     mentors: [
       {
-        image: "../team/mentorship3/uiux/esther.png",
+        image: "../team/mentorship2021/uiux/esther.png",
         title: "Esther Yip",
         link: "https://www.linkedin.com/in/jingxinyip/",
         description: (
@@ -116,7 +116,7 @@ export const mentorsData = {
         ),
       },
       {
-        image: "../team/mentorship3/uiux/pham.png",
+        image: "../team/mentorship2021/uiux/pham.png",
         title: "Pham Thanh Ha",
         link: "https://www.linkedin.com/in/pham-thanh-ha-6297457b/",
         description: (
@@ -130,7 +130,7 @@ export const mentorsData = {
         ),
       },
       {
-        image: "../team/mentorship3/uiux/julie.png",
+        image: "../team/mentorship2021/uiux/julie.png",
         title: "Julie",
         link: "https://www.linkedin.com/in/uxjulie/",
         description: (
@@ -148,7 +148,7 @@ export const mentorsData = {
     title: "Product Management",
     mentors: [
       {
-        image: "../team/mentorship3/projectmanagement/ankita.png",
+        image: "../team/mentorship2021/projectmanagement/ankita.png",
         title: "Ankita Dmello",
         link: "https://www.linkedin.com/in/ankitard/",
         description: (
@@ -164,7 +164,7 @@ export const mentorsData = {
         ),
       },
       {
-        image: "../team/mentorship3/projectmanagement/geraldine.png",
+        image: "../team/mentorship2021/projectmanagement/geraldine.png",
         title: "Geraldine Low",
         link: "https://www.linkedin.com/in/geraldinelhy/",
         description: (
@@ -176,7 +176,7 @@ export const mentorsData = {
         ),
       },
       {
-        image: "../team/mentorship3/projectmanagement/shweta.png",
+        image: "../team/mentorship2021/projectmanagement/shweta.png",
         title: "Shweta Padmanaban",
         link: "https://www.linkedin.com/in/shwetapadmanaban/",
         description: (
@@ -194,7 +194,7 @@ export const mentorsData = {
     title: "Data Science",
     mentors: [
       {
-        image: "../team/mentorship3/datascience/catherine.png",
+        image: "../team/mentorship2021/datascience/catherine.png",
         title: "Catherine Khaw",
         link: "https://www.linkedin.com/in/cathkhaw/",
         description: (
@@ -216,7 +216,7 @@ export const mentorsData = {
         ),
       },
       {
-        image: "../team/mentorship3/datascience/diyanaresh.png",
+        image: "../team/mentorship2021/datascience/diyanaresh.png",
         title: "Diya Naresh Rao",
         link: "https://www.linkedin.com/in/diyanaresh/",
         description: (
@@ -231,7 +231,7 @@ export const mentorsData = {
         ),
       },
       {
-        image: "../team/mentorship3/datascience/ines.png",
+        image: "../team/mentorship2021/datascience/ines.png",
         title: "Ines Desemarsa",
         link: "",
         description: (
@@ -244,7 +244,7 @@ export const mentorsData = {
         ),
       },
       {
-        image: "../team/mentorship3/datascience/mongsuan.png",
+        image: "../team/mentorship2021/datascience/mongsuan.png",
         title: "Mong Suan Yee",
         link: "https://www.linkedin.com/in/mong-suan-yee-44790b2",
         description: (
@@ -260,7 +260,7 @@ export const mentorsData = {
         ),
       },
       {
-        image: "../team/mentorship3/datascience/olivia.png",
+        image: "../team/mentorship2021/datascience/olivia.png",
         title: "Olivia Tanuwidjaja",
         link: "https://www.linkedin.com/in/olivia-tanuwidjaja-5a56028a/",
         description: (

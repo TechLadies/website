@@ -1,7 +1,7 @@
 import { useState } from "react"
 import Head from "next/head"
 
-import { mentorsData } from "../data/mentorship-3-mentors"
+import { mentorsData } from "../data/mentorship-2021-mentors"
 
 import Accordion from "../components/Accordion"
 import Timeline from "../components/Timeline"
@@ -10,7 +10,7 @@ import MentorsCard from "../components/MentorsCard"
 import Gallery from "../components/Gallery"
 import TestimonialCard from "../components/TestimonialCard"
 
-import mentorshipTimeline from "../data/mentorship-timeline-4"
+import mentorshipTimeline from "../data/mentorship-timeline-2023"
 import programsFAQ from "../data/mentorship-faq.js"
 import mentorshipTestimonials from "../data/mentorship-testimonials.js"
 
@@ -51,12 +51,12 @@ export default function Home() {
               </p>
               <div className="row">
                 <div className="col-md-6">
-                  <a className="btn btn-primary" target="_blank" href="https://forms.gle/2a1Ns12WSV5tJJ3b7">
+                  <a className="btn btn-primary" target="_blank" href="https://forms.gle/otPbQVjrMss6gRQG9">
                       Sign up as Mentor!
                   </a>
                 </div>
                <div className="col-md-6">
-                  <a className="btn btn-primary" target="_blank" href="https://forms.gle/5xoBrmBPyNNuqpgo9">
+                  <a className="btn btn-primary" target="_blank" href="https://forms.gle/xL9w3Tu4176GP7Ry6">
                       Sign up as Mentee!
                   </a>
                </div>
@@ -196,7 +196,7 @@ export default function Home() {
         <div className="bg-gray">
           <div className="container py-6">
             <div className="row">
-              <h2 className="text-center mb-5">Meet Our TechLadies Mentorship Core Team 2023</h2>
+              <h2 className="text-center mb-5">Meet Our TechLadies x WomenWhoCode Mentorship Core Team 2023</h2>
               <div className="col-md-3 text-center">
                 <img
                   className="thumbnail thumbnail-xl mb-2 "
@@ -207,22 +207,22 @@ export default function Home() {
               <div className="col-md-3 text-center">
                 <img
                   className="thumbnail thumbnail-xl mb-2 "
-                  alt="xuqian"
-                  src="/team/evexuqian.png"
+                  alt="cheryl"
+                  src="/team/cheryl.png"
                 />
               </div>
               <div className="col-md-3 text-center">
                 <img
                   className="thumbnail thumbnail-xl mb-2 "
-                  alt="ena"
-                  src="/team/coreteam2022/ment_ena.jpeg"
+                  alt="yumin"
+                  src="/team/yumin.png"
                 />
               </div>
               <div className="col-md-3 text-center">
                 <img
                   className="thumbnail thumbnail-xl mb-2 "
-                  alt="ruhani"
-                  src="/team/coreteam2022/ment_ruhani.jpg"
+                  alt="toshal"
+                  src="/team/toshal.png"
                 />
               </div>
             </div>

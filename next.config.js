@@ -15,7 +15,7 @@ module.exports = {
         permanent: true,
       },
       {
-        source: '/mentorship-3',
+        source: '/mentorship-2023',
         destination: '/mentorship',
         permanent: true,
       },
