@@ -57,7 +57,7 @@ export default function Home() {
                 </div>
                <div className="col-md-6">
                   <a className="btn btn-primary" target="_blank" href="https://forms.gle/xL9w3Tu4176GP7Ry6">
-                      Sign up as Mentee!
+                      Sign up as a Mentee!
                   </a>
                </div>
               </div>
