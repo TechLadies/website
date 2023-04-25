@@ -47,7 +47,7 @@ export default function Home() {
                 There would be 1 - 1 mentoring sessions with a mentor and mentee with matching criterias. Minimum once a month for 3 months.
                 <br />
                 <br />
-                Registration for the TechLadies Mentorship Program 2023 has just opened. Sign up for this year’s Mentorship Program now!
+                Registration for the TechLadies x WWCode SG Mentorship Program 2023 has just opened. Sign up for this year’s Mentorship Program now!
               </p>
               <div className="row">
                 <div className="col-md-6">
