@@ -10,7 +10,7 @@ import MentorsCard from "../components/MentorsCard"
 import Gallery from "../components/Gallery"
 import TestimonialCard from "../components/TestimonialCard"
 
-import mentorshipTimeline from "../data/mentorship-timeline-2023"
+import mentorshipTimeline from "../data/mentorship-timeline-2022"
 import programsFAQ from "../data/mentorship-faq.js"
 import mentorshipTestimonials from "../data/mentorship-testimonials.js"
 
@@ -34,7 +34,7 @@ export default function Home() {
         <div className="container py-6">
           <div className="row gy-6">
             <div className="col-md-6">
-              <h1 className="large-line-height">TechLadies Mentorship 2023</h1>
+              <h1 className="large-line-height">TechLadies Mentorship 2022</h1>
               <p className="mb-4 text-body large-line-height">
                 TechLadies Mentorship provides women
                 with personal career guidance from experienced industry
@@ -43,23 +43,20 @@ export default function Home() {
                 Management.
                 <br />
                 <br />
-                This year, we are collaborating with <a href="https://www.womenwhocode.com/singapore" target="_blank">WomenWhoCode Singapore</a> to make this program even more impactful.
-                There will be one-to-one mentoring sessions between a mentor and mentee with matching criteria. The minimum commitment level will be once a month for three months.
-                <br />
-                <br />
-                Registration for the TechLadies x WWCode SG Mentorship Program 2023 has just opened. Sign up for this year’s Mentorship Program now!
+                If you are interested in contributing your expertise to mentor junior professionals or recent graduates, we would love for you to join us!
               </p>
               <div className="row">
-                <div className="col-md-6">
-                  <a className="btn btn-primary" target="_blank" href="https://forms.gle/otPbQVjrMss6gRQG9">
-                      Sign up as a Mentor!
+                <div className="col-md-12">
+                  <a
+                    className="btn btn-primary disabled"
+                    target="_blank"
+                    rel="noreferrer"
+                    href=""
+  
+                  >
+                    Applications are now closed
                   </a>
                 </div>
-               <div className="col-md-6">
-                  <a className="btn btn-primary" target="_blank" href="https://forms.gle/xL9w3Tu4176GP7Ry6">
-                      Sign up as a Mentee!
-                  </a>
-               </div>
               </div>
             </div>
             <div className="col-md-5  offset-md-1">
@@ -159,7 +156,7 @@ export default function Home() {
 
         <div className="bg-gray">
           <div className="container py-6">
-            <h2 className="mb-5 text-center">Program Timeline 2023</h2>
+            <h2 className="mb-5 text-center">Program Timeline 2022</h2>
             <div className="row gy-4">
               <Timeline>
                 {mentorshipTimeline.map(({ date, title, description }) => (
@@ -196,7 +193,7 @@ export default function Home() {
         <div className="bg-gray">
           <div className="container py-6">
             <div className="row">
-              <h2 className="text-center mb-5">Meet Our TechLadies x WomenWhoCode Mentorship Core Team 2023</h2>
+              <h2 className="text-center mb-5">Meet Our TechLadies Mentorship Core Team 2022</h2>
               <div className="col-md-3 text-center">
                 <img
                   className="thumbnail thumbnail-xl mb-2 "
@@ -207,22 +204,22 @@ export default function Home() {
               <div className="col-md-3 text-center">
                 <img
                   className="thumbnail thumbnail-xl mb-2 "
-                  alt="cheryl"
-                  src="/team/cheryl.png"
+                  alt="xuqian"
+                  src="/team/evexuqian.png"
                 />
               </div>
               <div className="col-md-3 text-center">
                 <img
                   className="thumbnail thumbnail-xl mb-2 "
-                  alt="yumin"
-                  src="/team/yumin.png"
+                  alt="ena"
+                  src="/team/coreteam2022/ment_ena.jpeg"
                 />
               </div>
               <div className="col-md-3 text-center">
                 <img
                   className="thumbnail thumbnail-xl mb-2 "
-                  alt="toshal"
-                  src="/team/toshal.png"
+                  alt="ruhani"
+                  src="/team/coreteam2022/ment_ruhani.jpg"
                 />
               </div>
             </div>
