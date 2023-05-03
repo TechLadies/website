@@ -225,6 +225,13 @@ export default function Home() {
                   src="/team/toshal.png"
                 />
               </div>
+              <div className="col-md-3 text-center">
+                <img
+                  className="thumbnail thumbnail-xl mb-2 "
+                  alt="victoria"
+                  src="/team/victoria.png"
+                />
+              </div>
             </div>
           </div>
         </div>
