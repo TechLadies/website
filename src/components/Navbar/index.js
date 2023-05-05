@@ -74,13 +74,6 @@ export default function Navbar() {
                 <a className="nav-link">Contribute</a>
               </NavLink>
             </li>
-            <li className="nav-item">
-              <NavLink href="http://blog.techladies.co/">
-                <a className="nav-link" target="_blank" rel="noopener">
-                  Blog
-                </a>
-              </NavLink>
-            </li>
           </ul>
           <div className="d-flex">
             <NavLink href="/contribute">
