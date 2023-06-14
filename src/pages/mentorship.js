@@ -51,12 +51,12 @@ export default function Home() {
               </p>
               <div className="row">
                 <div className="col-md-6">
-                  <a className="btn btn-primary" target="_blank" href="https://forms.gle/otPbQVjrMss6gRQG9">
+                  <a className="btn btn-primary" target="_blank" href="https://shorturl.at/eMSY7">
                       Sign up as a Mentor!
                   </a>
                 </div>
                <div className="col-md-6">
-                  <a className="btn btn-primary" target="_blank" href="https://forms.gle/xL9w3Tu4176GP7Ry6">
+                  <a className="btn btn-primary" target="_blank" href="https://shorturl.at/fkyB5">
                       Sign up as a Mentee!
                   </a>
                </div>
