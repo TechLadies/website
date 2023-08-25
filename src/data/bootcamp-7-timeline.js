@@ -124,15 +124,7 @@ const exp = [
         &middot; Participants work on a small project of their choice and showcase their work
       </>
     ),
-    cta: (
-      <a
-        className="btn btn-primary mb-3 disabled"
-        href="https://forms.gle/5FmKpBvNpgedWGoh9"
-        target="blank"
-        rel="noopener"
-      >
-        Applications are now closed
-      </a>
-    ),
   },
 ] 
+
+export default exp
