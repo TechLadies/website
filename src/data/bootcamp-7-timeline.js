@@ -1,4 +1,4 @@
-const exp = [
+export default  [
   {
     date: "30 Sept 2023, 10am-3pm",
     location: "TBC",
@@ -69,12 +69,5 @@ const exp = [
         &middot; Participants work on a small project of their choice and showcase their work
       </>
     ),
-    cta: (
-      <a className="btn btn-primary" target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSdPOCt0jym2blC92TfePT-VBk8mUAcVPGTp8zKXUCjJ9nrdSQ/viewform">
-        Applications are now open
-      </a>
-    ),
   },
-]
-
-export default exp
+] 

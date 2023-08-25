@@ -222,14 +222,12 @@ export default function Home() {
             <div className="row">
               <Timeline>
                 {bootcampTimeline.map(
-                  ({date, location, title, description, cta = null }) => (
+                  ({date, location, title, description }) => (
                     <TimelineItem key={title}>
                       <h3 className="h5 text-red mb-3">{date}</h3>
                       <p className="text-red mb-3">🏢 {location}</p>
                       <h4 className="h6 mb-3">{title}</h4>
                       <p className="pb-1">{description}</p> 
-                     
-                      {REGISTRATION_OPEN && cta}
                     </TimelineItem>
                   )
                 )}
