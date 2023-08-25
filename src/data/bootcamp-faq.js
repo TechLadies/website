@@ -35,7 +35,7 @@ const exp = [
     item: <>How much does this Workshop cost?</>,
     details: (
       <>
-        We created TechLadies as a non-profit organization to empower women. The fee goes to offsetting the expenses associated with hosting the workshop. Slots for each session are allocated on a first-come, first-served basis. The total fee for the bootcamp is SGD$110.
+        We created TechLadies as a non-profit organization to empower women. The fee goes to offsetting the expenses associated with hosting the workshop. The total fee for the bootcamp is SGD$110.
       </>
     ),
   },
