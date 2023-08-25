@@ -38,9 +38,9 @@ export default function Home() {
               {REGISTRATION_OPEN && (
                 <a
                   className="btn btn-primary disabled" 
-                  href=""
-                  target="blank"
-                  rel="noopener"
+                  href="https://docs.google.com/forms/d/e/1FAIpQLSdPOCt0jym2blC92TfePT-VBk8mUAcVPGTp8zKXUCjJ9nrdSQ/viewform"
+                  // target="blank"
+                  // rel="noopener"
                 >
                   Applications are now open
                 </a>
@@ -63,7 +63,7 @@ export default function Home() {
                       />
                       <p className="mb-4">
                         Applications to the TechLadies Bootcamp will begin in
-                        2022. To stay updated, please sign up for our
+                        2023. To stay updated, please sign up for our
                         newsletter below.
                       </p>
                       <EmailSubscription />
@@ -103,7 +103,7 @@ export default function Home() {
                     className="mr-2"
                   />
                   <p>
-                  Submit your application form. Slot for each session is given on a first come first serve basis.
+                  Submit your application form. Application Deadline: 16 Sep 2023
                   </p>
                 </div>
                 <div className="d-inline-flex mb-4">

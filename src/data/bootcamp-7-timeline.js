@@ -1,25 +1,27 @@
-const exp = [
+const exp = //[
   {
-    speakers: [
-    {
-        speaker_img:"/team/bootcamp8/sushma_patekar.jpg",
-        speaker_name:"Sushma Patekar",
-        speaker_linkedin_url:"https://www.linkedin.com/in/sushama-patekar-71a75b85"
-    },
-    {
-        speaker_img:"/team/bootcamp8/bhagyalakshmi_konda.jpg",
-        speaker_name:"Bhagyalakshmi Konda",
-        speaker_linkedin_url:"https://www.linkedin.com/in/bhagyalakshmi-konda-a4691420b",
-    }
-    ],
-    date: "27th August 2022, 10am-2.30pm",
+    // speakers: [
+    // {
+    //     speaker_img:"/team/bootcamp8/sushma_patekar.jpg",
+    //     speaker_name:"Sushma Patekar",
+    //     speaker_linkedin_url:"https://www.linkedin.com/in/sushama-patekar-71a75b85"
+    // },
+    // {
+    //     speaker_img:"/team/bootcamp8/bhagyalakshmi_konda.jpg",
+    //     speaker_name:"Bhagyalakshmi Konda",
+    //     speaker_linkedin_url:"https://www.linkedin.com/in/bhagyalakshmi-konda-a4691420b",
+    // }
+  //  ],
+    date: "30th Sept 2023, 10am-3pm",
     location: "AWS (Asia Square Tower)",
-    title: "Getting Started with HTML, CSS and Javascript",
+    title: "Introduction to HTML and CSS",
     description: (
       <>
-        &middot; Overview HTML, CSS and Javascript
+        &middot; Understanding the basics of HTML tags and structure
         <br></br>
-        &middot; Create simple app using HTML, CSS and Javascript
+        &middot; Styling web pages using CSS for visual design
+        <br></br>
+        &middot; Hands-on exercises to practice creating static web pages
 
       </>
     ),
