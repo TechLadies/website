@@ -13,7 +13,7 @@ const exp = [
   //   }
   //  ],
     date: "30 Sept 2023, 10am-3pm",
-    location: "AWS (Asia Square Tower)",
+    location: "TBC",
     title: "Introduction to HTML and CSS",
     description: (
       <>
