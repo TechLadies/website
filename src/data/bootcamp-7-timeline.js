@@ -1,17 +1,17 @@
 const exp = [
   {
-    speakers: [
-    {
-        speaker_img:"/team/bootcamp8/sushma_patekar.jpg",
-        speaker_name:"Sushma Patekar",
-        speaker_linkedin_url:"https://www.linkedin.com/in/sushama-patekar-71a75b85"
-    },
-    {
-        speaker_img:"/team/bootcamp8/bhagyalakshmi_konda.jpg",
-        speaker_name:"Bhagyalakshmi Konda",
-        speaker_linkedin_url:"https://www.linkedin.com/in/bhagyalakshmi-konda-a4691420b",
-    }
-   ],
+  //   speakers: [
+  //   {
+  //       speaker_img:"/team/bootcamp8/sushma_patekar.jpg",
+  //       speaker_name:"Sushma Patekar",
+  //       speaker_linkedin_url:"https://www.linkedin.com/in/sushama-patekar-71a75b85"
+  //   },
+  //   {
+  //       speaker_img:"/team/bootcamp8/bhagyalakshmi_konda.jpg",
+  //       speaker_name:"Bhagyalakshmi Konda",
+  //       speaker_linkedin_url:"https://www.linkedin.com/in/bhagyalakshmi-konda-a4691420b",
+  //   }
+  //  ],
     date: "30 Sept 2023, 10am-3pm",
     location: "AWS (Asia Square Tower)",
     title: "Introduction to HTML and CSS",
@@ -27,18 +27,18 @@ const exp = [
     ),
   },
   {
-    speakers: [
-    {
-        speaker_img:"/team/bootcamp8/rishita_narayan.jpg",
-        speaker_name:"Rishita Narayan",
-        speaker_linkedin_url:"https://www.linkedin.com/in/rishita-narayan/"
-    },
-    {
-        speaker_img:"/team/bootcamp8/pratiksha_parsewar.jpg",
-        speaker_name:"Pratiksha Parsewar",
-        speaker_linkedin_url:"https://www.linkedin.com/in/pratikshasp",
-    }
-    ],
+    // speakers: [
+    // {
+    //     speaker_img:"/team/bootcamp8/rishita_narayan.jpg",
+    //     speaker_name:"Rishita Narayan",
+    //     speaker_linkedin_url:"https://www.linkedin.com/in/rishita-narayan/"
+    // },
+    // {
+    //     speaker_img:"/team/bootcamp8/pratiksha_parsewar.jpg",
+    //     speaker_name:"Pratiksha Parsewar",
+    //     speaker_linkedin_url:"https://www.linkedin.com/in/pratikshasp",
+    // }
+    // ],
     date: "07 Oct 2023, 10am-3pm",
     location: "TBC",
     title: "Introduction to React Basics ",
@@ -53,23 +53,23 @@ const exp = [
     ),
   },
   {
-  speakers: [
-     {
-          speaker_img:"/team/bootcamp8/amit_singh.jpg",
-          speaker_name:"Amit Singh",
-          speaker_linkedin_url:"https://www.linkedin.com/in/amit1510/",
-      },
-  {
-      speaker_img:"/team/bootcamp8/zhengkun_wang.jpg",
-      speaker_name:"Zhengkun Wang",
-      speaker_linkedin_url:"https://www.linkedin.com/in/zhengkun-wang-73040452/",
-  },
-    {
-        speaker_img:"/team/bootcamp8/apurva_karve.jpg",
-        speaker_name:"Apurva Karve",
-        speaker_linkedin_url:"https://www.linkedin.com/in/apurva-karve/"
-    },
-  ],
+  // speakers: [
+  //    {
+  //         speaker_img:"/team/bootcamp8/amit_singh.jpg",
+  //         speaker_name:"Amit Singh",
+  //         speaker_linkedin_url:"https://www.linkedin.com/in/amit1510/",
+  //     },
+  // {
+  //     speaker_img:"/team/bootcamp8/zhengkun_wang.jpg",
+  //     speaker_name:"Zhengkun Wang",
+  //     speaker_linkedin_url:"https://www.linkedin.com/in/zhengkun-wang-73040452/",
+  // },
+  //   {
+  //       speaker_img:"/team/bootcamp8/apurva_karve.jpg",
+  //       speaker_name:"Apurva Karve",
+  //       speaker_linkedin_url:"https://www.linkedin.com/in/apurva-karve/"
+  //   },
+  // ],
     date: "14 Oct 2023, 10am-3pm",
     location: "TBC",
     title: "React State and Interactivity    ",
@@ -84,17 +84,17 @@ const exp = [
     ),
   },
   {
-    speakers: [
-      {
-          speaker_img:"/team/bootcamp8/maryana.jpg",
-          speaker_name:"Maryana",
-          speaker_linkedin_url:"https://www.linkedin.com/in/maryanahermawan"
-      },
-      {
-          speaker_img:"/team/bootcamp8/joey_chua.jpg",
-          speaker_name:"Joey Chua",
-          speaker_linkedin_url:"https://www.linkedin.com/in/joeychuasm",
-      }],
+    // speakers: [
+    //   {
+    //       speaker_img:"/team/bootcamp8/maryana.jpg",
+    //       speaker_name:"Maryana",
+    //       speaker_linkedin_url:"https://www.linkedin.com/in/maryanahermawan"
+    //   },
+    //   {
+    //       speaker_img:"/team/bootcamp8/joey_chua.jpg",
+    //       speaker_name:"Joey Chua",
+    //       speaker_linkedin_url:"https://www.linkedin.com/in/joeychuasm",
+    //   }],
     date: "21 Oct 2023, 10am-3pm",
     location: "TBC",
     title: "REST API Integration",
@@ -110,18 +110,18 @@ const exp = [
     ),
   },
   {
-  speakers: [
-       {
-            speaker_img:"/team/bootcamp8/sowmya_s.jpg",
-            speaker_name:"Sowmya Selvaraj",
-            speaker_linkedin_url:"https://www.linkedin.com/in/amit1510/",
-        },
-    {
-        speaker_img:"/team/bootcamp8/rishita_narayan.jpg",
-        speaker_name:"Rishita Narayan",
-        speaker_linkedin_url:"https://www.linkedin.com/in/rishita-narayan/"
-    },
-    ],
+  // speakers: [
+  //      {
+  //           speaker_img:"/team/bootcamp8/sowmya_s.jpg",
+  //           speaker_name:"Sowmya Selvaraj",
+  //           speaker_linkedin_url:"https://www.linkedin.com/in/amit1510/",
+  //       },
+  //   {
+  //       speaker_img:"/team/bootcamp8/rishita_narayan.jpg",
+  //       speaker_name:"Rishita Narayan",
+  //       speaker_linkedin_url:"https://www.linkedin.com/in/rishita-narayan/"
+  //   },
+  //   ],
     date: "28 Oct 2023, 10am-3pm",
     location: "TBC",
     title: "Deployment and Project Showcase",

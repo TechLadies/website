@@ -26,7 +26,7 @@ const exp = [
     item: <>What is the format of this Workshop?</>,
     details: (
       <>
-        The workshop will be held on alternate Saturday mornings in a physical workshop. We strongly encourage you to bring a laptop along.
+        The workshop will be held inperson on Saturday 10 - 3pm. We strongly encourage you to bring your laptop along.
       </>
     ),
   },
@@ -36,7 +36,7 @@ const exp = [
     details: (
       <>
         We created TechLadies as a non-profit organisation.  The chargeable fee goes to cover the cost for holding the Workshop. Slot for each session is given on a first come first serve basis. 
-        Each session is SGD$40. Signing up for all 5 sessions would be paying for four sessions only @ SGD$160; fifth session will be FREE
+        The fee for the whole bootcamp is SGD$110. 
       </>
     ),
   },
@@ -54,7 +54,7 @@ const exp = [
     item: <>How do I apply?</>,
     details: (
       <>
-        Simply fill up the application form online.
+        Simply fill up the application form online - https://forms.gle/MrFGZ6WjNHjQdh6M6
       </>
     ),
   },
