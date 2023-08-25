@@ -29,7 +29,7 @@ export default function Home() {
             <div className="col-md-6 offset-md-1">
               <h1 className="large-line-height mt-4">TechLadies Bootcamp</h1>
               <p className="mb-4 text-body large-line-height">
-              The TechLadies Bootcamp #8 offers 5 weekend part-time workshops to help women come into TECH. 
+              The TechLadies Bootcamp #9 offers 5 weekend part-time workshops to help women come into TECH. 
               </p>
               <p className="mb-4 text-body large-line-height">
               Regardless of your technical background, you will be taught by industry experts on how
@@ -42,7 +42,7 @@ export default function Home() {
                   target="blank"
                   rel="noopener"
                 >
-                  Applications are now closed
+                  Applications are now open
                 </a>
               )}
             </div>
@@ -85,11 +85,10 @@ export default function Home() {
                   src="../photos/bootcamp_stage.jpg"
                 />
                 <h4 className="my-4">
-                This in-person program will take place in Singapore from Aug 2022 to Oct 2022. Please refer to the dates below.
+                This in-person program will take place in Singapore from Sept 2023 to Oct 2023. Please refer to the dates below.
                 </h4>
                 <p>
-                  Full scholarships are provided for people with financial
-                  difficulties. We welcome women of all backgrounds and
+                  We welcome women of all backgrounds and
                   nationalities to apply.
                 </p>
               </div>
@@ -116,7 +115,7 @@ export default function Home() {
                     className="mr-2"
                   />
                   <p>
-                  For beginners in Tech, you are encourage to attend all sessions to have a comprehensive understanding of Web App development.
+                  Pre-requisites: None. Please bring your own laptop for the bootcamp. But basic computer literacy and knowledge would be beneficial
                   </p>
                 </div>
                 <div className="d-inline-flex mb-4">
@@ -128,7 +127,7 @@ export default function Home() {
                     className="mr-2"
                   />
                   <p>
-                  Each session is SGD$40. Sign up for all 5 sessions at a discounted rate of SGD$160 (i.e the fifth session is FREE!)
+                  Fee: SGD$110 for all 5 sessions (inclusive of lunch, a token and an e-certificate)
                   </p>
                 </div>
                 <h4 className="mb-3 h6">
