@@ -29,7 +29,7 @@ export default function Home() {
             <div className="col-md-6 offset-md-1">
               <h1 className="large-line-height mt-4">TechLadies Bootcamp</h1>
               <p className="mb-4 text-body large-line-height">
-              The TechLadies Bootcamp #9 offers 5 weekend part-time workshops to help women come into TECH. 
+              The TechLadies Bootcamp #9 offers 5 weekend, part-time workshops designed to empower women with Front-End Development skills.
               </p>
               <p className="mb-4 text-body large-line-height">
               Regardless of your technical background, you will be taught by industry experts on how

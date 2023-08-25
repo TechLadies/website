@@ -81,7 +81,7 @@ export default function Home() {
             <div className="col-lg-6 col-md-6">
               <div className="card">
                 <div className="card-body card-body-sm">
-                  <h6 className="card-title">Chapter Leaders</h6>
+                  <h6 className="card-title">Chapter Heads</h6>
                   <p className="card-text">
                     Leads chapters in Singapore, Malaysia, and Vietnam.
                   </p>
@@ -143,14 +143,9 @@ export default function Home() {
                 <div className="card-body card-body-sm">
                   <h6 className="card-title">Bootcamp Team</h6>
                   <p className="card-text">
-                    Leads our flagship program, TechLadies Bootcamp.
+                    Leads the TechLadies Bootcamp.
                   </p>
                   <div className="mb-4 d-flex flex-row flex-wrap">
-                    <img
-                      className="thumbnail thumbnail-lg"
-                      alt="Siew Yean"
-                      src="/team/coreteam2022/boot_siew_yean.jpg"
-                    />
                     <img
                       className="thumbnail thumbnail-lg"
                       alt="Sushama"
@@ -178,8 +173,8 @@ export default function Home() {
                   <div className="mb-4 d-flex flex-row flex-wrap">
                     <img
                       className="thumbnail thumbnail-lg"
-                      alt="Audrey"
-                      src="/team/commaudz.png"
+                      alt="Xena"
+                      src="/team/Xena.png"
                     />
                   </div>
                   <a href="mailto:hello@techladies.co">

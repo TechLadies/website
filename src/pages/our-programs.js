@@ -60,7 +60,7 @@ export default function Home() {
               <h3 className="mb-4 h4">TechLadies Bootcamp Workshops</h3>
               <p className="mb-4">Duration: 5 weekends</p>
               <p className="mb-4">
-              The TechLadies Bootcamp #8 offers 5 weekend workshops to help women come into TECH.
+              The TechLadies Bootcamp offers 5 weekend workshops to help women come into Tech.
               </p>
               <button className="btn btn-primary">
                 <NavLink href="/bootcamp/">
