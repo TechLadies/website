@@ -1,18 +1,18 @@
-const exp = //[
+const exp = [
   {
-    // speakers: [
-    // {
-    //     speaker_img:"/team/bootcamp8/sushma_patekar.jpg",
-    //     speaker_name:"Sushma Patekar",
-    //     speaker_linkedin_url:"https://www.linkedin.com/in/sushama-patekar-71a75b85"
-    // },
-    // {
-    //     speaker_img:"/team/bootcamp8/bhagyalakshmi_konda.jpg",
-    //     speaker_name:"Bhagyalakshmi Konda",
-    //     speaker_linkedin_url:"https://www.linkedin.com/in/bhagyalakshmi-konda-a4691420b",
-    // }
-  //  ],
-    date: "30th Sept 2023, 10am-3pm",
+    speakers: [
+    {
+        speaker_img:"/team/bootcamp8/sushma_patekar.jpg",
+        speaker_name:"Sushma Patekar",
+        speaker_linkedin_url:"https://www.linkedin.com/in/sushama-patekar-71a75b85"
+    },
+    {
+        speaker_img:"/team/bootcamp8/bhagyalakshmi_konda.jpg",
+        speaker_name:"Bhagyalakshmi Konda",
+        speaker_linkedin_url:"https://www.linkedin.com/in/bhagyalakshmi-konda-a4691420b",
+    }
+   ],
+    date: "30 Sept 2023, 10am-3pm",
     location: "AWS (Asia Square Tower)",
     title: "Introduction to HTML and CSS",
     description: (
@@ -39,14 +39,16 @@ const exp = //[
         speaker_linkedin_url:"https://www.linkedin.com/in/pratikshasp",
     }
     ],
-    date: "10th September 2022, 10am-2.30pm",
-    location: "Thoughtworks (Cross Street Exchange)",
-    title: "Introduction to Git & Database ",
+    date: "07 Oct 2023, 10am-3pm",
+    location: "TBC",
+    title: "Introduction to React Basics ",
     description: (
       <>
-        &middot; Understand version control
+        &middot; Understanding the concepts of React and its component-based architecture
         <br></br>
-        &middot; Learn about databases
+        &middot; Setting up a development environment for React
+        <br></br>
+        &middot; Building a simple React component and rendering it on a web page
       </>
     ),
   },
@@ -68,12 +70,16 @@ const exp = //[
         speaker_linkedin_url:"https://www.linkedin.com/in/apurva-karve/"
     },
   ],
-    date: "24th September 2022, 10am-2.30pm",
-    location: "AWS (Capital Square)",
-    title: "Getting started with Rest API & NodeJS",
+    date: "14 Oct 2023, 10am-3pm",
+    location: "TBC",
+    title: "React State and Interactivity    ",
     description: (
       <>
-        &middot; Gain an overview of Rest API and NodeJS
+        &middot; Exploring state and props in React components
+        <br></br>
+        &middot; Implementing interactivity through event handling and form input
+        <br></br>
+        &middot; Hands-on exercises to reinforce state management and interactivity in React
       </>
     ),
   },
@@ -89,18 +95,16 @@ const exp = //[
           speaker_name:"Joey Chua",
           speaker_linkedin_url:"https://www.linkedin.com/in/joeychuasm",
       }],
-    date: "8th October 2022, 10am-2.30pm",
-    location: "AWS (capital Square)",
-    title: "Application Getting started with ExpressJS & React",
+    date: "21 Oct 2023, 10am-3pm",
+    location: "TBC",
+    title: "REST API Integration",
     description: (
       <>
-        &middot; Overview with ExpressJS
+        &middot; Introduction to REST APIs and their role in web development
         <br></br>
-        &middot; Create simple endpoint
+        &middot; Fetching data from a REST API using JavaScript in React
         <br></br>
-        &middot; Overview of React
-        <br></br>
-        &middot; Create simple React app
+        &middot; Displaying data from the API in a React application 
 
       </>
     ),
@@ -118,34 +122,27 @@ const exp = //[
         speaker_linkedin_url:"https://www.linkedin.com/in/rishita-narayan/"
     },
     ],
-    date: "22nd October 2022, 10am-2.30pm",
-    location: "AWS (Capital Square)",
-    title: "Introduction to Agile & React Level up",
+    date: "28 Oct 2023, 10am-3pm",
+    location: "TBC",
+    title: "Deployment and Project Showcase",
     description: (
       <>
-        &middot; Overview
+        &middot; Introduction to Git version control for tracking code changes
         <br></br>
-        &middot; How this works to the team
+        &middot; Deploying React applications using platforms like Netlify or Vercel
         <br></br>
-        &middot; Devtools
-        <br></br>
-        &middot; Lifecycle of React
-        <br></br>
-        &middot; Hooks
-        <br></br>
-        &middot; State Management
-        <br></br>
-        &middot; Connecting with Rest API
+        &middot; Participants work on a small project of their choice and showcase their work
       </>
     ),
     cta: (
-      <a
-        className="btn btn-primary mb-3 disabled"
-        href="https://forms.gle/5FmKpBvNpgedWGoh9"
-        target="blank"
-        rel="noopener"
-      >
-        Applications are now closed
+      // <a
+      //   className="btn btn-primary mb-3 disabled"
+      //   href="https://docs.google.com/forms/d/e/1FAIpQLSdPOCt0jym2blC92TfePT-VBk8mUAcVPGTp8zKXUCjJ9nrdSQ/viewform"
+      //   // target="blank"
+      //   // rel="noopener"
+      // >
+      <a className="btn btn-primary" target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSdPOCt0jym2blC92TfePT-VBk8mUAcVPGTp8zKXUCjJ9nrdSQ/viewform">
+        Applications are now open
       </a>
     ),
   },

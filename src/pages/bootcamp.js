@@ -37,9 +37,9 @@ export default function Home() {
               </p>
               {REGISTRATION_OPEN && (
                 <a
-                  className="btn btn-primary disabled" 
-                  href="https://docs.google.com/forms/d/e/1FAIpQLSdPOCt0jym2blC92TfePT-VBk8mUAcVPGTp8zKXUCjJ9nrdSQ/viewform"
-                  // target="blank"
+                  className="btn btn-primary" 
+                  href="https://docs.google.com/forms/d/e/1FAIpQLSdPOCt0jym2blC92TfePT-VBk8mUAcVPGTp8zKXUCjJ9nrdSQ/viewform" 
+                  target="blank"
                   // rel="noopener"
                 >
                   Applications are now open
@@ -63,7 +63,7 @@ export default function Home() {
                       />
                       <p className="mb-4">
                         Applications to the TechLadies Bootcamp will begin in
-                        2023. To stay updated, please sign up for our
+                        Sept 2023. To stay updated, please sign up for our
                         newsletter below.
                       </p>
                       <EmailSubscription />
