@@ -1,5 +1,16 @@
-export default  [
-  {
+const exp = [
+  { speakers: [
+    {
+        speaker_img:"/team/bootcamp8/sushma_patekar.jpg",
+        speaker_name:"Sushma Patekar",
+        speaker_linkedin_url:"https://www.linkedin.com/in/sushama-patekar-71a75b85"
+    },
+    {
+        speaker_img:"/team/bootcamp8/bhagyalakshmi_konda.jpg",
+        speaker_name:"Bhagyalakshmi Konda",
+        speaker_linkedin_url:"https://www.linkedin.com/in/bhagyalakshmi-konda-a4691420b",
+    }
+    ],
     date: "30 Sept 2023, 10am-3pm",
     location: "TBC",
     title: "Introduction to HTML and CSS",
@@ -13,7 +24,18 @@ export default  [
       </>
     ),
   },
-  {
+  { speakers: [
+    {
+        speaker_img:"/team/bootcamp8/sushma_patekar.jpg",
+        speaker_name:"Sushma Patekar",
+        speaker_linkedin_url:"https://www.linkedin.com/in/sushama-patekar-71a75b85"
+    },
+    {
+        speaker_img:"/team/bootcamp8/bhagyalakshmi_konda.jpg",
+        speaker_name:"Bhagyalakshmi Konda",
+        speaker_linkedin_url:"https://www.linkedin.com/in/bhagyalakshmi-konda-a4691420b",
+    }
+    ],
     date: "07 Oct 2023, 10am-3pm",
     location: "TBC",
     title: "Introduction to React Basics ",
@@ -27,7 +49,18 @@ export default  [
       </>
     ),
   },
-  {
+  { speakers: [
+    {
+        speaker_img:"/team/bootcamp8/sushma_patekar.jpg",
+        speaker_name:"Sushma Patekar",
+        speaker_linkedin_url:"https://www.linkedin.com/in/sushama-patekar-71a75b85"
+    },
+    {
+        speaker_img:"/team/bootcamp8/bhagyalakshmi_konda.jpg",
+        speaker_name:"Bhagyalakshmi Konda",
+        speaker_linkedin_url:"https://www.linkedin.com/in/bhagyalakshmi-konda-a4691420b",
+    }
+    ],
     date: "14 Oct 2023, 10am-3pm",
     location: "TBC",
     title: "React State and Interactivity    ",
@@ -41,7 +74,18 @@ export default  [
       </>
     ),
   },
-  {
+  { speakers: [
+    {
+        speaker_img:"/team/bootcamp8/sushma_patekar.jpg",
+        speaker_name:"Sushma Patekar",
+        speaker_linkedin_url:"https://www.linkedin.com/in/sushama-patekar-71a75b85"
+    },
+    {
+        speaker_img:"/team/bootcamp8/bhagyalakshmi_konda.jpg",
+        speaker_name:"Bhagyalakshmi Konda",
+        speaker_linkedin_url:"https://www.linkedin.com/in/bhagyalakshmi-konda-a4691420b",
+    }
+    ],
     date: "21 Oct 2023, 10am-3pm",
     location: "TBC",
     title: "REST API Integration",
@@ -56,7 +100,18 @@ export default  [
       </>
     ),
   },
-  {
+  { speakers: [
+    {
+        speaker_img:"/team/bootcamp8/sushma_patekar.jpg",
+        speaker_name:"Sushma Patekar",
+        speaker_linkedin_url:"https://www.linkedin.com/in/sushama-patekar-71a75b85"
+    },
+    {
+        speaker_img:"/team/bootcamp8/bhagyalakshmi_konda.jpg",
+        speaker_name:"Bhagyalakshmi Konda",
+        speaker_linkedin_url:"https://www.linkedin.com/in/bhagyalakshmi-konda-a4691420b",
+    }
+    ],
     date: "28 Oct 2023, 10am-3pm",
     location: "TBC",
     title: "Deployment and Project Showcase",
@@ -68,6 +123,16 @@ export default  [
         <br></br>
         &middot; Participants work on a small project of their choice and showcase their work
       </>
+    ),
+    cta: (
+      <a
+        className="btn btn-primary mb-3 disabled"
+        href="https://forms.gle/5FmKpBvNpgedWGoh9"
+        target="blank"
+        rel="noopener"
+      >
+        Applications are now closed
+      </a>
     ),
   },
 ] 

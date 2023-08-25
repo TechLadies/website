@@ -222,12 +222,23 @@ export default function Home() {
             <div className="row">
               <Timeline>
                 {bootcampTimeline.map(
-                  ({date, location, title, description }) => (
+                  ({speakers,date, location, title, description, cta = null }) => (
                     <TimelineItem key={title}>
                       <h3 className="h5 text-red mb-3">{date}</h3>
                       <p className="text-red mb-3">🏢 {location}</p>
                       <h4 className="h6 mb-3">{title}</h4>
-                      <p className="pb-1">{description}</p> 
+                      <p className="pb-1">{description}</p>
+                      <p className="text-red mb-1">Trainers</p>
+                      <div className="col-md-3 d-flex">
+                      {speakers.map((speaker, index) => (
+                      <div key={index} id={index} className="col-md-12">
+                         <img src={speaker.speaker_img} className="thumbnail thumbnail-lg" />
+                         <a href={speaker.speaker_linkedin_url}><p className="pb-3">{speaker.speaker_name}</p></a>
+                      </div>
+                      )
+                      )}
+                       </div>
+                      {REGISTRATION_OPEN && cta}
                     </TimelineItem>
                   )
                 )}
