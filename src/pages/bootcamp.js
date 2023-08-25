@@ -227,8 +227,7 @@ export default function Home() {
                       <h3 className="h5 text-red mb-3">{date}</h3>
                       <p className="text-red mb-3">🏢 {location}</p>
                       <h4 className="h6 mb-3">{title}</h4>
-                      <p className="pb-1">{description}</p>
-                      <p className="text-red mb-1">Trainers</p>
+                      <p className="pb-1">{description}</p> 
                      
                       {REGISTRATION_OPEN && cta}
                     </TimelineItem>
