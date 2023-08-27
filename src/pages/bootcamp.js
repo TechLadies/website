@@ -175,8 +175,7 @@ export default function Home() {
                       className="mr-2"
                     />
                     <p>
-                      Continue to push code, learn new languages and build your portfolio. Reach out to the TechLadies Community 
-                      to learn more about technical interviews and interview skills.
+                      Continue to push code, explore hackathons and build your portfolio.
                     </p>
                   </div>
                 </div>
