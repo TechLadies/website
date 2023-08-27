@@ -44,7 +44,7 @@ const exp = [
     item: <>Are there any prerequisites for application?</>,
     details: (
       <>
-        No. We encouraged any women who are keen to learn basic coding to attend.
+        No. We encouraged any women who are keen to learn basic coding and front-end development to attend.
       </>
     ),
   },
