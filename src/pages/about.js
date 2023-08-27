@@ -149,7 +149,7 @@ export default function Home() {
                     <img
                       className="thumbnail thumbnail-lg"
                       alt="Valentina"
-                      src="/team/coreteam2022/valentina.png"
+                      src="/team/valentina.png"
                     />
                     <img
                       className="thumbnail thumbnail-lg"

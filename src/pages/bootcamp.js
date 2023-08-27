@@ -164,7 +164,7 @@ export default function Home() {
                     </p>
                   </div>
                 </div>
-                <h4 className="mb-3 h6">Post Workshops:</h4>
+                <h4 className="mb-3 h6">Post Bootcamp:</h4>
                 <div className="flex-column">
                   <div className="d-inline-flex">
                     <img
