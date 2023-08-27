@@ -85,11 +85,14 @@ export default function Home() {
                   src="../photos/bootcamp_stage.jpg"
                 />
                 <h4 className="my-4">
-                This in-person program will take place in Singapore from Sept 2023 to Oct 2023. Please refer to the dates below.
+                This in-person program will take place in Singapore from Sept 2023 to Oct 2023. Please refer to the dates below*.
                 </h4>
                 <p>
                   We welcome women of all backgrounds and
                   nationalities to apply.
+                </p>
+                <p>
+                  *Information may be subjected to change.
                 </p>
               </div>
               <div className="col-md-6">
@@ -127,7 +130,8 @@ export default function Home() {
                     className="mr-2"
                   />
                   <p>
-                  Fee: SGD$110 for all 5 sessions (inclusive of lunch, a token and an e-certificate)
+                  Fee: SGD$110 for all 5 sessions (inclusive of lunch, a token and an e-certificate).
+                  Payment is non-refundable. 
                   </p>
                 </div>
                 <h4 className="mb-3 h6">

@@ -148,8 +148,8 @@ export default function Home() {
                   <div className="mb-4 d-flex flex-row flex-wrap">
                     <img
                       className="thumbnail thumbnail-lg"
-                      alt="Sushama"
-                      src="/team/coreteam2022/boot_sushama.png"
+                      alt="Valentina"
+                      src="/team/coreteam2022/valentina.png"
                     />
                     <img
                       className="thumbnail thumbnail-lg"

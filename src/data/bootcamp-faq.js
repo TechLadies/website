@@ -63,7 +63,7 @@ const exp = [
     details: (
       <>
         Yes! As we are trying to improve the gender ratio and encourage women to join the tech industry, the Workshop is only for women and those who identify as one. 
-        Due to the capacity of the venue, we will only be able to take in up to 30 attendees per workshop. 
+        Due to the capacity of the venue, we will only be able to take in up to 20 attendees per workshop. 
       </>
     ),
   },
