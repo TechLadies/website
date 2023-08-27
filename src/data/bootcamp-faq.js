@@ -72,7 +72,7 @@ const exp = [
     item: <>What is the level of commitment required for participants?</>,
     details: (
       <>
-        This workshop is a part-time program. Still, you are required to attend all sessions for your benefits to learn about coding and software development. 
+        This workshop is a part-time program. Still, you are required to attend all sessions for your benefits to learn about coding and front-end development. 
       </>
     ),
   },

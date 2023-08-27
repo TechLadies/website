@@ -85,7 +85,7 @@ export default function Home() {
                   src="../photos/bootcamp_stage.jpg"
                 />
                 <h4 className="my-4">
-                This in-person program will take place in Singapore from Sept 2023 to Oct 2023. Please refer to the dates below*.
+                This in-person program will take place in Singapore from Sept 2023 to Oct 2023. Please refer to the dates below.
                 </h4>
                 <p>
                   We welcome women of all backgrounds and
