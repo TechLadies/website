@@ -81,7 +81,7 @@ export default function Home() {
             <div className="col-lg-6 col-md-6">
               <div className="card">
                 <div className="card-body card-body-sm">
-                  <h6 className="card-title">Chapter Heads</h6>
+                  <h6 className="card-title">Founder and Directors</h6>
                   <p className="card-text">
                     Leads chapters in Singapore, Malaysia, and Vietnam.
                   </p>

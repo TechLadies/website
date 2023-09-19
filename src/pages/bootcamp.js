@@ -42,7 +42,7 @@ export default function Home() {
                   target="blank"
                   // rel="noopener"
                 >
-                  Applications are now open
+                  Applications are now closed
                 </a>
               )}
             </div>
