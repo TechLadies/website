@@ -342,13 +342,13 @@ export default function Home() {
               <p>
                 Create amazing events every quarter that connect and share
                 insights on the tech industry with our community. We are looking for{" "}
-                <b>3 - 4 Event Leads and ~10 Event Helpers. </b>
+                <b>3 - 4 Community Leads. </b>
               </p>
 
               <h5>Core Team: 3 - 4 Community Leads</h5>
               <p>
                 Connect and grow the TechLadies community in Asia! Community Leads plan and create amazing TechLadies events! You plan
-                the events calendar, run quarterly events,
+                the events calendar, run quarterly in-person and online events,
                 source logistics vendors and partnerships for in-person events,
                 and inviting speakers.
               </p>
@@ -360,20 +360,6 @@ export default function Home() {
                 (community events count!), passionate about designing event
                 experiences for women in tech, and can commit 5 hours every
                 month.
-              </p>
-
-              <h5>Ad Hoc: 10 Event Helpers</h5>
-              <p>
-                Supporting all our events is a group of Event Helpers! You will
-                help with the logistics of in-person and online events, such as
-                checking in attendees, handling catering, or engaging with the
-                audience.
-              </p>
-              <p>
-                <b>
-                  <i>Ideal profile:</i>
-                </b>{" "}
-                We don&apos;t have a preferred profile for this. Anyone can help!
               </p>
 
               <a

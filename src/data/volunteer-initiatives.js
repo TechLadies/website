@@ -43,7 +43,7 @@ export default [
         insights on the tech industry.
         <br />
         <br />
-        We are looking for <b>3 - 4 Community Leads and ~10 Event Helpers. </b>
+        We are looking for <b>3 - 4 Community Leads. </b>
         <br />
         <br />
       </>
