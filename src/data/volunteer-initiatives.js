@@ -36,14 +36,14 @@ export default [
   },
   {
     image: "/icons/icon_TLmeet.png",
-    title: "TechLadies Meet",
+    title: "TechLadies Community",
     description: (
       <>
         Create amazing events every quarter that connect our community & share
-        insights on the tech industry, including the TechLadies Career Fair.
+        insights on the tech industry.
         <br />
         <br />
-        We are looking for <b>3 - 4 Event Leads and ~10 Event Helpers. </b>
+        We are looking for <b>3 - 4 Community Leads and ~10 Event Helpers. </b>
         <br />
         <br />
       </>
@@ -51,11 +51,10 @@ export default [
   },
   {
     image: "/icons/icon_TLcommunity.png",
-    title: "TechLadies Community",
+    title: "TechLadies Communication",
     description: (
       <>
-        Grow the TechLadies community in Asia! This team manages our newsletter
-        and social media channels.
+        Grow the TechLadies online community in Asia! This team manages our social media channels, website and social media.
         <br />
         <br />
         We are looking for <b>3 - 4 Community Leads and ~3 content creators.</b>

@@ -232,7 +232,7 @@ export default function Home() {
                 Help create our most impactful program! We&apos;ve seen Bootcamp
                 grads switching careers into tech who were previously pet
                 groomer, air stewardess, and customer service rep etc. To
-                continue this program in 2022, we are looking for{" "}
+                continue this program in 2023, we are looking for{" "}
                 <b>8-10 Coaches.</b>
               </p>
 
@@ -277,7 +277,7 @@ export default function Home() {
                 Kickstart and grow women&apos;s careers in tech! Through TechLadies
                 Mentorship, we have helped women raise their visibility in tech,
                 build their portfolios, and ace their job interviews. To
-                continue this program in 2022, we are looking for{" "}
+                continue this program in 2023, we are looking for{" "}
                 <b>
                   3 - 4 Mentorship Leads and ~30 Mentors in Software
                   Engineering, Product Management, Data Science, and UI/UX
