@@ -8,7 +8,7 @@ export default [
         tech!
         <br />
         <br />
-        We are looking for <b>8 -10 Coaches</b>
+        We are looking for <b>3 - 4 Bootcamp Leads</b>
         <br />
         <br />
         <br />
@@ -26,8 +26,7 @@ export default [
         <br />
         We are looking for{" "}
         <b>
-          3 - 4 Mentorship Leads, and ~30 Mentors in Software Eng, Product
-          Management, Data Science, and UI/UX Design.
+          3 - 4 Mentorship Leads.
         </b>
         <br />
         <br />
@@ -57,7 +56,7 @@ export default [
         Grow the TechLadies online community in Asia! This team manages our social media channels, website and social media.
         <br />
         <br />
-        We are looking for <b>3 - 4 Communication Leads and ~3 content creators.</b>
+        We are looking for <b>3 - 4 Communication Leads.</b>
         <br />
         <br />
       </>
