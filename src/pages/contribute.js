@@ -53,7 +53,7 @@ export default function Home() {
                 className="btn btn-primary"
                 target="_blank"
                 rel="noreferrer"
-                href="https://forms.gle/GUcBSR1j5yDhSY3t8"
+                href="https://docs.google.com/forms/d/e/1FAIpQLSe2A6vuoZFhTkoW75kVtI8d5Ftg-Q0_6KP8ZWgCSy2mZmu-bQ/viewform"
               >
                 Volunteer with TechLadies
               </a>
@@ -70,8 +70,8 @@ export default function Home() {
               like-minded peers!
               <br />
               <br />
-              We are currently recruiting volunteers for 2022. Do apply by 17th
-              Dec 2021 if you are interested.
+              We are currently recruiting volunteers for 2024. If you are able to dedicate at least 4-5 hours a month and want to volunteer, we want you! Please apply by 15th
+              Nov 2023 if you are interested.
             </p>
           </div>
 
@@ -298,7 +298,7 @@ export default function Home() {
                   <i>Ideal profile:</i>
                 </b>{" "}
                 You have good project management skills and is able to commit about
-                6 hours per month in 2022.
+                6 hours per month.
               </p>
 
               <h5>Ad Hoc: ~30 Mentors</h5>
@@ -325,13 +325,13 @@ export default function Home() {
                 className="btn btn-primary cta-button"
                 target="_blank"
                 rel="noreferrer"
-                href="https://docs.google.com/forms/d/e/1FAIpQLSepj-kx0qMTe7stfAiRB9slYA-HvTTiT3GvbodLj23geH8ZIg/viewform"
+                href="https://docs.google.com/forms/d/e/1FAIpQLSe2A6vuoZFhTkoW75kVtI8d5Ftg-Q0_6KP8ZWgCSy2mZmu-bQ/viewform"
               >
                 Volunteer for TechLadies Mentorship
               </a>
             </>
           )}
-          {selectedTopic === "TechLadies Meet" && (
+          {selectedTopic === "TechLadies Community" && (
             <>
               <img
                 className="thumbnail thumbnail-xxl center-image display-block"
@@ -341,16 +341,14 @@ export default function Home() {
 
               <p>
                 Create amazing events every quarter that connect and share
-                insights on the tech industry with our community, including the
-                TechLadies Career Fair. We are looking for{" "}
+                insights on the tech industry with our community. We are looking for{" "}
                 <b>3 - 4 Event Leads and ~10 Event Helpers. </b>
               </p>
 
-              <h5>Core Team: 3 - 4 Event Leads</h5>
+              <h5>Core Team: 3 - 4 Community Leads</h5>
               <p>
-                Event Leads plan and create amazing TechLadies events! You plan
-                the events calendar, run quarterly events (including TechLadies
-                Bootcamp Info Session and Grad Party and TechLadies Career Fair),
+                Connect and grow the TechLadies community in Asia! Community Leads plan and create amazing TechLadies events! You plan
+                the events calendar, run quarterly events,
                 source logistics vendors and partnerships for in-person events,
                 and inviting speakers.
               </p>
@@ -382,13 +380,13 @@ export default function Home() {
                 className="btn btn-primary cta-button"
                 target="_blank"
                 rel="noreferrer"
-                href="https://docs.google.com/forms/d/e/1FAIpQLSepj-kx0qMTe7stfAiRB9slYA-HvTTiT3GvbodLj23geH8ZIg/viewform"
+                href="https://docs.google.com/forms/d/e/1FAIpQLSe2A6vuoZFhTkoW75kVtI8d5Ftg-Q0_6KP8ZWgCSy2mZmu-bQ/viewform"
               >
-                Volunteer for TechLadies Meet
+                Volunteer for TechLadies Community
               </a>
             </>
           )}
-          {selectedTopic === "TechLadies Community" && (
+          {selectedTopic === "TechLadies Communication" && (
             <>
               <img
                 className="thumbnail thumbnail-xxl center-image display-block"
@@ -397,18 +395,16 @@ export default function Home() {
               ></img>
 
               <p>
-                Connect and grow the TechLadies community in Asia! This team
-                manages our monthly newsletter Tech List, Ladies in Tech
-                feature, and blog. We are looking for{" "}
-                <b>3 - 4 Community Leads and ~3 Content Creators.</b>
+                Strategise and develop content for our social media, website and newsletter! This team
+                manages our monthly newsletter Tech List, social media and website. We are looking for{" "}
+                <b>3 -4 Communication Leads & Communication Lead (Website).</b>
               </p>
 
-              <h5>Core Team: 3 - 4 Community Leads</h5>
+              <h5>Core Team: 3 - 4 Communication Leads</h5>
               <p>
                 TechLadies is a community - and this role is the heart of it!
                 You will grow and engage with the community via our social media
-                channels, monthly newsletter Tech List, and the Ladies in Tech
-                feature. You are also empowered to come up with new creative
+                channels, monthly newsletter Tech List, and our website. You are also empowered to come up with new creative
                 ideas and have the resources to execute on them!
               </p>
               <p>
@@ -418,32 +414,27 @@ export default function Home() {
                 You should be comfortable with digital marketing and community
                 engagement, including maintaining a Facebook page, Facebook
                 group, Twitter, Instagram, and creating newsletters. You will
-                spend roughly 5 hours every month in 2022.
-              </p>
+                spend roughly 5 hours every month.
 
-              <h5>Ad Hoc: 3 - 4 Content Creators</h5>
-              <p>
-                People look to the TechLadies blog for information on
+                People look to the TechLadies website and social media for information on
                 programming, our activities, and discover stories of awesome
                 women in tech. You will help create these amazing content! We
-                are also looking for graphic designers/illustrators - people who
+                are also looking for people who
                 know their way around Photoshop, Illustrator, or just good&apos;ol
                 Canva to help us with our marketing collaterals.
-              </p>
-              <p>
-                <b>
-                  <i>Ideal profile:</i>
-                </b>{" "}
-                You should have prior experiences with content creation.
+
+                For Communication Lead (Website), you should also be comfortable with HTML, GitHub and CSS.
+
+                
               </p>
 
               <a
                 className="btn btn-primary cta-button"
                 target="_blank"
                 rel="noreferrer"
-                href="https://docs.google.com/forms/d/e/1FAIpQLSepj-kx0qMTe7stfAiRB9slYA-HvTTiT3GvbodLj23geH8ZIg/viewform"
+                href="https://docs.google.com/forms/d/e/1FAIpQLSe2A6vuoZFhTkoW75kVtI8d5Ftg-Q0_6KP8ZWgCSy2mZmu-bQ/viewform"
               >
-                Volunteer for TechLadies Community
+                Volunteer for TechLadies Communication
               </a>
             </>
           )}
