@@ -1,5 +1,22 @@
 export default [
   {
+    image: "/icons/icon_TLbootcamp.png",
+    title: "TechLadies Bootcamp",
+    description: (
+      <>
+        Help women gain valuable technical skills to start their careers in
+        tech!
+        <br />
+        <br />
+        We are looking for <b>3 - 4 Bootcamp Leads</b>
+        <br />
+        <br />
+        <br />
+        <br />
+      </>
+    ),
+  },
+  {
     image: "/icons/icon_TLmentorship.png",
     title: "TechLadies Mentorship",
     description: (
