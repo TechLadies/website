@@ -47,7 +47,7 @@ export default function Home() {
                 There will be one-to-one mentoring sessions between a mentor and mentee with matching criteria. The minimum commitment level will be once a month for three months.
                 <br />
                 <br />
-                Registration for the TechLadies x WWCode SG Mentorship Program 2023 has just opened. Sign up for this year’s Mentorship Program now!
+                Registration for the TechLadies x WWCode SG Mentorship Program 2023 is now Closed!
               </p>
               <div className="row">
                 <div className="col-md-6">

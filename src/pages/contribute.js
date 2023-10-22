@@ -115,8 +115,8 @@ export default function Home() {
                   We are looking for partner companies that provide speakers,
                   mentors, coaches, and venue or financial sponsorship. Do reach
                   out to{" "}
-                  <a href=" mailto:lillian@techladies.co">
-                    lillian@techladies.co
+                  <a href=" mailto:hello@techladies.co">
+                    hello@techladies.co
                   </a>{" "}
                   to start a conversation.
                 </p>
