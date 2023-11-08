@@ -81,9 +81,9 @@ export default function Home() {
             <div className="col-lg-6 col-md-6">
               <div className="card">
                 <div className="card-body card-body-sm">
-                  <h6 className="card-title">Founder and Directors</h6>
+                  <h6 className="card-title">Founder and Chairperson</h6>
                   <p className="card-text">
-                    Leads chapters in Singapore, Malaysia, and Vietnam.
+                    Leads TechLadies in Singapore, Malaysia, and Vietnam.
                   </p>
                   <div className="mb-4 d-flex flex-row flex-wrap">
                     <img
@@ -96,19 +96,9 @@ export default function Home() {
                       alt="Nicole"
                       src="/team/bootnicole.png"
                     />
-                    <img
-                      className="thumbnail thumbnail-lg"
-                      alt="Thy Huynh"
-                      src="/team/thy.jpg"
-                    />
-                    <img
-                      className="thumbnail thumbnail-lg"
-                      alt="Tran Bui"
-                      src="/team/tranbui.jpg"
-                    />
                   </div>
                   <a href="mailto:hello@techladies.co">
-                    Contact the Chapter Leaders
+                    Contact us!
                   </a>
                 </div>
               </div>
@@ -157,7 +147,7 @@ export default function Home() {
                       src="/team/coreteam2022/comm_charu.jpeg"
                     />
                   </div>
-                  <a href="mailto:bootcamp@techladies.co">
+                  <a href="mailto:hello@techladies.co">
                     Contact the Bootcamp Team
                   </a>
                 </div>
@@ -193,11 +183,6 @@ export default function Home() {
                   <div className="mb-4">
                     <img
                       className="thumbnail thumbnail-lg"
-                      alt="Nicole"
-                      src="/team/bootnicole.png"
-                    />
-                    <img
-                      className="thumbnail thumbnail-lg"
                       alt="Pauline"
                       src="/team/commpauline.jpg"
                     />
@@ -207,7 +192,7 @@ export default function Home() {
                       src="/team/coreteam2022/boot_xi_yi.png"
                     />
                   </div>
-                  <a href="mailto:partnerships@techladies.co">
+                  <a href="mailto:hello@techladies.co">
                     Contact the Partnerships Team
                   </a>
                 </div>
