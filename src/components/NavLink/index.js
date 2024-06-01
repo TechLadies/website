@@ -16,7 +16,7 @@ export default function NavLink({ href, children, ...others }) {
   }
 
   return (
-    <Link href={href} {...others}>
+    <Link legacyBehavior href={href} {...others}>
       {React.cloneElement(children, { className })}
     </Link>
   )
