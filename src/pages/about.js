@@ -97,9 +97,7 @@ export default function Home() {
                       src="/team/bootnicole.png"
                     />
                   </div>
-                  <a href="mailto:hello@techladies.co">
-                    Contact us!
-                  </a>
+                  <a href="mailto:hello@techladies.co">Contact us!</a>
                 </div>
               </div>
             </div>
@@ -132,9 +130,7 @@ export default function Home() {
               <div className="card">
                 <div className="card-body card-body-sm">
                   <h6 className="card-title">Bootcamp Team</h6>
-                  <p className="card-text">
-                    Leads the TechLadies Bootcamp.
-                  </p>
+                  <p className="card-text">Leads the TechLadies Bootcamp.</p>
                   <div className="mb-4 d-flex flex-row flex-wrap">
                     <img
                       className="thumbnail thumbnail-lg"
@@ -177,9 +173,7 @@ export default function Home() {
               <div className="card">
                 <div className="card-body card-body-sm">
                   <h6 className="card-title">Partnerships Team</h6>
-                  <p className="card-text">
-                    Leads partnership conversations.
-                  </p>
+                  <p className="card-text">Leads partnership conversations.</p>
                   <div className="mb-4">
                     <img
                       className="thumbnail thumbnail-lg"

@@ -40,15 +40,15 @@ export default function Home() {
             />
           </div>
           <div className="col-lg-6 offset-lg-1 col-md-6">
-            <h1 className="mb-4 h3">
-              Discover which TechLadies program best suits you with this quiz
-            </h1>
-            <p className="text-body mb-4 large-line-height"></p>
-            <Quiz data={quiz} />
+            <h1 className="mb-4 h3">Discover TechLadies' various programs</h1>
+            <p className="text-body mb-4 large-line-height">
+              We are currently planning for new programs for 2024.
+            </p>
+            {/* <Quiz data={quiz} /> */}
           </div>
         </div>
       </div>
-      <div className="bg-gray">
+      {/* <div className="bg-gray">
         <div id="bootcamp" className="container py-6">
           <div className="row gy-5">
             <div className="col-md-5 offset-md-1 col-lg-6 offset-lg-1 order-md-last">
@@ -60,7 +60,8 @@ export default function Home() {
               <h3 className="mb-4 h4">TechLadies Bootcamp Workshops</h3>
               <p className="mb-4">Duration: 5 weekends</p>
               <p className="mb-4">
-              The TechLadies Bootcamp offers 5 weekend workshops to help women come into Tech.
+                The TechLadies Bootcamp offers 5 weekend workshops to help women
+                come into Tech.
               </p>
               <button className="btn btn-primary">
                 <NavLink href="/bootcamp/">
@@ -85,43 +86,45 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </div>
-      <div className="container py-6">
-        <div id="mentorship" className="row gy-5">
-          <div className="col-lg-6 col-md-5">
-            <img
-              alt="TechLadies Mentorship"
-              className="thumbnail thumbnail-xl mb-4"
-              src="/icons/icon_TLmentorship.png"
-            />
-            <h3 className="mb-4 h4">TechLadies Mentorship</h3>
-            <p className="mb-4">Duration: 12 weeks</p>
-            <p className="mb-4">
-              A 3-month mentorship program that pairs women who are
-              transitioning into or establishing themselves in the tech industry
-              with industry practitioners.
-            </p>
+      </div> */}
+      <div className="bg-gray">
+        <div className="container py-6">
+          <div id="mentorship" className="row gy-5">
+            <div className="col-lg-6 col-md-5">
+              <img
+                alt="TechLadies Mentorship"
+                className="thumbnail thumbnail-xl mb-4"
+                src="/icons/icon_TLmentorship.png"
+              />
+              <h3 className="mb-4 h4">TechLadies Mentorship</h3>
+              <p className="mb-4">Duration: 12 weeks</p>
+              <p className="mb-4">
+                A 3-month mentorship program that pairs women who are
+                transitioning into or establishing themselves in the tech
+                industry with industry practitioners.
+              </p>
 
-            <button className="btn btn-primary">
-              <NavLink href="/mentorship/">
-                <a className="white-text">I'm Interested!</a>
-              </NavLink>
-            </button>
-          </div>
-          <div className="col-lg-5 col-md-6 offset-md-1">
-            <Gallery>
-              {mentorshipTestimonials.map(
-                ({ image, thumbnail, name, message }) => (
-                  <TestimonialCard
-                    image={image}
-                    key={name}
-                    thumbnail={thumbnail}
-                    name={name}
-                    message={message}
-                  />
-                )
-              )}
-            </Gallery>
+              <button className="btn btn-primary">
+                <NavLink href="/mentorship/">
+                  <a className="white-text">I'm Interested!</a>
+                </NavLink>
+              </button>
+            </div>
+            <div className="col-lg-5 col-md-6 offset-md-1">
+              <Gallery>
+                {mentorshipTestimonials.map(
+                  ({ image, thumbnail, name, message }) => (
+                    <TestimonialCard
+                      image={image}
+                      key={name}
+                      thumbnail={thumbnail}
+                      name={name}
+                      message={message}
+                    />
+                  )
+                )}
+              </Gallery>
+            </div>
           </div>
         </div>
       </div>
