@@ -44,19 +44,19 @@ export default function Home() {
                 <br />
                 <br />
                 This year, we are collaborating with <a href="https://womendevssg.github.io/" target="_blank">Women Devs Singapore</a> to make this program even more impactful.
-                There will be one-to-one mentoring sessions between a mentor and mentee. We will be trying a "Speed Mentorship" (like Speed dating!) event way of matching the mentors and mentee. The minimum commitment level will be once a month for three months.
+                There will be one-to-one mentoring sessions between a mentor and mentee. We will be piloting a "Speed Mentorship" style to match our mentors and mentee. The minimum commitment level required is one mentoring session per month from August to November 2024.
                 <br />
                 <br />
                 Registration for the TechLadies x WomenDevsSG Mentorship Program 2024 is now Open!
               </p>
               <div className="row">
                 <div className="col-md-6">
-                  <a className="btn btn-primary" target="_blank" href="https://shorturl.at/eMSY7">
+                  <a className="btn btn-primary" target="_blank" href="https://forms.gle/EVja17W77Czn8pyn6">
                       Sign up as a Mentor!
                   </a>
                 </div>
                <div className="col-md-6">
-                  <a className="btn btn-primary" target="_blank" href="https://shorturl.at/fkyB5">
+                  <a className="btn btn-primary" target="_blank" href="https://forms.gle/9Zfp9Kzf58FNcrNJ8">
                       Sign up as a Mentee!
                   </a>
                </div>
