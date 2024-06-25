@@ -43,7 +43,7 @@ export default function Home() {
                 Management.
                 <br />
                 <br />
-                This year, we are collaborating with <a href="https://womendevssg.github.io/" target="_blank">Women Devs Singapore</a> to make this program even more impactful.
+                This year, in collaboration with <a href="https://womendevssg.github.io/" target="_blank">Women Devs Singapore</a>, we aim to bring together like-minded women of the tech industry to learn, exchange ideas and hence drive impact.
                 There will be one-to-one mentoring sessions between a mentor and mentee. We will be piloting a "Speed Mentorship" style to match our mentors and mentee. The minimum commitment level required is one mentoring session per month from August to November 2024.
                 <br />
                 <br />
