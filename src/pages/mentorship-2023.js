@@ -10,7 +10,7 @@ import MentorsCard from "../components/MentorsCard"
 import Gallery from "../components/Gallery"
 import TestimonialCard from "../components/TestimonialCard"
 
-import mentorshipTimeline from "../data/mentorship-timeline-2024"
+import mentorshipTimeline from "../data/mentorship-timeline-2023"
 import programsFAQ from "../data/mentorship-faq.js"
 import mentorshipTestimonials from "../data/mentorship-testimonials.js"
 
@@ -34,7 +34,7 @@ export default function Home() {
         <div className="container py-6">
           <div className="row gy-6">
             <div className="col-md-6">
-              <h1 className="large-line-height">TechLadies Mentorship 2024</h1>
+              <h1 className="large-line-height">TechLadies Mentorship 2023</h1>
               <p className="mb-4 text-body large-line-height">
                 TechLadies Mentorship provides women
                 with personal career guidance from experienced industry
@@ -43,20 +43,20 @@ export default function Home() {
                 Management.
                 <br />
                 <br />
-                This year, in collaboration with <a href="https://womendevssg.github.io/" target="_blank">Women Devs Singapore</a>, we aim to bring together like-minded women of the tech industry to learn, exchange ideas and hence drive impact.
-                There will be one-to-one mentoring sessions between a mentor and mentee. We will be piloting a "Speed Mentorship" style to match our mentors and mentee. The minimum commitment level required is one mentoring session per month from August to November 2024.
+                This year, we are collaborating with <a href="https://www.womenwhocode.com/singapore" target="_blank">WomenWhoCode Singapore</a> to make this program even more impactful.
+                There will be one-to-one mentoring sessions between a mentor and mentee with matching criteria. The minimum commitment level will be once a month for three months.
                 <br />
                 <br />
-                Registration for the TechLadies x WomenDevsSG Mentorship Program 2024 is now Open!
+                Registration for the TechLadies x WWCode SG Mentorship Program 2023 is now Closed!
               </p>
               <div className="row">
                 <div className="col-md-6">
-                  <a className="btn btn-primary" target="_blank" href="https://forms.gle/EVja17W77Czn8pyn6">
+                  <a className="btn btn-primary" target="_blank" href="https://shorturl.at/eMSY7">
                       Sign up as a Mentor!
                   </a>
                 </div>
                <div className="col-md-6">
-                  <a className="btn btn-primary" target="_blank" href="https://forms.gle/9Zfp9Kzf58FNcrNJ8">
+                  <a className="btn btn-primary" target="_blank" href="https://shorturl.at/fkyB5">
                       Sign up as a Mentee!
                   </a>
                </div>
@@ -159,7 +159,7 @@ export default function Home() {
 
         <div className="bg-gray">
           <div className="container py-6">
-            <h2 className="mb-5 text-center">Program Timeline 2024</h2>
+            <h2 className="mb-5 text-center">Program Timeline 2023</h2>
             <div className="row gy-4">
               <Timeline>
                 {mentorshipTimeline.map(({ date, title, description }) => (
@@ -196,12 +196,33 @@ export default function Home() {
         <div className="bg-gray">
           <div className="container py-6">
             <div className="row">
-              <h2 className="text-center mb-5">Meet Our TechLadies x WomenDevsSG Mentorship Core Team 2024</h2>
+              <h2 className="text-center mb-5">Meet Our TechLadies x WomenWhoCode Mentorship Core Team 2023</h2>
               <div className="col-md-3 text-center">
                 <img
                   className="thumbnail thumbnail-xl mb-2 "
                   alt="diya"
                   src="/team/bootdiya.png"
+                />
+              </div>
+              <div className="col-md-3 text-center">
+                <img
+                  className="thumbnail thumbnail-xl mb-2 "
+                  alt="cheryl"
+                  src="/team/cheryl.png"
+                />
+              </div>
+              <div className="col-md-3 text-center">
+                <img
+                  className="thumbnail thumbnail-xl mb-2 "
+                  alt="yumin"
+                  src="/team/yumin.png"
+                />
+              </div>
+              <div className="col-md-3 text-center">
+                <img
+                  className="thumbnail thumbnail-xl mb-2 "
+                  alt="toshal"
+                  src="/team/toshal.png"
                 />
               </div>
               <div className="col-md-3 text-center">
@@ -218,7 +239,7 @@ export default function Home() {
 
         <div className="container py-6">
           <div className="row">
-            <h2 className="mb-4 text-center">Mentors from 2022</h2>
+            <h2 className="mb-4 text-center">Mentors from 2021</h2>
             <div className="row gy-4">
               <MentorsCard
                 dataMessage="software"
