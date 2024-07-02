@@ -2,14 +2,14 @@ export default [
   {
     date: "June 2024",
     title: "Mentorship Applications Open",
-    description: <>Apply to be a mentor or mantee for Techladies Mentorship</>,
+    description: <>Apply to be a mentor or mentee for Techladies Mentorship</>,
   },
   {
     date: "August 2024",
     title: "Speed Mentorship Matching Event",
     description: (
       <>
-        Our new way of matching mentors and mantees.
+        Our new way of matching mentors and mentees.
       </>
     ),
   },
