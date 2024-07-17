@@ -36,13 +36,21 @@ export default function Home() {
                 technical roles.
               </p>
               <div className="mb-3">
-                <label
+                {/* <label
                   htmlFor="hero-email"
                   className="form-label font-weight-bold"
                 >
                   Get updates on our activities
                 </label>
-                <EmailSubscription />
+                <EmailSubscription /> */}
+                <a
+                  className="btn btn-primary"
+                  href="https://docs.google.com/forms/d/e/1FAIpQLSc7n4aePERbWWeqeZQA0K2K4Q47F4FuYIGTuP2Lo83HU-Ex0Q/viewform"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Sign Up
+                </a>
               </div>
             </div>
           </div>
@@ -74,9 +82,11 @@ export default function Home() {
                     alt="Audrey"
                     src="/team/commaudz.png"
                   />
-                  <img className="thumbnail" 
-                  alt="Ena" 
-                  src="/team/coreteam2022/ment_ena.jpeg" />
+                  <img
+                    className="thumbnail"
+                    alt="Ena"
+                    src="/team/coreteam2022/ment_ena.jpeg"
+                  />
                 </div>
                 <p className="mb-4 text-emphasis">
                   TechLadies is managed by volunteers passionate about

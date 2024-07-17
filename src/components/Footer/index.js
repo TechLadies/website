@@ -10,10 +10,10 @@ export default function Footer() {
     <footer className={clsx("py-5", styles.footer)}>
       <div className="container">
         <div className="row gy-5">
-          <div className="col-lg-3">
+          {/* <div className="col-lg-3">
             <h5 className="mb-3">Join TechLadies</h5>
             <EmailSubscription />
-          </div>
+          </div> */}
           <div className="col-lg-4 offset-lg-1">
             <div className="row">
               <div className="col-lg-12 col-6 mb-4">
