@@ -66,10 +66,11 @@ export default [
     title: "Tech Lead",
     description: (
       <>
-        I'm Thomas, a software developer by profession (though I also develop
-        for fun). I'm self-taught and have never looked back since the day I
-        printed my first log statement. When I'm not doing software, you can
-        find me outside running or riding my road bike with friends.
+        I&apos;m Thomas, a software developer by profession (though I also
+        develop for fun). I&apos;m self-taught and have never looked back since
+        the day I printed my first log statement. When I&apos;m not doing
+        software, you can find me outside running or riding my road bike with
+        friends.
       </>
     ),
   },
@@ -83,8 +84,8 @@ export default [
         He has built, deployed and exited a few startups. With his free time, he
         also helps other startups build their MVPs. He enjoys learning about how
         different industries operate and how tech can help to enable them and
-        make them more efficient. He also hopes to enrich people's tech journeys
-        by passing on the lessons he's learnt over the years.
+        make them more efficient. He also hopes to enrich people&apos;s tech
+        journeys by passing on the lessons he&apos;s learnt over the years.
       </>
     ),
   },

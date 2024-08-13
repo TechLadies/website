@@ -9,6 +9,7 @@ import BootcampBuilders from "../components/BootcampBuilders"
 import EmailSubscription from "../components/EmailSubscription"
 import bootcampTimeline from "../data/bootcamp-timeline"
 import bootcampBuildersData from "../data/bootcamp-3-builders"
+import Link from "next/link"
 
 export default function Home() {
   return (
@@ -37,7 +38,7 @@ export default function Home() {
                 <br />
                 <br />
                 See all workshop materials, slides and video recordings at this{" "}
-                <a href="/">Link</a>.
+                <Link href="/">Link</Link>.
               </p>
             </div>
             <div className="col-md-3">

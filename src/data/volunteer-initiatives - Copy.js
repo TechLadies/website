@@ -21,13 +21,10 @@ export default [
     title: "TechLadies Mentorship",
     description: (
       <>
-        Grow women's careers in tech with this 3-month program!
+        Grow women&apos;s careers in tech with this 3-month program!
         <br />
         <br />
-        We are looking for{" "}
-        <b>
-          3 - 4 Mentorship Leads.
-        </b>
+        We are looking for <b>3 - 4 Mentorship Leads.</b>
         <br />
         <br />
       </>
@@ -53,7 +50,8 @@ export default [
     title: "TechLadies Communication",
     description: (
       <>
-        Grow the TechLadies online community in Asia! This team manages our social media channels, website and social media.
+        Grow the TechLadies online community in Asia! This team manages our
+        social media channels, website and social media.
         <br />
         <br />
         We are looking for <b>3 - 4 Communication Leads.</b>

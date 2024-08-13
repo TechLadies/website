@@ -105,6 +105,7 @@ export default function Home() {
               <a
                 href="https://docs.google.com/forms/d/e/1FAIpQLSenVJX_Z_aQvWAJM6fqJ9qQSGQaQew9IDJAx1t7SHYGk_zF2g/viewform"
                 target="_blank"
+                rel="noreferrer"
               >
                 Report it to us by filling up this form.
               </a>{" "}

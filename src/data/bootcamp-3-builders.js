@@ -23,9 +23,9 @@ export default [
     description: (
       <>
         Lian Tong Wei is an integrated circuit design engineer turned Ruby on
-        Rails developer. She's currently working in Appliedmesh and is picking
-        up Java. A simple and happy-go-lucky person, Tong Wei enjoys practicing
-        yoga and hiking while she's not programming.
+        Rails developer. She&apos;s currently working in Appliedmesh and is
+        picking up Java. A simple and happy-go-lucky person, Tong Wei enjoys
+        practicing yoga and hiking while she&apos;s not programming.
       </>
     ),
   },
@@ -53,8 +53,8 @@ export default [
         and is currently meandering her way through her final term at the
         Singapore University of Technology and Design. She enjoys teaching and
         has been variously a math, physics, and programming teaching assistant
-        for multiple terms in college. She finally thought she'd be able to take
-        a break this last term, but ended up doing this instead (thanks,
+        for multiple terms in college. She finally thought she&apos;d be able to
+        take a break this last term, but ended up doing this instead (thanks,
         Wei-Liang).
       </>
     ),

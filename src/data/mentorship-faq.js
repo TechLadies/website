@@ -37,7 +37,7 @@ export default [
   },
   {
     key: "d",
-    item: <>I'm not a Singaporean, can I still join this program?</>,
+    item: <>I&apos;m not a Singaporean, can I still join this program?</>,
     details: (
       <>
         Yea, sure! As long as you can commit to the program, you are welcome to
@@ -52,9 +52,10 @@ export default [
       <>
         We will be matching you with your mentor based on your area of focus,
         mentorship goals and industry relevance, details we will be asking of
-        you through the application form. During the Speed Mentorship event, 
-        you will be able to speak to every mentor present and provide us your 
-        top preferences. We will then assign the mentor based on matching criteria and preference.
+        you through the application form. During the Speed Mentorship event, you
+        will be able to speak to every mentor present and provide us your top
+        preferences. We will then assign the mentor based on matching criteria
+        and preference.
       </>
     ),
   },
@@ -63,7 +64,9 @@ export default [
     item: <>When will the application fees be collected and refunded?</>,
     details: (
       <>
-        We will not be collecting any fees but do hope our applicants understand that we, the mentors and mentees are commiting their time and efforts to this program and it should not be taken for granted.
+        We will not be collecting any fees but do hope our applicants understand
+        that we, the mentors and mentees are commiting their time and efforts to
+        this program and it should not be taken for granted.
       </>
     ),
   },
