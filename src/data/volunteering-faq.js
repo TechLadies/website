@@ -17,9 +17,9 @@ export default [
       <>
         Everyone has other priorities in life - our careers, family, and other
         interests. We understand! We can tailor your volunteering experience to
-        what you're comfortable in contributing. For the core team leaders, you
-        are expected to join the monthly all-hands where we plan activities and
-        share ideas.
+        what you&apos;re comfortable in contributing. For the core team leaders,
+        you are expected to join the monthly all-hands where we plan activities
+        and share ideas.
       </>
     ),
   },
@@ -54,7 +54,7 @@ export default [
   },
   {
     key: "d",
-    item: <>I'm not a local, can I still volunteer?</>,
+    item: <>I&apos;m not a local, can I still volunteer?</>,
     details: (
       <>
         Yea, sure! We are however unable to help with securing a visa or other
@@ -65,7 +65,7 @@ export default [
   },
   {
     key: "e",
-    item: <>What's the volunteering culture like at TechLadies?</>,
+    item: <>What&apos;s the volunteering culture like at TechLadies?</>,
     details: (
       <>
         We believe in openness, supportive, and kindness. Volunteers enjoy a

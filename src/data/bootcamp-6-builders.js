@@ -114,7 +114,7 @@ export default [
     description: (
       <>
         Suk Yee is a self-taught coder and currently an AI intern with AISG.
-        Before this, she's a coding instructor for children ages K-12. Her
+        Before this, she&apos;s a coding instructor for children ages K-12. Her
         believe in never stop learning led her to first pick up coding 4 years
         ago which then eventually led her down the path of Machine Learning and
         Artificial Intelligence. Outside of the techie world, Suk Yee is a yoga

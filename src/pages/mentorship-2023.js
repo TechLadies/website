@@ -36,30 +36,50 @@ export default function Home() {
             <div className="col-md-6">
               <h1 className="large-line-height">TechLadies Mentorship 2023</h1>
               <p className="mb-4 text-body large-line-height">
-                TechLadies Mentorship provides women
-                with personal career guidance from experienced industry
-                practitioners as they grow their career in Software Engineering,
-                UI/UX Design, Data Science/Engineering/Analysis and Product
-                Management.
+                TechLadies Mentorship provides women with personal career
+                guidance from experienced industry practitioners as they grow
+                their career in Software Engineering, UI/UX Design, Data
+                Science/Engineering/Analysis and Product Management.
                 <br />
                 <br />
-                This year, we are collaborating with <a href="https://www.womenwhocode.com/singapore" target="_blank">WomenWhoCode Singapore</a> to make this program even more impactful.
-                There will be one-to-one mentoring sessions between a mentor and mentee with matching criteria. The minimum commitment level will be once a month for three months.
+                This year, we are collaborating with{" "}
+                <a
+                  href="https://www.womenwhocode.com/singapore"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  WomenWhoCode Singapore
+                </a>{" "}
+                to make this program even more impactful. There will be
+                one-to-one mentoring sessions between a mentor and mentee with
+                matching criteria. The minimum commitment level will be once a
+                month for three months.
                 <br />
                 <br />
-                Registration for the TechLadies x WWCode SG Mentorship Program 2023 is now Closed!
+                Registration for the TechLadies x WWCode SG Mentorship Program
+                2023 is now Closed!
               </p>
               <div className="row">
                 <div className="col-md-6">
-                  <a className="btn btn-primary" target="_blank" href="https://shorturl.at/eMSY7">
-                      Sign up as a Mentor!
+                  <a
+                    className="btn btn-primary"
+                    target="_blank"
+                    href="https://shorturl.at/eMSY7"
+                    rel="noreferrer"
+                  >
+                    Sign up as a Mentor!
                   </a>
                 </div>
-               <div className="col-md-6">
-                  <a className="btn btn-primary" target="_blank" href="https://shorturl.at/fkyB5">
-                      Sign up as a Mentee!
+                <div className="col-md-6">
+                  <a
+                    className="btn btn-primary"
+                    target="_blank"
+                    href="https://shorturl.at/fkyB5"
+                    rel="noreferrer"
+                  >
+                    Sign up as a Mentee!
                   </a>
-               </div>
+                </div>
               </div>
             </div>
             <div className="col-md-5  offset-md-1">
@@ -123,36 +143,47 @@ export default function Home() {
               />
             </div>
             <div className="col-md-3 text-center">
-                <img
-                  className="thumbnail thumbnail-lg mb-2 "
-                  alt="product management"
-                  src="/img/paper-plane.svg"
-                />
-              <h6>You are passionate about empowering others to succeed in their career.</h6>
+              <img
+                className="thumbnail thumbnail-lg mb-2 "
+                alt="product management"
+                src="/img/paper-plane.svg"
+              />
+              <h6>
+                You are passionate about empowering others to succeed in their
+                career.
+              </h6>
             </div>
             <div className="col-md-3 text-center">
-                <img
-                  className="thumbnail thumbnail-md mb-2 "
-                  alt="product management"
-                  src="/img/paper-plane.svg"
-                />
-              <h6>You desire to make a difference for aspiring women in Tech.</h6>
+              <img
+                className="thumbnail thumbnail-md mb-2 "
+                alt="product management"
+                src="/img/paper-plane.svg"
+              />
+              <h6>
+                You desire to make a difference for aspiring women in Tech.
+              </h6>
             </div>
             <div className="col-md-3 text-center">
-                <img
-                  className="thumbnail thumbnail-lg mb-2 "
-                  alt="product management"
-                  src="/img/paper-plane.svg"
-                />
-              <h6>You believe mentoring is a two-way learning - for you and your mentees.</h6>
+              <img
+                className="thumbnail thumbnail-lg mb-2 "
+                alt="product management"
+                src="/img/paper-plane.svg"
+              />
+              <h6>
+                You believe mentoring is a two-way learning - for you and your
+                mentees.
+              </h6>
             </div>
             <div className="col-md-3 text-center">
-                <img
-                  className="thumbnail thumbnail-md mb-2 "
-                  alt="product management"
-                  src="/img/paper-plane.svg"
-                />
-              <h6>You want to contribute to the Tech community with your time and expertise.</h6>
+              <img
+                className="thumbnail thumbnail-md mb-2 "
+                alt="product management"
+                src="/img/paper-plane.svg"
+              />
+              <h6>
+                You want to contribute to the Tech community with your time and
+                expertise.
+              </h6>
             </div>
           </div>
         </div>
@@ -196,7 +227,9 @@ export default function Home() {
         <div className="bg-gray">
           <div className="container py-6">
             <div className="row">
-              <h2 className="text-center mb-5">Meet Our TechLadies x WomenWhoCode Mentorship Core Team 2023</h2>
+              <h2 className="text-center mb-5">
+                Meet Our TechLadies x WomenWhoCode Mentorship Core Team 2023
+              </h2>
               <div className="col-md-3 text-center">
                 <img
                   className="thumbnail thumbnail-xl mb-2 "
@@ -235,7 +268,6 @@ export default function Home() {
             </div>
           </div>
         </div>
-
 
         <div className="container py-6">
           <div className="row">
@@ -290,8 +322,8 @@ export default function Home() {
             <div className="col-md-6 offset-md-1 d-flex flex-column align-items-start justify-content-center">
               <h3 className="mb-4 h4">Have a question?</h3>
               <p>
-                Do drop us an email via the link below and we&apos;ll get back to you
-                soon.
+                Do drop us an email via the link below and we&apos;ll get back
+                to you soon.
               </p>
               <a
                 className="btn btn-primary"

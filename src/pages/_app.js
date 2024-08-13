@@ -4,7 +4,8 @@ import Footer from "../components/Footer"
 import Navbar from "../components/Navbar"
 import { useAnalytics } from "../hooks/useAnalytics"
 import Router, { useRouter } from "next/router"
-import withFBQ from "next-fbq"
+// import withFBQ from "next-fbq"
+import Script from "next/script"
 import { DefaultSeo } from "next-seo"
 import SEO from "../../next-seo.config"
 
@@ -17,9 +18,17 @@ function MyApp({ Component, pageProps }) {
   useEffect(() => {
     init("UA-71348167-1")
     trackPageViewed()
-    router.events.on("routeChangeComplete", () => {
+
+    const handleRouteChange = () => {
       trackPageViewed()
-    })
+    }
+
+    router.events.on("routeChangeComplete", handleRouteChange)
+
+    // Cleanup the event listener on unmount
+    return () => {
+      router.events.off("routeChangeComplete", handleRouteChange)
+    }
   }, [router.events])
 
   return (
@@ -27,11 +36,32 @@ function MyApp({ Component, pageProps }) {
       <HeadComponent />
       <DefaultSeo {...SEO} />
       <Navbar />
+
+      {/* Facebook Pixel Script */}
+      <Script
+        id="fb-pixel"
+        strategy="afterInteractive" // Load after the page is interactive
+        onLoad={() => {
+          // Initialize the Facebook Pixel after the script is loaded
+          window.fbq = function () {
+            window.fbq.callMethod
+              ? window.fbq.callMethod.apply(window.fbq, arguments)
+              : window.fbq.queue.push(arguments)
+          }
+          if (!window._fbq) window._fbq = window.fbq
+          window.fbq.push = window.fbq
+          window.fbq.loaded = true
+          window.fbq.version = "2.0"
+          window.fbq.queue = []
+          window.fbq("init", "2039215636185492") // Your Pixel ID
+          window.fbq("track", "PageView") // Track page view
+        }}
+        src="https://connect.facebook.net/en_US/fbevents.js" // Load the Facebook Pixel script
+      />
       <Component {...pageProps} />
       <Footer />
     </>
   )
 }
 
-// Wrap with fb pixel
-export default withFBQ("2039215636185492", Router)(MyApp)
+export default MyApp
