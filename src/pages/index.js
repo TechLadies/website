@@ -45,7 +45,7 @@ export default function Home() {
                 <EmailSubscription /> */}
                 <a
                   className="btn btn-primary"
-                  href="https://docs.google.com/forms/d/e/1FAIpQLSc7n4aePERbWWeqeZQA0K2K4Q47F4FuYIGTuP2Lo83HU-Ex0Q/viewform"
+                  href="https://forms.gle/kzYPR3BjoxWLgbaLA"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
