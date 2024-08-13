@@ -58,8 +58,8 @@ export const mentorsData = {
           <>
             I love learning languages. What drew me to tech was the immense
             possibility of creating new things using language. At work, I make
-            apps. I see my job as a way to enrich people's lives, enhance the
-            way they work, and make it more meaningful. Outside work I enjoy
+            apps. I see my job as a way to enrich people&apos;s lives, enhance
+            the way they work, and make it more meaningful. Outside work I enjoy
             martial arts, tasting whiskey with a dash of philosophizing, or test
             out my level of Chinese with kopi auntie.
           </>
@@ -122,12 +122,13 @@ export const mentorsData = {
           <>
             For over 15 years “customer experience” has been fuelling my passion
             as I have continued to help companies create and deliver creative
-            ideas and concepts that make people's lives easier and ultimately
-            transforms people’s behaviour. I believe there is purpose in the
-            things we create - to design experiences that make lives better,
-            help us connect to others, and maximise our human potential. That's
-            why I am passionate about working in design - healing teams shape
-            customer experiences from a deep understanding of people.
+            ideas and concepts that make people&apos;s lives easier and
+            ultimately transforms people&apos;s behaviour. I believe there is
+            purpose in the things we create - to design experiences that make
+            lives better, help us connect to others, and maximise our human
+            potential. That&apos;s why I am passionate about working in design -
+            healing teams shape customer experiences from a deep understanding
+            of people.
           </>
         ),
       },
@@ -141,9 +142,9 @@ export const mentorsData = {
             working on National Digital Identity. She is passionate about
             designing and building for underserved communities, inclusion and
             accessibility. Having seen the thriving women in tech community in
-            the Bay Area where she lived and worked for a while, she's excited
-            to contribute to it here. In her free time, she loves hiking,
-            watching documentaries and reading.
+            the Bay Area where she lived and worked for a while, she&apos;s
+            excited to contribute to it here. In her free time, she loves
+            hiking, watching documentaries and reading.
           </>
         ),
       },
@@ -153,12 +154,12 @@ export const mentorsData = {
         link: "https://www.linkedin.com/in/keenmak",
         description: (
           <>
-            I've been a UX designer for more than 6 years now, starting with my
-            very first job out of college in the States. My background is in
-            industrial design and graphic design, and I worked for John Deere
-            for 2 years before moving back to Singapore and joining a series of
-            startups. I now work as a product designer for GIC Labs, and taught
-            a part-time UX course at GA last year.
+            I&apos;ve been a UX designer for more than 6 years now, starting
+            with my very first job out of college in the States. My background
+            is in industrial design and graphic design, and I worked for John
+            Deere for 2 years before moving back to Singapore and joining a
+            series of startups. I now work as a product designer for GIC Labs,
+            and taught a part-time UX course at GA last year.
           </>
         ),
       },
@@ -187,7 +188,7 @@ export const mentorsData = {
             Over 9 years of experience in the design industry with focus on
             Product Design (UI/UX) in the last 5 years. I am passionate about
             bridging the gaps between the users, the business and the technology
-            in a product development lifecycle. And now, i'm advocating UX
+            in a product development lifecycle. And now, I&apos;m advocating UX
             design across all fields of work, and help develop women and young
             designers looking to transition or grow in their careers.
           </>

@@ -36,30 +36,53 @@ export default function Home() {
             <div className="col-md-6">
               <h1 className="large-line-height">TechLadies Mentorship 2024</h1>
               <p className="mb-4 text-body large-line-height">
-                TechLadies Mentorship provides women
-                with personal career guidance from experienced industry
-                practitioners as they grow their career in Software Engineering,
-                UI/UX Design, Data Science/Engineering/Analysis and Product
-                Management.
+                TechLadies Mentorship provides women with personal career
+                guidance from experienced industry practitioners as they grow
+                their career in Software Engineering, UI/UX Design, Data
+                Science/Engineering/Analysis and Product Management.
                 <br />
                 <br />
-                This year, in collaboration with <a href="https://womendevssg.github.io/" target="_blank">Women Devs Singapore</a>, we aim to bring together like-minded women of the tech industry to learn, exchange ideas and hence drive impact.
-                There will be one-to-one mentoring sessions between a mentor and mentee. We will be piloting a "Speed Mentorship" style to match our mentors and mentee. The minimum commitment level required is one mentoring session per month from August to November 2024.
+                This year, in collaboration with{" "}
+                <a
+                  href="https://womendevssg.github.io/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Women Devs Singapore
+                </a>
+                , we aim to bring together like-minded women of the tech
+                industry to learn, exchange ideas and hence drive impact. There
+                will be one-to-one mentoring sessions between a mentor and
+                mentee. We will be piloting a &quot;Speed Mentorship&quot; style
+                to match our mentors and mentee. The minimum commitment level
+                required is one mentoring session per month from August to
+                November 2024.
                 <br />
                 <br />
-                Registration for the TechLadies x WomenDevsSG Mentorship Program 2024 is now Open!
+                Registration for the TechLadies x WomenDevsSG Mentorship Program
+                2024 is now Open!
               </p>
               <div className="row">
                 <div className="col-md-6">
-                  <a className="btn btn-primary" target="_blank" href="https://forms.gle/EVja17W77Czn8pyn6">
-                      Sign up as a Mentor!
+                  <a
+                    className="btn btn-primary"
+                    target="_blank"
+                    href="https://forms.gle/EVja17W77Czn8pyn6"
+                    rel="noreferrer"
+                  >
+                    Sign up as a Mentor!
                   </a>
                 </div>
-               <div className="col-md-6">
-                  <a className="btn btn-primary" target="_blank" href="https://forms.gle/9Zfp9Kzf58FNcrNJ8">
-                      Sign up as a Mentee!
+                <div className="col-md-6">
+                  <a
+                    className="btn btn-primary"
+                    target="_blank"
+                    href="https://forms.gle/9Zfp9Kzf58FNcrNJ8"
+                    rel="noreferrer"
+                  >
+                    Sign up as a Mentee!
                   </a>
-               </div>
+                </div>
               </div>
             </div>
             <div className="col-md-5  offset-md-1">
@@ -123,36 +146,47 @@ export default function Home() {
               />
             </div>
             <div className="col-md-3 text-center">
-                <img
-                  className="thumbnail thumbnail-lg mb-2 "
-                  alt="product management"
-                  src="/img/paper-plane.svg"
-                />
-              <h6>You are passionate about empowering others to succeed in their career.</h6>
+              <img
+                className="thumbnail thumbnail-lg mb-2 "
+                alt="product management"
+                src="/img/paper-plane.svg"
+              />
+              <h6>
+                You are passionate about empowering others to succeed in their
+                career.
+              </h6>
             </div>
             <div className="col-md-3 text-center">
-                <img
-                  className="thumbnail thumbnail-md mb-2 "
-                  alt="product management"
-                  src="/img/paper-plane.svg"
-                />
-              <h6>You desire to make a difference for aspiring women in Tech.</h6>
+              <img
+                className="thumbnail thumbnail-md mb-2 "
+                alt="product management"
+                src="/img/paper-plane.svg"
+              />
+              <h6>
+                You desire to make a difference for aspiring women in Tech.
+              </h6>
             </div>
             <div className="col-md-3 text-center">
-                <img
-                  className="thumbnail thumbnail-lg mb-2 "
-                  alt="product management"
-                  src="/img/paper-plane.svg"
-                />
-              <h6>You believe mentoring is a two-way learning - for you and your mentees.</h6>
+              <img
+                className="thumbnail thumbnail-lg mb-2 "
+                alt="product management"
+                src="/img/paper-plane.svg"
+              />
+              <h6>
+                You believe mentoring is a two-way learning - for you and your
+                mentees.
+              </h6>
             </div>
             <div className="col-md-3 text-center">
-                <img
-                  className="thumbnail thumbnail-md mb-2 "
-                  alt="product management"
-                  src="/img/paper-plane.svg"
-                />
-              <h6>You want to contribute to the Tech community with your time and expertise.</h6>
+              <img
+                className="thumbnail thumbnail-md mb-2 "
+                alt="product management"
+                src="/img/paper-plane.svg"
+              />
+              <h6>
+                You want to contribute to the Tech community with your time and
+                expertise.
+              </h6>
             </div>
           </div>
         </div>
@@ -196,7 +230,9 @@ export default function Home() {
         <div className="bg-gray">
           <div className="container py-6">
             <div className="row">
-              <h2 className="text-center mb-5">Meet Our TechLadies x WomenDevsSG Mentorship Core Team 2024</h2>
+              <h2 className="text-center mb-5">
+                Meet Our TechLadies x WomenDevsSG Mentorship Core Team 2024
+              </h2>
               <div className="col-md-3 text-center">
                 <img
                   className="thumbnail thumbnail-xl mb-2 "
@@ -214,7 +250,6 @@ export default function Home() {
             </div>
           </div>
         </div>
-
 
         <div className="container py-6">
           <div className="row">
@@ -269,8 +304,8 @@ export default function Home() {
             <div className="col-md-6 offset-md-1 d-flex flex-column align-items-start justify-content-center">
               <h3 className="mb-4 h4">Have a question?</h3>
               <p>
-                Do drop us an email via the link below and we&apos;ll get back to you
-                soon.
+                Do drop us an email via the link below and we&apos;ll get back
+                to you soon.
               </p>
               <a
                 className="btn btn-primary"

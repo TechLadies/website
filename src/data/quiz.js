@@ -1,3 +1,5 @@
+import Link from "next/link"
+
 const REASON = {
   id: "reason",
   type: "question",
@@ -39,7 +41,7 @@ const ACTION = {
   options: {
     communityMember: (
       <>
-        <h3>We think you're great for our community!</h3>
+        <h3>We think you&apos;re great for our community!</h3>
         <img
           className="thumbnail thumbnail-xxl mx-auto d-block programs-modal-image"
           alt="TechLadies Community"
@@ -58,6 +60,7 @@ const ACTION = {
           className="btn btn-primary mb-5"
           href="https://www.facebook.com/groups/techladiescode"
           target="_blank"
+          rel="noreferrer"
         >
           Join Community
         </a>
@@ -66,7 +69,7 @@ const ACTION = {
 
     mentorshipProgram: (
       <>
-        <h3>We think you're great for our mentorship program!</h3>
+        <h3>We think you&apos;re great for our mentorship program!</h3>
         <img
           className="thumbnail thumbnail-xxl mx-auto d-block programs-modal-image"
           alt="TechLadies Mentorship"
@@ -81,15 +84,15 @@ const ACTION = {
             receive tailored guidance on their career goals.
           </p>
         </div>
-        <a className="btn btn-primary mb-5" href="/mentorship">
-          Learn More
-        </a>
+        <Link href="/mentorship" passHref>
+          <a className="btn btn-primary mb-5">Learn More</a>
+        </Link>
       </>
     ),
 
     joinBootcamp: (
       <>
-        <h3>We think you're great for our bootcamp program!</h3>
+        <h3>We think you&apos;re great for our bootcamp program!</h3>
         <img
           className="thumbnail thumbnail-xxl mx-auto d-block programs-modal-image"
           alt="TechLadies Bootcamp"
@@ -104,15 +107,15 @@ const ACTION = {
             exploring a career switch into tech.
           </p>
         </div>
-        <a className="btn btn-primary mb-5" href="/bootcamp">
-          Learn More
-        </a>
+        <Link href="/bootcamp" passHref>
+          <a className="btn btn-primary mb-5">Learn More</a>
+        </Link>
       </>
     ),
 
     meet: (
       <>
-        <h3>We think you'll find our get-togethers useful!</h3>
+        <h3>We think you&apos;ll find our get-togethers useful!</h3>
         <img
           className="thumbnail thumbnail-xxl mx-auto d-block programs-modal-image"
           alt="TechLadies Meet"
@@ -122,15 +125,16 @@ const ACTION = {
         <div className="col-md-10 offset-md-1">
           <p className="left-align mb-3">
             We run frequent in-person or virtual events on technical talks,
-            roundtable discussions, study groups and more. You'll find something
-            for you at TechLadies Meet, available for women of all levels of
-            technical skills.
+            roundtable discussions, study groups and more. You&apos;ll find
+            something for you at TechLadies Meet, available for women of all
+            levels of technical skills.
           </p>
         </div>
         <a
           className="btn btn-primary mb-5"
           href="https://www.eventbrite.sg/o/techladies-11040976589"
           target="_blank"
+          rel="noreferrer"
         >
           Learn More
         </a>
@@ -138,7 +142,7 @@ const ACTION = {
     ),
     volunteer: (
       <>
-        <h3>We think you'll enjoy volunteering with us!</h3>
+        <h3>We think you&apos;ll enjoy volunteering with us!</h3>
         <img
           className="thumbnail thumbnail-xxl mx-auto d-block programs-modal-image"
           alt="Join us to increase gender diversity in tech"
@@ -147,20 +151,20 @@ const ACTION = {
         <h2>Contribute to TechLadies</h2>
         <div className="col-md-10 offset-md-1">
           <p className="left-align mb-3">
-            We're looking for volunteers for a range of different technical and
-            non-technical roles. Volunteer with TechLadies in 2021 to meet
+            We&apos;re looking for volunteers for a range of different technical
+            and non-technical roles. Volunteer with TechLadies in 2021 to meet
             like-minded peers passionate about gender diversity in tech!
           </p>
         </div>
-        <a className="btn btn-primary mb-5" href="/contribute">
-          Learn More
-        </a>
+        <Link href="/contribute" passHref>
+          <a className="btn btn-primary mb-5">Learn More</a>
+        </Link>
       </>
     ),
 
     bootcampCoach: (
       <>
-        <h3>We think you'll enjoy coaching at TechLadies Bootcamp!</h3>
+        <h3>We think you&apos;ll enjoy coaching at TechLadies Bootcamp!</h3>
         <img
           className="thumbnail thumbnail-xxl mx-auto d-block programs-modal-image"
           alt="TechLadies Bootcamp"
@@ -176,14 +180,14 @@ const ACTION = {
             Lead on how the Bootcamp is progressing.
           </p>
         </div>
-        <a className="btn btn-primary mb-5" href="/contribute">
-          Learn More
-        </a>
+        <Link href="/contribute" passHref>
+          <a className="btn btn-primary mb-5">Learn More</a>
+        </Link>
       </>
     ),
     featureSpeaker: (
       <>
-        <h3>We think you'll enjoy sharing your knowledge with us!</h3>
+        <h3>We think you&apos;ll enjoy sharing your knowledge with us!</h3>
         <img
           className="thumbnail thumbnail-xxl mx-auto d-block programs-modal-image"
           alt="Join us to increase gender diversity in tech"
@@ -202,6 +206,7 @@ const ACTION = {
           className="btn btn-primary mb-5"
           href="http://bit.ly/ladiesintechTL"
           target="_blank"
+          rel="noreferrer"
         >
           Learn More
         </a>

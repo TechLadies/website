@@ -32,7 +32,7 @@ export default function Home() {
         <div className="container py-6">
           <div className="row gy-6">
             <div className="col-md-6">
-              <h1 class="large-line-height">TechLadies Mentorship</h1>
+              <h1 className="large-line-height">TechLadies Mentorship</h1>
               <p className="mb-4 text-body large-line-height">
                 TechLadies Mentorship is a 12-week program that provides women
                 with personal career guidance from experienced industry
@@ -75,8 +75,8 @@ export default function Home() {
                 />
                 <h6>Goal Setting</h6>
                 <p>
-                  Have a clear goal for what you'll like to achieve from this
-                  program.
+                  Have a clear goal for what you&apos;ll like to achieve from
+                  this program.
                 </p>
               </div>
               <div className="col-md-4">
@@ -266,8 +266,8 @@ export default function Home() {
             <div className="col-md-6 offset-md-1 d-flex flex-column align-items-start justify-content-center">
               <h3 className="mb-4 h4">Have a question?</h3>
               <p>
-                Do drop us an email via the link below and we'll get back to you
-                soon.
+                Do drop us an email via the link below and we&apos;ll get back
+                to you soon.
               </p>
               <a
                 className="btn btn-primary"
@@ -301,7 +301,7 @@ export default function Home() {
                       <div className="col-md-10">
                         <h6 className="mb-3">
                           {title} (
-                          <a href={link} target="_blank">
+                          <a href={link} target="_blank" rel="noreferrer">
                             LinkedIn
                           </a>
                           )

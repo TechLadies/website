@@ -40,7 +40,9 @@ export default function Home() {
             />
           </div>
           <div className="col-lg-6 offset-lg-1 col-md-6">
-            <h1 className="mb-4 h3">Discover TechLadies' various programs</h1>
+            <h1 className="mb-4 h3">
+              Discover TechLadies&apos; various programs
+            </h1>
             <p className="text-body mb-4 large-line-height">
               We are currently planning for new programs for 2024.
             </p>
@@ -106,7 +108,7 @@ export default function Home() {
 
               <button className="btn btn-primary">
                 <NavLink href="/mentorship/">
-                  <a className="white-text">I'm Interested!</a>
+                  <a className="white-text">I&apos;m Interested!</a>
                 </NavLink>
               </button>
             </div>
@@ -146,6 +148,7 @@ export default function Home() {
               className="btn btn-primary"
               href="https://www.eventbrite.sg/o/techladies-11040976589"
               target="_blank"
+              rel="noreferrer"
             >
               See our Events
             </a>
@@ -166,6 +169,7 @@ export default function Home() {
               className="btn btn-primary"
               href="https://www.facebook.com/groups/techladiescode"
               target="_blank"
+              rel="noreferrer"
             >
               Join us on Facebook
             </a>
@@ -193,8 +197,9 @@ export default function Home() {
                 className="btn btn-primary"
                 href="https://docs.google.com/forms/d/e/1FAIpQLSdmKUasl2XeZjaFzx58PxDwLL2WtVcI4LSKM1KaZXyOcRVvTg/viewform"
                 target="_blank"
+                rel="noreferrer"
               >
-                I'm interested!
+                I&apos;m interested!
               </a>
             </div>
           </div>
