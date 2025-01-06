@@ -174,7 +174,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="bg-gray">
+        {/* <div className="bg-gray">
           <div className="container py-6">
             <div className="row mb-4">
               <div className="col-md-6">
@@ -202,7 +202,7 @@ export default function Home() {
               </small>
             </div>
           </div>
-        </div>
+        </div> */}
 
         <div className="container py-6">
           <div className="row">
