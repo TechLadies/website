@@ -174,36 +174,6 @@ export default function Home() {
           </div>
         </div>
 
-        {/* <div className="bg-gray">
-          <div className="container py-6">
-            <div className="row mb-4">
-              <div className="col-md-6">
-                <h3 id="donate">Donate to TechLadies</h3>
-                <p>
-                  Your one-time donation enable us to continue our activities at
-                  TechLadies, including online tools and logistics.
-                </p>
-              </div>
-            </div>
-            <div className="row gy-3 mb-4">
-              {donations.map((donation) => (
-                <div className="col-sm-6 col-lg-3" key={donation.amount}>
-                  <DonationCard {...donation} />
-                </div>
-              ))}
-            </div>
-            <div className="row">
-              <small>
-                Clicking Contribute will bring you to make a donation securely
-                via PayPal, where you can donate with all major credit cards.
-                TechLadies finances are managed by Learnemy Pte Ltd. As we are
-                not a registered non-profit, we cannot send an invoice for tax
-                purposes.
-              </small>
-            </div>
-          </div>
-        </div> */}
-
         <div className="container py-6">
           <div className="row">
             <div className="col-md-8 offset-md-2">
