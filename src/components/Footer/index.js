@@ -38,7 +38,7 @@ export default function Footer() {
                     <Link href="/contribute">Volunteer</Link>
                   </li>
                   <li>
-                    <Link href="/contribute#donate">Donate</Link>
+                    <Link href="/contribute#donate">Partner</Link>
                   </li>
                 </ul>
               </div>
