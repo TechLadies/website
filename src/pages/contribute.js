@@ -53,7 +53,7 @@ export default function Home() {
                 className="btn btn-primary"
                 target="_blank"
                 rel="noreferrer"
-                href="https://docs.google.com/forms/d/e/1FAIpQLSe2A6vuoZFhTkoW75kVtI8d5Ftg-Q0_6KP8ZWgCSy2mZmu-bQ/viewform"
+                href="https://forms.gle/8z7LiN9pvk4nJy8e6"
               >
                 Volunteer with TechLadies
               </a>
@@ -70,8 +70,9 @@ export default function Home() {
               like-minded peers!
               <br />
               <br />
-              We are currently recruiting volunteers for 2024. If you are able to dedicate at least 4-5 hours a month and want to volunteer, we want you! Please apply by 15th
-              Nov 2023 if you are interested.
+              We are currently recruiting volunteers for 2026. Please indicate
+              your interest in volunteering with us in the form sign up! Hope to
+              see you soon.
             </p>
           </div>
 
@@ -126,85 +127,6 @@ export default function Home() {
         </div>
 
         <div className="container py-6">
-          <div className="row gy-5 text-center">
-            <div className="col-md-4 col-sm-6">
-              <img
-                alt="Microsoft"
-                className="mb-4 partner-logo-horizontal"
-                src="/partners/logos/microsoft.png"
-              />
-            </div>
-            <div className="col-md-4 col-sm-6">
-              <img
-                alt="Rakuten"
-                className="mb-4 partner-logo-horizontal"
-                src="/partners/logos/rakuten.png"
-              />
-            </div>
-            <div className="col-md-4 col-sm-6">
-              <img
-                alt="ThoughtWorks"
-                className="mb-4 partner-logo-horizontal"
-                src="/partners/logos/thoughtworks.png"
-              />
-            </div>
-            <div className="col-md-4 col-sm-6">
-              <img
-                alt="ZenDesk"
-                className="mb-4 partner-logo-square"
-                src="/partners/logos/zendesk.png"
-              />
-            </div>
-            <div className="col-md-4 col-sm-6">
-              <img
-                alt="Carousell"
-                className="mb-4 partner-logo-square"
-                style={{ marginTop: -10 }}
-                src="/partners/logos/carousell.png"
-              />
-            </div>
-            <div className="col-md-4 col-sm-6">
-              <img
-                alt="Kiat SG"
-                className="mb-4 partner-logo-horizontal"
-                style={{ marginTop: 6 }}
-                src="/partners/logos/kiatsg_logo.png"
-              />
-            </div>
-          </div>
-        </div>
-
-        <div className="bg-gray">
-          <div className="container py-6">
-            <div className="row mb-4">
-              <div className="col-md-6">
-                <h3 id="donate">Donate to TechLadies</h3>
-                <p>
-                  Your one-time donation enable us to continue our activities at
-                  TechLadies, including online tools and logistics.
-                </p>
-              </div>
-            </div>
-            <div className="row gy-3 mb-4">
-              {donations.map((donation) => (
-                <div className="col-sm-6 col-lg-3" key={donation.amount}>
-                  <DonationCard {...donation} />
-                </div>
-              ))}
-            </div>
-            <div className="row">
-              <small>
-                Clicking Contribute will bring you to make a donation securely
-                via PayPal, where you can donate with all major credit cards.
-                TechLadies finances are managed by Learnemy Pte Ltd. As we are
-                not a registered non-profit, we cannot send an invoice for tax
-                purposes.
-              </small>
-            </div>
-          </div>
-        </div>
-
-        <div className="container py-6">
           <div className="row">
             <div className="col-md-8 offset-md-2">
               <h3 className="text-center mb-5">Volunteering FAQ</h3>
@@ -220,51 +142,6 @@ export default function Home() {
           }}
           title={selectedTopic}
         >
-          {selectedTopic === "TechLadies Bootcamp" && (
-            <>
-              <img
-                className="thumbnail thumbnail-xxl center-image display-block"
-                alt="TechLadies Bootcamp"
-                src="/icons/icon_TLbootcamp.png"
-              ></img>
-
-              <p>
-                Help create our most impactful program! We&apos;ve seen Bootcamp
-                grads switching careers into tech who were previously pet
-                groomer, air stewardess, and customer service rep etc. To
-                continue this program in 2023, we are looking for{" "}
-                <b>8-10 Coaches.</b>
-              </p>
-
-              <h5>Coaches Team: 8-10 Coaches</h5>
-              <p>
-                You are part of the team that teaches the Bootcamp participants
-                valuable skills to help them kickstart their journey in tech.
-                You will pair-program with the participants, follow a curriculum
-                set by the Tech Lead, and provide feedback to both the
-                participants and Tech Lead.
-              </p>
-              <p>
-                <b>
-                  <i>Ideal profile:</i>
-                </b>{" "}
-                You are a JS developer and want to gain coaching experiences.
-                You will spend around 2 hours per month before the Bootcamp
-                starts, and 6 - 8 hours per month when the Bootcamp is running.
-                You can also take on more responsibilities by being a Lead Coach
-                for a team or commit less by being an assistant Coach.
-              </p>
-
-              <a
-                className="btn btn-primary cta-button"
-                target="_blank"
-                rel="noreferrer"
-                href="https://forms.gle/yPAibeKXEbiN98qg9"
-              >
-                Volunteer for TechLadies Bootcamp
-              </a>
-            </>
-          )}
           {selectedTopic === "TechLadies Mentorship" && (
             <>
               <img
@@ -277,7 +154,7 @@ export default function Home() {
                 Kickstart and grow women&apos;s careers in tech! Through TechLadies
                 Mentorship, we have helped women raise their visibility in tech,
                 build their portfolios, and ace their job interviews. To
-                continue this program in 2023, we are looking for{" "}
+                continue this program in 2026, we are looking for{" "}
                 <b>
                   3 - 4 Mentorship Leads and ~30 Mentors in Software
                   Engineering, Product Management, Data Science, and UI/UX
@@ -325,7 +202,7 @@ export default function Home() {
                 className="btn btn-primary cta-button"
                 target="_blank"
                 rel="noreferrer"
-                href="https://docs.google.com/forms/d/e/1FAIpQLSe2A6vuoZFhTkoW75kVtI8d5Ftg-Q0_6KP8ZWgCSy2mZmu-bQ/viewform"
+                href="https://forms.gle/8z7LiN9pvk4nJy8e6"
               >
                 Volunteer for TechLadies Mentorship
               </a>
@@ -366,7 +243,7 @@ export default function Home() {
                 className="btn btn-primary cta-button"
                 target="_blank"
                 rel="noreferrer"
-                href="https://docs.google.com/forms/d/e/1FAIpQLSe2A6vuoZFhTkoW75kVtI8d5Ftg-Q0_6KP8ZWgCSy2mZmu-bQ/viewform"
+                href="https://forms.gle/8z7LiN9pvk4nJy8e6"
               >
                 Volunteer for TechLadies Community
               </a>
@@ -418,7 +295,7 @@ export default function Home() {
                 className="btn btn-primary cta-button"
                 target="_blank"
                 rel="noreferrer"
-                href="https://docs.google.com/forms/d/e/1FAIpQLSe2A6vuoZFhTkoW75kVtI8d5Ftg-Q0_6KP8ZWgCSy2mZmu-bQ/viewform"
+                href="https://forms.gle/8z7LiN9pvk4nJy8e6"
               >
                 Volunteer for TechLadies Communication
               </a>

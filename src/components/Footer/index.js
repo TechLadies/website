@@ -22,9 +22,6 @@ export default function Footer() {
                 </h5>
                 <ul className={clsx("list-unstyled", styles.footerLinksList)}>
                   <li>
-                    <Link href="/bootcamp">Bootcamp</Link>
-                  </li>
-                  <li>
                     <Link href="/mentorship">Mentorship</Link>
                   </li>
                 </ul>
@@ -36,9 +33,6 @@ export default function Footer() {
                 <ul className={clsx("list-unstyled", styles.footerLinksList)}>
                   <li>
                     <Link href="/contribute">Volunteer</Link>
-                  </li>
-                  <li>
-                    <Link href="/contribute#donate">Donate</Link>
                   </li>
                 </ul>
               </div>

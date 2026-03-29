@@ -10,7 +10,7 @@ import MentorsCard from "../components/MentorsCard"
 import Gallery from "../components/Gallery"
 import TestimonialCard from "../components/TestimonialCard"
 
-import mentorshipTimeline from "../data/mentorship-timeline-2024"
+import mentorshipTimeline from "../data/mentorship-timeline-2026"
 import programsFAQ from "../data/mentorship-faq.js"
 import mentorshipTestimonials from "../data/mentorship-testimonials.js"
 
@@ -34,7 +34,7 @@ export default function Home() {
         <div className="container py-6">
           <div className="row gy-6">
             <div className="col-md-6">
-              <h1 className="large-line-height">TechLadies Mentorship 2024</h1>
+              <h1 className="large-line-height">TechLadies Mentorship 2026</h1>
               <p className="mb-4 text-body large-line-height">
                 TechLadies Mentorship provides women with personal career
                 guidance from experienced industry practitioners as they grow
@@ -56,11 +56,11 @@ export default function Home() {
                 mentee. We will be piloting a &quot;Speed Mentorship&quot; style
                 to match our mentors and mentee. The minimum commitment level
                 required is one mentoring session per month from August to
-                November 2024.
+                November 2026.
                 <br />
                 <br />
                 Registration for the TechLadies x WomenDevsSG Mentorship Program
-                2024 is now Open!
+                2026 is now Open!
               </p>
               <div className="row">
                 <div className="col-md-6">
@@ -193,7 +193,7 @@ export default function Home() {
 
         <div className="bg-gray">
           <div className="container py-6">
-            <h2 className="mb-5 text-center">Program Timeline 2024</h2>
+            <h2 className="mb-5 text-center">Program Timeline 2026</h2>
             <div className="row gy-4">
               <Timeline>
                 {mentorshipTimeline.map(({ date, title, description }) => (
@@ -231,7 +231,7 @@ export default function Home() {
           <div className="container py-6">
             <div className="row">
               <h2 className="text-center mb-5">
-                Meet Our TechLadies x WomenDevsSG Mentorship Core Team 2024
+                Meet Our TechLadies x WomenDevsSG Mentorship Core Team 2026
               </h2>
               <div className="col-md-3 text-center">
                 <img

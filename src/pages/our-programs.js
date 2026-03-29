@@ -44,51 +44,12 @@ export default function Home() {
               Discover TechLadies&apos; various programs
             </h1>
             <p className="text-body mb-4 large-line-height">
-              We are currently planning for new programs for 2024.
+              We are currently planning for new programs for 2026.
             </p>
             {/* <Quiz data={quiz} /> */}
           </div>
         </div>
       </div>
-      {/* <div className="bg-gray">
-        <div id="bootcamp" className="container py-6">
-          <div className="row gy-5">
-            <div className="col-md-5 offset-md-1 col-lg-6 offset-lg-1 order-md-last">
-              <img
-                alt="TechLadies Bootcamp"
-                className="thumbnail thumbnail-xl mb-4"
-                src="/icons/icon_TLbootcamp.png"
-              />
-              <h3 className="mb-4 h4">TechLadies Bootcamp Workshops</h3>
-              <p className="mb-4">Duration: 5 weekends</p>
-              <p className="mb-4">
-                The TechLadies Bootcamp offers 5 weekend workshops to help women
-                come into Tech.
-              </p>
-              <button className="btn btn-primary">
-                <NavLink href="/bootcamp/">
-                  <a className="white-text">I'm Interested!</a>
-                </NavLink>
-              </button>
-            </div>
-            <div className="col-md-6 col-lg-5 order-md-first">
-              <Gallery>
-                {bootcampTestimonials.map(
-                  ({ image, thumbnail, name, message }) => (
-                    <TestimonialCard
-                      image={image}
-                      key={name}
-                      thumbnail={thumbnail}
-                      name={name}
-                      message={message}
-                    />
-                  )
-                )}
-              </Gallery>
-            </div>
-          </div>
-        </div>
-      </div> */}
       <div className="bg-gray">
         <div className="container py-6">
           <div id="mentorship" className="row gy-5">
@@ -106,10 +67,8 @@ export default function Home() {
                 industry with industry practitioners.
               </p>
 
-              <button className="btn btn-primary">
-                <NavLink href="/mentorship/">
-                  <a className="white-text">I&apos;m Interested!</a>
-                </NavLink>
+              <button className="btn btn-primary" disabled>
+                Coming Soon!
               </button>
             </div>
             <div className="col-lg-5 col-md-6 offset-md-1">
@@ -173,35 +132,6 @@ export default function Home() {
             >
               Join us on Facebook
             </a>
-          </div>
-        </div>
-      </div>
-      <div className="bg-gray">
-        <div className="container py-6">
-          <div className="row gy-6">
-            <div className="col-md-5 offset-md-1 order-md-last">
-              <img
-                alt="TODO: REPLACE ME"
-                className="img-fluid"
-                src="/photos/coach.jpg"
-              />
-            </div>
-            <div className="col-md-6 order-md-first d-flex flex-column align-items-start justify-content-center">
-              <h2 className="mb-4 h4">Want to be a Coach?</h2>
-              <p className="mb-4">
-                We are also on the lookout for awesome people to be a coach for
-                our programs. Connect with many others and contribute to the
-                tech community.
-              </p>
-              <a
-                className="btn btn-primary"
-                href="https://docs.google.com/forms/d/e/1FAIpQLSdmKUasl2XeZjaFzx58PxDwLL2WtVcI4LSKM1KaZXyOcRVvTg/viewform"
-                target="_blank"
-                rel="noreferrer"
-              >
-                I&apos;m interested!
-              </a>
-            </div>
           </div>
         </div>
       </div>
