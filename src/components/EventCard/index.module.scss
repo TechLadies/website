@@ -1,0 +1,15 @@
+.card {
+  height: 100%;
+  overflow: hidden;
+}
+
+.poster {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.posterPast {
+  filter: grayscale(0.4);
+  opacity: 0.85;
+}

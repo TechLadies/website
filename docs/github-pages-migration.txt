@@ -1,0 +1,47 @@
+TechLadies Website — GitHub Pages Migration Update
+
+A PR has been created to master: https://github.com/TechLadies/website/pull/98
+
+Note: A deployment from the main-update branch was attempted but GitHub Pages on this repo restricts deployments to the master branch only. A merge to master is required to trigger the GitHub Pages deployment.
+
+What happens on merge:
+- A GitHub Pages deployment should be triggered (workflow has been set up and tested on staging).
+- If the repo is still connected to Vercel, a Vercel deployment may also be triggered.
+- The live site at techladies.co should not be affected unless DNS is updated.
+
+---
+
+Steps to switch from Vercel to GitHub Pages
+
+1. Update DNS (at domain registrar)
+
+Remove any existing A records or CNAME pointing to Vercel, then add:
+
+A records (IPv4):
+185.199.108.153
+185.199.109.153
+185.199.110.153
+185.199.111.153
+
+AAAA records (IPv6):
+2606:50c0:8000::153
+2606:50c0:8001::153
+2606:50c0:8002::153
+2606:50c0:8003::153
+
+If using www.techladies.co, also add a CNAME record:
+www → TechLadies.github.io
+
+Reference: https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site
+
+2. Configure custom domain in the repo
+- TechLadies/website → Settings → Pages → Custom domain → enter techladies.co
+- Enable "Enforce HTTPS"
+
+3. (Optional) Disconnect Vercel
+- Vercel dashboard → TechLadies project → Settings → Git → Disconnect
+- This stops unnecessary Vercel builds
+
+Note: DNS changes can take up to 24 hours to propagate.
+
+If the production deployment to Vercel continues to work well, there is no urgency to migrate — the site can remain on Vercel with no changes needed. The GitHub Pages setup has been tested on staging (plus-hi.github.io/techladies-staging) and is available as an option whenever it makes sense to switch.

@@ -133,7 +133,7 @@ const ACTION = {
         </div>
         <a
           className="btn btn-primary mb-5"
-          href="https://www.eventbrite.sg/o/techladies-11040976589"
+          href="https://luma.com/user/usr-kXtH2e6ihZuXcEd"
           target="_blank"
           rel="noreferrer"
         >
